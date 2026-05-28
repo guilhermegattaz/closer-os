@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd closer-os && npm run build",
+  "outputDirectory": "closer-os/dist",
+  "installCommand": "cd closer-os && npm install"
+}
