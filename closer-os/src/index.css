@@ -965,8 +965,10 @@ footer {
   .exemplos-headline { font-size: clamp(2rem, 3.5vw + 0.5rem, 3.2rem) !important; letter-spacing: -0.025em !important; }
   /* Evitar orphãos em headings no mobile */
   .h2, .display, .hero-headline { text-wrap: balance; }
-  /* Reduzir espaço entre headline e parágrafo no hero */
-  .hero-headline { margin-bottom: 8px; }
+  /* Reduzir espaços no hero mobile */
+  .hero-headline { margin-bottom: 4px; }
+  #hero .body-lg { margin-bottom: 6px !important; }
+  #hero .vsl-wrap { margin-top: 6px; }
   /* Eyebrow longo: reduzir tracking e balancear */
   .section-eyebrow { letter-spacing: 0.08em; font-size: 0.65rem; text-wrap: balance; }
   /* Nome do autor em uma linha só */
