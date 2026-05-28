@@ -969,9 +969,10 @@ footer {
   .hero-headline { margin-bottom: -12px; }
   #hero .body-lg { margin-bottom: -8px !important; }
   #hero .vsl-wrap { margin-top: -8px; margin-bottom: -8px; }
-  /* Trust items em linha única no mobile */
-  .hero-trust { flex-direction: row !important; flex-wrap: nowrap !important; gap: 6px !important; justify-content: center; }
-  .trust-item { font-size: 0.62rem; gap: 4px; white-space: nowrap; }
+  /* Trust items em duas linhas no mobile */
+  .hero-trust { flex-direction: row !important; flex-wrap: wrap !important; gap: 6px 10px !important; justify-content: center; }
+  .trust-item { font-size: 0.68rem; gap: 4px; white-space: nowrap; }
+  .trust-item:nth-child(3) { flex-basis: 100%; justify-content: center; }
   .trust-item .check { width: 12px; height: 12px; flex-shrink: 0; }
   /* Eyebrow longo: reduzir tracking e balancear */
   .section-eyebrow { letter-spacing: 0.08em; font-size: 0.65rem; text-wrap: balance; }

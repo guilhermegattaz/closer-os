@@ -44,7 +44,7 @@ export function Autoridade() {
                 <div className="autor-stat-label">mentores de vendas · EUA</div>
               </div>
               <div className="autor-stat-quote">
-                <p>"Quanto valeria fechar +80% de todos os clientes com quem conversa?"</p>
+                <p style={{ color: '#facc1d' }}>"Quanto valeria fechar +80% de todos os clientes com quem conversa?"</p>
               </div>
             </div>
           </div>
