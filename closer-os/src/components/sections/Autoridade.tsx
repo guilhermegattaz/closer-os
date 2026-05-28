@@ -29,7 +29,7 @@ export function Autoridade() {
           <div className="autor-img-col fade-up d2">
             <div className="autor-img-placeholder">
               <img
-                src="/images/gui3.webp"
+                src="/images/gui4.webp"
                 alt="Guilherme Dias Gattaz, especialista em vendas consultivas"
                 style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top', display: 'block' }}
               />
