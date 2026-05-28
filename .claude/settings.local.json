@@ -7,7 +7,9 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git rm *)",
-      "Bash(rm -rf /Users/guilhermediasgattaz/Downloads/Projeto_CloserOS/Landing_page/closer-os/.git)"
+      "Bash(rm -rf /Users/guilhermediasgattaz/Downloads/Projeto_CloserOS/Landing_page/closer-os/.git)",
+      "Bash(git remote *)",
+      "Bash(git push *)"
     ],
     "additionalDirectories": [
       "/Users/guilhermediasgattaz/Downloads/Projeto_CloserOS/Landing_page/closer-os/.git"
