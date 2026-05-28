@@ -966,9 +966,9 @@ footer {
   /* Evitar orphãos em headings no mobile */
   .h2, .display, .hero-headline { text-wrap: balance; }
   /* Reduzir espaços no hero mobile */
-  .hero-headline { margin-bottom: 0px; }
-  #hero .body-lg { margin-bottom: 2px !important; }
-  #hero .vsl-wrap { margin-top: 2px; }
+  .hero-headline { margin-bottom: -12px; }
+  #hero .body-lg { margin-bottom: -8px !important; }
+  #hero .vsl-wrap { margin-top: -8px; }
   /* Eyebrow longo: reduzir tracking e balancear */
   .section-eyebrow { letter-spacing: 0.08em; font-size: 0.65rem; text-wrap: balance; }
   /* Nome do autor em uma linha só */
