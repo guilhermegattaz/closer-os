@@ -773,7 +773,7 @@ nav.scrolled {
 }
 .vantagem-tag {
   font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em;
-  text-transform: uppercase; color: rgba(255,255,255,0.55);
+  text-transform: uppercase; color: #facc1d;
   margin-bottom: 12px;
 }
 .vantagem-text {

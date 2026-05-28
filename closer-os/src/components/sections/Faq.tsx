@@ -9,7 +9,7 @@ export function Faq() {
       <div className="container-sm">
         <div className="section-eyebrow fade-up">Perguntas frequentes</div>
         <h2 className="h2 fade-up d1" style={{ textAlign: 'center', marginBottom: 8 }}>
-          Suas dúvidas,<br />respondidas.
+          Ainda tem dúvidas?
         </h2>
         <div className="faq-list fade-up d2">
           {faqItems.map((item) => {
