@@ -983,6 +983,8 @@ footer {
   .autor-name { font-size: 1.5rem; white-space: nowrap; }
   /* Espaço abaixo do h2 do Problema */
   #problema .h2 { margin-bottom: 28px !important; }
+  /* Background cinza claro na seção Problema no mobile */
+  #problema { background: rgba(255,255,255,0.05) !important; border-radius: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
