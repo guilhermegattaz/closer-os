@@ -16,7 +16,7 @@ export function Hero() {
 
           <div className="vsl-wrap fade-up d2" role="region" aria-label="Vídeo de apresentação do CloserOS™">
             {/* @ts-expect-error wistia-player is a custom web component */}
-            <wistia-player media-id="2l92zhr9wx" wistia-popover="true" aspect="0.5625" />
+            <wistia-player media-id="2l92zhr9wx" aspect="0.5625" />
           </div>
 
           <div className="hero-cta-row fade-up d3">
