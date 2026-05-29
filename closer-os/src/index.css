@@ -12,7 +12,7 @@
   --text-2:      #5a5650;
   --text-3:      #9a958e;
   --accent:      #1a1814;
-  --accent-2:    #0276df;
+  --accent-2:    #0668ed;
   --green:       #1a7a5e;
   --green-bg:    #eef7f4;
   --green-border:#b8ddd4;
@@ -44,7 +44,7 @@ body {
   letter-spacing: -0.03em;
   color: var(--text);
 }
-.display em { font-style: normal; color: #0276df; }
+.display em { font-style: normal; color: #0668ed; }
 .h2 {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
   font-size: clamp(2rem, 3.5vw + 0.5rem, 3.2rem);
@@ -129,7 +129,7 @@ nav.scrolled {
   background: var(--accent-2);
   box-shadow: 0 2px 8px rgba(18,49,89,0.25), 0 1px 0 rgba(18,49,89,0.1);
 }
-.btn-primary.accent-btn:hover { background: #2a47e0; box-shadow: 0 4px 20px rgba(18,49,89,0.3); }
+.btn-primary.accent-btn:hover { background: #0553d4; box-shadow: 0 4px 20px rgba(6,104,237,0.35); }
 .btn-ghost {
   display: inline-flex; align-items: center; gap: 6px;
   min-height: 44px; padding: 0 20px;
@@ -788,7 +788,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 
 /* FINAL CTA */
 #final-cta {
-  background-color: #0276df;
+  background-color: #0668ed;
   background-image:
     linear-gradient(rgba(255,255,255,0.055) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,0.055) 1px, transparent 1px);
@@ -874,7 +874,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .btn-white {
   display: inline-flex; align-items: center; gap: 8px;
   min-height: 58px; padding: 0 40px; border-radius: var(--radius-btn);
-  background: #facc1d; color: #0276df;
+  background: #facc1d; color: #0668ed;
   font-size: 0.95rem; font-weight: 700;
   border: none; cursor: pointer; text-decoration: none;
   box-shadow: 0 4px 24px rgba(0,0,0,0.2);
