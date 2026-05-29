@@ -15,7 +15,13 @@ export function Exemplos() {
           Por trás do CloserOS™: mais de R$9.000.000 em vendas 1:1 e a expertise dos maiores especialistas em vendas do mundo.
         </p>
         <div className="mockup-click-hint fade-up d3">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            <path d="M12 5v14M7 15l5 5 5-5"/>
+          </svg>
           Clique em cada exemplo para visualizar aumentado
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            <path d="M12 5v14M7 15l5 5 5-5"/>
+          </svg>
         </div>
         <div className="mockup-swipe-hint fade-up d3">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
