@@ -14,6 +14,9 @@ export function Exemplos() {
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 620, margin: '16px auto 0' }}>
           Por trás do CloserOS™: mais de R$9.000.000 em vendas 1:1 e a expertise dos maiores especialistas em vendas do mundo.
         </p>
+        <div className="mockup-click-hint fade-up d3">
+          Clique em cada exemplo para visualizar aumentado
+        </div>
         <div className="mockup-swipe-hint fade-up d3">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
             <path d="M5 12h14M15 7l5 5-5 5"/>

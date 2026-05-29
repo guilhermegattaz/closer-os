@@ -508,6 +508,14 @@ nav.scrolled {
 
 /* hint de swipe — só mobile */
 .mockup-swipe-hint { display: none; }
+.mockup-click-hint {
+  display: inline-flex; align-items: center;
+  margin: 20px auto 0; padding: 0 20px;
+  min-height: 44px; border-radius: var(--radius-btn);
+  background: transparent; color: var(--text-2);
+  border: 1px solid var(--border-2);
+  font-size: 0.85rem; font-weight: 500;
+}
 
 .ex-header {
   padding: 14px 20px;
@@ -948,6 +956,7 @@ footer {
     border-radius: 4px;
   }
   /* hint de swipe */
+  .mockup-click-hint { display: none; }
   .mockup-swipe-hint {
     display: flex;
     align-items: center;
