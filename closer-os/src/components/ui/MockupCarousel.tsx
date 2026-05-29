@@ -10,8 +10,8 @@ const MOCKUPS = [
 
 const RING = 80        // ring indicator on image (px)
 const ZOOM = 3.6       // magnification in the panel
-const PANEL_W = 500
-const PANEL_H = 900
+const PANEL_W = 650
+const PANEL_H = 720
 
 interface Lens {
   imgX: number   // cursor relative to image container
