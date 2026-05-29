@@ -984,7 +984,7 @@ footer {
   /* Espaço abaixo do h2 do Problema */
   #problema .h2 { margin-bottom: 28px !important; }
   /* Background cinza claro na seção Problema no mobile */
-  #problema { background: rgba(30,30,30,0.17) !important; border-radius: 0; }
+  #problema { background: rgba(30,30,30,0.13) !important; border-radius: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
