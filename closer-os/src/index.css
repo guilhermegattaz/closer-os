@@ -187,14 +187,12 @@ nav.scrolled {
 
 /* VSL */
 .vsl-wrap {
-  width: 100%; margin: 16px 0;
+  width: 100%; max-width: 360px; margin: 16px auto;
   border-radius: 14px; overflow: hidden;
   background: #111;
-  aspect-ratio: 16/9;
   position: relative;
   box-shadow: 0 12px 48px rgba(0,0,0,0.14);
   border: 1px solid var(--border);
-  cursor: pointer;
 }
 .vsl-thumb {
   position: absolute; inset: 0;
