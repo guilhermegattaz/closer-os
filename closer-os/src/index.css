@@ -987,6 +987,8 @@ footer {
   #problema { background: rgba(30,30,30,0.026) !important; border-radius: 0; }
   /* Vantagem tag maior e negrito no mobile */
   .vantagem-tag { font-size: 0.75rem; font-weight: 800; }
+  /* Background cinza nas caixas como-card no mobile */
+  .como-card { background: rgba(30,30,30,0.026) !important; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
