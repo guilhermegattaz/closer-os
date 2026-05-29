@@ -12,7 +12,7 @@
   --text-2:      #5a5650;
   --text-3:      #9a958e;
   --accent:      #1a1814;
-  --accent-2:    #123159;
+  --accent-2:    #0049ab;
   --green:       #1a7a5e;
   --green-bg:    #eef7f4;
   --green-border:#b8ddd4;
@@ -734,7 +734,7 @@ nav.scrolled {
 
 /* FINAL CTA */
 #final-cta {
-  background-color: #123159;
+  background-color: #0049ab;
   background-image:
     linear-gradient(rgba(255,255,255,0.055) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,0.055) 1px, transparent 1px);
@@ -820,7 +820,7 @@ nav.scrolled {
 .btn-white {
   display: inline-flex; align-items: center; gap: 8px;
   min-height: 58px; padding: 0 40px; border-radius: var(--radius-btn);
-  background: #facc1d; color: #123159;
+  background: #facc1d; color: #0049ab;
   font-size: 0.95rem; font-weight: 700;
   border: none; cursor: pointer; text-decoration: none;
   box-shadow: 0 4px 24px rgba(0,0,0,0.2);
