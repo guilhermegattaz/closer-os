@@ -390,7 +390,7 @@ nav.scrolled {
 
 /* MOCKUP CAROUSEL */
 .mockup-wrap {
-  margin: 64px -40px 0; /* escapa o padding do container para usar largura total */
+  margin: 16px -40px 0; /* escapa o padding do container para usar largura total */
 }
 
 .mockup-row-desktop {
