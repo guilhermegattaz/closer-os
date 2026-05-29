@@ -452,8 +452,8 @@ nav.scrolled {
 /* PANEL — painel flutuante com zoom */
 .mockup-panel {
   position: fixed;
-  width: 455px;
-  height: 936px;
+  width: 501px;
+  height: 842px;
   border-radius: 20px;
   background-color: #fff;
   background-repeat: no-repeat;
