@@ -1,5 +1,4 @@
 import { KIWIFY_URL } from '../../data/links'
-import { WistiaPlayer } from '../ui/WistiaPlayer'
 
 export function Hero() {
   return (
@@ -16,7 +15,12 @@ export function Hero() {
           </p>
 
           <div className="vsl-wrap fade-up d2" role="region" aria-label="Vídeo de apresentação do CloserOS™">
-            <WistiaPlayer />
+            <div className="vsl-thumb">
+              <div className="vsl-play" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21" fill="white" /></svg>
+              </div>
+              <div className="vsl-label">Assista antes de decidir</div>
+            </div>
           </div>
 
           <div className="hero-cta-row fade-up d3">
