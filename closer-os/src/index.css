@@ -986,7 +986,7 @@ footer {
   /* Background cinza claro na seção Problema no mobile */
   #problema { background: rgba(30,30,30,0.026) !important; border-radius: 0; }
   /* Vantagem tag maior e negrito no mobile */
-  .vantagem-tag { font-size: 0.75rem; font-weight: 800; }
+  .vantagem-tag { font-size: 0.75rem; font-weight: 900; }
   /* Background cinza nas caixas como-card no mobile */
   .como-card { background: rgba(30,30,30,0.026) !important; }
 }
