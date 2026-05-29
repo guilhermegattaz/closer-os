@@ -9,7 +9,7 @@ export function Exemplos() {
           textAlign: 'center',
           letterSpacing: '-0.04em',
         }}>
-          Situações reais.<br className="br-desktop" />{' '}Respostas <span style={{ color: '#123159' }}>em tempo real.</span>
+          Situações reais.<br className="br-desktop" />{' '}Respostas <span style={{ color: '#0276df' }}>em tempo real.</span>
         </h2>
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 620, margin: '16px auto 0' }}>
           Por trás do CloserOS™: mais de R$9.000.000 em vendas 1:1 e a expertise dos maiores especialistas em vendas do mundo.
