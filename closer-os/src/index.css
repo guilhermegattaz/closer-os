@@ -981,6 +981,8 @@ footer {
   .section-eyebrow { letter-spacing: 0.08em; font-size: 0.65rem; text-wrap: balance; }
   /* Nome do autor em uma linha só */
   .autor-name { font-size: 1.5rem; white-space: nowrap; }
+  /* Espaço abaixo do h2 do Problema */
+  #problema .h2 { margin-bottom: 28px !important; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
