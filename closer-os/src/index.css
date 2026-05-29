@@ -974,7 +974,7 @@ footer {
   .autor-stat-quote p { font-size: 0.68rem; }
   /* Trust items em duas linhas no mobile */
   .hero-trust { flex-direction: row !important; flex-wrap: wrap !important; gap: 6px 10px !important; justify-content: center; }
-  .trust-item { font-size: 0.68rem; gap: 4px; white-space: nowrap; color: rgba(255,255,255,0.55); }
+  .trust-item { font-size: 0.68rem; gap: 4px; white-space: nowrap; color: rgba(255,255,255,0.75); }
   .trust-item:nth-child(3) { flex-basis: 100%; justify-content: center; }
   .trust-item .check { width: 12px; height: 12px; flex-shrink: 0; }
   /* Eyebrow longo: reduzir tracking e balancear */
