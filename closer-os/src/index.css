@@ -672,17 +672,17 @@ nav.scrolled {
 /* TRANSIÇÃO AZUL NO CARD BÔNUS */
 .bonus-row-highlight {
   background: var(--bg) !important;
-  border-color: var(--border) !important;
+  border-color: #facc1d !important;
   transition: background 0.6s cubic-bezier(0.4,0,0.2,1),
               border-color 0.6s ease,
               color 0.5s ease;
 }
 .bonus-row-highlight.blue-in {
   background: var(--accent-2) !important;
-  border-color: var(--accent-2) !important;
+  border-color: #facc1d !important;
 }
 .bonus-row-highlight .bonus-name,
-.bonus-row-highlight.blue-in .bonus-name { color: #facc1d; }
+.bonus-row-highlight.blue-in .bonus-name { color: #ffffff; }
 .bonus-row-highlight .bonus-val,
 .bonus-row-highlight.blue-in .bonus-val { color: #facc1d !important; font-weight: 600; text-decoration: none; }
 .bonus-row-highlight .bonus-icon,
