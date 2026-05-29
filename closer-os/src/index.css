@@ -510,7 +510,7 @@ nav.scrolled {
 .mockup-swipe-hint { display: none; }
 .mockup-click-hint {
   display: flex; align-items: center; justify-content: center;
-  width: fit-content; margin: 20px auto 0; padding: 0 20px;
+  width: fit-content; margin: 40px auto 0; padding: 0 20px;
   min-height: 44px; border-radius: var(--radius-btn);
   background: transparent; color: var(--text-2);
   border: 1px solid #facc1d;
