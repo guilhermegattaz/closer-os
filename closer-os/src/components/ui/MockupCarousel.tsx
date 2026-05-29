@@ -108,7 +108,7 @@ function MagnifyPhone({ src, index }: { src: string; index: number }) {
 }
 
 export function MockupCarousel() {
-  const [scrollActive, setScrollActive] = useState(1)
+  const [scrollActive, setScrollActive] = useState(0)
   const mobileRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
