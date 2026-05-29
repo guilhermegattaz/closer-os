@@ -259,7 +259,7 @@ nav.scrolled {
 @keyframes typing { 0%,100%{ opacity:0.3; transform:scale(0.9); } 50%{ opacity:1; transform:scale(1); } }
 
 /* PROBLEMA */
-#problema { background: transparent; }
+#problema { background: rgba(30,30,30,0.026); }
 .problema-wrap {
   display: flex;
   flex-direction: column;
