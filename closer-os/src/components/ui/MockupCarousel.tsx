@@ -14,16 +14,38 @@ const PANEL_W = 501
 const PANEL_H = 842
 
 interface Lens {
-  imgX: number   // cursor relative to image container
+  imgX: number
   imgY: number
-  imgW: number   // rendered image width
-  imgH: number   // rendered image height
+  imgW: number
+  imgH: number
   screenX: number
   screenY: number
 }
 
+function Lightbox({ src, onClose }: { src: string; onClose: () => void }) {
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
+    document.addEventListener('keydown', onKey)
+    return () => document.removeEventListener('keydown', onKey)
+  }, [onClose])
+
+  return createPortal(
+    <div className="lightbox-overlay" onClick={onClose}>
+      <img
+        src={src}
+        className="lightbox-img"
+        draggable={false}
+        onClick={e => e.stopPropagation()}
+      />
+      <button className="lightbox-close" onClick={onClose} aria-label="Fechar">✕</button>
+    </div>,
+    document.body
+  )
+}
+
 function MagnifyPhone({ src, index }: { src: string; index: number }) {
   const [lens, setLens] = useState<Lens | null>(null)
+  const [lightbox, setLightbox] = useState(false)
   const containerRef = useRef<HTMLDivElement>(null)
 
   const capture = useCallback((clientX: number, clientY: number) => {
@@ -47,12 +69,10 @@ function MagnifyPhone({ src, index }: { src: string; index: number }) {
 
   const clear = useCallback(() => setLens(null), [])
 
-  // Panel background math: map cursor point to panel center
   const bgX = lens ? PANEL_W / 2 - lens.imgX * ZOOM : 0
   const bgY = lens ? PANEL_H / 2 - lens.imgY * ZOOM : 0
   const bgW = lens ? lens.imgW * ZOOM : 0
 
-  // Panel position: right of cursor, clamp to viewport
   let panelLeft = 0, panelTop = 0
   if (lens) {
     panelLeft = lens.screenX + 56
@@ -64,7 +84,6 @@ function MagnifyPhone({ src, index }: { src: string; index: number }) {
     ))
   }
 
-  // Ring position on image
   const ringX = lens ? lens.imgX - RING / 2 : 0
   const ringY = lens ? lens.imgY - RING / 2 : 0
 
@@ -75,7 +94,8 @@ function MagnifyPhone({ src, index }: { src: string; index: number }) {
         className="mockup-phone"
         onMouseMove={onMouseMove}
         onMouseLeave={clear}
-        style={{ cursor: lens ? 'none' : 'crosshair' }}
+        onClick={() => setLightbox(true)}
+        style={{ cursor: lens ? 'zoom-in' : 'zoom-in' }}
       >
         <img
           src={src}
@@ -103,6 +123,8 @@ function MagnifyPhone({ src, index }: { src: string; index: number }) {
         />,
         document.body
       )}
+
+      {lightbox && <Lightbox src={src} onClose={() => setLightbox(false)} />}
     </>
   )
 }

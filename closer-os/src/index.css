@@ -471,6 +471,36 @@ nav.scrolled {
   from { opacity: 0; transform: scale(0.97) translateY(4px); }
   to   { opacity: 1; transform: scale(1)    translateY(0px); }
 }
+
+/* LIGHTBOX */
+.lightbox-overlay {
+  position: fixed; inset: 0; z-index: 10000;
+  background: rgba(0,0,0,0.85);
+  display: flex; align-items: center; justify-content: center;
+  cursor: zoom-out;
+  animation: lightbox-in 180ms ease-out;
+}
+.lightbox-img {
+  max-height: 90vh; max-width: 90vw;
+  width: auto; height: auto;
+  border-radius: 16px;
+  box-shadow: 0 32px 80px rgba(0,0,0,0.5);
+  cursor: default;
+  animation: lightbox-in 180ms ease-out;
+}
+.lightbox-close {
+  position: fixed; top: 20px; right: 24px;
+  background: rgba(255,255,255,0.12); border: none;
+  color: #fff; font-size: 1.2rem; width: 40px; height: 40px;
+  border-radius: 50%; cursor: pointer; display: flex;
+  align-items: center; justify-content: center;
+  transition: background 150ms;
+}
+.lightbox-close:hover { background: rgba(255,255,255,0.25); }
+@keyframes lightbox-in {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
 @keyframes swipe-bounce {
   0%, 100% { transform: translateX(0); }
   50%       { transform: translateX(7px); }
