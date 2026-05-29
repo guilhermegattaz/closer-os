@@ -15,7 +15,8 @@ export function Hero() {
           </p>
 
           <div className="vsl-wrap fade-up d2" role="region" aria-label="Vídeo de apresentação do CloserOS™">
-            <div dangerouslySetInnerHTML={{ __html: `<script src="https://fast.wistia.com/player.js" async><\/script><script src="https://fast.wistia.com/embed/2l92zhr9wx.js" async type="module"><\/script><style>wistia-player[media-id='2l92zhr9wx']:not(:defined){background:center/contain no-repeat url('https://fast.wistia.com/embed/medias/2l92zhr9wx/swatch');display:block;filter:blur(5px);padding-top:177.78%;}<\/style><wistia-player media-id="2l92zhr9wx" aspect="0.5625"><\/wistia-player>` }} />
+            {/* @ts-expect-error wistia-player is a custom web component */}
+            <wistia-player media-id="2l92zhr9wx" aspect="0.5625" />
           </div>
 
           <div className="hero-cta-row fade-up d3">
