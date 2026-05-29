@@ -9,7 +9,7 @@ const MOCKUPS = [
 ]
 
 const RING = 80        // ring indicator on image (px)
-const ZOOM = 3.6       // magnification in the panel
+const ZOOM = 2.88       // magnification in the panel
 const PANEL_W = 650
 const PANEL_H = 720
 
