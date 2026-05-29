@@ -5,12 +5,8 @@ export function Exemplos() {
     <section id="exemplos">
       <div className="container">
         <div className="section-eyebrow fade-up">Veja funcionando</div>
-        <h2 className="exemplos-headline fade-up d1" style={{
+        <h2 className="h2 exemplos-headline fade-up d1" style={{
           textAlign: 'center',
-          fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif",
-          fontSize: 80,
-          fontWeight: 700,
-          lineHeight: 1.0,
           letterSpacing: '-0.04em',
         }}>
           Situações reais.<br className="br-desktop" />{' '}Respostas <span style={{ color: '#123159' }}>em tempo real.</span>
