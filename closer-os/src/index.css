@@ -880,17 +880,17 @@ footer {
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
-    scroll-padding-inline: 13vw;
+    scroll-padding-inline: 5vw;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     /* padding lateral expõe os slides vizinhos (peek) */
-    padding: 32px 13vw 24px;
+    padding: 32px 5vw 24px;
     gap: 14px;
   }
   .mockup-row-mobile::-webkit-scrollbar { display: none; }
   .mockup-row-mobile .mockup-phone {
     scroll-snap-align: center;
-    flex: 0 0 74vw;   /* 74vw + 13vw×2 ≈ 100vw, mostra ~9vw de cada lado */
+    flex: 0 0 89vw;   /* 89vw + 5vw×2 ≈ 99vw, mostra ~5vw de cada lado */
     border-radius: 24px;
     overflow: hidden;
     position: relative;
