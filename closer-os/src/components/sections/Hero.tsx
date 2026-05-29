@@ -15,12 +15,13 @@ export function Hero() {
           </p>
 
           <div className="vsl-wrap fade-up d2" role="region" aria-label="Vídeo de apresentação do CloserOS™">
-            <div className="vsl-thumb">
-              <div className="vsl-play" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21" fill="white" /></svg>
-              </div>
-              <div className="vsl-label">Assista antes de decidir</div>
-            </div>
+            <iframe
+              src="https://www.youtube.com/embed/8yq5_UpE6NI"
+              title="Vídeo de apresentação do CloserOS™"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', border: 'none' }}
+            />
           </div>
 
           <div className="hero-cta-row fade-up d3">
