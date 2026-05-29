@@ -985,6 +985,8 @@ footer {
   #problema .h2 { margin-bottom: 28px !important; }
   /* Background cinza claro na seção Problema no mobile */
   #problema { background: rgba(30,30,30,0.026) !important; border-radius: 0; }
+  /* Vantagem tag maior e negrito no mobile */
+  .vantagem-tag { font-size: 0.75rem; font-weight: 800; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
