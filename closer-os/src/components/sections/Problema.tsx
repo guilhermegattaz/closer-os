@@ -117,7 +117,7 @@ export function Problema() {
               }}
             >
               <div className="bridge-box-dot">
-                <svg viewBox="0 0 14 14" fill="none" stroke="#fff" strokeWidth="2">
+                <svg viewBox="0 0 14 14" fill="none" stroke="#000" strokeWidth="2">
                   <polyline points="2,7 6,11 12,3" />
                 </svg>
               </div>

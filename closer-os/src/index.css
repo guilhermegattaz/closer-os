@@ -295,16 +295,17 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .bridge-box {
   width: 100%;
   padding: 22px 24px;
-  background: var(--accent-2);
+  background: #000;
+  border: 1px solid #facc1d;
   border-radius: 14px;
   text-align: left;
-  box-shadow: 0 8px 32px rgba(18,49,89,0.22);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
   display: flex; align-items: flex-start; gap: 16px;
 }
 .bridge-box-dot {
   width: 32px; height: 32px; border-radius: 10px; flex-shrink: 0; margin-top: 2px;
-  background: rgba(255,255,255,0.15);
-  border: 1px solid rgba(255,255,255,0.25);
+  background: #facc1d;
+  border: 1px solid #facc1d;
   display: flex; align-items: center; justify-content: center;
 }
 .bridge-box-dot svg { width: 14px; height: 14px; }
