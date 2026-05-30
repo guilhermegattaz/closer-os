@@ -382,6 +382,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   display: flex; align-items: center; justify-content: center;
 }
 .como-lottie svg { width: 56px; height: 56px; overflow: visible; }
+.como-emoji { font-size: 2.4rem; line-height: 1; }
 .como-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 10px; color: var(--text); }
 .como-card p { font-size: 0.88rem; color: var(--text-2); line-height: 1.7; }
 
