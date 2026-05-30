@@ -1023,7 +1023,7 @@ footer {
   .h2, .display, .hero-headline { text-wrap: balance; }
   /* Reduzir espaços no hero mobile */
   .hero-headline { margin-bottom: -12px; }
-  #hero .body-lg { margin-bottom: -8px !important; }
+  #hero .body-lg { font-size: 0.8rem; line-height: 1.45; margin-top: -6px; margin-bottom: -14px !important; }
   #hero .vsl-wrap { margin-top: -8px; margin-bottom: -8px; }
   /* Reduzir fonte da quote no mobile */
   .autor-stat-quote p { font-size: 0.68rem; }
