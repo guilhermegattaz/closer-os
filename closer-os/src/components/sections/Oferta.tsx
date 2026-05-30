@@ -67,7 +67,7 @@ export function Oferta() {
             <div>
               <div className="oferta-product">CloserOS™</div>
               <div className="price-from">De R$691</div>
-              <div className="price-main" style={{ color: '#8be5ab' }}><sup>R$</sup>47</div>
+              <div className="price-main" style={{ color: '#ffbd8e' }}><sup>R$</sup>47</div>
               <div className="price-period">pagamento único · sem mensalidade</div>
             </div>
             <div>
