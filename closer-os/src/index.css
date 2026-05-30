@@ -1212,9 +1212,9 @@ footer {
     padding-top: 0;
   }
   #hero .btn-primary.large {
-    min-height: 75px;
-    padding: 0 52px;
-    font-size: 1.24rem;
+    min-height: 45px;
+    padding: 0 31px;
+    font-size: 0.74rem;
   }
   #hero .trust-item {
     font-size: 0.72rem;
@@ -1229,6 +1229,8 @@ footer {
     max-width: 560px;
     margin-left: auto;
     margin-right: 0;
+    transform: scale(1.15);
+    transform-origin: center right;
   }
 }
 
