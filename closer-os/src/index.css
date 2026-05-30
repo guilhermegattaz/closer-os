@@ -603,7 +603,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .quem-card p { font-size: 0.84rem; color: var(--text-2); line-height: 1.65; }
 
 /* AUTORIDADE */
-#autoridade { background: transparent; }
+#autoridade { background: rgba(30,30,30,0.026); }
 .autor-profile {
   display: flex; align-items: center; gap: 14px;
   margin-bottom: 28px;
@@ -755,7 +755,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
               color 0.5s ease;
 }
 .bonus-row-highlight.blue-in {
-  background: var(--accent-2) !important;
+  background: #000 !important;
   border-color: #facc1d !important;
 }
 .bonus-row-highlight .bonus-name,
