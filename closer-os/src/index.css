@@ -1073,13 +1073,20 @@ footer {
 }
 /* HERO DESKTOP +30% */
 @media (min-width: 901px) {
-  .hero-grid { row-gap: 10px; }
+  .hero-grid {
+    grid-template-columns: 1fr 390px;
+    row-gap: 0;
+  }
   #hero .hero-headline {
     font-size: clamp(2.86rem, 4.15vw + 0.57rem, 4.22rem);
   }
   #hero .body-lg {
     font-size: clamp(1.25rem, 0.5vw + 1.13rem, 1.44rem);
     line-height: 1.5;
+    margin-bottom: 16px !important;
+  }
+  #hero .hero-cta-block {
+    padding-top: 0;
   }
   #hero .btn-primary.large {
     min-height: 75px;
@@ -1097,9 +1104,6 @@ footer {
   }
   #hero .vsl-wrap {
     max-width: 374px;
-  }
-  .hero-grid {
-    grid-template-columns: 1fr 390px;
   }
 }
 
