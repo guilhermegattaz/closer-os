@@ -992,7 +992,8 @@ footer {
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; column-gap: 0; row-gap: 20px; }
   .problema-grid { row-gap: 36px; }
-  .section-banner-text { font-size: clamp(0.77rem, 1.68vw + 0.24rem, 1.54rem); }
+  .section-banner { padding: 24px 29px; }
+  .section-banner-text { font-size: clamp(0.92rem, 2.02vw + 0.29rem, 1.85rem); }
   .hero-text    { grid-column: 1; grid-row: 1; align-items: center; text-align: center; }
   .hero-right   { grid-column: 1; grid-row: 2; justify-content: center; }
   .hero-cta-block { grid-column: 1; grid-row: 3; align-items: center; }
