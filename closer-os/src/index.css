@@ -8,10 +8,10 @@
   --surface:     #ffffff;
   --border:      #e8e8ec;
   --border-2:    #d0d0d8;
-  --text:        #1a1814;
+  --text:        #1e1a16;
   --text-2:      #5a5650;
   --text-3:      #9a958e;
-  --accent:      #1a1814;
+  --accent:      #1e1a16;
   --accent-2:    #c3baff;
   --green:       #1a7a5e;
   --green-bg:    #eef7f4;
@@ -111,36 +111,33 @@ nav.scrolled {
 /* BUTTONS */
 .btn-primary {
   display: inline-flex; align-items: center; gap: 8px;
-  min-height: 52px; padding: 0 32px;
-  border-radius: var(--radius-btn);
-  background: var(--text);
-  color: var(--bg);
+  min-height: 52px; padding: 0 36px;
+  border-radius: 999px;
+  background: #c3baff;
+  color: #1e1a16;
   font-family: 'DM Sans', sans-serif;
   font-size: 0.88rem; font-weight: 600; letter-spacing: 0.01em;
   border: none; cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.18), 0 1px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(195,186,255,0.25);
   transition: all 200ms ease-out;
   text-decoration: none;
 }
-.btn-primary:hover { background: #2d2a26; transform: translateY(-1px); box-shadow: 0 4px 16px rgba(0,0,0,0.22); }
+.btn-primary:hover { background: #b5abff; transform: translateY(-1px); box-shadow: 0 4px 16px rgba(195,186,255,0.35); }
 .btn-primary:active { transform: scale(0.98); }
-.btn-primary.large { min-height: 58px; padding: 0 40px; font-size: 0.95rem; }
-.btn-primary.accent-btn {
-  background: var(--accent-2);
-  box-shadow: 0 2px 8px rgba(18,49,89,0.25), 0 1px 0 rgba(18,49,89,0.1);
-}
-.btn-primary.accent-btn:hover { background: #0d2340; box-shadow: 0 4px 20px rgba(18,49,89,0.45); }
+.btn-primary.large { min-height: 58px; padding: 0 48px; font-size: 0.95rem; }
+.btn-primary.accent-btn { background: #c3baff; box-shadow: 0 2px 8px rgba(195,186,255,0.25); }
+.btn-primary.accent-btn:hover { background: #b5abff; box-shadow: 0 4px 16px rgba(195,186,255,0.35); }
 .btn-ghost {
   display: inline-flex; align-items: center; gap: 6px;
-  min-height: 44px; padding: 0 20px;
-  border-radius: var(--radius-btn);
-  background: transparent; color: var(--text-2);
-  border: 1px solid var(--border-2);
+  min-height: 44px; padding: 0 24px;
+  border-radius: 999px;
+  background: #fff; color: #1e1a16;
+  border: 1px solid #e0e0e0;
   font-size: 0.85rem; font-weight: 500;
   cursor: pointer; text-decoration: none;
   transition: all 200ms ease-out;
 }
-.btn-ghost:hover { border-color: var(--text-3); color: var(--text); }
+.btn-ghost:hover { border-color: #c0c0c0; background: #f8f8f8; }
 
 /* CARDS */
 .card {
