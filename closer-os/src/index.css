@@ -748,11 +748,8 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 
 /* TRANSIÇÃO AZUL NO CARD BÔNUS */
 .bonus-row-highlight {
-  background: var(--bg) !important;
+  background: #000 !important;
   border-color: #facc1d !important;
-  transition: background 0.6s cubic-bezier(0.4,0,0.2,1),
-              border-color 0.6s ease,
-              color 0.5s ease;
 }
 .bonus-row-highlight.blue-in {
   background: #000 !important;
