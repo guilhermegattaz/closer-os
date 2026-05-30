@@ -193,7 +193,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   padding-top: 177.78%;
 }
 .vsl-wrap {
-  width: 100%; max-width: 360px; margin: 16px auto;
+  width: 100%; max-width: 288px; margin: 16px auto;
   border-radius: 14px; overflow: hidden;
   background: #111;
   position: relative;
