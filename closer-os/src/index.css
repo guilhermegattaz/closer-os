@@ -989,6 +989,7 @@ footer {
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; column-gap: 0; row-gap: 20px; }
+  .problema-grid { row-gap: 36px; }
   .hero-text    { grid-column: 1; grid-row: 1; align-items: center; text-align: center; }
   .hero-right   { grid-column: 1; grid-row: 2; justify-content: center; }
   .hero-cta-block { grid-column: 1; grid-row: 3; align-items: center; }
