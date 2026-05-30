@@ -21,7 +21,6 @@ export function Hero() {
 
           <div className="hero-cta-row fade-up d3">
             <a href={KIWIFY_URL} className="btn-primary large accent-btn" target="_blank" rel="noopener noreferrer">Quero o CloserOS™ — R$47 →</a>
-            <a href="#exemplos" className="btn-ghost">Ver funcionando</a>
           </div>
 
           <div className="hero-trust fade-up d3" style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 20, justifyContent: 'center' }}>
