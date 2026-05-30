@@ -1155,7 +1155,7 @@ footer {
 }
 /* HERO PADDING DESKTOP */
 @media (min-width: 901px) {
-  #hero { padding-top: 72px; padding-bottom: 72px; }
+  #hero { padding-top: 96px; padding-bottom: 96px; }
 }
 
 /* COMO FUNCIONA — 2 colunas desktop */
