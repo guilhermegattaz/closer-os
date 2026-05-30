@@ -2,7 +2,7 @@ export function ComoFunciona() {
   return (
     <section id="como">
       <div className="container">
-        <div className="section-eyebrow fade-up">Como funciona</div>
+        <div className="section-eyebrow fade-up">A SOLUÇÃO</div>
         <h2 className="h2 fade-up d1" style={{ textAlign: 'center' }}>
           O mentor que está com você<br className="br-desktop" />{' '}em cada conversa.
         </h2>
