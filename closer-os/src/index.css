@@ -164,8 +164,9 @@ nav.scrolled {
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  padding-left: 8px;
-  padding-right: 8px;
+  max-width: none;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 #hero::after {
   content: '';
