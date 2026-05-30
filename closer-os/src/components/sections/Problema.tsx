@@ -89,7 +89,7 @@ export function Problema() {
           Você é excelente no que faz.<br className="br-desktop" />{' '}Mas na hora de vender, <span style={{ color: '#123159' }}>algo trava.</span>
         </h2>
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 700, margin: '0 auto 16px' }}>
-          Você dedicou anos aprendendo o seu ofício. Você é bom — muito bom. Seus clientes que te conhecem adoram o seu trabalho. Mas existe uma parte que ninguém te ensinou: o que fazer antes de alguém se tornar seu cliente.
+          Você dedicou anos aprendendo o seu ofício. Você é bom — muito bom. Seus clientes que te conhecem adoram o seu trabalho. Mas existe uma parte que ninguém te ensinou: <strong>o que fazer antes de alguém se tornar seu cliente.</strong>
         </p>
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 700, margin: '0 auto 48px' }}>
           E aí você fica improvisando, torcendo para dar certo, sentindo aquela sensação incômoda de ter deixado dinheiro na mesa.

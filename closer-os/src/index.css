@@ -1088,6 +1088,9 @@ footer {
 }
 /* HERO DESKTOP +30% */
 @media (min-width: 901px) {
+  .section-banner-text {
+    font-size: 2rem;
+  }
   .hero-grid {
     grid-template-columns: 1fr 390px;
     row-gap: 0;
