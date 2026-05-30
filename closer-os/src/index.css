@@ -1153,6 +1153,11 @@ footer {
   .vantagem-tag { font-size: 0.75rem; font-weight: 900; }
   /* como-card mantém background escuro no mobile (seção #c3b9ff) */
 }
+/* HERO PADDING DESKTOP */
+@media (min-width: 901px) {
+  #hero { padding-top: 72px; padding-bottom: 72px; }
+}
+
 /* COMO FUNCIONA — 2 colunas desktop */
 @media (min-width: 901px) {
   .como-layout {
@@ -1188,9 +1193,9 @@ footer {
   }
   /* Cards marrons — mesma largura em todas as seções */
   .s-card, .s-card-light, .section-banner-inner {
-    margin-left: max(40px, calc(50% - 600px));
-    margin-right: max(40px, calc(50% - 600px));
-    max-width: 1200px;
+    margin-left: 24px;
+    margin-right: 24px;
+    max-width: 1400px;
   }
   .final-cta-card {
     margin-left: 0;
