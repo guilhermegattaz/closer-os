@@ -1180,11 +1180,11 @@ footer {
     white-space: nowrap;
   }
   #hero .container {
-    max-width: none;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 58px;
-    padding-right: 58px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
   /* Cards marrons — mesma largura em todas as seções */
   .s-card, .s-card-light, .section-banner-inner {
