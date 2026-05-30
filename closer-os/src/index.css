@@ -1150,6 +1150,13 @@ footer {
     font-size: 1.2rem;
     white-space: nowrap;
   }
+  #hero .container {
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
   /* Cards marrons — mesma largura em todas as seções */
   .s-card, .s-card-light, .section-banner-inner {
     margin-left: max(40px, calc(50% - 600px));
@@ -1191,8 +1198,6 @@ footer {
   }
   #hero .vsl-wrap {
     max-width: 100%;
-    transform: scale(1.15);
-    transform-origin: center left;
   }
 }
 
