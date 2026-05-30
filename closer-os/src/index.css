@@ -352,25 +352,29 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .problema-item p strong { color: var(--text); font-weight: 600; display: block; margin-bottom: 3px; }
 
 /* COMO */
-#como { background: transparent; }
+#como { background: #123159; }
+#como .section-eyebrow { color: rgba(255,255,255,0.5); }
+#como .section-eyebrow::before, #como .section-eyebrow::after { background: rgba(255,255,255,0.2); }
+#como .h2 { color: #fff; }
+#como .body-lg { color: rgba(255,255,255,0.75); }
 .como-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 56px; }
 .como-card {
   padding: 32px 28px;
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
   border-radius: var(--radius-card);
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
   transition: box-shadow 200ms, border-color 200ms;
 }
-.como-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.08); border-color: var(--border-2); }
+.como-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.25); border-color: rgba(255,255,255,0.22); }
 .como-lottie {
   width: 56px; height: 56px;
   margin-bottom: 20px;
   display: flex; align-items: center; justify-content: center;
 }
 .como-lottie svg { width: 56px; height: 56px; overflow: visible; }
-.como-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 10px; color: var(--text); }
-.como-card p { font-size: 0.88rem; color: var(--text-2); line-height: 1.7; }
+.como-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 10px; color: #fff; }
+.como-card p { font-size: 0.88rem; color: rgba(255,255,255,0.7); line-height: 1.7; }
 
 /* EXEMPLOS */
 #exemplos { background: transparent; }
@@ -1056,8 +1060,7 @@ footer {
   #problema { background: rgba(30,30,30,0.026) !important; border-radius: 0; }
   /* Vantagem tag maior e negrito no mobile */
   .vantagem-tag { font-size: 0.75rem; font-weight: 900; }
-  /* Background cinza nas caixas como-card no mobile */
-  .como-card { background: rgba(30,30,30,0.026) !important; }
+  /* como-card mantém background escuro no mobile (seção #123159) */
 }
 /* HERO DESKTOP +30% */
 @media (min-width: 901px) {
