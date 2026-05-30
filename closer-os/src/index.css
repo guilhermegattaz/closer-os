@@ -32,7 +32,7 @@ body {
   color: var(--text);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 /* TYPOGRAPHY */
@@ -302,10 +302,10 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .s-card .body-lg { color: rgba(255,255,255,0.72); }
 .s-card strong { color: #fff; }
 /* Problema items no card escuro */
-.s-card .problema-item { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1); }
-.s-card .problema-item p { color: rgba(255,255,255,0.72); }
-.s-card .problema-item p strong { color: #fff; }
-.s-card .x-dot { background: rgba(200,60,60,0.2); border-color: rgba(220,100,100,0.3); }
+.s-card .problema-item { background: #f3efea; border-color: var(--border); }
+.s-card .problema-item p { color: var(--text-2); }
+.s-card .problema-item p strong { color: var(--text); }
+.s-card .x-dot { background: var(--red-bg); border-color: var(--red-border); }
 @media (max-width: 900px) {
   .s-card, .s-card-light { margin: 0 24px; }
 }
@@ -358,11 +358,11 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .bridge-box {
   width: 100%;
   padding: 22px 24px;
-  background: #000;
+  background: #f9f8ff;
   border: 1px solid #ffbd8e;
   border-radius: 14px;
   text-align: left;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
   display: flex; align-items: flex-start; gap: 16px;
 }
 .bridge-box-dot {
@@ -375,10 +375,10 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .bridge-text {
   font-family: 'Manrope', sans-serif;
   font-size: 0.92rem;
-  line-height: 1.65; color: #fff;
+  line-height: 1.65; color: var(--text-2);
 }
-.bridge-text strong { color: #fff; font-weight: 600; display: block; margin-bottom: 3px; }
-.bridge-text em { color: rgba(255,255,255,0.8); font-style: normal; }
+.bridge-text strong { color: var(--text); font-weight: 600; display: block; margin-bottom: 3px; }
+.bridge-text em { color: var(--text-2); font-style: normal; }
 
 /* STACK DE PROBLEMAS */
 .stack-wrapper {
