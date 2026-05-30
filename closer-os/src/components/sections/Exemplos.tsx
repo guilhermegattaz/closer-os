@@ -3,6 +3,7 @@ import { MockupCarousel } from '../ui/MockupCarousel'
 export function Exemplos() {
   return (
     <section id="exemplos">
+      <div className="s-card-light">
       <div className="container">
         <div className="section-eyebrow fade-up">Veja funcionando</div>
         <h2 className="h2 exemplos-headline fade-up d1" style={{
@@ -33,6 +34,7 @@ export function Exemplos() {
           </svg>
         </div>
         <MockupCarousel />
+      </div>
       </div>
     </section>
   )

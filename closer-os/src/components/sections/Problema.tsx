@@ -83,6 +83,7 @@ export function Problema() {
 
   return (
     <section id="problema">
+      <div className="s-card">
       <div className="container">
         <div className="problema-grid">
           <div className="problema-left">
@@ -134,6 +135,7 @@ export function Problema() {
         </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   )

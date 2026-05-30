@@ -48,7 +48,9 @@ export default function App() {
         <ParaQuem />
         <Autoridade />
         <div className="section-banner">
-          <p className="section-banner-text">"Quanto valeria fechar +80% de todos os clientes com quem conversa?"</p>
+          <div className="section-banner-inner">
+            <p className="section-banner-text">"Quanto valeria fechar +80% de todos os clientes com quem conversa?"</p>
+          </div>
         </div>
         <Oferta />
         <Faq />
