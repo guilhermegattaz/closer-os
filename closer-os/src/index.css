@@ -707,12 +707,15 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
   font-size: clamp(1.6rem, 3.5vw + 0.5rem, 3.2rem);
   font-weight: 700;
+  font-style: italic;
   line-height: 1.15;
   letter-spacing: -0.025em;
   color: #facc1d;
   max-width: 860px;
   margin: 0 auto;
 }
+.br-desktop-only { display: none; }
+@media (min-width: 901px) { .br-desktop-only { display: block; } }
 
 /* OFERTA */
 #oferta {
@@ -990,6 +993,7 @@ footer {
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; column-gap: 0; row-gap: 20px; }
   .problema-grid { row-gap: 36px; }
+  .section-banner-text { font-size: clamp(1.28rem, 2.8vw + 0.4rem, 2.56rem); }
   .hero-text    { grid-column: 1; grid-row: 1; align-items: center; text-align: center; }
   .hero-right   { grid-column: 1; grid-row: 2; justify-content: center; }
   .hero-cta-block { grid-column: 1; grid-row: 3; align-items: center; }
