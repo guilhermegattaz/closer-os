@@ -47,6 +47,9 @@ export default function App() {
         <Exemplos />
         <ParaQuem />
         <Autoridade />
+        <div className="section-banner">
+          <p className="section-banner-text">Quanto valeria fechar +80% de todos os clientes com quem conversa?</p>
+        </div>
         <Oferta />
         <Faq />
         <FinalCta />

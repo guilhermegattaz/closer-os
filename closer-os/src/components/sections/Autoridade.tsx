@@ -43,8 +43,9 @@ export function Autoridade() {
                 <div className="autor-stat-num">Top 1%</div>
                 <div className="autor-stat-label">mentores de vendas · EUA</div>
               </div>
-              <div className="autor-stat-quote">
-                <p style={{ color: '#facc1d' }}>"Quanto valeria fechar +80% de todos os clientes com quem conversa?"</p>
+              <div className="autor-stat">
+                <div className="autor-stat-num">12 anos</div>
+                <div className="autor-stat-label">de experiência em negociações</div>
               </div>
             </div>
           </div>
