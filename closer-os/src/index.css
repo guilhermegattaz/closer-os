@@ -1059,6 +1059,36 @@ footer {
   /* Background cinza nas caixas como-card no mobile */
   .como-card { background: rgba(30,30,30,0.026) !important; }
 }
+/* HERO DESKTOP +30% */
+@media (min-width: 901px) {
+  #hero .hero-headline {
+    font-size: clamp(2.6rem, 3.77vw + 0.52rem, 3.84rem);
+  }
+  #hero .body-lg {
+    font-size: clamp(1.3rem, 0.52vw + 1.17rem, 1.5rem);
+  }
+  #hero .btn-primary.large {
+    min-height: 75px;
+    padding: 0 52px;
+    font-size: 1.24rem;
+  }
+  #hero .trust-item {
+    font-size: 1.1rem;
+  }
+  #hero .check {
+    width: 26px; height: 26px;
+  }
+  #hero .check svg {
+    width: 13px; height: 13px;
+  }
+  #hero .vsl-wrap {
+    max-width: 374px;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr 390px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
