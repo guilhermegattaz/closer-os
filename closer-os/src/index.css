@@ -163,8 +163,8 @@ nav.scrolled {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 100%;
-  max-width: none;
+  width: auto;
+  max-width: 1152px;
   padding-left: 24px;
   padding-right: 24px;
 }
