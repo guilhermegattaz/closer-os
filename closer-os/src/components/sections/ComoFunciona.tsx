@@ -4,7 +4,7 @@ export function ComoFunciona() {
       <div className="container">
         <div className="section-eyebrow fade-up">A SOLUÇÃO</div>
         <h2 className="h2 fade-up d1" style={{ textAlign: 'center' }}>
-          O mentor que <span style={{ textDecoration: 'underline', textDecorationColor: '#facc1d', textUnderlineOffset: '4px' }}>está com você</span><br className="br-desktop" />{' '}em cada conversa.
+          O mentor que <span style={{ textDecoration: 'underline', textDecorationColor: '#8be5ab', textUnderlineOffset: '4px' }}>está com você</span><br className="br-desktop" />{' '}em cada conversa.
         </h2>
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 520, margin: '16px auto 0' }}>
           Você descreve o que está acontecendo — ele te diz exatamente o que fazer. Não no dia seguinte. Não depois de um curso de 40 horas. Agora. Na hora que você precisa.
