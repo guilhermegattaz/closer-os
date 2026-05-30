@@ -1226,7 +1226,8 @@ footer {
     width: 7px; height: 7px;
   }
   #hero .vsl-wrap {
-    max-width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
   }
 }
 
