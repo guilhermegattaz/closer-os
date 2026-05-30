@@ -1121,6 +1121,7 @@ footer {
 @media (min-width: 901px) {
   .section-banner-text {
     font-size: 1.2rem;
+    white-space: nowrap;
   }
   .hero-grid {
     grid-template-columns: 1fr 390px;
