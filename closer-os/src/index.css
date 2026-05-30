@@ -164,7 +164,8 @@ nav.scrolled {
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  padding-left: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 #hero::after {
   content: '';
@@ -1189,6 +1190,8 @@ footer {
   }
   #hero .vsl-wrap {
     max-width: 100%;
+    transform: scale(1.15);
+    transform-origin: center left;
   }
 }
 
