@@ -89,7 +89,7 @@ export function Problema() {
           <div className="problema-left">
             <div className="section-eyebrow left fade-up">O problema</div>
             <h2 className="h2 fade-up d1" style={{ marginBottom: 12 }}>
-              Você é excelente no que faz.<br className="br-desktop" />{' '}Mas na hora de vender, <span style={{ color: '#123159' }}>algo trava.</span>
+              Você é excelente no que faz.<br className="br-desktop" />{' '}Mas na hora de vender, <span style={{ color: '#c3baff' }}>algo trava.</span>
             </h2>
             <p className="body-lg fade-up d2" style={{ margin: '0 0 16px' }}>
               Você dedicou anos aprendendo o seu ofício. Você é bom — muito bom. Seus clientes que te conhecem adoram o seu trabalho. Mas existe uma parte que ninguém te ensinou: <strong>o que fazer antes de alguém se tornar seu cliente.</strong>
