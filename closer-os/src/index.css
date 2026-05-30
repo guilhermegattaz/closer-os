@@ -1074,10 +1074,10 @@ footer {
 /* HERO DESKTOP +30% */
 @media (min-width: 901px) {
   #hero .hero-headline {
-    font-size: clamp(2.6rem, 3.77vw + 0.52rem, 3.84rem);
+    font-size: clamp(2.86rem, 4.15vw + 0.57rem, 4.22rem);
   }
   #hero .body-lg {
-    font-size: clamp(1.04rem, 0.42vw + 0.94rem, 1.2rem);
+    font-size: clamp(1.25rem, 0.5vw + 1.13rem, 1.44rem);
     line-height: 1.5;
   }
   #hero .btn-primary.large {
@@ -1086,7 +1086,7 @@ footer {
     font-size: 1.24rem;
   }
   #hero .trust-item {
-    font-size: 0.55rem;
+    font-size: 0.72rem;
   }
   #hero .check {
     width: 14px; height: 14px;
