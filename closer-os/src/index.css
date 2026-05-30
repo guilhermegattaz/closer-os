@@ -1031,7 +1031,6 @@ footer {
   .autor-img-col { min-height: 420px; }
   .autor-img-placeholder { min-height: 340px; }
   .oferta-layout { grid-template-columns: 1fr; }
-  .oferta-left { order: -1; }
   #sticky-cta { display: none !important; }
 }
 @media (max-width: 600px) {
