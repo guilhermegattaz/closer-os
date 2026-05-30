@@ -179,7 +179,7 @@ nav.scrolled {
   grid-template-columns: 1fr 300px;
   grid-template-rows: auto auto;
   column-gap: 72px;
-  row-gap: 0;
+  row-gap: 28px;
   align-items: start;
   max-width: 1040px;
   margin: 0 auto;
@@ -944,9 +944,9 @@ footer {
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
-  .hero-grid { grid-template-columns: 1fr; column-gap: 0; row-gap: 0; }
+  .hero-grid { grid-template-columns: 1fr; column-gap: 0; row-gap: 20px; }
   .hero-text    { grid-column: 1; grid-row: 1; align-items: center; text-align: center; }
-  .hero-right   { grid-column: 1; grid-row: 2; }
+  .hero-right   { grid-column: 1; grid-row: 2; justify-content: center; }
   .hero-cta-block { grid-column: 1; grid-row: 3; align-items: center; }
   .hero-cta-row { justify-content: center; }
   .hero-trust   { justify-content: center; }
@@ -1036,7 +1036,7 @@ footer {
 }
 @media (max-width: 600px) {
   .quem-grid { grid-template-columns: 1fr; }
-  .hero-cta-row { flex-direction: column; align-items: center; margin-bottom: -22px; }
+  .hero-cta-row { flex-direction: column; align-items: center; }
   section { padding: 64px 0; }
   #hero { padding-bottom: 40px; }
   .vantagem-card { grid-template-columns: 1fr; }
@@ -1049,10 +1049,9 @@ footer {
   .exemplos-headline { font-size: clamp(2rem, 3.5vw + 0.5rem, 3.2rem) !important; letter-spacing: -0.025em !important; }
   /* Evitar orphãos em headings no mobile */
   .h2, .display, .hero-headline { text-wrap: balance; }
-  /* Reduzir espaços no hero mobile */
-  .hero-headline { margin-bottom: -12px; }
-  #hero .body-lg { font-size: 0.8rem; line-height: 1.45; margin-top: -6px; margin-bottom: -14px !important; }
-  #hero .vsl-wrap { margin-top: -8px; margin-bottom: -8px; }
+  /* Tipografia do hero mobile */
+  .hero-headline { margin-bottom: 8px; }
+  #hero .body-lg { font-size: 0.8rem; line-height: 1.45; margin-top: 0; margin-bottom: 0 !important; }
   /* Reduzir fonte da quote no mobile */
   .autor-stat-quote p { font-size: 0.68rem; }
   /* Trust items em duas linhas no mobile */
