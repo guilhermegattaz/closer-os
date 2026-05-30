@@ -425,6 +425,15 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 
 /* COMO */
 #como { background: transparent; }
+.como-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+}
+.como-left {
+  display: flex;
+  flex-direction: column;
+}
 .como-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 56px; }
 .como-card {
   padding: 32px 28px;
@@ -1144,6 +1153,26 @@ footer {
   .vantagem-tag { font-size: 0.75rem; font-weight: 900; }
   /* como-card mantém background escuro no mobile (seção #c3b9ff) */
 }
+/* COMO FUNCIONA — 2 colunas desktop */
+@media (min-width: 901px) {
+  .como-layout {
+    grid-template-columns: 2fr 3fr;
+    gap: 64px;
+    align-items: start;
+  }
+  .como-left {
+    position: sticky;
+    top: 96px;
+  }
+  .como-left .h2 { text-align: left; }
+  .como-left .body-lg { text-align: left; }
+  .como-grid {
+    grid-template-columns: 1fr;
+    margin-top: 0;
+    gap: 16px;
+  }
+}
+
 /* HERO DESKTOP +30% */
 @media (min-width: 901px) {
   .section-banner-text {
