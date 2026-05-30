@@ -360,7 +360,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .problema-item p strong { color: var(--text); font-weight: 600; display: block; margin-bottom: 3px; }
 
 /* COMO */
-#como { background: #123159; }
+#como { background: #000; }
 #como .section-eyebrow { color: rgba(255,255,255,0.5); }
 #como .section-eyebrow::before, #como .section-eyebrow::after { background: rgba(255,255,255,0.2); }
 #como .h2 { color: #fff; }
