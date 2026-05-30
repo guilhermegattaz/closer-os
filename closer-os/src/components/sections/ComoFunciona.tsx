@@ -13,18 +13,18 @@ export function ComoFunciona() {
           <div className="como-card fade-up">
             <div className="como-lottie">
               <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="28" cy="28" r="20" stroke="rgba(255,255,255,0.7)" strokeWidth="2"/>
-                <circle cx="28" cy="28" r="2" fill="rgba(255,255,255,0.7)"/>
-                <line x1="28" y1="28" x2="28" y2="13" stroke="rgba(255,255,255,0.9)" strokeWidth="2" strokeLinecap="round">
+                <circle cx="28" cy="28" r="20" stroke="#facc1d" strokeWidth="2"/>
+                <circle cx="28" cy="28" r="2" fill="#facc1d"/>
+                <line x1="28" y1="28" x2="28" y2="13" stroke="#facc1d" strokeWidth="2" strokeLinecap="round">
                   <animateTransform attributeName="transform" type="rotate" from="0 28 28" to="360 28 28" dur="3s" repeatCount="indefinite"/>
                 </line>
-                <line x1="28" y1="28" x2="28" y2="17" stroke="rgba(255,255,255,0.9)" strokeWidth="2.5" strokeLinecap="round">
+                <line x1="28" y1="28" x2="28" y2="17" stroke="#facc1d" strokeWidth="2.5" strokeLinecap="round">
                   <animateTransform attributeName="transform" type="rotate" from="0 28 28" to="360 28 28" dur="72s" repeatCount="indefinite"/>
                 </line>
-                <line x1="28" y1="9" x2="28" y2="12" stroke="rgba(255,255,255,0.5)" strokeWidth="1.5" strokeLinecap="round"/>
-                <line x1="28" y1="44" x2="28" y2="47" stroke="rgba(255,255,255,0.5)" strokeWidth="1.5" strokeLinecap="round"/>
-                <line x1="9" y1="28" x2="12" y2="28" stroke="rgba(255,255,255,0.5)" strokeWidth="1.5" strokeLinecap="round"/>
-                <line x1="44" y1="28" x2="47" y2="28" stroke="rgba(255,255,255,0.5)" strokeWidth="1.5" strokeLinecap="round"/>
+                <line x1="28" y1="9" x2="28" y2="12" stroke="rgba(250,204,29,0.4)" strokeWidth="1.5" strokeLinecap="round"/>
+                <line x1="28" y1="44" x2="28" y2="47" stroke="rgba(250,204,29,0.4)" strokeWidth="1.5" strokeLinecap="round"/>
+                <line x1="9" y1="28" x2="12" y2="28" stroke="rgba(250,204,29,0.4)" strokeWidth="1.5" strokeLinecap="round"/>
+                <line x1="44" y1="28" x2="47" y2="28" stroke="rgba(250,204,29,0.4)" strokeWidth="1.5" strokeLinecap="round"/>
               </svg>
             </div>
             <h3>Disponível a qualquer hora</h3>
@@ -39,9 +39,9 @@ export function ComoFunciona() {
                     keyTimes="0; 0.25; 0.5; 0.75; 1"
                     dur="2.8s" repeatCount="indefinite" calcMode="spline"
                     keySplines="0.4,0,0.2,1; 0.4,0,0.2,1; 0.4,0,0.2,1; 0.4,0,0.2,1"/>
-                  <circle cx="24" cy="23" r="12" stroke="rgba(255,255,255,0.7)" strokeWidth="2"/>
-                  <circle cx="24" cy="23" r="7" stroke="rgba(255,255,255,0.4)" strokeWidth="1.5" strokeDasharray="3 2"/>
-                  <line x1="33" y1="32" x2="44" y2="43" stroke="rgba(255,255,255,0.9)" strokeWidth="2.5" strokeLinecap="round"/>
+                  <circle cx="24" cy="23" r="12" stroke="#facc1d" strokeWidth="2"/>
+                  <circle cx="24" cy="23" r="7" stroke="rgba(250,204,29,0.45)" strokeWidth="1.5" strokeDasharray="3 2"/>
+                  <line x1="33" y1="32" x2="44" y2="43" stroke="#facc1d" strokeWidth="2.5" strokeLinecap="round"/>
                 </g>
               </svg>
             </div>
@@ -51,19 +51,19 @@ export function ComoFunciona() {
           <div className="como-card fade-up d2">
             <div className="como-lottie">
               <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="8" y="6" width="34" height="19" rx="9" fill="rgba(255,255,255,0.15)"/>
-                <path d="M18 25 L13 31 L24 25Z" fill="rgba(255,255,255,0.15)"/>
-                <circle cx="32" cy="42" r="12" fill="rgba(255,255,255,0.25)"/>
-                <rect x="27" y="37" width="10" height="10" rx="2" fill="none" stroke="white" strokeWidth="1.5"/>
-                <line x1="30" y1="37" x2="30" y2="35" stroke="white" strokeWidth="1.2" strokeLinecap="round"/>
-                <line x1="34" y1="37" x2="34" y2="35" stroke="white" strokeWidth="1.2" strokeLinecap="round"/>
-                <line x1="30" y1="47" x2="30" y2="49" stroke="white" strokeWidth="1.2" strokeLinecap="round"/>
-                <line x1="34" y1="47" x2="34" y2="49" stroke="white" strokeWidth="1.2" strokeLinecap="round"/>
-                <line x1="27" y1="40" x2="25" y2="40" stroke="white" strokeWidth="1.2" strokeLinecap="round"/>
-                <line x1="27" y1="44" x2="25" y2="44" stroke="white" strokeWidth="1.2" strokeLinecap="round"/>
-                <line x1="37" y1="40" x2="39" y2="40" stroke="white" strokeWidth="1.2" strokeLinecap="round"/>
-                <line x1="37" y1="44" x2="39" y2="44" stroke="white" strokeWidth="1.2" strokeLinecap="round"/>
-                <circle cx="32" cy="42" r="2" fill="white">
+                <rect x="8" y="6" width="34" height="19" rx="9" fill="rgba(250,204,29,0.18)"/>
+                <path d="M18 25 L13 31 L24 25Z" fill="rgba(250,204,29,0.18)"/>
+                <circle cx="32" cy="42" r="12" fill="#facc1d"/>
+                <rect x="27" y="37" width="10" height="10" rx="2" fill="none" stroke="#123159" strokeWidth="1.5"/>
+                <line x1="30" y1="37" x2="30" y2="35" stroke="#123159" strokeWidth="1.2" strokeLinecap="round"/>
+                <line x1="34" y1="37" x2="34" y2="35" stroke="#123159" strokeWidth="1.2" strokeLinecap="round"/>
+                <line x1="30" y1="47" x2="30" y2="49" stroke="#123159" strokeWidth="1.2" strokeLinecap="round"/>
+                <line x1="34" y1="47" x2="34" y2="49" stroke="#123159" strokeWidth="1.2" strokeLinecap="round"/>
+                <line x1="27" y1="40" x2="25" y2="40" stroke="#123159" strokeWidth="1.2" strokeLinecap="round"/>
+                <line x1="27" y1="44" x2="25" y2="44" stroke="#123159" strokeWidth="1.2" strokeLinecap="round"/>
+                <line x1="37" y1="40" x2="39" y2="40" stroke="#123159" strokeWidth="1.2" strokeLinecap="round"/>
+                <line x1="37" y1="44" x2="39" y2="44" stroke="#123159" strokeWidth="1.2" strokeLinecap="round"/>
+                <circle cx="32" cy="42" r="2" fill="#123159">
                   <animate attributeName="r" values="1.5;2.5;1.5" dur="1.4s" repeatCount="indefinite"/>
                   <animate attributeName="opacity" values="0.6;1;0.6" dur="1.4s" repeatCount="indefinite"/>
                 </circle>
