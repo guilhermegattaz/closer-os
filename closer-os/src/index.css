@@ -1156,18 +1156,18 @@ footer {
 /* COMO FUNCIONA — 2 colunas desktop */
 @media (min-width: 901px) {
   .como-layout {
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 35fr 65fr;
     gap: 64px;
     align-items: start;
   }
   .como-left {
     position: sticky;
-    top: 96px;
+    top: 120px;
   }
   .como-left .h2 { text-align: left; }
   .como-left .body-lg { text-align: left; }
   .como-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 0;
     gap: 16px;
   }
