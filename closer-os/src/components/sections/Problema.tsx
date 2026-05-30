@@ -86,7 +86,7 @@ export function Problema() {
       <div className="container">
         <div className="section-eyebrow fade-up">O problema</div>
         <h2 className="h2 fade-up d1" style={{ textAlign: 'center', marginBottom: 12 }}>
-          Você é excelente no que faz.<br className="br-desktop" />{' '}Mas na hora de vender, <span style={{ color: 'red' }}>algo trava.</span>
+          Você é excelente no que faz.<br className="br-desktop" />{' '}Mas na hora de vender, <span style={{ color: '#123159' }}>algo trava.</span>
         </h2>
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 700, margin: '0 auto 16px' }}>
           Você dedicou anos aprendendo o seu ofício. Você é bom — muito bom. Seus clientes que te conhecem adoram o seu trabalho. Mas existe uma parte que ninguém te ensinou: o que fazer antes de alguém se tornar seu cliente.

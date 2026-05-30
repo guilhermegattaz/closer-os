@@ -20,7 +20,7 @@ export function ParaQuem() {
       <div className="container">
         <div className="section-eyebrow fade-up">O CloserOS™ foi feito para você se...</div>
         <h2 className="h2 fade-up d1" style={{ textAlign: 'center' }}>
-          Você tem talento.<br className="br-desktop" />{' '}O que falta é <span style={{ color: '#0668ed' }}>saber o que dizer.</span>
+          Você tem talento.<br className="br-desktop" />{' '}O que falta é <span style={{ color: '#123159' }}>saber o que dizer.</span>
         </h2>
         <div className="quem-grid">
           {paraQuem.map((card, i) => (
