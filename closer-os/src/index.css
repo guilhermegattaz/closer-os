@@ -1195,7 +1195,7 @@ footer {
   .s-card, .s-card-light, .section-banner-inner {
     margin-left: 24px;
     margin-right: 24px;
-    max-width: 1400px;
+    max-width: none;
   }
   .final-cta-card {
     margin-left: 0;
