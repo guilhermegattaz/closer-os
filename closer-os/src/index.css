@@ -1065,7 +1065,8 @@ footer {
     font-size: clamp(2.6rem, 3.77vw + 0.52rem, 3.84rem);
   }
   #hero .body-lg {
-    font-size: clamp(1.3rem, 0.52vw + 1.17rem, 1.5rem);
+    font-size: clamp(1.04rem, 0.42vw + 0.94rem, 1.2rem);
+    line-height: 1.5;
   }
   #hero .btn-primary.large {
     min-height: 75px;
@@ -1073,13 +1074,13 @@ footer {
     font-size: 1.24rem;
   }
   #hero .trust-item {
-    font-size: 1.1rem;
+    font-size: 0.55rem;
   }
   #hero .check {
-    width: 26px; height: 26px;
+    width: 14px; height: 14px;
   }
   #hero .check svg {
-    width: 13px; height: 13px;
+    width: 7px; height: 7px;
   }
   #hero .vsl-wrap {
     max-width: 374px;
