@@ -1073,6 +1073,7 @@ footer {
 }
 /* HERO DESKTOP +30% */
 @media (min-width: 901px) {
+  .hero-grid { row-gap: 10px; }
   #hero .hero-headline {
     font-size: clamp(2.86rem, 4.15vw + 0.57rem, 4.22rem);
   }
