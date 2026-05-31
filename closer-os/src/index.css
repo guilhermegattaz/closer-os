@@ -1243,8 +1243,6 @@ footer {
   .vantagem-card {
     margin-left: 24px;
     margin-right: 24px;
-    max-width: none;
-    width: calc(100% - 48px);
   }
   .hero-grid {
     grid-template-columns: 42fr 58fr;
