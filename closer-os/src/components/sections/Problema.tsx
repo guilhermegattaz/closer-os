@@ -67,7 +67,7 @@ export function ProblemaCard() {
         </div>
         <div className="bridge-box fade-up">
           <div className="bridge-box-dot">
-            <svg viewBox="0 0 14 14" fill="none" stroke="#1e1a16" strokeWidth="2">
+            <svg viewBox="0 0 14 14" fill="none" stroke="#8be5ab" strokeWidth="2">
               <polyline points="2,7 6,11 12,3" />
             </svg>
           </div>
