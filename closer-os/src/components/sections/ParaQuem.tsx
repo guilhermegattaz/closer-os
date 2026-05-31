@@ -106,7 +106,7 @@ export function ParaQuem() {
       <div className="fade-up vantagem-card">
         <div className="vantagem-left">
           <div className="vantagem-tag">Sua vantagem competitiva</div>
-          <p className="vantagem-text">Seja visto como autoridade no que faz e conduza suas conversas com naturalidade e confiança. Saiba o que dizer em cada situação — da primeira conversa até o sim — disponível para você a qualquer hora.</p>
+          <p className="vantagem-text">Seja visto como autoridade no que faz para se destacar da concorrência. Conduza seu próximo cliente da primeira conversa até o sim, com confiança e naturalidade. Seu mentor disponível para você a qualquer hora do dia.</p>
         </div>
         <div className="vantagem-right">
           <div className="vantagem-price">R$47</div>
