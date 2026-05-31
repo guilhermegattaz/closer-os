@@ -82,7 +82,7 @@ export function Problema() {
         </div>
         <div className="vantagem-right">
           <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer">Quero agora →</a>
-          <div className="vantagem-period">pagamento único · sem mensalidade</div>
+          <div className="vantagem-period" style={{ marginBottom: 4 }}>pagamento único · sem mensalidade</div>
           <p className="vantagem-meta">Garantia de 7 dias · Acesso imediato</p>
         </div>
       </div>
