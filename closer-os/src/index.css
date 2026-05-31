@@ -928,14 +928,9 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 }
 @media (max-width: 900px) {
   .final-cta-card { margin: 0 20px; }
-  .vantagem-card { flex-direction: column; padding: 40px 24px; text-align: center; }
-  .vantagem-left { max-width: 100%; text-align: center; }
-  .vantagem-right { width: 100%; min-width: unset; align-items: center; }
-  .vantagem-right .btn-primary { width: 100%; }
 }
 @media (max-width: 600px) {
   .final-cta-card { margin: 0 12px; border-radius: 16px; padding: 48px 24px; }
-  .vantagem-card { margin: 16px 12px 0; border-radius: 16px; padding: 48px 24px; }
 }
 .vantagem-card {
   margin-top: 48px;
@@ -1154,6 +1149,10 @@ footer {
   #oferta .container { padding: 0 20px; }
   #faq { padding-top: 32px; padding-bottom: 32px; }
   #faq .container-sm { padding: 0 20px; }
+  .vantagem-card { flex-direction: column; padding: 40px 24px; text-align: center; gap: 24px; margin: 16px 20px 0; }
+  .vantagem-left { max-width: 100%; text-align: center; }
+  .vantagem-right { width: 100%; min-width: unset; align-items: center; }
+  .vantagem-btn { width: 100%; }
 }
 @media (max-width: 600px) {
   .quem-grid { grid-template-columns: 1fr; }
@@ -1162,7 +1161,7 @@ footer {
   #faq .container-sm { padding: 0 12px; }
   section { padding: 64px 0; }
   #hero { padding-bottom: 40px; }
-  .vantagem-card { padding: 32px 24px; }
+  .vantagem-card { margin: 16px 12px 0; border-radius: 16px; padding: 40px 20px; }
   .cta-quote { font-size: 28px; }
   #final-cta { padding: 48px 0; }
   .final-cta-card { padding: 40px 24px; border-radius: 16px; }

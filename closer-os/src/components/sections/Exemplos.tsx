@@ -17,7 +17,7 @@ export function Exemplos() {
         </p>
         <div className="vsl-wrap fade-up d3" style={{ margin: '32px auto 0', maxWidth: 1118 }} role="region" aria-label="Vídeo de apresentação do CloserOS™">
           {/* @ts-expect-error wistia-player is a custom web component */}
-          <wistia-player media-id="zgyxvdc2ev" aspect="1.5609756097560976" />
+          <wistia-player media-id="2tbc1fl62k" aspect="0.46153846153846156" />
         </div>
         <div className="mockup-click-hint fade-up d3">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
