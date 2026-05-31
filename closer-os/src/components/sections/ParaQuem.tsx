@@ -4,10 +4,10 @@ import type { ParaQuemCard } from '../../types'
 import { KIWIFY_URL } from '../../data/links'
 
 const negociosItems = [
-  { id: 'n1', titulo: 'Quer prospectar novos clientes?', descricao: 'O CloserOS te mostra como fazer.' },
-  { id: 'n2', titulo: 'Quer ser visto como autoridade?', descricao: 'O CloserOS te mostra como fazer.' },
-  { id: 'n3', titulo: 'Quer ter seu roteiro de vendas personalizado?', descricao: 'O CloserOS te mostra como fazer.' },
-  { id: 'n4', titulo: 'Quer vender com naturalidade e confiança?', descricao: 'O CloserOS te mostra como fazer.' },
+  { id: 'n1', titulo: 'Crie scripts e roteiros personalizados.', descricao: 'Para qualquer cenário, ligações, mensagens, reuniões.' },
+  { id: 'n2', titulo: 'Negocie como um profissional.', descricao: 'Conduza o cliente com autoridade e confiança.' },
+  { id: 'n3', titulo: 'Novos clientes todos os dias.', descricao: 'Estratégias de prospecção e indicação.' },
+  { id: 'n4', titulo: 'Domine seu processo de vendas.', descricao: 'Saiba qual pergunta fazer em cada etapa.' },
 ]
 
 function NegociosCard() {
@@ -39,10 +39,16 @@ function NegociosCard() {
           <div className="problema-left">
             <div className="section-eyebrow left fade-up">Todos os tipos de negócios</div>
             <h2 className="h2 fade-up d1" style={{ marginBottom: 12 }}>
-              Será que o CloserOS funciona para o meu negócio?
+              Será que o CloserOS funciona para o <span style={{ color: '#c3baff' }}>seu negócio?</span>
             </h2>
+            <p className="body-lg fade-up d2" style={{ margin: '0 0 16px' }}>
+              Ele se adapta ao seu negócio e aos seus objetivos.
+            </p>
+            <p className="body-lg fade-up d2" style={{ margin: '0 0 16px' }}>
+              Mesmo que você não saiba nada sobre como apresentar, negociar e vender seu serviço, ele irá te ajudar em cada passo desde uma simples conversa, como responder uma mensagem, até quebrar objeções complexas.
+            </p>
             <p className="body-lg fade-up d2" style={{ margin: '0' }}>
-              Ele se adapta ao seu negócio e aos seus objetivos. Mesmo que você não saiba nada sobre como apresentar, negociar e vender seu serviço, ele irá te ajudar em cada passo. Ele se adapta às suas necessidades específicas e à sua linguagem.
+              Qualquer que seja o seu nível, o CloserOS irá te ajudar a fechar mais clientes, cobrar mais caro pelo seu serviço e ganhar mais dinheiro.
             </p>
           </div>
           <div className="problema-right">
