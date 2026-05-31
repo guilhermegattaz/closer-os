@@ -1,7 +1,71 @@
+import { useEffect, useRef } from 'react'
 import { paraQuem } from '../../data/paraQuem'
 import type { ParaQuemCard } from '../../types'
 import { KIWIFY_URL } from '../../data/links'
-import { ProblemaCard } from './Problema'
+
+const negociosItems = [
+  { id: 'n1', titulo: 'Quer prospectar novos clientes?', descricao: 'O CloserOS te mostra como fazer.' },
+  { id: 'n2', titulo: 'Quer ser visto como autoridade?', descricao: 'O CloserOS te mostra como fazer.' },
+  { id: 'n3', titulo: 'Quer ter seu roteiro de vendas personalizado?', descricao: 'O CloserOS te mostra como fazer.' },
+  { id: 'n4', titulo: 'Quer vender com naturalidade e confiança?', descricao: 'O CloserOS te mostra como fazer.' },
+]
+
+function NegociosCard() {
+  const stackRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const stack = stackRef.current
+    if (!stack) return
+    const items = Array.from(stack.querySelectorAll<HTMLElement>('[data-stack]'))
+    const itemObs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            ;(entry.target as HTMLElement).classList.add('in-view')
+            itemObs.unobserve(entry.target)
+          }
+        })
+      },
+      { threshold: 0, rootMargin: '0px 0px -80px 0px' }
+    )
+    items.forEach((el) => itemObs.observe(el))
+    return () => itemObs.disconnect()
+  }, [])
+
+  return (
+    <div className="s-card">
+      <div className="container">
+        <div className="problema-grid">
+          <div className="problema-left">
+            <div className="section-eyebrow left fade-up">Todos os tipos de negócios</div>
+            <h2 className="h2 fade-up d1" style={{ marginBottom: 12 }}>
+              Será que o CloserOS funciona para o meu negócio?
+            </h2>
+            <p className="body-lg fade-up d2" style={{ margin: '0' }}>
+              Ele se adapta ao seu negócio e aos seus objetivos. Mesmo que você não saiba nada sobre como apresentar, negociar e vender seu serviço, ele irá te ajudar em cada passo. Ele se adapta às suas necessidades específicas e à sua linguagem.
+            </p>
+          </div>
+          <div className="problema-right">
+            <div className="problema-wrap">
+              <div className="stack-wrapper" ref={stackRef}>
+                {negociosItems.map((p) => (
+                  <div key={p.id} className="problema-item" data-stack="">
+                    <div className="x-dot" style={{ background: 'rgba(139,229,171,0.15)', border: '1px solid rgba(139,229,171,0.3)' }}>
+                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#8be5ab" strokeWidth="2">
+                        <polyline points="2,6 5,9 10,3" />
+                      </svg>
+                    </div>
+                    <p><strong>{p.titulo}</strong> {p.descricao}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
 
 function QuemIcon({ icon }: { icon: ParaQuemCard['icon'] }) {
   const svgProps = { viewBox: '0 0 24 24', fill: 'none' as const, stroke: 'currentColor' as const, strokeWidth: 1.6, width: 20, height: 20 }
@@ -33,7 +97,7 @@ export function ParaQuem() {
           ))}
         </div>
       </div>
-      <ProblemaCard />
+      <NegociosCard />
       <div className="fade-up vantagem-card">
         <div className="vantagem-left">
           <div className="vantagem-tag">Sua vantagem competitiva</div>
