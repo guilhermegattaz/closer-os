@@ -63,30 +63,24 @@ export function Problema() {
                 <p><strong>{p.titulo}</strong> {p.descricao}</p>
               </div>
             ))}
-            <div
-              className="bridge-box"
-              data-stack=""
-              style={{
-                opacity: 0,
-                transform: 'translateX(32px) scale(0.97)',
-                transition: 'opacity 0.6s cubic-bezier(0.16,1,0.3,1) 0.32s, transform 0.6s cubic-bezier(0.16,1,0.3,1) 0.32s',
-              }}
-            >
-              <div className="bridge-box-dot">
-                <svg viewBox="0 0 14 14" fill="none" stroke="#1e1a16" strokeWidth="2">
-                  <polyline points="2,7 6,11 12,3" />
-                </svg>
-              </div>
-              <p className="bridge-text">
-                <strong>Isso tem solução. E ela cabe em R$47.</strong>
-                Você perde clientes todos os dias — não porque o seu trabalho é ruim. Porque ninguém te ensinou o que dizer nesses momentos.
-              </p>
-            </div>
           </div>
         </div>
           </div>
         </div>
       </div>
+      </div>
+      <div className="container">
+        <div className="bridge-box fade-up">
+          <div className="bridge-box-dot">
+            <svg viewBox="0 0 14 14" fill="none" stroke="#1e1a16" strokeWidth="2">
+              <polyline points="2,7 6,11 12,3" />
+            </svg>
+          </div>
+          <p className="bridge-text">
+            <strong>Isso tem solução. E ela cabe em R$47.</strong>
+            Você perde clientes todos os dias — não porque o seu trabalho é ruim. Porque ninguém te ensinou o que dizer nesses momentos.
+          </p>
+        </div>
       </div>
     </section>
   )

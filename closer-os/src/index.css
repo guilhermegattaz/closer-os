@@ -358,13 +358,14 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 /* BRIDGE CARD AZUL */
 .bridge-box {
   width: 100%;
-  padding: 22px 24px;
-  background: #f9f8ff;
-  border: 1px solid #ffbd8e;
-  border-radius: 14px;
+  padding: 40px 48px;
+  background: #8be5ab;
+  border: none;
+  border-radius: 20px;
   text-align: left;
   box-shadow: 0 4px 16px rgba(0,0,0,0.06);
   display: flex; align-items: flex-start; gap: 16px;
+  margin-top: 32px;
 }
 .bridge-box-dot {
   width: 32px; height: 32px; border-radius: 10px; flex-shrink: 0; margin-top: 2px;
@@ -376,10 +377,10 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .bridge-text {
   font-family: 'Manrope', sans-serif;
   font-size: 0.92rem;
-  line-height: 1.65; color: var(--text-2);
+  line-height: 1.65; color: #1e1a16;
 }
-.bridge-text strong { color: var(--text); font-weight: 600; display: block; margin-bottom: 3px; }
-.bridge-text em { color: var(--text-2); font-style: normal; }
+.bridge-text strong { color: #1e1a16; font-weight: 600; display: block; margin-bottom: 3px; }
+.bridge-text em { color: #1e1a16; font-style: normal; }
 
 /* STACK DE PROBLEMAS */
 .stack-wrapper {
@@ -659,7 +660,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 
 /* PARA QUEM */
 #para-quem { background: transparent; }
-#para-quem .section-eyebrow { color: #8be5ab; }
+#para-quem .section-eyebrow { color: #c3baff; }
 .quem-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 56px; }
 .quem-card {
   padding: 28px 24px;

@@ -50,7 +50,7 @@ export default function App() {
         <div className="section-banner">
           <div className="section-banner-inner">
             <p className="section-banner-text">"Quanto valeria fechar +80% de todos os clientes com quem conversa?"</p>
-            <p className="body-lg" style={{ textAlign: 'center', marginTop: 16 }}>Você ganharia mais dinheiro? Se sim, você está a 8 minutos da sua vantagem competitiva para faturar mais.</p>
+            <p className="body-lg" style={{ textAlign: 'center', marginTop: 16, color: 'rgba(255,255,255,0.6)' }}>Você ganharia mais dinheiro? Se sim, você está a 8 minutos da sua vantagem competitiva para faturar mais.</p>
           </div>
         </div>
         <Oferta />
