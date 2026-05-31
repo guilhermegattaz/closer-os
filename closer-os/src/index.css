@@ -1051,7 +1051,7 @@ footer {
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; column-gap: 0; row-gap: 20px; }
   .problema-grid { row-gap: 36px; }
-  .section-banner { padding: 16px 0; }
+  .section-banner { padding: 8px 0; }
   .section-banner-text { font-size: clamp(0.92rem, 2.02vw + 0.29rem, 1.85rem); }
   .hero-text    { grid-column: 1; grid-row: 1; align-items: center; text-align: center; }
   .hero-right   { grid-column: 1; grid-row: 2; justify-content: center; }
