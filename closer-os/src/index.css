@@ -423,7 +423,8 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .problema-item p strong { color: var(--text); font-weight: 600; display: block; margin-bottom: 3px; }
 
 /* COMO */
-#como { background: transparent; }
+#como { background: transparent; padding: 40px 0; }
+@media (min-width: 901px) { #como { padding: 96px 0; } }
 .como-layout {
   display: grid;
   grid-template-columns: 1fr;
