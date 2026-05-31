@@ -31,17 +31,17 @@ export function ParaQuem() {
             </div>
           ))}
         </div>
-        <div className="fade-up vantagem-card">
-          <div className="vantagem-left">
-            <div className="vantagem-tag">Sua vantagem competitiva</div>
-            <p className="vantagem-text">Seja visto como autoridade no que faz e conduza suas conversas com naturalidade e confiança. Saiba o que dizer em cada situação — da primeira conversa até o sim — disponível para você a qualquer hora.</p>
-          </div>
-          <div className="vantagem-right">
-            <div className="vantagem-price">R$47</div>
-            <div className="vantagem-period">pagamento único · sem mensalidade</div>
-            <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer">Quero agora →</a>
-            <p className="vantagem-meta">Garantia de 7 dias · Acesso imediato</p>
-          </div>
+      </div>
+      <div className="fade-up vantagem-card">
+        <div className="vantagem-left">
+          <div className="vantagem-tag">Sua vantagem competitiva</div>
+          <p className="vantagem-text">Seja visto como autoridade no que faz e conduza suas conversas com naturalidade e confiança. Saiba o que dizer em cada situação — da primeira conversa até o sim — disponível para você a qualquer hora.</p>
+        </div>
+        <div className="vantagem-right">
+          <div className="vantagem-price">R$47</div>
+          <div className="vantagem-period">pagamento único · sem mensalidade</div>
+          <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer">Quero agora →</a>
+          <p className="vantagem-meta">Garantia de 7 dias · Acesso imediato</p>
         </div>
       </div>
     </section>
