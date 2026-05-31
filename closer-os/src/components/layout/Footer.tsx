@@ -7,8 +7,8 @@ export function Footer() {
             <img src="/images/logo1.webp" alt="CloserOS™" style={{ height: 28, width: 'auto' }} />
           </div>
           <div className="footer-links">
-            <a href="https://www.closeros.com.br/termos" target="_blank" rel="noopener noreferrer">Termos de Uso</a>
-            <a href="https://www.closeros.com.br/politica" target="_blank" rel="noopener noreferrer">Política de Privacidade</a>
+            <span>Termos de Uso</span>
+            <span>Política de Privacidade</span>
             <a href="https://wa.me/16176209468?text=Oi%21%20Quero%20saber%20mais%20sobre%20o%20CloserOS." target="_blank" rel="noopener noreferrer">Contato</a>
           </div>
           <div className="footer-copy">

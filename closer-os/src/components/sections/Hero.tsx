@@ -8,7 +8,7 @@ export function Hero() {
 
           <div className="hero-text">
             <h1 className="display hero-headline fade-up d1">
-              <span style={{ color: 'red' }}>Saiba</span> exatamente o que dizer{' '}
+              Saiba exatamente o que dizer{' '}
               para <em>fechar mais clientes.</em>
             </h1>
             <p className="body-lg fade-up d2" style={{ marginBottom: 14, maxWidth: 520 }}>

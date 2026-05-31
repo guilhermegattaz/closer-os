@@ -108,11 +108,7 @@ nav .btn-ghost {
   font-size: 0.75rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase;
   color: #c3b9ff; margin-bottom: 16px;
 }
-.section-eyebrow::before, .section-eyebrow::after {
-  content:''; display:block; height:1px; width:32px; background:#c3b9ff;
-}
 .section-eyebrow.left { justify-content: flex-start; }
-.section-eyebrow.left::before { display:none; }
 
 /* BUTTONS */
 .btn-primary {
@@ -301,13 +297,11 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 }
 /* Texto dentro do card escuro */
 .s-card .section-eyebrow { color: #c3b9ff; }
-.s-card .section-eyebrow::before,
-.s-card .section-eyebrow::after { background: #c3b9ff; }
 .s-card .h2 { color: #fff; }
 .s-card .body-lg { color: rgba(255,255,255,0.72); }
 .s-card strong { color: #fff; }
 /* Problema items no card escuro */
-.s-card .problema-item { background: #1e1a16; border-color: rgba(255,255,255,0.08); }
+.s-card .problema-item { background: #1e1a16; }
 .s-card .problema-item p { color: rgba(255,255,255,0.72); }
 .s-card .problema-item p strong { color: #fff; }
 .s-card .x-dot { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1); }
@@ -397,7 +391,6 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   display: flex; align-items: flex-start; gap: 16px;
   padding: 22px 24px;
   background: var(--surface);
-  border: 1px solid var(--border);
   border-radius: 14px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   position: relative;
@@ -664,6 +657,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 
 /* PARA QUEM */
 #para-quem { background: transparent; }
+#para-quem .section-eyebrow { color: #8be5ab; }
 .quem-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 56px; }
 .quem-card {
   padding: 28px 24px;
@@ -674,7 +668,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 }
 .quem-card:hover { border-color: var(--border-2); box-shadow: 0 4px 16px rgba(0,0,0,0.07); transform: translateY(-2px); }
 .quem-icon { width: 40px; height: 40px; border-radius: 12px; background: var(--bg-2); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; margin-bottom: 16px; }
-.quem-icon svg { width: 20px; height: 20px; stroke: var(--text-2); stroke-width: 1.6; fill: none; }
+.quem-icon svg { width: 20px; height: 20px; stroke: #8be5ab; stroke-width: 1.6; fill: none; }
 .quem-card h3 { font-size: 0.95rem; font-weight: 600; color: var(--text); margin-bottom: 8px; }
 .quem-card p { font-size: 0.84rem; color: var(--text-2); line-height: 1.65; }
 
@@ -904,7 +898,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   transition: background 150ms;
 }
 .faq-q:hover { background: var(--bg); }
-.faq-chevron { width: 18px; height: 18px; flex-shrink: 0; transition: transform 200ms; color: var(--text-3); }
+.faq-chevron { width: 18px; height: 18px; flex-shrink: 0; transition: transform 200ms; color: #8be5ab; }
 .faq-item.open .faq-chevron { transform: rotate(180deg); }
 .faq-a { display: none; padding: 0 24px 20px; background: var(--surface); font-size: 0.9rem; color: var(--text-2); line-height: 1.75; }
 .faq-item.open .faq-a { display: block; }
@@ -985,13 +979,13 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .btn-white {
   display: inline-flex; align-items: center; gap: 8px;
   min-height: 58px; padding: 0 40px; border-radius: var(--radius-btn);
-  background: #ffbd8e; color: #1e1a16;
+  background: #c3baff; color: #1e1a16;
   font-size: 0.95rem; font-weight: 700;
   border: none; cursor: pointer; text-decoration: none;
   box-shadow: 0 4px 24px rgba(0,0,0,0.2);
   transition: all 200ms;
 }
-.btn-white:hover { background: #f0a870; transform: translateY(-1px); box-shadow: 0 8px 32px rgba(0,0,0,0.25); }
+.btn-white:hover { background: #aba3e8; transform: translateY(-1px); box-shadow: 0 8px 32px rgba(0,0,0,0.25); }
 
 /* FOOTER */
 footer {

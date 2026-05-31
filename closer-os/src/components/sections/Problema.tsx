@@ -1,11 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { problemas } from '../../data/problemas'
 
-const ENTER_DURATION = '480ms'
-const EXIT_DURATION = '560ms'
-const ENTER_EASING = 'cubic-bezier(0.16, 1, 0.3, 1)'
-const EXIT_EASING = 'cubic-bezier(0.25, 0.46, 0.45, 0.94)'
-
 export function Problema() {
   const stackRef = useRef<HTMLDivElement>(null)
 
@@ -13,7 +8,6 @@ export function Problema() {
     const stack = stackRef.current
     if (!stack) return
 
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const items = Array.from(stack.querySelectorAll<HTMLElement>('[data-stack]'))
 
     const itemObs = new IntersectionObserver(
@@ -34,49 +28,6 @@ export function Problema() {
     )
 
     items.forEach((el) => itemObs.observe(el))
-
-    if (!prefersReducedMotion) {
-      const enterTransition = `transform ${ENTER_DURATION} ${ENTER_EASING}, opacity ${ENTER_DURATION} ease`
-      const exitTransition = `transform ${EXIT_DURATION} ${EXIT_EASING}, opacity ${EXIT_DURATION} ease`
-
-      items.forEach((item, i) => {
-        item.addEventListener('mouseenter', () => {
-          // lift the hovered card
-          item.style.transition = enterTransition
-          item.style.transform = 'translateY(-3px) scale(1.012)'
-          item.style.boxShadow = '0 10px 28px rgba(0,0,0,0.1)'
-          item.style.borderColor = 'var(--border-2)'
-          item.style.zIndex = '4'
-
-          // push neighbors with depth
-          items.forEach((el, j) => {
-            if (j === i) return
-            const dist = Math.abs(j - i)
-            const dir = j < i ? -1 : 1
-            el.style.transition = enterTransition
-            el.style.transform = `translateY(${dir * dist * 3}px) scale(${1 - dist * 0.007})`
-            el.style.opacity = String(Math.max(0.68, 1 - dist * 0.1))
-          })
-        })
-
-        item.addEventListener('mouseleave', () => {
-          // smooth return of hovered card
-          item.style.transition = exitTransition
-          item.style.transform = ''
-          item.style.boxShadow = ''
-          item.style.borderColor = ''
-          item.style.zIndex = ''
-
-          // smooth return of neighbors
-          items.forEach((el, j) => {
-            if (j === i) return
-            el.style.transition = exitTransition
-            el.style.transform = ''
-            el.style.opacity = ''
-          })
-        })
-      })
-    }
 
     return () => itemObs.disconnect()
   }, [])

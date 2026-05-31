@@ -11,7 +11,10 @@ export function Faq() {
         <h2 className="h2 fade-up d1" style={{ textAlign: 'center', marginBottom: 8 }}>
           Ainda tem dúvidas?
         </h2>
-        <div className="faq-list fade-up d2">
+        <p className="body-lg fade-up d2" style={{ textAlign: 'center', marginBottom: 32 }}>
+          Tudo o que você precisa saber antes de começar.
+        </p>
+        <div className="faq-list fade-up d3">
           {faqItems.map((item) => {
             const isOpen = openId === item.id
             return (
