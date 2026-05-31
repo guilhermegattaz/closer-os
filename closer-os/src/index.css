@@ -313,6 +313,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   .s-card, .s-card-light { margin: 0 16px; border-radius: 20px; padding: 48px 0; }
   .s-card > .container, .s-card-light > .container,
   .s-card > .container-sm, .s-card-light > .container-sm { padding: 0 20px; }
+  #problema .s-card { padding: 72px 0; }
 }
 
 /* PROBLEMA */
@@ -609,13 +610,14 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .mockup-swipe-hint { display: none; }
 .mockup-click-hint {
   display: flex; align-items: center; justify-content: center; gap: 8px;
-  width: fit-content; margin: 40px auto 0; padding: 10px 20px;
-  border-radius: 9999px;
-  background: var(--accent-2); color: #fff;
+  width: fit-content; margin: 40px auto 0; padding: 12px 32px;
+  border-radius: 10px;
+  background: #c3b9ff; color: #1e1a16;
   border: none;
-  font-size: 0.72rem; font-weight: 700;
-  letter-spacing: 0.07em; text-transform: uppercase;
-  box-shadow: 0 4px 16px rgba(2,118,223,0.25);
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.85rem; font-weight: 600;
+  letter-spacing: 0.01em; text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(195,185,255,0.25);
 }
 .mockup-click-hint svg {
   animation: drop-bounce 0.9s ease-in-out infinite;
@@ -674,6 +676,9 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 
 /* AUTORIDADE */
 #autoridade { background: transparent; }
+@media (min-width: 901px) {
+  #autoridade { padding: 48px 0; }
+}
 .autor-profile {
   display: flex; align-items: center; gap: 14px;
   margin-bottom: 28px;
@@ -769,6 +774,9 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   background: transparent;
   padding: 80px 0;
 }
+@media (min-width: 901px) {
+  #oferta { padding: 40px 0; }
+}
 #oferta .container { width: 100%; }
 .oferta-layout {
   display: grid;
@@ -798,9 +806,9 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .oferta-cta-col { margin-top: 40px; }
 .btn-oferta {
   display: flex; align-items: center; justify-content: center;
-  width: 100%; min-height: 52px; border-radius: 9999px;
+  width: 100%; min-height: 52px; border-radius: 10px;
   background: #ffbd8e; color: #1e1a16;
-  font-family: 'Manrope', sans-serif; font-size: 0.9rem; font-weight: 700;
+  font-family: 'Manrope', sans-serif; font-size: 0.9rem; font-weight: 600;
   border: none; cursor: pointer; text-decoration: none;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   transition: all 200ms;
@@ -845,19 +853,19 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 
 /* TRANSIÇÃO AZUL NO CARD BÔNUS */
 .bonus-row-highlight {
-  background: #000 !important;
-  border-color: #ffbd8e !important;
+  background: #c3baff !important;
+  border-color: #c3baff !important;
 }
 .bonus-row-highlight.blue-in {
-  background: #000 !important;
-  border-color: #ffbd8e !important;
+  background: #c3baff !important;
+  border-color: #c3baff !important;
 }
 .bonus-row-highlight .bonus-name,
-.bonus-row-highlight.blue-in .bonus-name { color: #ffffff; }
+.bonus-row-highlight.blue-in .bonus-name { color: #1e1a16; }
 .bonus-row-highlight .bonus-val,
-.bonus-row-highlight.blue-in .bonus-val { color: #ffbd8e !important; font-weight: 600; text-decoration: none; }
+.bonus-row-highlight.blue-in .bonus-val { color: #1e1a16 !important; font-weight: 600; text-decoration: none; }
 .bonus-row-highlight .bonus-icon,
-.bonus-row-highlight.blue-in .bonus-icon { color: #ffbd8e; }
+.bonus-row-highlight.blue-in .bonus-icon { color: #1e1a16; }
 .bonus-tag { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 7px; border-radius: 4px; background: var(--bg-2); border: 1px solid var(--border-2); color: var(--text-3); flex-shrink: 0; white-space:nowrap; }
 .bonus-name { font-size: 0.82rem; color: var(--text); flex: 1; line-height: 1.4; }
 .bonus-val { font-size: 0.75rem; color: var(--text-3); text-decoration: line-through; flex-shrink: 0; }
@@ -953,9 +961,9 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .vantagem-period { font-size: 0.72rem; color: rgba(255,255,255,0.45); margin-bottom: 12px; }
 .vantagem-btn {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 100%; min-height: 48px; border-radius: 9999px;
+  width: 100%; min-height: 48px; border-radius: 10px;
   background: #ffbd8e; color: #1e1a16;
-  font-family: 'Manrope', sans-serif; font-size: 0.88rem; font-weight: 700;
+  font-family: 'Manrope', sans-serif; font-size: 0.88rem; font-weight: 600;
   border: none; cursor: pointer; text-decoration: none;
   box-shadow: 0 4px 16px rgba(0,0,0,0.2);
   transition: all 200ms;
@@ -1035,7 +1043,13 @@ footer {
   .hero-cta-block { grid-column: 1; grid-row: 3; align-items: center; }
   .hero-cta-row { justify-content: center; }
   .hero-trust   { justify-content: center; }
-  .como-grid { grid-template-columns: 1fr; }
+  .como-grid { grid-template-columns: 1fr; margin-top: 20px; }
+  .como-layout { gap: 20px; }
+  .como-card { padding: 16px 20px; }
+  .como-lottie { width: 36px; height: 36px; margin-bottom: 10px; }
+  .como-emoji { font-size: 1.6rem; }
+  .como-card h3 { font-size: 0.88rem; margin-bottom: 6px; }
+  .como-card p { font-size: 0.8rem; line-height: 1.55; }
   .exemplos-grid { grid-template-columns: 1fr; }
   .exemplo-card:nth-child(n) { grid-column: 1 / -1; }
 
@@ -1112,11 +1126,15 @@ footer {
     animation-delay: 0.45s;
   }
   .quem-grid { grid-template-columns: 1fr 1fr; }
+  #autoridade { padding-top: 32px; }
   .autor-grid { grid-template-columns: 1fr; gap: 40px; }
   .autor-img-col { min-height: 420px; }
   .autor-img-placeholder { min-height: 340px; }
   .oferta-layout { grid-template-columns: 1fr; }
   #sticky-cta { display: none !important; }
+  .oferta-right-headline { margin-bottom: 16px; }
+  #oferta { padding-bottom: 32px; }
+  #faq { padding-top: 32px; padding-bottom: 32px; }
 }
 @media (max-width: 600px) {
   .quem-grid { grid-template-columns: 1fr; }
@@ -1172,10 +1190,21 @@ footer {
   .como-left .h2 { text-align: left; }
   .como-left .body-lg { text-align: left; }
   .como-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 0;
-    gap: 16px;
+    gap: 12px;
   }
+  .como-card {
+    padding: 20px 16px;
+  }
+  .como-lottie {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 12px;
+  }
+  .como-emoji { font-size: 1.8rem; }
+  .como-card h3 { font-size: 0.85rem; }
+  .como-card p { font-size: 0.78rem; }
 }
 
 /* HERO DESKTOP +30% */
