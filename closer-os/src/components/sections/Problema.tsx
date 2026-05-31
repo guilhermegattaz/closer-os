@@ -65,16 +65,6 @@ export function ProblemaCard() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  )
-}
-
-export function Problema() {
-  return (
-    <section id="problema">
-      <ProblemaCard />
-      <div className="container">
         <div className="bridge-box fade-up">
           <div className="bridge-box-dot">
             <svg viewBox="0 0 14 14" fill="none" stroke="#1e1a16" strokeWidth="2">
@@ -87,6 +77,14 @@ export function Problema() {
           </p>
         </div>
       </div>
+    </div>
+  )
+}
+
+export function Problema() {
+  return (
+    <section id="problema">
+      <ProblemaCard />
     </section>
   )
 }
