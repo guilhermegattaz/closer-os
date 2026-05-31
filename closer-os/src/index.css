@@ -931,10 +931,11 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   margin-top: 48px;
   background: #1e1a16;
   border-radius: 20px;
-  display: grid;
-  grid-template-columns: 1fr auto;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 40px;
+  text-align: center;
+  gap: 32px;
   padding: 40px 48px;
   box-shadow: 0 16px 48px rgba(18,49,89,0.2);
 }
@@ -1142,7 +1143,7 @@ footer {
   .hero-cta-row { flex-direction: column; align-items: center; }
   section { padding: 64px 0; }
   #hero { padding-bottom: 40px; }
-  .vantagem-card { grid-template-columns: 1fr; }
+  .vantagem-card { padding: 32px 24px; }
   .cta-quote { font-size: 28px; }
   #final-cta { padding: 48px 0; }
   .final-cta-card { padding: 40px 24px; border-radius: 16px; }
