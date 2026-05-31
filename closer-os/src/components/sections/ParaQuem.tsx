@@ -89,7 +89,6 @@ export function ParaQuem() {
   return (
     <section id="para-quem">
       <div className="container">
-        <div className="section-eyebrow fade-up">O CloserOS™ foi feito para você se...</div>
         <h2 className="h2 fade-up d1" style={{ textAlign: 'center' }}>
           Você tem talento.<br className="br-desktop" />{' '}O que falta é <span style={{ color: '#8be5ab' }}>saber o que dizer.</span>
         </h2>

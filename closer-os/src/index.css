@@ -935,8 +935,8 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  gap: 32px;
+  justify-content: center;
+  gap: 64px;
   padding: 40px 48px;
   box-shadow: 0 16px 48px rgba(18,49,89,0.2);
 }
