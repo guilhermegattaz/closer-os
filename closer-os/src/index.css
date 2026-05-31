@@ -1014,7 +1014,7 @@ footer {
 }
 .footer-logo { font-family: 'Manrope', sans-serif; font-weight: 600; font-size: 0.95rem; color: var(--text); }
 .footer-links { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
-.footer-links a { font-size: 0.78rem; color: var(--text-3); text-decoration: none; transition: color 150ms; }
+.footer-links a, .footer-links span { font-size: 0.78rem; color: var(--text-3); text-decoration: none; transition: color 150ms; }
 .footer-links a:hover { color: var(--text-2); }
 .footer-copy { font-size: 0.73rem; color: var(--text-3); line-height: 1.6; }
 
