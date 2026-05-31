@@ -1186,9 +1186,9 @@ footer {
 
 /* COMO FUNCIONA — 2 colunas desktop */
 @media (min-width: 901px) {
-  #como .container { padding: 0 24px; }
+  #como .container { padding: 0; }
   .como-layout {
-    grid-template-columns: 32fr 68fr;
+    grid-template-columns: 34fr 66fr;
     gap: 48px;
     align-items: start;
     max-width: 1152px;
