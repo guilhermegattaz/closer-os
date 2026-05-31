@@ -1,6 +1,7 @@
 import { paraQuem } from '../../data/paraQuem'
 import type { ParaQuemCard } from '../../types'
 import { KIWIFY_URL } from '../../data/links'
+import { ProblemaCard } from './Problema'
 
 function QuemIcon({ icon }: { icon: ParaQuemCard['icon'] }) {
   const svgProps = { viewBox: '0 0 24 24', fill: 'none' as const, stroke: 'currentColor' as const, strokeWidth: 1.6, width: 20, height: 20 }
@@ -32,6 +33,7 @@ export function ParaQuem() {
           ))}
         </div>
       </div>
+      <ProblemaCard />
       <div className="fade-up vantagem-card">
         <div className="vantagem-left">
           <div className="vantagem-tag">Sua vantagem competitiva</div>

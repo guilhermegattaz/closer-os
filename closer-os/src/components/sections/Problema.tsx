@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { problemas } from '../../data/problemas'
 
-export function Problema() {
+export function ProblemaCard() {
   const stackRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -16,10 +16,6 @@ export function Problema() {
           if (entry.isIntersecting) {
             const el = entry.target as HTMLElement
             el.classList.add('in-view')
-            if (el.classList.contains('bridge-box')) {
-              el.style.opacity = '1'
-              el.style.transform = 'translateX(0) scale(1)'
-            }
             itemObs.unobserve(entry.target)
           }
         })
@@ -33,8 +29,7 @@ export function Problema() {
   }, [])
 
   return (
-    <section id="problema">
-      <div className="s-card">
+    <div className="s-card">
       <div className="container">
         <div className="problema-grid">
           <div className="problema-left">
@@ -53,25 +48,32 @@ export function Problema() {
             </p>
           </div>
           <div className="problema-right">
-        <div className="problema-wrap">
-          <div className="stack-wrapper" ref={stackRef}>
-            {problemas.map((p) => (
-              <div key={p.id} className="problema-item" data-stack="">
-                <div className="x-dot">
-                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="var(--red)" strokeWidth="2">
-                    <line x1="2" y1="2" x2="10" y2="10" />
-                    <line x1="10" y1="2" x2="2" y2="10" />
-                  </svg>
-                </div>
-                <p><strong>{p.titulo}</strong> {p.descricao}</p>
+            <div className="problema-wrap">
+              <div className="stack-wrapper" ref={stackRef}>
+                {problemas.map((p) => (
+                  <div key={p.id} className="problema-item" data-stack="">
+                    <div className="x-dot">
+                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="var(--red)" strokeWidth="2">
+                        <line x1="2" y1="2" x2="10" y2="10" />
+                        <line x1="10" y1="2" x2="2" y2="10" />
+                      </svg>
+                    </div>
+                    <p><strong>{p.titulo}</strong> {p.descricao}</p>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </div>
+            </div>
           </div>
         </div>
       </div>
-      </div>
+    </div>
+  )
+}
+
+export function Problema() {
+  return (
+    <section id="problema">
+      <ProblemaCard />
       <div className="container">
         <div className="bridge-box fade-up">
           <div className="bridge-box-dot">
