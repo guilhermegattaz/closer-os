@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { problemas } from '../../data/problemas'
+import { KIWIFY_URL } from '../../data/links'
 
 export function ProblemaCard() {
   const stackRef = useRef<HTMLDivElement>(null)
@@ -65,17 +66,6 @@ export function ProblemaCard() {
             </div>
           </div>
         </div>
-        <div className="bridge-box fade-up">
-          <div className="bridge-box-dot">
-            <svg viewBox="0 0 14 14" fill="none" stroke="#8be5ab" strokeWidth="2">
-              <polyline points="2,7 6,11 12,3" />
-            </svg>
-          </div>
-          <p className="bridge-text">
-            <strong>Isso tem solução. E ela cabe em R$47.</strong>
-            Você perde clientes todos os dias — não porque o seu trabalho é ruim. Porque ninguém te ensinou o que dizer nesses momentos.
-          </p>
-        </div>
       </div>
     </div>
   )
@@ -85,6 +75,18 @@ export function Problema() {
   return (
     <section id="problema">
       <ProblemaCard />
+      <div className="fade-up vantagem-card">
+        <div className="vantagem-left">
+          <div className="vantagem-tag">Isso tem solução. E ela cabe em R$47.</div>
+          <p className="vantagem-text">Você perde clientes todos os dias — não porque o seu trabalho é ruim. Porque ninguém te ensinou o que dizer nesses momentos.</p>
+        </div>
+        <div className="vantagem-right">
+          <div className="vantagem-price">R$47</div>
+          <div className="vantagem-period">pagamento único · sem mensalidade</div>
+          <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer">Quero agora →</a>
+          <p className="vantagem-meta">Garantia de 7 dias · Acesso imediato</p>
+        </div>
+      </div>
     </section>
   )
 }
