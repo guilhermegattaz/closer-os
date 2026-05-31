@@ -1180,7 +1180,7 @@ footer {
 /* COMO FUNCIONA — 2 colunas desktop */
 @media (min-width: 901px) {
   .como-layout {
-    grid-template-columns: 35fr 65fr;
+    grid-template-columns: 28fr 72fr;
     gap: 64px;
     align-items: start;
   }
