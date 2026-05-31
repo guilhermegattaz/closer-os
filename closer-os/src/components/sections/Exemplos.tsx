@@ -36,7 +36,7 @@ export function Exemplos() {
         <MockupCarousel />
         <div className="vsl-wrap fade-up" style={{ marginTop: 48, maxWidth: 860 }} role="region" aria-label="Vídeo de apresentação do CloserOS™">
           {/* @ts-expect-error wistia-player is a custom web component */}
-          <wistia-player media-id="2l92zhr9wx" aspect="1.7778" />
+          <wistia-player media-id="zgyxvdc2ev" aspect="1.5609756097560976" />
         </div>
       </div>
       </div>
