@@ -15,7 +15,7 @@ export function Exemplos() {
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 620, margin: '16px auto 0' }}>
           Por trás do CloserOS™: mais de R$9.000.000 em vendas 1:1 e a expertise dos maiores especialistas em vendas do mundo.
         </p>
-        <div className="vsl-wrap fade-up d3" style={{ marginTop: 32, maxWidth: 860, margin: '32px auto 0' }} role="region" aria-label="Vídeo de apresentação do CloserOS™">
+        <div className="vsl-wrap fade-up d3" style={{ margin: '32px auto 0', maxWidth: 1118 }} role="region" aria-label="Vídeo de apresentação do CloserOS™">
           {/* @ts-expect-error wistia-player is a custom web component */}
           <wistia-player media-id="zgyxvdc2ev" aspect="1.5609756097560976" />
         </div>
