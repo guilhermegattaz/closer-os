@@ -78,7 +78,7 @@ export function Problema() {
       <div className="fade-up vantagem-card">
         <div className="vantagem-left">
           <div className="vantagem-tag">Isso tem solução. E ela cabe em R$47.</div>
-          <p className="vantagem-text">Você perde clientes todos os dias — não porque o seu trabalho é ruim. Porque ninguém te ensinou o que dizer nesses momentos.</p>
+          <p className="vantagem-text">Você perde clientes todos os dias — não porque o seu trabalho é ruim.<br />Porque ninguém te ensinou o que dizer nesses momentos.</p>
         </div>
         <div className="vantagem-right">
           <div className="vantagem-price">R$47</div>
