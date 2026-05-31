@@ -81,8 +81,8 @@ export function Problema() {
           <p className="vantagem-text">Você perde clientes todos os dias — não porque o seu trabalho é ruim.<br />Porque ninguém te ensinou o que dizer nesses momentos.</p>
         </div>
         <div className="vantagem-right">
-          <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer">Quero agora →</a>
           <div className="vantagem-period" style={{ marginBottom: 4 }}>pagamento único · sem mensalidade</div>
+          <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer">Quero agora →</a>
           <p className="vantagem-meta">Garantia de 7 dias · Acesso imediato</p>
         </div>
       </div>
