@@ -345,8 +345,6 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   .problema-left {
     align-items: flex-start;
     text-align: left;
-    position: sticky;
-    top: 96px;
   }
   .problema-right .problema-wrap {
     max-width: none;
