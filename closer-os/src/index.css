@@ -1182,7 +1182,7 @@ footer {
 @media (min-width: 901px) {
   .como-layout {
     grid-template-columns: 28fr 72fr;
-    gap: 64px;
+    gap: 32px;
     align-items: start;
   }
   .como-left {
