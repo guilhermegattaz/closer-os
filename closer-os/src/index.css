@@ -932,9 +932,9 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   background: #1e1a16;
   border-radius: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  text-align: center;
+  justify-content: space-between;
   gap: 32px;
   padding: 40px 48px;
   box-shadow: 0 16px 48px rgba(18,49,89,0.2);
@@ -949,9 +949,10 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   font-size: 1.05rem; line-height: 1.7;
   color: rgba(255,255,255,0.85);
 }
+.vantagem-left { max-width: 60%; text-align: left; }
 .vantagem-right {
   display: flex; flex-direction: column; align-items: center;
-  gap: 6px; flex-shrink: 0; min-width: 180px; text-align: center;
+  gap: 6px; flex-shrink: 0; min-width: 280px; text-align: center;
 }
 .vantagem-price {
   font-family: 'Manrope', sans-serif;
