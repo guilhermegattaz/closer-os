@@ -892,7 +892,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .pay-chip { font-size: 0.72rem; padding: 4px 10px; background: var(--bg-2); border: 1px solid var(--border); border-radius: 6px; color: var(--text-3); }
 
 /* FAQ */
-#faq { background: transparent; }
+#faq { background: #f9f8ff; }
 .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 40px; border: 1px solid var(--border); border-radius: var(--radius-card); overflow: hidden; }
 .faq-item { border-bottom: 1px solid var(--border); }
 .faq-item:last-child { border-bottom: none; }
