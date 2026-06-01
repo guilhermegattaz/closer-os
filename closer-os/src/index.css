@@ -303,7 +303,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .s-card .body-lg { color: rgba(255,255,255,0.72); }
 .s-card strong { color: #fff; }
 /* Problema items no card escuro */
-.s-card .problema-item { background: #e4e4e4; }
+.s-card .problema-item { background: transparent; }
 .s-card .problema-item p { color: rgba(255,255,255,0.72); }
 .s-card .problema-item p strong { color: #c3baff; }
 .s-card .x-dot { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1); }
@@ -392,8 +392,8 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .problema-item {
   display: flex; align-items: flex-start; gap: 16px;
   padding: 22px 24px;
-  background: #e4e4e4;
-  border: 1px solid #c3baff;
+  background: transparent;
+  border: 1px solid #e4e4e4;
   border-radius: 14px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   position: relative;
