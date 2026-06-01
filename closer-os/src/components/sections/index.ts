@@ -1,4 +1,5 @@
 export { Hero } from './Hero'
+export { Depoimentos } from './Depoimentos'
 export { Problema } from './Problema'
 export { ComoFunciona } from './ComoFunciona'
 export { Exemplos } from './Exemplos'

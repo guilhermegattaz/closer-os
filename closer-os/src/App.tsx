@@ -4,7 +4,7 @@ import { Footer } from './components/layout/Footer'
 import { StickyCTA } from './components/layout/StickyCTA'
 import {
   Hero, Problema, ComoFunciona, Exemplos,
-  ParaQuem, Autoridade, Oferta, Faq, FinalCta
+  ParaQuem, Autoridade, Oferta, Faq, FinalCta, Depoimentos
 } from './components/sections'
 import { VantagemCard } from './components/sections/ParaQuem'
 
@@ -53,6 +53,7 @@ export default function App() {
           tag="Quanto valeria fechar +80% de todos os clientes com quem conversa?"
           text="Você ganharia mais dinheiro? Se sim, você está a 8 minutos de mudar isso em sua vida. É só clicar no botão e ter o CloserOS ao seu lado já na próxima conversa para fechar seu próximo cliente."
         />
+        <Depoimentos />
         <Oferta />
         <Faq />
         <FinalCta />
