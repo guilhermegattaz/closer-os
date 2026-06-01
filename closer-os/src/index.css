@@ -798,7 +798,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 /* COLUNA ESQUERDA: preço + cta */
 .oferta-left {
   padding: 36px 40px;
-  background: #c3baff;
+  background: #ffffff;
   display: flex; flex-direction: column; justify-content: space-between;
   gap: 24px;
 }
@@ -857,12 +857,12 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 
 /* TRANSIÇÃO AZUL NO CARD BÔNUS */
 .bonus-row-highlight {
-  background: #8be5ab !important;
-  border-color: #8be5ab !important;
+  background: #ffffff !important;
+  border-color: #c3baff !important;
 }
 .bonus-row-highlight.blue-in {
-  background: #8be5ab !important;
-  border-color: #8be5ab !important;
+  background: #ffffff !important;
+  border-color: #c3baff !important;
 }
 .bonus-row-highlight .bonus-name,
 .bonus-row-highlight.blue-in .bonus-name { color: #1e1a16; }
@@ -960,6 +960,10 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .vantagem-card--light .vantagem-tag { color: #8be5ab; }
 .vantagem-card--light .vantagem-btn { background: #8be5ab; }
 .vantagem-card--light .vantagem-btn:hover { background: #6fd49a; }
+.vantagem-card--naked { background: transparent; box-shadow: none; border-radius: 0; }
+.vantagem-card--naked .vantagem-text { color: var(--text-2); }
+.vantagem-card--naked .vantagem-price { color: #000000; }
+.vantagem-card--naked .vantagem-period { color: #000000; }
 .vantagem-text {
   font-family: 'Manrope', sans-serif;
   font-size: 1.05rem; line-height: 1.7;
