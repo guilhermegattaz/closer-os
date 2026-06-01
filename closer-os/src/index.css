@@ -661,7 +661,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 }
 
 /* PARA QUEM */
-#para-quem { background: transparent; padding-top: 32px; }
+#para-quem { background: transparent; padding-top: 32px; padding-bottom: 32px; }
 #para-quem .section-eyebrow { color: #c3baff; }
 #para-quem > .container { padding-bottom: 72px; }
 .quem-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 56px; }
