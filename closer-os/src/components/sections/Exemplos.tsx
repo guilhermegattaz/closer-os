@@ -1,5 +1,3 @@
-import { MockupCarousel } from '../ui/MockupCarousel'
-
 export function Exemplos() {
   return (
     <section id="exemplos">
@@ -19,25 +17,6 @@ export function Exemplos() {
           {/* @ts-expect-error wistia-player is a custom web component */}
           <wistia-player media-id="2tbc1fl62k" aspect="0.46153846153846156" />
         </div>
-        <div className="mockup-click-hint fade-up d3">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            <path d="M12 5v14M7 15l5 5 5-5"/>
-          </svg>
-          Clique em cada exemplo para visualizar aumentado
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            <path d="M12 5v14M7 15l5 5 5-5"/>
-          </svg>
-        </div>
-        <div className="mockup-swipe-hint fade-up d3">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            <path d="M5 12h14M15 7l5 5-5 5"/>
-          </svg>
-          deslize para ver os exemplos
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            <path d="M5 12h14M15 7l5 5-5 5"/>
-          </svg>
-        </div>
-        <MockupCarousel />
       </div>
       </div>
     </section>
