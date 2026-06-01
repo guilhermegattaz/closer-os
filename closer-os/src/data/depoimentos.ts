@@ -21,7 +21,7 @@ export const depoimentos: Depoimento[] = [
     badge: 'Não dou mais desconto',
     texto: '"O cliente disse \'tá caro\' e eu sabia exatamente o que responder. Resultado: fechei o contrato no valor cheio, sem desconto."',
     nome: 'Rodrigo M.',
-    cargo: 'Consultor de Marketing',
+    cargo: 'Consultor de Marketing · usuário do CloserOS',
     iniciais: 'RM',
   },
   {
@@ -29,7 +29,7 @@ export const depoimentos: Depoimento[] = [
     badge: 'Me senti confiante',
     texto: '"Nunca imaginei que algumas perguntas certas poderiam mudar tanto uma negociação. O CloserOS me mostrou exatamente o que dizer em cada etapa."',
     nome: 'Fernanda L.',
-    cargo: 'Mentora de Negócios',
+    cargo: 'Mentora de Negócios · usuária do CloserOS',
     iniciais: 'FL',
   },
   {
