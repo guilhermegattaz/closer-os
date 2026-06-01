@@ -681,7 +681,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 /* AUTORIDADE */
 #autoridade { background: transparent; }
 @media (min-width: 901px) {
-  #autoridade { padding: 48px 0; }
+  #autoridade { padding: 48px 0 16px; }
 }
 .autor-profile {
   display: flex; align-items: center; gap: 14px;
