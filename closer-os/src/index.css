@@ -787,7 +787,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
-  background: var(--surface);
+  background: #f9f8ff;
   border: 1px solid var(--border);
   border-radius: 24px;
   overflow: hidden;
@@ -812,7 +812,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .btn-oferta {
   display: flex; align-items: center; justify-content: center;
   width: 100%; min-height: 52px; border-radius: 10px;
-  background: #ffffff; color: #1e1a16;
+  background: #ffbd8e; color: #1e1a16;
   font-family: 'Manrope', sans-serif; font-size: 0.9rem; font-weight: 600;
   border: none; cursor: pointer; text-decoration: none;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
@@ -832,7 +832,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 /* COLUNA DIREITA: bônus */
 .oferta-right {
   padding: 32px 36px;
-  background: var(--surface);
+  background: #f9f8ff;
   display: flex; flex-direction: column; justify-content: space-between;
   border-left: 1px solid var(--border);
 }
