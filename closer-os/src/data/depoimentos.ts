@@ -21,7 +21,7 @@ export const depoimentos: Depoimento[] = [
     badge: 'Não dou mais desconto',
     texto: '"O cliente disse \'tá caro\' e eu sabia exatamente o que responder. Resultado: fechei o contrato no valor cheio, sem desconto."',
     nome: 'Rodrigo M.',
-    cargo: 'Consultor de Marketing · usuário do CloserOS',
+    cargo: 'Ag. de Marketing · usuário do CloserOS',
     iniciais: 'RM',
   },
   {
@@ -37,7 +37,7 @@ export const depoimentos: Depoimento[] = [
     badge: 'Sei o que dizer quando comparam',
     texto: '"Gente, o que mais me cansava era quando a cliente falava \'no outro lugar é mais barato\'. Ficava sem jeito, às vezes já ia dando desconto antes de ela nem pedir. Consultei o CloserOS e aprendi a responder com uma pergunta em vez de me defender. Testei na semana seguinte com uma cliente que falou exatamente isso. Deu super certo!"',
     nome: 'Thaís Oliveira',
-    cargo: 'Empreendedora Estética · usuária do CloserOS',
+    cargo: 'Empresária Estética · usuária do CloserOS',
     iniciais: 'TO',
   },
   {
