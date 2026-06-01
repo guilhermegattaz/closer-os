@@ -1152,7 +1152,7 @@ footer {
   }
   .quem-grid { grid-template-columns: 1fr 1fr; margin-top: 28px; }
   #para-quem { padding-bottom: 24px; }
-  #autoridade { padding-top: 16px; }
+  #autoridade { padding-top: 16px; padding-bottom: 16px; }
   .autor-grid { grid-template-columns: 1fr; gap: 40px; }
   .autor-img-col { min-height: 420px; }
   .autor-img-placeholder { min-height: 340px; }
