@@ -777,6 +777,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 #oferta {
   background: transparent;
   padding: 80px 0;
+  padding-top: 24px;
 }
 @media (min-width: 901px) {
   #oferta { padding: 40px 0; }
@@ -960,7 +961,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .vantagem-card--light .vantagem-tag { color: #8be5ab; }
 .vantagem-card--light .vantagem-btn { background: #8be5ab; }
 .vantagem-card--light .vantagem-btn:hover { background: #6fd49a; }
-.vantagem-card--naked { background: transparent; box-shadow: none; border-radius: 0; }
+.vantagem-card--naked { background: transparent; box-shadow: none; border-radius: 0; margin-top: 16px; margin-bottom: 0; }
 .vantagem-card--naked .vantagem-text { color: var(--text-2); }
 .vantagem-card--naked .vantagem-price { color: #000000; }
 .vantagem-card--naked .vantagem-period { color: #000000; }
