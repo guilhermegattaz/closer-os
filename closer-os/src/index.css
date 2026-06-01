@@ -854,7 +854,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 }
 .bonus-icon { width: 28px; height: 28px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: var(--text-3); transition: color 0.5s ease; }
 .bonus-icon svg { width: 18px; height: 18px; }
-.gift-icon { color: var(--accent-2); }
+.gift-icon { color: #c3baff; }
 
 /* TRANSIÇÃO AZUL NO CARD BÔNUS */
 .bonus-row-highlight {
@@ -868,7 +868,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .bonus-row-highlight .bonus-name,
 .bonus-row-highlight.blue-in .bonus-name { color: #1e1a16; }
 .bonus-row-highlight .bonus-val,
-.bonus-row-highlight.blue-in .bonus-val { color: #1e1a16 !important; font-weight: 600; text-decoration: none; }
+.bonus-row-highlight.blue-in .bonus-val { color: #ffbd8e !important; font-weight: 600; text-decoration: none; }
 .bonus-row-highlight .bonus-icon,
 .bonus-row-highlight.blue-in .bonus-icon { color: #1e1a16; }
 .bonus-tag { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 7px; border-radius: 4px; background: var(--bg-2); border: 1px solid var(--border-2); color: var(--text-3); flex-shrink: 0; white-space:nowrap; }
@@ -962,9 +962,12 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .vantagem-card--light .vantagem-btn { background: #8be5ab; }
 .vantagem-card--light .vantagem-btn:hover { background: #6fd49a; }
 .vantagem-card--naked { background: transparent; box-shadow: none; border-radius: 0; margin-top: 16px; margin-bottom: 0; }
+.vantagem-card--naked .vantagem-tag { color: #8be5ab; }
 .vantagem-card--naked .vantagem-text { color: var(--text-2); }
 .vantagem-card--naked .vantagem-price { color: #000000; }
-.vantagem-card--naked .vantagem-period { color: #000000; }
+.vantagem-card--naked .vantagem-period { color: #e4e4e4; }
+.vantagem-card--naked .vantagem-btn { background: #8be5ab; }
+.vantagem-card--naked .vantagem-btn:hover { background: #6fd49a; }
 .vantagem-text {
   font-family: 'Manrope', sans-serif;
   font-size: 1.05rem; line-height: 1.7;
