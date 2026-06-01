@@ -784,6 +784,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 }
 @media (min-width: 901px) {
   #oferta { padding: 40px 0; background: #f5f5f5; }
+  .vantagem-card--naked { margin-top: 24px; }
 }
 #oferta .container { width: 100%; }
 .oferta-layout {
