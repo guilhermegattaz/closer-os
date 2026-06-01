@@ -783,7 +783,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   padding-top: 24px;
 }
 @media (min-width: 901px) {
-  #oferta { padding: 40px 0; }
+  #oferta { padding: 40px 0; background: #f5f5f5; }
 }
 #oferta .container { width: 100%; }
 .oferta-layout {
