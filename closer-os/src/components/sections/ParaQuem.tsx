@@ -4,7 +4,7 @@ import type { ParaQuemCard } from '../../types'
 import { KIWIFY_URL } from '../../data/links'
 
 const negociosItems = [
-  { id: 'n1', titulo: 'Crie scripts e roteiros personalizados.', descricao: 'Para qualquer cenário, ligações, mensagens, reuniões.' },
+  { id: 'n1', titulo: 'Crie roteiros personalizados.', descricao: 'Para qualquer cenário, ligações, mensagens, reuniões.' },
   { id: 'n2', titulo: 'Negocie como um profissional.', descricao: 'Conduza o cliente com autoridade e confiança.' },
   { id: 'n3', titulo: 'Novos clientes todos os dias.', descricao: 'Estratégias de prospecção e indicação.' },
   { id: 'n4', titulo: 'Domine seu processo de vendas.', descricao: 'Saiba qual pergunta fazer em cada etapa.' },
