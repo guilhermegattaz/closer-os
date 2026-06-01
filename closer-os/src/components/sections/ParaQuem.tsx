@@ -92,6 +92,9 @@ export function ParaQuem() {
         <h2 className="h2 fade-up d1" style={{ textAlign: 'center' }}>
           Você tem talento.<br className="br-desktop" />{' '}O que falta é <span style={{ color: '#8be5ab' }}>saber o que dizer.</span>
         </h2>
+        <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 620, margin: '16px auto 0' }}>
+          Não te ensinaram a vender seu serviço. Você deu seu melhor até aqui. Agora é hora de conquistar o que você merece e ser valorizado de verdade.
+        </p>
         <div className="quem-grid">
           {paraQuem.map((card, i) => (
             <div key={card.id} className={`quem-card fade-up${i % 3 === 1 ? ' d1' : i % 3 === 2 ? ' d2' : ''}`}>
