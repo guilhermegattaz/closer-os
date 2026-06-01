@@ -1105,6 +1105,8 @@ footer {
   .problema-right--desktop { display: none; }
   .problema-mobile-items { display: block; padding: 24px 20px 0; }
   #problema .vantagem-card { margin-top: 40px; padding-top: 56px; padding-bottom: 56px; }
+  #problema .vantagem-card .vantagem-tag { font-size: clamp(1.688rem, 1.8vw + 0.45rem, 2.025rem); }
+  #problema .vantagem-card .vantagem-text { font-size: clamp(0.9rem, 0.36vw + 0.81rem, 1.013rem); }
   .problema-mobile-items .x-dot { background: #f0f0f0; border-color: #e4e4e4; }
   .problema-mobile-items .x-dot svg { stroke: var(--red); }
   .problema-mobile-items .problema-item p strong { color: #000000; }
