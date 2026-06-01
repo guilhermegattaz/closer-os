@@ -1067,7 +1067,8 @@ footer {
   .problema-grid { row-gap: 36px; }
   .problema-right--desktop { display: none; }
   .problema-mobile-items { display: block; padding: 24px 20px 0; }
-  .problema-mobile-items .x-dot svg { stroke: #888888; }
+  .problema-mobile-items .x-dot { background: #f0f0f0; border-color: #e4e4e4; }
+  .problema-mobile-items .x-dot svg { stroke: var(--red); }
   .problema-mobile-items .problema-item p strong { color: #000000; }
   .section-banner { padding: 0; }
   .section-banner-text { font-size: clamp(0.92rem, 2.02vw + 0.29rem, 1.85rem); }
