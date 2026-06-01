@@ -391,6 +391,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   display: flex; align-items: flex-start; gap: 16px;
   padding: 22px 24px;
   background: var(--surface);
+  border: 1px solid #c3baff;
   border-radius: 14px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   position: relative;
