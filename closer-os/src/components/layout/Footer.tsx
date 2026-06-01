@@ -4,7 +4,7 @@ export function Footer() {
       <div className="container">
         <div className="footer-inner">
           <div className="footer-logo">
-            <img src="/images/logo3.webp" alt="CloserOS™" style={{ height: 28, width: 'auto' }} />
+            <img src="/images/Logonew.webp" alt="CloserOS™" style={{ height: 28, width: 'auto' }} />
           </div>
           <div className="footer-links">
             <span>Termos de Uso</span>
