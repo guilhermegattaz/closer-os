@@ -313,7 +313,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   .s-card, .s-card-light { margin: 0 16px; border-radius: 20px; padding: 48px 0; }
   .s-card > .container, .s-card-light > .container,
   .s-card > .container-sm, .s-card-light > .container-sm { padding: 0 20px; }
-  #problema .s-card { padding: 72px 0; }
+  #problema .s-card { padding: 40px 0; }
 }
 
 /* PROBLEMA */
