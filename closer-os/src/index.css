@@ -320,6 +320,9 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 
 /* PROBLEMA */
 #problema { background: transparent !important; padding: 32px 0; }
+/* Desktop: show items inside card, hide mobile copy */
+.problema-right--desktop { display: block; }
+.problema-mobile-items { display: none; }
 .problema-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -1062,6 +1065,8 @@ footer {
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; column-gap: 0; row-gap: 20px; }
   .problema-grid { row-gap: 36px; }
+  .problema-right--desktop { display: none; }
+  .problema-mobile-items { display: block; padding: 24px 20px 0; }
   .section-banner { padding: 0; }
   .section-banner-text { font-size: clamp(0.92rem, 2.02vw + 0.29rem, 1.85rem); }
   .hero-text    { grid-column: 1; grid-row: 1; align-items: center; text-align: center; }
