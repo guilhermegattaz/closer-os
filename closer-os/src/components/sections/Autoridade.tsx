@@ -3,6 +3,7 @@ import { GUILHERME_B64 } from '../../assets/guilherme'
 export function Autoridade() {
   return (
     <section id="autoridade">
+      <div className="s-card-light">
       <div className="container">
         <div className="autor-grid">
           <div className="fade-up">
@@ -50,6 +51,7 @@ export function Autoridade() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   )
