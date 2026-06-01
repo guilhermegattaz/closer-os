@@ -798,7 +798,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 /* COLUNA ESQUERDA: preço + cta */
 .oferta-left {
   padding: 36px 40px;
-  background: #1e1a16;
+  background: #c3baff;
   display: flex; flex-direction: column; justify-content: space-between;
   gap: 24px;
 }
@@ -811,7 +811,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .btn-oferta {
   display: flex; align-items: center; justify-content: center;
   width: 100%; min-height: 52px; border-radius: 10px;
-  background: #ffbd8e; color: #1e1a16;
+  background: #ffffff; color: #1e1a16;
   font-family: 'Manrope', sans-serif; font-size: 0.9rem; font-weight: 600;
   border: none; cursor: pointer; text-decoration: none;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
