@@ -301,9 +301,9 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .s-card .body-lg { color: rgba(255,255,255,0.72); }
 .s-card strong { color: #fff; }
 /* Problema items no card escuro */
-.s-card .problema-item { background: #1e1a16; }
+.s-card .problema-item { background: #e4e4e4; }
 .s-card .problema-item p { color: rgba(255,255,255,0.72); }
-.s-card .problema-item p strong { color: #fff; }
+.s-card .problema-item p strong { color: #c3baff; }
 .s-card .x-dot { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1); }
 .s-card .x-dot svg { stroke: #f9f8ff; }
 @media (max-width: 900px) {
@@ -390,7 +390,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .problema-item {
   display: flex; align-items: flex-start; gap: 16px;
   padding: 22px 24px;
-  background: var(--surface);
+  background: #e4e4e4;
   border: 1px solid #c3baff;
   border-radius: 14px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
@@ -421,7 +421,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 }
 .x-dot svg { width: 12px; height: 12px; }
 .problema-item p { font-size: 0.92rem; color: var(--text-2); line-height: 1.65; }
-.problema-item p strong { color: var(--text); font-weight: 600; display: block; margin-bottom: 3px; }
+.problema-item p strong { color: #c3baff; font-weight: 600; display: block; margin-bottom: 3px; }
 
 /* COMO */
 #como { background: transparent; padding: 40px 0; }

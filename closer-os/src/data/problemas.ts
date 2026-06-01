@@ -9,7 +9,7 @@ export const problemas: Problema[] = [
   {
     id: 'p2',
     titulo: 'A pessoa diz "vou pensar" e some.',
-    descricao: 'Você fica torcendo, sem saber se manda mensagem ou espera.',
+    descricao: 'Você fica torcendo, sem saber se manda mensagem.',
   },
   {
     id: 'p3',
@@ -19,6 +19,6 @@ export const problemas: Problema[] = [
   {
     id: 'p4',
     titulo: 'Como cobrar o que você vale sem travar.',
-    descricao: 'Você aceita menos porque não sabe como mostrar seu valor.',
+    descricao: 'Você aceita menos porque não quer perder venda.',
   },
 ]
