@@ -1068,6 +1068,7 @@ footer {
   .problema-grid { row-gap: 36px; }
   .problema-right--desktop { display: none; }
   .problema-mobile-items { display: block; padding: 24px 20px 0; }
+  #problema .vantagem-card { margin-top: 40px; }
   .problema-mobile-items .x-dot { background: #f0f0f0; border-color: #e4e4e4; }
   .problema-mobile-items .x-dot svg { stroke: var(--red); }
   .problema-mobile-items .problema-item p strong { color: #000000; }
