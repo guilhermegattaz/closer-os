@@ -235,7 +235,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 }
 .vsl-wrap:hover .vsl-play { background: rgba(255,255,255,0.2); transform: scale(1.06); }
 .vsl-exemplos { max-width: 1118px; }
-@media (min-width: 901px) { .vsl-exemplos { max-width: 559px; } }
+@media (min-width: 901px) { .vsl-exemplos { max-width: 782px; } }
 .vsl-play svg { width: 24px; height: 24px; fill: #fff; margin-left: 4px; }
 .vsl-label { font-size: 0.78rem; color: rgba(255,255,255,0.4); letter-spacing: 0.08em; text-transform: uppercase; }
 .hero-cta-row { display: flex; align-items: center; justify-content: flex-start; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
