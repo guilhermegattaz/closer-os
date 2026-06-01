@@ -93,7 +93,7 @@ export function ParaQuem() {
           Você tem talento.<br className="br-desktop" />{' '}O que falta é <span style={{ color: '#8be5ab' }}>saber o que dizer.</span>
         </h2>
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 620, margin: '16px auto 0' }}>
-          Não te ensinaram a vender seu serviço. Você deu seu melhor até aqui. Agora é hora de conquistar o que você merece e ser valorizado de verdade.
+          Não te ensinaram a vender seu serviço. Você fez seu melhor até aqui. É hora de conquistar o que você merece e ser valorizado de verdade.
         </p>
         <div className="quem-grid">
           {paraQuem.map((card, i) => (
