@@ -901,7 +901,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 
 /* FAQ */
 /* DEPOIMENTOS */
-#depoimentos { background: transparent; }
+#depoimentos { background: #f5f5f5; }
 .depo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .depo-card {
   background: #1e1a16;
