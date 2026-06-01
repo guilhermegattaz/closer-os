@@ -114,11 +114,12 @@ export function ParaQuem() {
 interface VantagemCardProps {
   tag?: string
   text?: string
+  variant?: 'light'
 }
 
-export function VantagemCard({ tag, text }: VantagemCardProps = {}) {
+export function VantagemCard({ tag, text, variant }: VantagemCardProps = {}) {
   return (
-    <div className="fade-up vantagem-card">
+    <div className={`fade-up vantagem-card${variant === 'light' ? ' vantagem-card--light' : ''}`}>
       <div className="vantagem-left">
         <div className="vantagem-tag">{tag ?? 'Sua vantagem competitiva'}</div>
         <p className="vantagem-text">{text ?? 'Seja visto como autoridade no que faz para se destacar da concorrência. Conduza seu próximo cliente da primeira conversa até o sim, com confiança e naturalidade. Seu mentor disponível para você a qualquer hora do dia.'}</p>

@@ -956,6 +956,10 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   color: #ffbd8e;
   margin-bottom: 12px;
 }
+.vantagem-card--light { background: #ffffff; }
+.vantagem-card--light .vantagem-tag { color: #8be5ab; }
+.vantagem-card--light .vantagem-btn { background: #8be5ab; }
+.vantagem-card--light .vantagem-btn:hover { background: #6fd49a; }
 .vantagem-text {
   font-family: 'Manrope', sans-serif;
   font-size: 1.05rem; line-height: 1.7;

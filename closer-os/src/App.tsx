@@ -49,6 +49,7 @@ export default function App() {
         <ParaQuem />
         <Autoridade />
         <VantagemCard
+          variant="light"
           tag="Quanto valeria fechar +80% de todos os clientes com quem conversa?"
           text="Você ganharia mais dinheiro? Se sim, você está a 8 minutos de mudar isso em sua vida. É só clicar no botão do lado e ter o CloserOS ao seu lado na próxima conversa para fechar seu próximo cliente."
         />
