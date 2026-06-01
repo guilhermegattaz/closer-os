@@ -5,7 +5,7 @@ export function Navbar() {
     <nav id="navbar" role="banner">
       <div className="nav-inner">
         <a href="#" className="nav-logo" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/images/Logonovo.webp" alt="CloserOS™" style={{ height: 32, width: 'auto' }} />
+          <img src="/images/logo3.webp" alt="CloserOS™" style={{ height: 32, width: 'auto' }} />
         </a>
         <a href={KIWIFY_URL} className="btn-ghost" target="_blank" rel="noopener noreferrer">Quero o CloserOS™ — R$47 →</a>
       </div>
