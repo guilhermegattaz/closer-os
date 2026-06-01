@@ -6,6 +6,7 @@ import {
   Hero, Problema, ComoFunciona, Exemplos,
   ParaQuem, Autoridade, Oferta, Faq, FinalCta
 } from './components/sections'
+import { VantagemCard } from './components/sections/ParaQuem'
 
 export default function App() {
   useEffect(() => {
@@ -47,11 +48,7 @@ export default function App() {
         <Exemplos />
         <ParaQuem />
         <Autoridade />
-        <div className="section-banner">
-          <div className="section-banner-inner">
-            <p className="section-banner-text">"Quanto valeria fechar +80% de todos os clientes com quem conversa?"</p>
-          </div>
-        </div>
+        <VantagemCard />
         <Oferta />
         <Faq />
         <FinalCta />

@@ -106,18 +106,24 @@ export function ParaQuem() {
         </div>
       </div>
       <NegociosCard />
-      <div className="fade-up vantagem-card">
-        <div className="vantagem-left">
-          <div className="vantagem-tag">Sua vantagem competitiva</div>
-          <p className="vantagem-text">Seja visto como autoridade no que faz para se destacar da concorrência. Conduza seu próximo cliente da primeira conversa até o sim, com confiança e naturalidade. Seu mentor disponível para você a qualquer hora do dia.</p>
-        </div>
-        <div className="vantagem-right">
-          <div className="vantagem-price">R$47</div>
-          <div className="vantagem-period">pagamento único · sem mensalidade</div>
-          <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer">Quero agora →</a>
-          <p className="vantagem-meta">Garantia de 7 dias · Acesso imediato</p>
-        </div>
-      </div>
+      <VantagemCard />
     </section>
+  )
+}
+
+export function VantagemCard() {
+  return (
+    <div className="fade-up vantagem-card">
+      <div className="vantagem-left">
+        <div className="vantagem-tag">Sua vantagem competitiva</div>
+        <p className="vantagem-text">Seja visto como autoridade no que faz para se destacar da concorrência. Conduza seu próximo cliente da primeira conversa até o sim, com confiança e naturalidade. Seu mentor disponível para você a qualquer hora do dia.</p>
+      </div>
+      <div className="vantagem-right">
+        <div className="vantagem-price">R$47</div>
+        <div className="vantagem-period">pagamento único · sem mensalidade</div>
+        <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer">Quero agora →</a>
+        <p className="vantagem-meta">Garantia de 7 dias · Acesso imediato</p>
+      </div>
+    </div>
   )
 }
