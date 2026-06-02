@@ -51,7 +51,7 @@ export const depoimentos: Depoimento[] = [
   {
     id: 'd6',
     badge: 'Acabou isso de "mês que vêm" eu começo',
-    texto: '"Não sabia o que responder sem parecer desesperado ou sem soar como pressão sempre que alguém interessado queria deixar para começar no outro mês. Uma noite antes de uma conversa importante, fui no CloserOS e ele me deu um caminho que não era pressão, era uma pergunta sobre o que estava impedindo agora. Sabia exatamente o que fazer e consegui fechar um novo aluno assim!"',
+    texto: '"Não sabia o que responder sem parecer desesperado ou sem soar como pressão sempre que alguém interessado queria deixar para começar no próximo mês. Uma noite antes de uma conversa importante, fui no CloserOS e ele me deu um caminho que não era pressão, era uma pergunta sobre o que estava impedindo agora. Entendi exatamente o que fazer e consegui mais um aluno novo!"',
     nome: 'Anderson Lima',
     cargo: 'Personal trainer · usuário do CloserOS',
     iniciais: 'AL',
