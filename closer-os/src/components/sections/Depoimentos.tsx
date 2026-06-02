@@ -5,7 +5,7 @@ export function Depoimentos() {
     <section id="depoimentos">
       <div className="container">
         <h2 className="h2 fade-up" style={{ textAlign: 'center', marginBottom: 48 }}>
-          Depoimentos reais.<br className="br-desktop" />{' '}
+          Depoimentos reais.<br className="br-desktop" /><br className="br-mobile" />{' '}
           <span style={{ color: '#c3baff' }}>Resultados comprovados.</span>
         </h2>
         <div className="depo-grid">
