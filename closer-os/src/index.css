@@ -238,7 +238,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .vsl-exemplos-desktop { display: none; }
 .vsl-exemplos-mobile { display: block; }
 @media (min-width: 901px) {
-  .vsl-exemplos-desktop { display: block; width: 100%; max-width: 100%; }
+  .vsl-exemplos-desktop { display: block; width: 120%; max-width: 120%; margin-left: -10%; margin-right: -10%; }
   .vsl-exemplos-mobile { display: none; }
 }
 .vsl-play svg { width: 24px; height: 24px; fill: #fff; margin-left: 4px; }
