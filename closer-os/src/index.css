@@ -238,8 +238,13 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .vsl-exemplos-desktop { display: none; }
 .vsl-exemplos-mobile { display: block; }
 @media (min-width: 901px) {
-  .vsl-exemplos { max-width: 1719px; }
-  .vsl-exemplos-desktop { display: block; }
+  .vsl-exemplos-desktop {
+    display: block;
+    width: 90vw;
+    max-width: 90vw;
+    margin-left: calc(-45vw + 50%);
+    margin-right: calc(-45vw + 50%);
+  }
   .vsl-exemplos-mobile { display: none; }
 }
 .vsl-play svg { width: 24px; height: 24px; fill: #fff; margin-left: 4px; }
