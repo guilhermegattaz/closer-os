@@ -238,7 +238,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .vsl-exemplos-desktop { display: none; }
 .vsl-exemplos-mobile { display: block; }
 @media (min-width: 901px) {
-  .vsl-exemplos { max-width: 1017px; }
+  .vsl-exemplos { max-width: 1322px; }
   .vsl-exemplos-desktop { display: block; }
   .vsl-exemplos-mobile { display: none; }
 }
