@@ -14,7 +14,7 @@ export function Exemplos() {
           Por trás do CloserOS™: mais de R$9.000.000 em vendas 1:1 e a expertise dos maiores especialistas em vendas do mundo.
         </p>
         {/* Desktop: landscape video */}
-        <div className="vsl-wrap vsl-exemplos vsl-exemplos-desktop fade-up d3" style={{ margin: '32px auto 0' }} role="region" aria-label="Vídeo de apresentação do CloserOS™">
+        <div className="vsl-wrap vsl-exemplos vsl-exemplos-desktop fade-up d3" role="region" aria-label="Vídeo de apresentação do CloserOS™">
           {/* @ts-expect-error wistia-player is a custom web component */}
           <wistia-player media-id="deeptfugdy" aspect="1.5635179153094463" />
         </div>
