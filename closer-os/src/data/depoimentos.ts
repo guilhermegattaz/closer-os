@@ -13,7 +13,7 @@ export const depoimentos: Depoimento[] = [
     badge: 'Fechei 3 clientes novos em uma semana',
     texto: '"Eu sempre travava na hora de cobrar. Com o CloserOS, aprendi como conduzir e o melhor jeito de falar sobre o preço... fechei 3 clientes novos na mesma semana."',
     nome: 'Ana Paula S.',
-    cargo: 'Designer Freelancer · usuária do CloserOS',
+    cargo: 'Social Media · usuária do CloserOS',
     iniciais: 'AP',
   },
   {
@@ -51,9 +51,9 @@ export const depoimentos: Depoimento[] = [
   {
     id: 'd6',
     badge: 'Acabou isso de "mês que vêm" eu começo',
-    texto: '"Não sabia o que responder sem parecer desesperado ou sem soar como pressão sempre que alguém interessado queria deixar para começar no próximo mês. Uma noite antes de uma conversa importante, fui no CloserOS e ele me deu um caminho que não era pressão, era uma pergunta sobre o que estava impedindo agora. Entendi exatamente o que fazer e consegui mais um aluno novo!"',
+    texto: '"Não sabia o que responder sem parecer desesperado ou sem soar como pressão sempre que alguém interessado queria deixar para começar no próximo mês. Uma noite antes de uma conversa importante, fui no CloserOS e ele me deu um caminho que não era pressão, era uma pergunta sobre o que estava impedindo agora. Entendi exatamente o que fazer e consegui mais um paciente novo!"',
     nome: 'Anderson Lima',
-    cargo: 'Personal trainer · usuário do CloserOS',
+    cargo: 'Nutricionista · usuário do CloserOS',
     iniciais: 'AL',
   },
 ]
