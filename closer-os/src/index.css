@@ -235,11 +235,18 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 }
 .vsl-wrap:hover .vsl-play { background: rgba(255,255,255,0.2); transform: scale(1.06); }
 .vsl-exemplos { max-width: 1118px; }
-.vsl-exemplos-desktop { display: none; }
 .vsl-exemplos-mobile { display: block; }
+.vsl-duplo { display: none; }
 @media (min-width: 901px) {
-  .vsl-exemplos-desktop { display: block; width: 120%; max-width: 120%; margin-top: 32px; margin-left: -10%; margin-right: -10%; }
   .vsl-exemplos-mobile { display: none; }
+  .vsl-duplo {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 32px;
+  }
+  .vsl-duplo-portrait { flex: 0 0 23%; }
+  .vsl-duplo-landscape { flex: 1; }
 }
 .vsl-play svg { width: 24px; height: 24px; fill: #fff; margin-left: 4px; }
 .vsl-label { font-size: 0.78rem; color: rgba(255,255,255,0.4); letter-spacing: 0.08em; text-transform: uppercase; }
