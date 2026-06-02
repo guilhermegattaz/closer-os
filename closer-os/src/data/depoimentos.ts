@@ -11,7 +11,7 @@ export const depoimentos: Depoimento[] = [
   {
     id: 'd1',
     badge: 'Fechei 3 clientes novos em uma semana',
-    texto: '"Eu sempre travava na hora de cobrar. Com o CloserOS, aprendi a conduzir a conversa com confiança e fechei 3 clientes novos na mesma semana."',
+    texto: '"Eu sempre travava na hora de cobrar. Com o CloserOS, aprendi como conduzir e o melhor jeito de falar sobre o preço... fechei 3 clientes novos na mesma semana."',
     nome: 'Ana Paula S.',
     cargo: 'Designer Freelancer · usuária do CloserOS',
     iniciais: 'AP',
