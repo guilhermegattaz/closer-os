@@ -34,7 +34,7 @@ export const depoimentos: Depoimento[] = [
   },
   {
     id: 'd4',
-    badge: 'Sei o que dizer quando comparam com outro lugar',
+    badge: 'Sei o que dizer quando comparam',
     texto: '"Gente, o que mais me cansava era quando a cliente falava \'no outro lugar é mais barato\'. Ficava sem jeito, às vezes já ia dando desconto antes de ela nem pedir. Consultei o CloserOS e aprendi a responder com uma pergunta em vez de me defender. Testei na semana seguinte com uma cliente que falou exatamente isso. Deu super certo!"',
     nome: 'Thaís Oliveira',
     cargo: 'Empresária Estética · usuária do CloserOS',
