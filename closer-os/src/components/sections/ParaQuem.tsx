@@ -116,9 +116,10 @@ interface VantagemCardProps {
   tag?: string
   text?: string
   variant?: 'light' | 'naked'
+  btnText?: string
 }
 
-export function VantagemCard({ tag, text, variant }: VantagemCardProps = {}) {
+export function VantagemCard({ tag, text, variant, btnText }: VantagemCardProps = {}) {
   const cls = variant ? ` vantagem-card--${variant}` : ''
   return (
     <div className={`fade-up vantagem-card${cls}`}>
@@ -129,7 +130,7 @@ export function VantagemCard({ tag, text, variant }: VantagemCardProps = {}) {
       <div className="vantagem-right">
         <div className="vantagem-price">R$47</div>
         <div className="vantagem-period">pagamento único · sem mensalidade</div>
-        <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer">Quero agora →</a>
+        <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer">{btnText ?? 'Quero fechar mais clientes — R$47 →'}</a>
         <p className="vantagem-meta">Garantia de 7 dias · Acesso imediato</p>
       </div>
     </div>

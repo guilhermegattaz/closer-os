@@ -16,7 +16,7 @@ export function useFadeUp<T extends HTMLElement>() {
           }
         })
       },
-      { threshold: 0.1 }
+      { threshold: 0.01, rootMargin: '0px 0px -10% 0px' }
     )
 
     el.classList.add('fade-up')

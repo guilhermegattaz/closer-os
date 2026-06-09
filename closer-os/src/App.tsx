@@ -10,6 +10,14 @@ import { VantagemCard } from './components/sections/ParaQuem'
 
 export default function App() {
   useEffect(() => {
+    // Initial pass: mark elements already in viewport as visible immediately
+    document.querySelectorAll<Element>('.fade-up').forEach((el) => {
+      const rect = el.getBoundingClientRect()
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        el.classList.add('visible')
+      }
+    })
+
     const obs = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
@@ -19,10 +27,21 @@ export default function App() {
           }
         })
       },
-      { threshold: 0.1 }
+      { threshold: 0.01, rootMargin: '0px 0px -10% 0px' }
     )
     document.querySelectorAll('.fade-up').forEach((el) => obs.observe(el))
-    return () => obs.disconnect()
+
+    // Safety: after 3s force-show any still-invisible fade-up elements
+    const safetyTimer = setTimeout(() => {
+      document.querySelectorAll<Element>('.fade-up:not(.visible)').forEach((el) => {
+        el.classList.add('visible')
+      })
+    }, 3000)
+
+    return () => {
+      obs.disconnect()
+      clearTimeout(safetyTimer)
+    }
   }, [])
 
   return (
@@ -50,8 +69,9 @@ export default function App() {
         <Autoridade />
         <VantagemCard
           variant="naked"
-          tag="Quanto valeria fechar +80% de todos os clientes com quem conversa?"
-          text="Você ganharia mais dinheiro? Se sim, você está a 8 minutos de mudar isso em sua vida. É só clicar no botão e ter o CloserOS ao seu lado já na próxima conversa para fechar seu próximo cliente."
+          tag="Quanto valeria fechar a maioria dos clientes com quem você conversa?"
+          text="Se a resposta for 'muito', você está a poucos minutos de mudar isso. Clique abaixo e tenha o CloserOS™ ao seu lado já na sua próxima conversa."
+          btnText="Quero o CloserOS™ agora — R$47 →"
         />
         <Depoimentos />
         <Oferta />

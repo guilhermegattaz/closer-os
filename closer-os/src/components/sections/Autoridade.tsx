@@ -41,11 +41,11 @@ export function Autoridade() {
             </div>
             <div className="autor-stats-bar">
               <div className="autor-stat">
-                <div className="autor-stat-num">R$9M+</div>
+                <div className="autor-stat-num">R$9M+{/* {{CONFIRMAR: número de vendas é verdadeiro/comprovável?}} */}</div>
                 <div className="autor-stat-label">em vendas consultivas 1:1</div>
               </div>
               <div className="autor-stat">
-                <div className="autor-stat-num">Top 1%</div>
+                <div className="autor-stat-num">Top 1%{/* {{CONFIRMAR ou INSERIR nomes dos mentores}} */}</div>
                 <div className="autor-stat-label">mentores de vendas · EUA</div>
               </div>
               <div className="autor-stat">

@@ -19,7 +19,7 @@ export function FadeUp({ children, delay, className }: FadeUpProps) {
           if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target) }
         })
       },
-      { threshold: 0.1 }
+      { threshold: 0.01, rootMargin: '0px 0px -10% 0px' }
     )
     obs.observe(el)
     return () => obs.disconnect()
