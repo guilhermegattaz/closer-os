@@ -1177,6 +1177,24 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
   .como-emoji { font-size: 1.6rem; }
   .como-card h3 { font-size: 0.88rem; margin-bottom: 6px; }
   .como-card p { font-size: 0.8rem; line-height: 1.55; }
+  .como-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: fit-content;
+    margin-top: 24px;
+    padding: 14px 28px;
+    background: var(--cta-bg-on-dark);
+    color: var(--cta-text-on-dark);
+    border-radius: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 150ms;
+  }
+  .como-cta:hover { background: #b5abff; }
   .exemplos-grid { grid-template-columns: 1fr; }
   .exemplo-card:nth-child(n) { grid-column: 1 / -1; }
 
