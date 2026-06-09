@@ -1173,7 +1173,8 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
   #como { padding-top: 20px; }
   #como .container { padding: 0 20px; }
   .como-card { padding: 16px 20px; }
-  .como-lottie { width: 36px; height: 36px; margin-bottom: 10px; }
+  .como-lottie { width: 24px; height: 24px; margin-bottom: 8px; }
+  .como-lottie svg { width: 24px; height: 24px; }
   .como-emoji { font-size: 1.6rem; }
   .como-card h3 { font-size: 0.88rem; margin-bottom: 6px; }
   .como-card p { font-size: 0.8rem; line-height: 1.55; }
