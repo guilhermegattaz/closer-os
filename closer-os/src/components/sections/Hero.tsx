@@ -7,10 +7,16 @@ export function Hero() {
         <div className="hero-grid">
 
           <div className="hero-text">
+            {/* VARIANTE A (ativa) */}
             <h1 className="display hero-headline fade-up d1">
               Saiba exatamente o que dizer para{' '}
               <em>fechar mais clientes</em> — sem parecer vendedor.
             </h1>
+            {/* VARIANTE B (teste A/B) — para ativar: troque pelos dois blocos acima
+            <h1 className="display hero-headline fade-up d1">
+              Pare de perder clientes por não saber o que dizer na hora de <em>fechar.</em>
+            </h1>
+            */}
             <p className="body-lg fade-up d2" style={{ marginBottom: 14, maxWidth: 520 }}>
               Para profissionais liberais, freelancers, mentores e autônomos que perdem clientes por não saber o que dizer nos momentos críticos.
             </p>

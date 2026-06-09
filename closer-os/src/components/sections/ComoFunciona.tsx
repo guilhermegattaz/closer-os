@@ -16,8 +16,11 @@ export function ComoFunciona() {
             <p className="body-lg fade-up d2" style={{ margin: '20px 0 0', fontStyle: 'italic', color: 'var(--text-2)' }}>
               Imagine ter, do seu lado, um especialista pronto para te dizer o que falar — toda vez que um cliente te deixa travado.
             </p>
+            <p className="body-lg fade-up d2" style={{ margin: '16px 0 0' }}>
+              Não, isso não é "mais um prompt" que você acha no Google. O CloserOS™ é um sistema construído com a lógica de quem já conduziu milhões em vendas, atendendo cliente por cliente — ele faz as perguntas certas sobre o seu caso e te devolve o caminho exato para aquela conversa. A diferença entre pedir uma dica genérica ao ChatGPT e ter um especialista sentado ao seu lado.
+            </p>
             <a href={KIWIFY_URL} className="como-cta fade-up d3" target="_blank" rel="noopener noreferrer" aria-label="Quero meu mentor de vendas — R$47">
-              Quero meu mentor de vendas → R$47
+              Quero meu mentor de vendas — R$47 →
             </a>
           </div>
           <div className="como-grid">

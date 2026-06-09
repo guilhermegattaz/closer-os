@@ -1,4 +1,5 @@
 import { GUILHERME_B64 } from '../../assets/guilherme'
+import { KIWIFY_URL } from '../../data/links'
 
 export function Autoridade() {
   return (
@@ -26,6 +27,9 @@ export function Autoridade() {
               <p>Aprendi com os maiores especialistas em vendas do mundo — mentores que estão no top 1% do mercado americano — e adaptei tudo isso para a realidade de quem vende serviços no Brasil.</p>
               <p>O CloserOS™ reúne tudo isso em um único lugar. Não é teoria. É o que funciona quando o cliente diz "não é pra mim", "tá caro" ou "vou pensar" — e você precisa saber o que fazer agora.</p>
             </div>
+            <a href={KIWIFY_URL} className="como-cta fade-up" target="_blank" rel="noopener noreferrer" style={{ marginTop: 28 }} aria-label="Quero aprender o método do Guilherme — R$47">
+              Quero aprender o método do Guilherme — R$47 →
+            </a>
           </div>
           <div className="autor-img-col fade-up d2">
             <div className="autor-img-placeholder">

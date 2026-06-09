@@ -7,6 +7,11 @@ export const faqItems: FaqItem[] = [
     resposta: 'Não. O CloserOS™ funciona na versão gratuita do ChatGPT — sem nenhum custo adicional. Tudo que você precisa é de uma conta gratuita.',
   },
   {
+    id: 'f-prompt',
+    pergunta: 'Isso não é só um prompt que eu acharia de graça por aí?',
+    resposta: 'Não. Prompt genérico te dá resposta genérica. O CloserOS™ é um sistema estruturado que entende o seu serviço, o seu cliente e o seu contexto antes de te orientar — e foi construído a partir de um método real de vendas, não de achismo. É a diferença entre uma busca no Google e ter, do seu lado, alguém que entende de verdade como conduzir a conversa até o cliente dizer sim.',
+  },
+  {
     id: 'f2',
     pergunta: 'Funciona para quem não tem experiência com vendas?',
     resposta: 'Especialmente para quem não tem. O CloserOS™ foi criado para profissionais que são excelentes no que fazem, mas que nunca aprenderam a parte de vendas. Você não precisa saber nada sobre vendas — o sistema te guia em cada situação.',

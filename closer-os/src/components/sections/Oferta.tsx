@@ -110,6 +110,7 @@ export function Oferta() {
               <a href={KIWIFY_URL} className="btn-oferta" target="_blank" rel="noopener noreferrer" aria-label="Quero acesso agora — R$47">
                 Quero acesso agora — R$47 →
               </a>
+              <p className="oferta-risco-zero">Você arrisca R$47 por 7 dias. Se o CloserOS™ não te ajudar a conduzir melhor suas conversas com clientes, é só pedir o reembolso.</p>
               <p className="oferta-kiwify">Kiwify · PIX, cartão ou boleto</p>
               <div className="oferta-garantia-box">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-green)" strokeWidth="2">
@@ -117,8 +118,8 @@ export function Oferta() {
                   <polyline points="9,12 11,14 15,10" strokeWidth="2"/>
                 </svg>
                 <div>
-                  <strong>7 dias de garantia incondicional.</strong>
-                  <span> Não viu valor, devolvo 100%. Sem perguntas, sem burocracia.</span>
+                  <strong>Garantia de 7 dias.</strong>
+                  <span> Satisfação garantida ou reembolso total.</span>
                 </div>
               </div>
             </div>
