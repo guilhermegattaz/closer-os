@@ -8,18 +8,24 @@ export function Hero() {
 
           <div className="hero-text">
             <h1 className="display hero-headline fade-up d1">
-              Saiba exatamente o que dizer{' '}
-              para <em>fechar mais clientes.</em>
+              Saiba exatamente o que dizer para{' '}
+              <em>fechar mais clientes</em> — sem parecer vendedor.
             </h1>
             <p className="body-lg fade-up d2" style={{ marginBottom: 14, maxWidth: 520 }}>
-              Para profissionais liberais, freelancers, empreendedores, mentores e autônomos que perdem clientes por não saber o que dizer nos momentos críticos.
+              Para profissionais liberais, freelancers, mentores e autônomos que perdem clientes por não saber o que dizer nos momentos críticos.
             </p>
           </div>
 
           <div className="hero-right">
-            <div className="vsl-wrap fade-up d2" role="region" aria-label="Vídeo de apresentação do CloserOS™">
-              {/* @ts-expect-error wistia-player is a custom web component */}
-              <wistia-player media-id="2l92zhr9wx" aspect="1.7778" />
+            <div className="vsl-wrap vsl-placeholder fade-up d2" role="region" aria-label="Vídeo de apresentação do CloserOS™">
+              <div className="vsl-thumb">
+                <div className="vsl-play" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff">
+                    <polygon points="6,4 20,12 6,20"/>
+                  </svg>
+                </div>
+                <span className="vsl-label">Veja o CloserOS funcionando</span>
+              </div>
             </div>
           </div>
 

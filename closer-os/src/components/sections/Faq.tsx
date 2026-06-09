@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { faqItems } from '../../data/faq'
 
 export function Faq() {
-  const [openId, setOpenId] = useState<string | null>(null)
+  const [openId, setOpenId] = useState<string | null>('f1')
 
   return (
     <section id="faq">

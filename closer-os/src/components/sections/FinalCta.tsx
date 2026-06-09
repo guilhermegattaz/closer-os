@@ -12,8 +12,8 @@ export function FinalCta() {
             O CloserOS™ está disponível agora — e vai continuar disponível na próxima reunião, na próxima negociação, na próxima vez que um cliente disser "vou pensar".
           </p>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
-            <a href={KIWIFY_URL} className="btn-white" target="_blank" rel="noopener noreferrer">Quero o CloserOS™ agora — R$47 →</a>
-            <p className="cta-meta">Garantia de 7 dias · Acesso imediato · Funciona no ChatGPT gratuito</p>
+            <a href={KIWIFY_URL} className="btn-white" target="_blank" rel="noopener noreferrer" aria-label="Sim, quero parar de improvisar — R$47">Sim, quero parar de improvisar — R$47 →</a>
+            <p className="cta-meta">Garantia de 7 dias · Acesso imediato · Funciona no ChatGPT gratuito · Sem mensalidade</p>
           </div>
       </div>
     </section>

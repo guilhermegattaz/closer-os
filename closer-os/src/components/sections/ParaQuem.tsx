@@ -4,10 +4,10 @@ import type { ParaQuemCard } from '../../types'
 import { KIWIFY_URL } from '../../data/links'
 
 const negociosItems = [
-  { id: 'n1', titulo: 'Crie roteiros personalizados.', descricao: 'Para qualquer cenário, ligações, mensagens, reuniões.' },
-  { id: 'n2', titulo: 'Negocie como um profissional.', descricao: 'Conduza o cliente com autoridade e confiança.' },
-  { id: 'n3', titulo: 'Novos clientes todos os dias.', descricao: 'Estratégias de prospecção e indicação.' },
-  { id: 'n4', titulo: 'Domine seu processo de vendas.', descricao: 'Saiba qual pergunta fazer em cada etapa.' },
+  { id: 'n1', titulo: 'Crie seus próprios roteiros de conversa.', descricao: 'Para qualquer cenário: ligações, mensagens, reuniões.' },
+  { id: 'n2', titulo: 'Saiba o que responder quando questionam seu preço.', descricao: 'Sem ceder desconto por medo de perder o cliente.' },
+  { id: 'n3', titulo: 'Atraia novos clientes com constância.', descricao: 'Estratégias de prospecção e indicação.' },
+  { id: 'n4', titulo: 'Conduza a conversa com confiança do início ao fim.', descricao: 'Saiba qual pergunta fazer em cada etapa.' },
 ]
 
 function NegociosCard() {
@@ -39,7 +39,7 @@ function NegociosCard() {
           <div className="problema-left">
             <div className="section-eyebrow left fade-up">Todos os tipos de negócios</div>
             <h2 className="h2 fade-up d1" style={{ marginBottom: 12 }}>
-              Será que o CloserOS funciona para o <span style={{ color: '#c3baff' }}>seu negócio?</span>
+              Funciona para <span style={{ color: 'var(--accent-violet)' }}>qualquer negócio de serviço.</span>
             </h2>
             <p className="body-lg fade-up d2" style={{ margin: '0 0 16px' }}>
               Ele se adapta ao seu negócio e aos seus objetivos.
@@ -89,11 +89,12 @@ export function ParaQuem() {
   return (
     <section id="para-quem">
       <div className="container">
+        <p className="section-eyebrow fade-up" style={{ textAlign: 'center' }}>Para quem é</p>
         <h2 className="h2 fade-up d1" style={{ textAlign: 'center' }}>
-          Você tem talento.<br className="br-desktop" />{' '}O que falta é <span style={{ color: '#8be5ab' }}>saber o que dizer.</span>
+          Se você vende um serviço,<br className="br-desktop" />{' '}o CloserOS foi feito <span style={{ color: 'var(--accent-green)' }}>para você.</span>
         </h2>
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 620, margin: '16px auto 0' }}>
-          Não te ensinaram a vender seu serviço. Você fez seu melhor até aqui. É hora de conquistar o que você merece e ser valorizado de verdade.
+          Funciona para qualquer negócio de serviço — independente do seu nível de experiência em vendas.
         </p>
         <div className="quem-grid">
           {paraQuem.map((card, i) => (

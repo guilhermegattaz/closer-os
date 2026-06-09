@@ -3,22 +3,42 @@
 @tailwind utilities;
 
 :root {
-  --bg:          #ffffff;
-  --bg-2:        #f3efea;
-  --surface:     #ffffff;
-  --border:      #e0d9d2;
-  --border-2:    #d0c8c0;
-  --text:        #1e1a16;
-  --text-2:      #68625e;
-  --text-3:      #9a958e;
-  --accent:      #1e1a16;
-  --accent-2:    #c3b9ff;
-  --green:       #1a7a5e;
-  --green-bg:    #eef7f4;
-  --green-border:#b8ddd4;
-  --red:         #c0392b;
-  --red-bg:      #fdf3f2;
-  --red-border:  #f0c8c4;
+  /* Neutros */
+  --bg:              #ffffff;
+  --bg-2:            #f3efea;
+  --bg-dark:         #1e1a16;
+  --bg-soft:         #f5f3f0;
+  --surface:         #ffffff;
+  --border:          #e0d9d2;
+  --border-2:        #d0c8c0;
+  --text:            #1e1a16;
+  --text-2:          #68625e;
+  --text-3:          #9a958e;
+  --text-on-dark:    #ffffff;
+  --text-on-dark-70: rgba(255,255,255,0.72);
+
+  /* Marca */
+  --accent:          #1e1a16;
+  --accent-2:        #c3baff;
+  --accent-violet:   #c3baff;
+  --accent-green:    #8be5ab;
+  --accent-peach:    #ffbd8e;
+
+  /* CTA — regra única: claro→escuro, escuro→violeta */
+  --cta-bg:          #1e1a16;
+  --cta-text:        #ffffff;
+  --cta-hover:       #000000;
+  --cta-bg-on-dark:  #c3baff;
+  --cta-text-on-dark:#1e1a16;
+
+  /* Semânticas */
+  --green:           #1a7a5e;
+  --green-bg:        #eef7f4;
+  --green-border:    #b8ddd4;
+  --red:             #c0392b;
+  --red-bg:          #fdf3f2;
+  --red-border:      #f0c8c4;
+
   --radius-card: 16px;
   --radius-btn:  10px;
 }
@@ -249,7 +269,8 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   .vsl-duplo-landscape { flex: 1; }
 }
 .vsl-play svg { width: 24px; height: 24px; fill: #fff; margin-left: 4px; }
-.vsl-label { font-size: 0.78rem; color: rgba(255,255,255,0.4); letter-spacing: 0.08em; text-transform: uppercase; }
+.vsl-label { font-size: 0.78rem; color: rgba(255,255,255,0.55); letter-spacing: 0.08em; text-transform: uppercase; }
+.vsl-placeholder { padding-top: 56.25%; } /* 16:9 ratio */
 .hero-cta-row { display: flex; align-items: center; justify-content: flex-start; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
 .hero-trust { display: flex; flex-direction: row; flex-wrap: wrap; gap: 14px 20px; align-items: center; justify-content: flex-start; }
 .trust-item { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--text-2); }
@@ -332,9 +353,8 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 
 /* PROBLEMA */
 #problema { background: transparent !important; padding: 32px 0; }
-/* Desktop: show items inside card, hide mobile copy */
-.problema-right--desktop { display: block; }
-.problema-mobile-items { display: none; }
+/* Problema items — única instância */
+.problema-right { display: block; width: 100%; }
 .problema-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -829,13 +849,24 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .btn-oferta {
   display: flex; align-items: center; justify-content: center;
   width: 100%; min-height: 52px; border-radius: 10px;
-  background: #ffbd8e; color: #1e1a16;
+  background: var(--cta-bg); color: var(--cta-text);
   font-family: 'Manrope', sans-serif; font-size: 0.9rem; font-weight: 600;
   border: none; cursor: pointer; text-decoration: none;
   box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   transition: all 200ms;
 }
-.btn-oferta:hover { background: #f0a870; transform: translateY(-1px); }
+.btn-oferta:hover { background: var(--cta-hover); transform: translateY(-1px); }
+.oferta-ancora { font-size: 0.78rem; color: #888888; line-height: 1.5; margin-top: 10px; font-style: italic; }
+.oferta-countdown { margin-bottom: 16px; text-align: center; }
+.oferta-countdown-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #000; margin-bottom: 8px; }
+.oferta-countdown-timer { display: flex; justify-content: center; gap: 8px; }
+.countdown-unit { display: flex; flex-direction: column; align-items: center; background: #1e1a16; border-radius: 8px; padding: 8px 12px; min-width: 52px; }
+.countdown-num { font-family: 'Manrope', sans-serif; font-size: 1.4rem; font-weight: 700; color: #fff; line-height: 1; }
+.countdown-label { font-size: 0.6rem; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 2px; }
+.oferta-garantia-box { display: flex; align-items: flex-start; gap: 10px; margin-top: 16px; padding: 14px 16px; background: rgba(139,229,171,0.08); border: 1px solid var(--accent-green); border-radius: 12px; }
+.oferta-garantia-box strong { display: block; font-size: 0.82rem; color: #000; }
+.oferta-garantia-box span { font-size: 0.78rem; color: #888888; }
+.oferta-garantia-box svg { flex-shrink: 0; margin-top: 2px; }
 .oferta-kiwify { font-size: 0.72rem; color: #888888; text-align: center; margin-top: 10px; }
 .oferta-garantia-mini {
   display: flex; align-items: center; gap: 8px;
@@ -1013,15 +1044,15 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 }
 .vantagem-card--light { background: #ffffff; }
 .vantagem-card--light .vantagem-tag { color: #8be5ab; }
-.vantagem-card--light .vantagem-btn { background: #8be5ab; }
-.vantagem-card--light .vantagem-btn:hover { background: #6fd49a; }
+.vantagem-card--light .vantagem-btn { background: var(--cta-bg); color: var(--cta-text); }
+.vantagem-card--light .vantagem-btn:hover { background: var(--cta-hover); }
 .vantagem-card--naked { background: transparent; box-shadow: none; border-radius: 0; margin-top: 16px; margin-bottom: 0; }
 .vantagem-card--naked .vantagem-tag { color: #8be5ab; }
 .vantagem-card--naked .vantagem-text { color: var(--text-2); }
 .vantagem-card--naked .vantagem-price { color: #000000; }
 .vantagem-card--naked .vantagem-period { color: #bab9b8; }
-.vantagem-card--naked .vantagem-btn { background: #8be5ab; }
-.vantagem-card--naked .vantagem-btn:hover { background: #6fd49a; }
+.vantagem-card--naked .vantagem-btn { background: var(--cta-bg); color: var(--cta-text); }
+.vantagem-card--naked .vantagem-btn:hover { background: var(--cta-hover); }
 .vantagem-text {
   font-family: 'Manrope', sans-serif;
   font-size: 1.05rem; line-height: 1.7;
@@ -1042,14 +1073,14 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .vantagem-btn {
   display: inline-flex; align-items: center; justify-content: center;
   width: 100%; min-height: 48px; border-radius: 10px;
-  background: #ffbd8e; color: #1e1a16;
+  background: var(--cta-bg-on-dark); color: var(--cta-text-on-dark);
   font-family: 'Manrope', sans-serif; font-size: 0.88rem; font-weight: 600;
   border: none; cursor: pointer; text-decoration: none;
   box-shadow: 0 4px 16px rgba(0,0,0,0.2);
   transition: all 200ms;
   white-space: nowrap;
 }
-.vantagem-btn:hover { background: #f0a870; transform: translateY(-1px); }
+.vantagem-btn:hover { background: #b5abff; transform: translateY(-1px); }
 .vantagem-meta { font-size: 0.68rem; color: rgba(255,255,255,0.35); }
 
 .cta-quote {
@@ -1116,14 +1147,9 @@ footer {
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; column-gap: 0; row-gap: 20px; }
   .problema-grid { row-gap: 36px; }
-  .problema-right--desktop { display: none; }
-  .problema-mobile-items { display: block; padding: 24px 20px 0; }
   #problema .vantagem-card { margin-top: 40px; padding-top: 56px; padding-bottom: 56px; }
   #problema .vantagem-card .vantagem-tag { font-size: clamp(1.688rem, 1.8vw + 0.45rem, 2.025rem); }
   #problema .vantagem-card .vantagem-text { font-size: clamp(0.9rem, 0.36vw + 0.81rem, 1.013rem); }
-  .problema-mobile-items .x-dot { background: #f0f0f0; border-color: #e4e4e4; }
-  .problema-mobile-items .x-dot svg { stroke: var(--red); }
-  .problema-mobile-items .problema-item p strong { color: #000000; }
   .section-banner { padding: 0; }
   .section-banner-text { font-size: clamp(0.92rem, 2.02vw + 0.29rem, 1.85rem); }
   .hero-text    { grid-column: 1; grid-row: 1; align-items: center; text-align: center; }
@@ -1295,6 +1321,17 @@ footer {
   }
   .como-left .h2 { text-align: left; }
   .como-left .body-lg { text-align: left; }
+.como-cta {
+  display: inline-flex; align-items: center;
+  margin-top: 24px;
+  padding: 12px 24px;
+  border-radius: 10px;
+  background: var(--cta-bg-on-dark);
+  color: var(--cta-text-on-dark);
+  font-family: 'Manrope', sans-serif; font-size: 0.88rem; font-weight: 600;
+  text-decoration: none; transition: background 150ms;
+}
+.como-cta:hover { background: #b5abff; }
   .como-grid {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 0;

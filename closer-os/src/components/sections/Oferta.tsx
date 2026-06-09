@@ -1,6 +1,10 @@
 import { useEffect } from 'react'
 import { bonusItems } from '../../data/bonus'
 import { KIWIFY_URL } from '../../data/links'
+import { useCountdown } from '../../hooks/useCountdown'
+
+// {{CONFIGURAR: substitua pela data e hora reais do encerramento do preço de lançamento}}
+const LAUNCH_DEADLINE = new Date('2026-06-15T23:59:00-03:00')
 
 function BonusIcon({ tipo }: { tipo: string }) {
   if (tipo === 'principal') {
@@ -19,6 +23,36 @@ function BonusIcon({ tipo }: { tipo: string }) {
       <path d="M12 4H7.5a2.5 2.5 0 0 1 0-5C11 -1 12 4 12 4z"/>
       <path d="M12 4h4.5a2.5 2.5 0 0 0 0-5C13 -1 12 4 12 4z"/>
     </svg>
+  )
+}
+
+function Countdown() {
+  const { days, hours, minutes, seconds, expired } = useCountdown(LAUNCH_DEADLINE)
+  if (expired) return null
+  return (
+    <div className="oferta-countdown">
+      <p className="oferta-countdown-label">Preço de lançamento: R$47 — válido por tempo limitado</p>
+      <div className="oferta-countdown-timer">
+        {days > 0 && (
+          <div className="countdown-unit">
+            <span className="countdown-num">{String(days).padStart(2, '0')}</span>
+            <span className="countdown-label">dias</span>
+          </div>
+        )}
+        <div className="countdown-unit">
+          <span className="countdown-num">{String(hours).padStart(2, '0')}</span>
+          <span className="countdown-label">horas</span>
+        </div>
+        <div className="countdown-unit">
+          <span className="countdown-num">{String(minutes).padStart(2, '0')}</span>
+          <span className="countdown-label">min</span>
+        </div>
+        <div className="countdown-unit">
+          <span className="countdown-num">{String(seconds).padStart(2, '0')}</span>
+          <span className="countdown-label">seg</span>
+        </div>
+      </div>
+    </div>
   )
 }
 
@@ -41,7 +75,7 @@ export function Oferta() {
     <section id="oferta">
       <div className="container">
         <div className="oferta-layout fade-up d1">
-          {/* ESQUERDA: bônus */}
+          {/* ESQUERDA: itens incluídos */}
           <div className="oferta-right" id="oferta-right-panel">
             <div className="oferta-right-headline">Tudo que você recebe hoje</div>
             <div className="oferta-right-label">O que está incluído</div>
@@ -62,24 +96,30 @@ export function Oferta() {
             </div>
           </div>
 
-          {/* DIREITA: azul, preço + CTA */}
+          {/* DIREITA: preço + CTA */}
           <div className="oferta-left">
             <div>
               <div className="oferta-product">CloserOS™</div>
               <div className="price-from">De R$691</div>
-              <div className="price-main" style={{ color: '#ffbd8e' }}><sup>R$</sup>47</div>
+              <div className="price-main" style={{ color: 'var(--accent-violet)' }}><sup>R$</sup>47</div>
               <div className="price-period">pagamento único · sem mensalidade</div>
+              <p className="oferta-ancora">Menos do que uma única consultoria de vendas — que você teria só uma vez. Aqui, o mentor fica com você para sempre.</p>
             </div>
             <div>
-              <a href={KIWIFY_URL} className="btn-oferta" target="_blank" rel="noopener noreferrer">
+              <Countdown />
+              <a href={KIWIFY_URL} className="btn-oferta" target="_blank" rel="noopener noreferrer" aria-label="Quero acesso agora — R$47">
                 Quero acesso agora — R$47 →
               </a>
               <p className="oferta-kiwify">Kiwify · PIX, cartão ou boleto</p>
-              <div className="oferta-garantia-mini">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8be5ab" strokeWidth="2">
+              <div className="oferta-garantia-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-green)" strokeWidth="2">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  <polyline points="9,12 11,14 15,10" strokeWidth="2"/>
                 </svg>
-                <p><strong>7 dias de garantia.</strong> Não viu valor, devolvo 100%. Sem perguntas, sem burocracia.</p>
+                <div>
+                  <strong>7 dias de garantia incondicional.</strong>
+                  <span> Não viu valor, devolvo 100%. Sem perguntas, sem burocracia.</span>
+                </div>
               </div>
             </div>
           </div>
