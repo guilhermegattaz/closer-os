@@ -1340,7 +1340,7 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
   .como-layout {
     grid-template-columns: 34fr 66fr;
     gap: 48px;
-    align-items: start;
+    align-items: stretch;
     max-width: 1152px;
     margin-left: auto;
     margin-right: auto;
@@ -1365,6 +1365,8 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
   /* cards empilhados verticalmente na coluna direita */
   .como-grid {
     grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    align-content: stretch;
     margin-top: 0;
     gap: 16px;
   }
@@ -1377,6 +1379,7 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
     column-gap: 20px;
     row-gap: 6px;
     align-items: start;
+    align-content: center;
   }
   .como-lottie {
     grid-column: 1;

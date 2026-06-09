@@ -55,6 +55,15 @@ export function ComoFunciona() {
               <h3>Funciona no ChatGPT gratuito</h3>
               <p>Sem aplicativo extra. Sem mensalidade. Funciona no celular ou computador, na versão gratuita do ChatGPT. Suas conversas ficam salvas para você consultar quando quiser.</p>
             </div>
+            <div className="como-card fade-up d3">
+              <div className="como-lottie">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"/>
+                </svg>
+              </div>
+              <h3>Suas conversas ficam salvas</h3>
+              <p>Tudo o que você consultou fica guardado no seu histórico. Volte quando quiser, retome de onde parou e tenha um mentor que lembra do seu contexto.</p>
+            </div>
           </div>
         </div>
       </div>
