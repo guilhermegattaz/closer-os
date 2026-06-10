@@ -1,4 +1,30 @@
-import { exemplos } from '../../data/exemplos'
+import { useEffect, useRef } from 'react'
+
+function VturbPlayer() {
+  const ref = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const container = ref.current
+    if (!container) return
+
+    if (!document.getElementById('vid-6a2963ff69b3ad0cbf212249')) {
+      const player = document.createElement('vturb-smartplayer')
+      player.id = 'vid-6a2963ff69b3ad0cbf212249'
+      player.style.cssText = 'display:block;margin:0 auto;width:100%;max-width:400px;'
+      container.appendChild(player)
+    }
+
+    if (!document.querySelector('script[data-vturb-id]')) {
+      const s = document.createElement('script')
+      s.src = 'https://scripts.converteai.net/9a830ae7-afc8-422f-84b7-f587f3948a96/players/6a2963ff69b3ad0cbf212249/v4/player.js'
+      s.async = true
+      s.setAttribute('data-vturb-id', '6a2963ff69b3ad0cbf212249')
+      document.head.appendChild(s)
+    }
+  }, [])
+
+  return <div ref={ref} className="exemplos-video-mobile" />
+}
 
 export function Exemplos() {
   return (
@@ -15,19 +41,7 @@ export function Exemplos() {
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 620, margin: '0 auto 40px', color: 'var(--text-2)' }}>
           Você descreve a situação — "o cliente disse que tá caro", "mandei a proposta e sumiu", "não sei como começar a conversa" — e o CloserOS responde com orientação específica para aquele momento. Em segundos. Como um mentor que você consulta na hora que precisa, não depois que a oportunidade passou.
         </p>
-        <div className="exemplos-grid fade-up d3">
-          {exemplos.map((e) => (
-            <div key={e.id} className={`exemplo-card${e.destacado ? ' exemplo-destaque' : ''}`}>
-              <p className="exemplo-pergunta">"{e.pergunta}"</p>
-              <div className="exemplo-resposta">
-                <span>{e.resposta}</span>
-                {e.destacado && <strong className="exemplo-destaque-text">{e.destacado}</strong>}
-                {!e.destacado && <strong>{e.destacado}</strong>}
-              </div>
-              <div className="exemplo-label">{e.titulo}</div>
-            </div>
-          ))}
-        </div>
+        <VturbPlayer />
       </div>
       </div>
     </section>

@@ -271,7 +271,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .vsl-play svg { width: 24px; height: 24px; fill: #fff; margin-left: 4px; }
 .vsl-label { font-size: 0.78rem; color: rgba(255,255,255,0.55); letter-spacing: 0.08em; text-transform: uppercase; }
 .vsl-placeholder { padding-top: 56.25%; } /* 16:9 ratio */
-.vsl-vturb-mobile { display: none; } /* visível apenas no mobile — ver @media max-width: 900px */
+.exemplos-video-mobile { display: none; } /* visível apenas no mobile — ver @media max-width: 900px */
 .hero-cta-row { display: flex; align-items: center; justify-content: flex-start; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
 .hero-trust { display: flex; flex-direction: row; flex-wrap: wrap; gap: 14px 20px; align-items: center; justify-content: flex-start; }
 .trust-item { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--text-2); }
@@ -1177,10 +1177,9 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
   .hero-text    { grid-column: 1; grid-row: 1; align-items: center; text-align: center; }
   .hero-right   { grid-column: 1; grid-row: 2; justify-content: center; }
   .hero-cta-block { grid-column: 1; grid-row: 3; align-items: center; }
-  /* VTurb mobile: oculta o placeholder e exibe o player */
-  .vsl-placeholder { display: none; }
-  .vsl-vturb-mobile { display: block; width: 100%; margin: 0 auto; }
   .hero-cta-row { justify-content: center; }
+  /* VTurb em #exemplos: exibe o player no mobile */
+  .exemplos-video-mobile { display: block; width: 100%; margin: 0 auto; }
   .hero-trust   { justify-content: center; }
   .como-grid { grid-template-columns: 1fr; margin-top: 20px; }
   .como-layout { gap: 20px; }
