@@ -1,4 +1,33 @@
+import { useEffect, useRef } from 'react'
 import { KIWIFY_URL } from '../../data/links'
+
+function VturbPlayer() {
+  const ref = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const container = ref.current
+    if (!container) return
+
+    // Cria o custom element uma única vez (guarda por ID)
+    if (!document.getElementById('vid-6a2963ff69b3ad0cbf212249')) {
+      const player = document.createElement('vturb-smartplayer')
+      player.id = 'vid-6a2963ff69b3ad0cbf212249'
+      player.style.cssText = 'display:block;margin:0 auto;width:100%;max-width:400px;'
+      container.appendChild(player)
+    }
+
+    // Injeta o script uma única vez (guarda por data-attribute)
+    if (!document.querySelector('script[data-vturb-id]')) {
+      const s = document.createElement('script')
+      s.src = 'https://scripts.converteai.net/9a830ae7-afc8-422f-84b7-f587f3948a96/players/6a2963ff69b3ad0cbf212249/v4/player.js'
+      s.async = true
+      s.setAttribute('data-vturb-id', '6a2963ff69b3ad0cbf212249')
+      document.head.appendChild(s)
+    }
+  }, [])
+
+  return <div ref={ref} className="vsl-vturb-mobile" />
+}
 
 export function Hero() {
   return (
@@ -33,6 +62,7 @@ export function Hero() {
                 <span className="vsl-label">Veja o CloserOS funcionando</span>
               </div>
             </div>
+            <VturbPlayer />
           </div>
 
           <div className="hero-cta-block">
