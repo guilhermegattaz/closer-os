@@ -146,7 +146,7 @@ nav .btn-ghost {
 }
 .btn-primary:hover { background: #b5abff; transform: translateY(-1px); box-shadow: 0 4px 16px rgba(195,185,255,0.35); }
 .btn-primary:active { transform: scale(0.98); }
-.btn-primary.large { padding: 14px 40px; font-size: 1rem; }
+.btn-primary.large { padding: 14px 28px; font-size: 0.95rem; }
 .btn-primary.accent-btn { background: #c3b9ff; box-shadow: 0 2px 8px rgba(195,185,255,0.25); }
 .btn-primary.accent-btn:hover { background: #b5abff; box-shadow: 0 4px 16px rgba(195,185,255,0.35); }
 .btn-ghost {
@@ -459,6 +459,8 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .x-dot svg { width: 12px; height: 12px; }
 .problema-item p { font-size: 0.92rem; color: var(--text-2); line-height: 1.65; }
 .problema-item p strong { color: #8be5ab; font-weight: 600; display: block; margin-bottom: 3px; }
+/* dor = vermelho; escopo restrito a #problema para não afetar os cards de benefícios em ParaQuem */
+#problema .problema-item p strong { color: var(--red); }
 
 /* COMO */
 #como { background: transparent; padding: 40px 0; }
@@ -803,6 +805,13 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   max-width: 860px;
   margin: 0 auto;
 }
+/* variante clara: intercala blocos escuros com respiro claro */
+.section-banner-inner--light {
+  background: var(--bg-soft);
+}
+.section-banner-inner--light .section-banner-text {
+  color: var(--accent);
+}
 .br-desktop-only { display: none; }
 .br-mobile { display: none; }
 @media (min-width: 901px) { .br-desktop-only { display: block; } }
@@ -1073,15 +1082,16 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .vantagem-period { font-size: 0.72rem; color: rgba(255,255,255,0.45); margin-bottom: 12px; }
 .vantagem-btn {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 100%; min-height: 48px; border-radius: 10px;
+  width: 100%; min-height: 48px; border-radius: var(--radius-btn);
   background: var(--cta-bg-on-dark); color: var(--cta-text-on-dark);
-  font-family: 'Manrope', sans-serif; font-size: 0.88rem; font-weight: 600;
+  font-family: 'Manrope', sans-serif; font-size: 0.95rem; font-weight: 600;
+  padding: 14px 28px;
   border: none; cursor: pointer; text-decoration: none;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
-  transition: all 200ms;
+  box-shadow: 0 4px 16px rgba(195,185,255,0.25);
+  transition: all 200ms ease-out;
   white-space: nowrap;
 }
-.vantagem-btn:hover { background: #b5abff; transform: translateY(-1px); }
+.vantagem-btn:hover { background: #b5abff; transform: translateY(-1px); box-shadow: 0 4px 16px rgba(195,185,255,0.35); }
 .vantagem-meta { font-size: 0.68rem; color: rgba(255,255,255,0.35); }
 
 .cta-quote {
@@ -1098,14 +1108,14 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .cta-meta { font-size: 0.78rem; color: #ffbd8e; margin-top: 14px; opacity: 0.9; }
 .btn-white {
   display: inline-flex; align-items: center; gap: 8px;
-  min-height: 58px; padding: 0 40px; border-radius: var(--radius-btn);
-  background: #c3baff; color: #1e1a16;
-  font-size: 0.95rem; font-weight: 700;
+  padding: 14px 28px; border-radius: var(--radius-btn);
+  background: var(--accent-2); color: var(--accent);
+  font-size: 0.95rem; font-weight: 600;
   border: none; cursor: pointer; text-decoration: none;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.2);
-  transition: all 200ms;
+  box-shadow: 0 2px 8px rgba(195,185,255,0.25);
+  transition: all 200ms ease-out;
 }
-.btn-white:hover { background: #aba3e8; transform: translateY(-1px); box-shadow: 0 8px 32px rgba(0,0,0,0.25); }
+.btn-white:hover { background: #b5abff; transform: translateY(-1px); box-shadow: 0 4px 16px rgba(195,185,255,0.35); }
 
 /* FOOTER */
 footer {
@@ -1354,14 +1364,14 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
 .como-cta {
   display: inline-flex; align-items: center;
   margin-top: 24px;
-  padding: 12px 24px;
-  border-radius: 10px;
+  padding: 14px 28px;
+  border-radius: var(--radius-btn);
   background: var(--cta-bg-on-dark);
   color: var(--cta-text-on-dark);
-  font-family: 'Manrope', sans-serif; font-size: 0.88rem; font-weight: 600;
-  text-decoration: none; transition: background 150ms;
+  font-family: 'Manrope', sans-serif; font-size: 0.95rem; font-weight: 600;
+  text-decoration: none; transition: all 200ms ease-out;
 }
-.como-cta:hover { background: #b5abff; }
+.como-cta:hover { background: #b5abff; transform: translateY(-1px); }
   /* cards empilhados verticalmente na coluna direita */
   .como-grid {
     grid-template-columns: 1fr;
@@ -1439,9 +1449,8 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
     padding-top: 0;
   }
   #hero .btn-primary.large {
-    min-height: 50px;
-    padding: 0 34px;
-    font-size: 0.89rem;
+    padding: 14px 28px;
+    font-size: 0.95rem;
   }
   #hero .trust-item {
     font-size: 0.72rem;

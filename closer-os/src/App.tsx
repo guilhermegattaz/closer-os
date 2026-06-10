@@ -65,9 +65,9 @@ export default function App() {
         <Hero />
         <Problema />
         <section className="section-banner">
-          <div className="section-banner-inner fade-up">
+          <div className="section-banner-inner section-banner-inner--light fade-up">
             <p className="section-banner-text">Vender não é dom. É método.</p>
-            <p style={{ color: 'rgba(255,255,255,0.72)', fontSize: '1.05rem', lineHeight: 1.7, maxWidth: 600, margin: '20px auto 0' }}>
+            <p style={{ color: 'var(--text-2)', fontSize: '1.05rem', lineHeight: 1.7, maxWidth: 600, margin: '20px auto 0' }}>
               O cliente não compra o seu serviço — ele compra convicção. E convicção não é personalidade: é a forma como você conduz a conversa. Isso se aprende. E é exatamente isso que o CloserOS coloca na sua mão.
             </p>
           </div>
@@ -98,14 +98,14 @@ export default function App() {
           </div>
         </section>
         <section className="section-banner">
-          <div className="section-banner-inner fade-up" style={{ textAlign: 'center' }}>
-            <p style={{ fontFamily: "'Manrope', sans-serif", fontSize: 'clamp(1.75rem, 2.5vw + 0.5rem, 2.4rem)', fontWeight: 700, lineHeight: 1.35, letterSpacing: '-0.02em', color: '#ffffff' }}>
+          <div className="section-banner-inner section-banner-inner--light fade-up" style={{ textAlign: 'center' }}>
+            <p style={{ fontFamily: "'Manrope', sans-serif", fontSize: 'clamp(1.75rem, 2.5vw + 0.5rem, 2.4rem)', fontWeight: 700, lineHeight: 1.35, letterSpacing: '-0.02em', color: 'var(--accent)' }}>
               Vender com confiança.<br />
               Vender sem medo.<br />
               Vender de forma natural.<br />
               Vender como um hábito.
             </p>
-            <p style={{ color: 'rgba(255,255,255,0.72)', fontSize: '1.05rem', lineHeight: 1.7, maxWidth: 480, margin: '20px auto 0' }}>
+            <p style={{ color: 'var(--text-2)', fontSize: '1.05rem', lineHeight: 1.7, maxWidth: 480, margin: '20px auto 0' }}>
               É isso que muda quando você sabe o que dizer.
             </p>
           </div>
