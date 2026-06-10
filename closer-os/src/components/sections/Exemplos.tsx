@@ -26,6 +26,32 @@ function VturbPlayer() {
   return <div ref={ref} className="exemplos-video-mobile" />
 }
 
+function VturbDesktop() {
+  const ref = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const container = ref.current
+    if (!container) return
+
+    if (!document.getElementById('vid-6a297360d717f6e82a93af27')) {
+      const player = document.createElement('vturb-smartplayer')
+      player.id = 'vid-6a297360d717f6e82a93af27'
+      player.style.cssText = 'display:block;margin:0 auto;width:100%;'
+      container.appendChild(player)
+    }
+
+    if (!document.querySelector('script[data-vturb-id-desktop]')) {
+      const s = document.createElement('script')
+      s.src = 'https://scripts.converteai.net/9a830ae7-afc8-422f-84b7-f587f3948a96/players/6a297360d717f6e82a93af27/v4/player.js'
+      s.async = true
+      s.setAttribute('data-vturb-id-desktop', '6a297360d717f6e82a93af27')
+      document.head.appendChild(s)
+    }
+  }, [])
+
+  return <div ref={ref} className="exemplos-video-desktop" />
+}
+
 export function Exemplos() {
   return (
     <section id="exemplos">
@@ -42,6 +68,7 @@ export function Exemplos() {
           Você descreve a situação — "o cliente disse que tá caro", "mandei a proposta e sumiu", "não sei como começar a conversa" — e o CloserOS responde com orientação específica para aquele momento. Em segundos. Como um mentor que você consulta na hora que precisa, não depois que a oportunidade passou.
         </p>
         <VturbPlayer />
+        <VturbDesktop />
       </div>
       </div>
     </section>

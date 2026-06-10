@@ -272,6 +272,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .vsl-label { font-size: 0.78rem; color: rgba(255,255,255,0.55); letter-spacing: 0.08em; text-transform: uppercase; }
 .vsl-placeholder { padding-top: 56.25%; } /* 16:9 ratio */
 .exemplos-video-mobile { display: none; } /* visível apenas no mobile — ver @media max-width: 900px */
+.exemplos-video-desktop { display: none; } /* visível apenas no desktop — ver @media min-width: 901px */
 .hero-cta-row { display: flex; align-items: center; justify-content: flex-start; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
 .hero-trust { display: flex; flex-direction: row; flex-wrap: wrap; gap: 14px 20px; align-items: center; justify-content: flex-start; }
 .trust-item { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: var(--text-2); }
@@ -1471,6 +1472,11 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
     transform: scale(1.15);
     transform-origin: center right;
   }
+}
+
+@media (min-width: 901px) {
+  .exemplos-video-desktop { display: block; max-width: 800px; margin: 0 auto; }
+  .exemplos-video-mobile  { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
