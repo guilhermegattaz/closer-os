@@ -7,18 +7,18 @@ function VturbPlayer() {
     const container = ref.current
     if (!container) return
 
-    if (!document.getElementById('vid-6a2963ff69b3ad0cbf212249')) {
+    if (!document.getElementById('vid-6a296e9bdde81cc5ef9e31d3')) {
       const player = document.createElement('vturb-smartplayer')
-      player.id = 'vid-6a2963ff69b3ad0cbf212249'
+      player.id = 'vid-6a296e9bdde81cc5ef9e31d3'
       player.style.cssText = 'display:block;margin:0 auto;width:100%;max-width:400px;'
       container.appendChild(player)
     }
 
     if (!document.querySelector('script[data-vturb-id]')) {
       const s = document.createElement('script')
-      s.src = 'https://scripts.converteai.net/9a830ae7-afc8-422f-84b7-f587f3948a96/players/6a2963ff69b3ad0cbf212249/v4/player.js'
+      s.src = 'https://scripts.converteai.net/9a830ae7-afc8-422f-84b7-f587f3948a96/players/6a296e9bdde81cc5ef9e31d3/v4/player.js'
       s.async = true
-      s.setAttribute('data-vturb-id', '6a2963ff69b3ad0cbf212249')
+      s.setAttribute('data-vturb-id', '6a296e9bdde81cc5ef9e31d3')
       document.head.appendChild(s)
     }
   }, [])
