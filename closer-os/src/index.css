@@ -1475,7 +1475,7 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
 }
 
 @media (min-width: 901px) {
-  .exemplos-video-desktop { display: block; max-width: 800px; margin: 0 auto; }
+  .exemplos-video-desktop { display: block; max-width: 1000px; margin: 0 auto; }
   .exemplos-video-mobile  { display: none; }
 }
 
