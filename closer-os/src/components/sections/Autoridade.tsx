@@ -19,7 +19,7 @@ export function Autoridade() {
               </div>
               <div className="autor-profile-info">
                 <div className="autor-name">Guilherme Dias Gattaz</div>
-                <div className="autor-role">Especialista em vendas consultivas 1:1</div>
+                <div className="autor-role">Especialista em vendas consultivas 1:1 · Diretor Comercial de agência nos EUA</div>
               </div>
             </div>
             <div className="autor-bio">

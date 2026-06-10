@@ -21,4 +21,9 @@ export const problemas: Problema[] = [
     titulo: 'Como cobrar o que você vale sem travar.',
     descricao: 'Você aceita menos porque não quer perder venda.',
   },
+  {
+    id: 'p5',
+    titulo: 'Hoje você só vende por indicação.',
+    descricao: 'E quando a indicação seca, você fica a ver navios — sem saber como prospectar ou abordar um cliente novo sozinho.',
+  },
 ]

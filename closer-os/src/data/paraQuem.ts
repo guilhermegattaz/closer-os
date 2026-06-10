@@ -10,7 +10,7 @@ export const paraQuem: ParaQuemCard[] = [
   {
     id: 'q2',
     titulo: 'Terapeutas e Psicólogos',
-    descricao: 'Você é excelente no atendimento, mas não sabe o que dizer para transformar um interessado em cliente. Vender parece desconfortável.',
+    descricao: 'Você é excelente no atendimento, mas vender parece quase antiético — e você acaba perdendo gente que precisava de você, só por não saber conduzir a primeira conversa.',
     icon: 'heart',
   },
   {

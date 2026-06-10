@@ -48,7 +48,7 @@ function NegociosCard() {
               Mesmo que você não saiba nada sobre como apresentar, negociar e vender seu serviço, ele irá te ajudar em cada passo desde uma simples conversa, como responder uma mensagem, até quebrar objeções complexas.
             </p>
             <p className="body-lg fade-up d2" style={{ margin: '0' }}>
-              Qualquer que seja o seu nível, o CloserOS irá te ajudar a fechar mais clientes, cobrar mais caro pelo seu serviço e ganhar mais dinheiro.
+              Qualquer que seja o seu nível, o CloserOS irá te ajudar a fechar mais clientes, cobrar o que você vale, e construir a liberdade de escolher seus clientes, seus preços e o seu tempo.
             </p>
           </div>
           <div className="problema-right">

@@ -11,7 +11,7 @@ export function ComoFunciona() {
               O mentor que está com você<br className="br-desktop" />{' '}<span style={{ color: 'var(--accent-violet)' }}>em cada conversa.</span>
             </h2>
             <p className="body-lg fade-up d2" style={{ margin: '16px 0 0' }}>
-              Você descreve o que está acontecendo — ele te diz exatamente o que fazer. Não no dia seguinte. Não depois de um curso de 40 horas. Agora. Na hora que você precisa.
+              Você descreve o que está acontecendo — ele te diz exatamente o que fazer. Não no dia seguinte. Não depois de um curso de 40 horas. Agora. Na hora que você precisa. Para você nunca mais deitar à noite remoendo o que devia ter dito.
             </p>
             <p className="body-lg fade-up d2" style={{ margin: '20px 0 0', fontStyle: 'italic', color: 'var(--text-2)' }}>
               Imagine ter, do seu lado, um especialista pronto para te dizer o que falar — toda vez que um cliente te deixa travado.

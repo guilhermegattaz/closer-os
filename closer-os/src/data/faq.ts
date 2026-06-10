@@ -37,6 +37,16 @@ export const faqItems: FaqItem[] = [
     resposta: 'Sim. O ChatGPT tem um aplicativo gratuito para iOS e Android. Você pode acessar o CloserOS™ a qualquer momento pelo celular — antes de uma reunião, no intervalo, ou onde precisar.',
   },
   {
+    id: 'f-funil',
+    pergunta: 'O CloserOS só serve para quando o cliente já está negociando?',
+    resposta: 'Não. Ele te ajuda do começo ao fim: desde como prospectar e abordar alguém, passando por como apresentar o seu serviço, até quebrar objeções e fechar. Onde quer que você trave na conversa, ele te diz o que dizer.',
+  },
+  {
+    id: 'f-perfil',
+    pergunta: 'Eu sou péssimo em vendas, acho que não tenho perfil. Funciona mesmo pra mim?',
+    resposta: 'Funciona principalmente pra você. O CloserOS não exige nenhuma experiência em vendas — ele foi feito justamente pra te guiar quando você não sabe o que fazer. Vender não é dom, é método. Você descreve a situação e ele te diz o caminho, passo a passo.',
+  },
+  {
     id: 'f7',
     pergunta: 'E se eu não gostar ou não ver resultado?',
     resposta: 'Você tem 7 dias de garantia incondicional. Se em uma semana não ver valor no CloserOS™, basta me enviar uma mensagem pedindo o reembolso. Devolvo 100% do valor sem perguntas e sem burocracia.',

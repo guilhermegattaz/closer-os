@@ -18,7 +18,7 @@ export function Hero() {
             </h1>
             */}
             <p className="body-lg fade-up d2" style={{ marginBottom: 14, maxWidth: 520 }}>
-              Para profissionais liberais, freelancers, mentores e autônomos que perdem clientes por não saber o que dizer nos momentos críticos.
+              Você é referência no que faz — mas trava na hora de falar de preço. O problema nunca foi o seu trabalho. É que ninguém te ensinou o que dizer.
             </p>
           </div>
 
