@@ -70,7 +70,7 @@ export function Problema() {
     <section id="problema">
       <ProblemaCard />
       <p className="body-lg fade-up" style={{ fontStyle: 'italic', color: 'var(--text-2)', textAlign: 'center', maxWidth: 680, margin: '0 auto', padding: '40px 24px 0' }}>
-        "E o pior nem é a venda perdida. É deitar à noite remoendo a conversa, sabendo exatamente o que você devia ter dito — tarde demais. É se sentir um amador justo na parte que decide o seu dinheiro, sendo você referência em todo o resto."
+        E o pior nem é a venda perdida. É deitar à noite remoendo a conversa, sabendo exatamente o que você devia ter dito — tarde demais. É se sentir um amador justo na parte que decide o seu dinheiro, sendo você referência em todo o resto.
       </p>
       <p className="body-lg fade-up" style={{ textAlign: 'center', maxWidth: 640, margin: '0 auto', padding: '28px 24px 0', fontWeight: 600, color: 'var(--text)' }}>
         E se o problema nunca foi o mercado, nem o preço, nem o cliente "enrolado" — e sim a forma como você apresenta o seu trabalho?
