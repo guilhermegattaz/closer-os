@@ -23,14 +23,16 @@ export function Hero() {
           </div>
 
           <div className="hero-right">
-            <div className="vsl-wrap vsl-placeholder fade-up d2" role="region" aria-label="Vídeo de apresentação do CloserOS™">
-              <div className="vsl-thumb">
-                <div className="vsl-play" aria-hidden="true">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="#fff">
-                    <polygon points="6,4 20,12 6,20"/>
-                  </svg>
-                </div>
-                <span className="vsl-label">Veja o CloserOS funcionando</span>
+            <div className="vsl-wrap vsl-video fade-up d2" role="region" aria-label="Vídeo de apresentação do CloserOS™">
+              <div className="vsl-embed">
+                <iframe
+                  src="https://www.youtube.com/embed/S_esS7a8FUY?rel=0&modestbranding=1"
+                  title="CloserOS VSL"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
               </div>
             </div>
           </div>
