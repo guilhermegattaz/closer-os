@@ -91,7 +91,7 @@ export function ParaQuem() {
       <div className="container">
         <p className="section-eyebrow fade-up" style={{ textAlign: 'center' }}>Para quem é</p>
         <h2 className="h2 fade-up d1" style={{ textAlign: 'center' }}>
-          Se você vende um serviço,<br className="br-desktop" />{' '}o CloserOS foi feito <span style={{ color: 'var(--accent-green)' }}>para você.</span>
+          Se você vende um serviço,<br className="br-desktop" />{' '}o CloserOS foi feito <span style={{ color: 'var(--accent-2)' }}>para você.</span>
         </h2>
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 620, margin: '16px auto 0' }}>
           Funciona para qualquer negócio de serviço — independente do seu nível de experiência em vendas.

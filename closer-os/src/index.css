@@ -432,7 +432,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 }
 .x-dot svg { width: 12px; height: 12px; }
 .problema-item p { font-size: 0.92rem; color: var(--text-2); line-height: 1.65; }
-.problema-item p strong { color: #8be5ab; font-weight: 600; display: block; margin-bottom: 3px; }
+.problema-item p strong { color: var(--accent-2); font-weight: 600; display: block; margin-bottom: 3px; }
 /* dor = vermelho; escopo restrito a #problema para não afetar os cards de benefícios em ParaQuem */
 #problema .problema-item p strong { color: var(--red); }
 
@@ -980,7 +980,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   transition: background 150ms;
 }
 .faq-q:hover { background: var(--bg); }
-.faq-chevron { width: 18px; height: 18px; flex-shrink: 0; transition: transform 200ms; color: #8be5ab; }
+.faq-chevron { width: 18px; height: 18px; flex-shrink: 0; transition: transform 200ms; color: var(--accent-2); }
 .faq-item.open .faq-chevron { transform: rotate(180deg); }
 .faq-a { display: none; padding: 0 24px 20px; background: var(--surface); font-size: 0.9rem; color: var(--text-2); line-height: 1.75; }
 .faq-item.open .faq-a { display: block; }
