@@ -4,7 +4,7 @@ import { Footer } from './components/layout/Footer'
 import { StickyCTA } from './components/layout/StickyCTA'
 import {
   Hero, Problema, ComoFunciona, Exemplos,
-  ParaQuem, Autoridade, Oferta, Faq, FinalCta, Depoimentos
+  ParaQuem, Autoridade, Oferta, Faq, FinalCta, Depoimentos, DoisCaminhos
 } from './components/sections'
 import { VantagemCard } from './components/sections/ParaQuem'
 import { KIWIFY_URL } from './data/links'
@@ -112,6 +112,7 @@ export default function App() {
         </section>
         <Oferta />
         <Faq />
+        <DoisCaminhos />
         <FinalCta />
       </main>
       <Footer />

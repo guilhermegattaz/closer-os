@@ -985,6 +985,74 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .faq-a { display: none; padding: 0 24px 20px; background: var(--surface); font-size: 0.9rem; color: var(--text-2); line-height: 1.75; }
 .faq-item.open .faq-a { display: block; }
 
+/* DOIS CAMINHOS */
+#dois-caminhos {
+  background: transparent;
+  padding: 64px 0;
+}
+.dois-caminhos-headline {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.dois-caminhos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.dois-caminhos-card {
+  padding: 32px 28px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+}
+.dois-caminhos-card--destaque {
+  border-color: var(--accent-2);
+  background: rgba(195, 186, 255, 0.05);
+}
+.dois-caminhos-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-bottom: 12px;
+}
+.dois-caminhos-card--destaque .dois-caminhos-label {
+  color: var(--accent-2);
+}
+.dois-caminhos-card h3 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 12px;
+  line-height: 1.35;
+}
+.dois-caminhos-card p {
+  font-size: 0.9rem;
+  color: var(--text-2);
+  line-height: 1.7;
+}
+.dois-caminhos-fechamento {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.05rem;
+  color: var(--text-2);
+  line-height: 1.6;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 900px) {
+  #dois-caminhos { padding: 40px 0; }
+  .dois-caminhos-grid { grid-template-columns: 1fr; gap: 16px; }
+  .dois-caminhos-headline { margin-bottom: 28px; }
+}
+@media (max-width: 600px) {
+  .dois-caminhos-card { padding: 24px 20px; }
+  .dois-caminhos-fechamento { font-size: 0.95rem; margin-top: 28px; }
+}
+
 /* FINAL CTA */
 #final-cta {
   background: transparent;
