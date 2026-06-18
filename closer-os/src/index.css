@@ -330,6 +330,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   background: var(--bg-soft);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
+  padding: 20px 0;
 }
 .prova-faixa-inner {
   max-width: 1152px; margin: 0 auto; padding: 0 40px;
@@ -340,38 +341,39 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   border-right: 1px solid var(--border);
 }
 .prova-stat {
-  flex: 1; padding: 16px 20px;
+  flex: 1; padding: 8px 20px;
   border-right: 1px solid var(--border);
 }
 .prova-stat:last-child { border-right: none; }
 .prova-stat-num {
   font-family: 'Manrope', sans-serif; font-weight: 700;
-  font-size: 1.1rem; letter-spacing: -0.02em;
+  font-size: 1.7rem; letter-spacing: -0.03em;
   color: var(--text); line-height: 1;
 }
 .prova-stat-label {
-  font-size: 0.65rem; color: var(--text-3);
-  margin-top: 4px; line-height: 1.35;
+  font-size: 0.75rem; color: var(--text-3);
+  margin-top: 5px; line-height: 1.35;
   text-transform: uppercase; letter-spacing: 0.06em;
 }
 .prova-depo {
-  flex: 1.2; padding: 16px 24px;
+  flex: 1.2; padding: 8px 24px;
   display: flex; flex-direction: column; justify-content: center; gap: 4px;
 }
 .prova-depo-texto {
-  font-size: 0.82rem; line-height: 1.55;
+  font-size: 0.85rem; line-height: 1.6;
   color: var(--text); font-style: italic;
 }
 .prova-depo-autor {
-  font-size: 0.68rem; color: var(--text-3); font-weight: 600;
+  font-size: 0.7rem; color: var(--text-3); font-weight: 600;
   letter-spacing: 0.04em;
 }
 @media (max-width: 900px) {
+  #prova-faixa { padding: 16px 0; }
   .prova-faixa-inner { flex-direction: column; padding: 0 20px; }
   .prova-stats { border-right: none; border-bottom: 1px solid var(--border); }
-  .prova-stat { padding: 12px 0; border-right: none; border-bottom: 1px solid var(--border); }
+  .prova-stat { padding: 8px 0; border-right: none; border-bottom: 1px solid var(--border); }
   .prova-stat:last-child { border-bottom: none; }
-  .prova-depo { padding: 16px 0; }
+  .prova-depo { padding: 12px 0; }
 }
 
 /* PROBLEMA */
