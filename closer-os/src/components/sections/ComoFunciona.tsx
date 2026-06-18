@@ -4,6 +4,29 @@ export function ComoFunciona() {
   return (
     <section id="como">
       <div className="container">
+        <div className="como-passos fade-up">
+          <p className="section-eyebrow">Como funciona</p>
+          <p className="como-passos-titulo">Simples assim. Em 3 passos.</p>
+          <div className="como-passos-grid">
+            <div className="como-passo">
+              <div className="como-passo-num">1</div>
+              <h4>Descreva a situação</h4>
+              <p>Você conta o que o cliente disse: "tá caro", "vou pensar", "preciso falar com meu marido", ou que sumiu.</p>
+            </div>
+            <div className="como-passo-seta" aria-hidden="true">→</div>
+            <div className="como-passo">
+              <div className="como-passo-num">2</div>
+              <h4>Ele faz as perguntas certas</h4>
+              <p>O CloserOS entende o seu caso, o seu serviço e o contexto daquela conversa.</p>
+            </div>
+            <div className="como-passo-seta" aria-hidden="true">→</div>
+            <div className="como-passo">
+              <div className="como-passo-num">3</div>
+              <h4>Você recebe o que dizer</h4>
+              <p>A resposta exata para mandar agora, antes de responder ao cliente. Em segundos.</p>
+            </div>
+          </div>
+        </div>
         <div className="como-layout">
           <div className="como-left">
             <div className="section-eyebrow left fade-up">A SOLUÇÃO</div>
