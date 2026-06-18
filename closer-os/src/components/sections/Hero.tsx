@@ -10,7 +10,7 @@ export function Hero() {
             {/* VARIANTE A (ativa) */}
             <h1 className="display hero-headline fade-up d1">
               Saiba exatamente o que dizer para{' '}
-              <em>fechar mais clientes</em> — sem dar desconto e sem diminuir o seu valor.
+              <em>fechar mais clientes</em>, sem dar desconto e sem diminuir o seu valor.
             </h1>
             {/* VARIANTE B (teste A/B) — para ativar: troque pelos dois blocos acima
             <h1 className="display hero-headline fade-up d1">

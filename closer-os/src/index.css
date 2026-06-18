@@ -327,7 +327,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 
 /* PROVA FAIXA */
 #prova-faixa {
-  background: var(--bg-soft);
+  background: transparent;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   padding: 14px 0;
@@ -353,7 +353,9 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 @media (max-width: 900px) {
   #prova-faixa { padding: 16px 0; }
   .prova-faixa-inner { padding: 0 20px; }
-  .prova-stats { flex-direction: column; gap: 14px; align-items: center; }
+  .prova-stats { flex-direction: row; flex-wrap: nowrap; gap: 20px; justify-content: center; align-items: center; }
+  .prova-stat-num { font-size: 1rem; }
+  .prova-stat-label { font-size: 0.6rem; }
 }
 
 /* PROBLEMA */
@@ -1395,7 +1397,7 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
   /* Evitar orphãos em headings no mobile */
   .h2, .display, .hero-headline { text-wrap: balance; }
   /* Tipografia do hero mobile */
-  .hero-headline { margin-bottom: 8px; }
+  .hero-headline { margin-bottom: 8px; font-size: 1.65rem; line-height: 1.12; }
   #hero .body-lg { font-size: 0.8rem; line-height: 1.45; margin-top: 0; margin-bottom: 0 !important; }
   /* Reduzir fonte da quote no mobile */
   .autor-stat-quote p { font-size: 0.68rem; }
