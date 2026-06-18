@@ -932,8 +932,11 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   transition: all 200ms;
 }
 .btn-oferta:hover { background: var(--cta-hover); transform: translateY(-1px); }
+.oferta-lancamento { font-size: 0.78rem; color: var(--accent-peach); line-height: 1.5; margin-top: 10px; }
 .oferta-ancora { font-size: 0.78rem; color: #888888; line-height: 1.5; margin-top: 10px; font-style: italic; }
+.oferta-custo-oportunidade { font-size: 0.8rem; color: var(--text-2); font-style: italic; line-height: 1.6; margin-top: 12px; text-align: center; }
 .oferta-risco-zero { font-size: 0.78rem; color: var(--text-2); line-height: 1.55; margin-top: 10px; text-align: center; }
+.dois-caminhos-urgencia { text-align: center; margin-top: 12px; font-size: 0.92rem; color: var(--text-3); font-style: italic; line-height: 1.6; max-width: 480px; margin-left: auto; margin-right: auto; }
 .oferta-countdown { margin-bottom: 16px; text-align: center; }
 .oferta-countdown-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #000; margin-bottom: 8px; }
 .oferta-countdown-timer { display: flex; justify-content: center; gap: 8px; }

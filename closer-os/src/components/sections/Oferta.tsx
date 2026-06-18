@@ -103,6 +103,7 @@ export function Oferta() {
               <div className="price-from">De R$691</div>
               <div className="price-main" style={{ color: 'var(--accent-violet)' }}><sup>R$</sup>67</div>
               <div className="price-period">pagamento único · sem mensalidade</div>
+              <p className="oferta-lancamento">Preço de lançamento. Em breve, o CloserOS™ passa a custar mais. Garantindo agora, você trava o valor de R$67 para sempre.</p>
               <p className="oferta-ancora">Menos do que uma única consultoria de vendas — que você teria só uma vez. Aqui, o mentor fica com você para sempre.</p>
             </div>
             <div>
@@ -110,6 +111,7 @@ export function Oferta() {
               <a href={KIWIFY_URL} className="btn-oferta" target="_blank" rel="noopener noreferrer" aria-label="Quero acesso agora — R$67">
                 Quero acesso agora — R$67 →
               </a>
+              <p className="oferta-custo-oportunidade">Cada conversa que você adia é uma venda que pode escapar. O CloserOS™ custa uma vez. Uma venda perdida custa toda vez.</p>
               <p className="oferta-risco-zero">Você arrisca R$67 por 7 dias. Se o CloserOS™ não te ajudar a conduzir melhor suas conversas com clientes, é só pedir o reembolso.</p>
               <p className="oferta-kiwify">Kiwify · PIX, cartão ou boleto</p>
               <div className="oferta-garantia-box">
