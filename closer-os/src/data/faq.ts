@@ -19,7 +19,7 @@ export const faqItems: FaqItem[] = [
   {
     id: 'f3',
     pergunta: 'Funciona para qualquer tipo de serviço?',
-    resposta: 'Sim. O CloserOS™ foi desenvolvido para qualquer profissional que vende serviços — consultores, terapeutas, designers, coaches, prestadores de serviços, agências e qualquer outro profissional autônomo.',
+    resposta: 'Sim. O CloserOS™ foi desenvolvido para qualquer profissional que vende serviços — consultores, terapeutas, designers, coaches, prestadores de serviços, agências e qualquer profissional que perde vendas na conversa por não saber o que dizer na hora certa.',
   },
   {
     id: 'f4',
@@ -34,12 +34,12 @@ export const faqItems: FaqItem[] = [
   {
     id: 'f6',
     pergunta: 'Posso usar no celular?',
-    resposta: 'Sim. O ChatGPT tem um aplicativo gratuito para iOS e Android. Você pode acessar o CloserOS™ a qualquer momento pelo celular — antes de uma reunião, no intervalo, ou onde precisar.',
+    resposta: 'Sim. O ChatGPT tem um aplicativo gratuito para iOS e Android. Você pode acessar o CloserOS™ a qualquer momento pelo celular — antes de uma reunião, no intervalo, ou até no meio de uma conversa pelo WhatsApp, antes de responder ao cliente.',
   },
   {
     id: 'f-funil',
     pergunta: 'O CloserOS só serve para quando o cliente já está negociando?',
-    resposta: 'Não. Ele te ajuda do começo ao fim: desde como prospectar e abordar alguém, passando por como apresentar o seu serviço, até quebrar objeções e fechar. Onde quer que você trave na conversa, ele te diz o que dizer.',
+    resposta: 'Não. Ele serve para qualquer momento em que você trava na conversa — do primeiro "oi" até a hora de fechar. Seja para abrir uma conversa, responder a um "tá caro" ou recuperar um cliente que sumiu, você descreve a situação e ele te diz o que dizer naquele momento.',
   },
   {
     id: 'f-perfil',
@@ -49,7 +49,7 @@ export const faqItems: FaqItem[] = [
   {
     id: 'f7',
     pergunta: 'E se eu não gostar ou não ver resultado?',
-    resposta: 'Você tem 7 dias de garantia incondicional. Se em uma semana não ver valor no CloserOS™, basta me enviar uma mensagem pedindo o reembolso. Devolvo 100% do valor sem perguntas e sem burocracia.',
+    resposta: 'O risco é todo meu. Você tem 7 dias para usar o CloserOS™ à vontade. Se não for pra você, é só me enviar uma mensagem — devolvo 100% do valor, sem perguntas e sem burocracia.',
   },
   {
     id: 'f8',
