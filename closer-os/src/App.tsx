@@ -4,7 +4,7 @@ import { Footer } from './components/layout/Footer'
 import { StickyCTA } from './components/layout/StickyCTA'
 import {
   Hero, Problema, ComoFunciona, Exemplos,
-  ParaQuem, Autoridade, Oferta, Faq, FinalCta, Depoimentos, DoisCaminhos
+  ParaQuem, Autoridade, Oferta, Faq, FinalCta, Depoimentos, DoisCaminhos, ProvaFaixa
 } from './components/sections'
 import { VantagemCard } from './components/sections/ParaQuem'
 import { KIWIFY_URL } from './data/links'
@@ -63,6 +63,7 @@ export default function App() {
       <Navbar />
       <main id="main" style={{ position: 'relative', zIndex: 1 }}>
         <Hero />
+        <ProvaFaixa />
         <Problema />
         <section className="section-banner">
           <div className="section-banner-inner section-banner-inner--light fade-up">
@@ -95,19 +96,6 @@ export default function App() {
                 Quero conduzir com confiança — R$47 →
               </a>
             </div>
-          </div>
-        </section>
-        <section className="section-banner">
-          <div className="section-banner-inner section-banner-inner--light fade-up" style={{ textAlign: 'center' }}>
-            <p style={{ fontFamily: "'Manrope', sans-serif", fontSize: 'clamp(1.75rem, 2.5vw + 0.5rem, 2.4rem)', fontWeight: 700, lineHeight: 1.35, letterSpacing: '-0.02em', color: 'var(--accent)' }}>
-              Vender com confiança.<br />
-              Vender sem medo.<br />
-              Vender de forma natural.<br />
-              Vender como um hábito.
-            </p>
-            <p style={{ color: 'var(--text-2)', fontSize: '1.05rem', lineHeight: 1.7, maxWidth: 480, margin: '20px auto 0' }}>
-              É isso que muda quando você sabe o que dizer.
-            </p>
           </div>
         </section>
         <Oferta />
