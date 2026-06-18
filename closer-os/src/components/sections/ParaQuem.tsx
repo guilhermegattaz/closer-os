@@ -4,10 +4,10 @@ import type { ParaQuemCard } from '../../types'
 import { KIWIFY_URL } from '../../data/links'
 
 const negociosItems = [
-  { id: 'n1', titulo: 'Crie seus próprios roteiros de conversa.', descricao: 'Para qualquer cenário: ligações, mensagens, reuniões.' },
-  { id: 'n2', titulo: 'Saiba o que responder quando questionam seu preço.', descricao: 'Sem ceder desconto por medo de perder o cliente.' },
-  { id: 'n3', titulo: 'Atraia novos clientes com constância.', descricao: 'Estratégias de prospecção e indicação.' },
-  { id: 'n4', titulo: 'Conduza a conversa com confiança do início ao fim.', descricao: 'Saiba qual pergunta fazer em cada etapa.' },
+  { id: 'n1', titulo: 'Saiba o que dizer quando o cliente diz "tá caro".', descricao: 'Sem ceder desconto por medo de perder a venda.' },
+  { id: 'n2', titulo: 'Quebre o "vou pensar" e o "preciso falar com meu marido".', descricao: 'Respostas claras para as objeções que travam toda negociação.' },
+  { id: 'n3', titulo: 'Recupere o cliente que sumiu depois da proposta.', descricao: 'Saiba como e quando retomar sem parecer desesperado.' },
+  { id: 'n4', titulo: 'Feche bem — e faça a indicação vir naturalmente.', descricao: 'Quem conduz a conversa com segurança não precisa correr atrás de cliente.' },
 ]
 
 function NegociosCard() {
@@ -48,7 +48,7 @@ function NegociosCard() {
               Mesmo que você não saiba nada sobre como apresentar, negociar e vender seu serviço, ele irá te ajudar em cada passo desde uma simples conversa, como responder uma mensagem, até quebrar objeções complexas.
             </p>
             <p className="body-lg fade-up d2" style={{ margin: '0' }}>
-              Qualquer que seja o seu nível, o CloserOS irá te ajudar a fechar mais clientes, cobrar o que você vale, e construir a liberdade de escolher seus clientes, seus preços e o seu tempo.
+              Qualquer que seja o seu nível, o CloserOS te mostra exatamente o que dizer nos momentos que mais travam — para você parar de perder clientes por não ter a resposta certa na hora certa.
             </p>
           </div>
           <div className="problema-right">

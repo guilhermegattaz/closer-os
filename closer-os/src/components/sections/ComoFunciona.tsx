@@ -32,7 +32,7 @@ export function ComoFunciona() {
                 </svg>
               </div>
               <h3>Disponível a qualquer hora</h3>
-              <p>Às 22h antes de uma reunião importante. No intervalo do almoço. Logo depois de uma conversa difícil. Sem hora marcada, sem esperar resposta.</p>
+              <p>Quando o cliente manda "tá caro" às 22h. Quando a reunião é amanhã e você não sabe como abrir. Quando mandou a proposta e quer saber se espera ou segue. Está lá, na hora.</p>
             </div>
             <div className="como-card fade-up d1">
               <div className="como-lottie">
@@ -41,7 +41,7 @@ export function ComoFunciona() {
                 </svg>
               </div>
               <h3>Para a sua situação específica</h3>
-              <p>Não é resposta genérica de internet. Você descreve o cliente, o serviço, o contexto — e recebe orientação para aquela situação exata. Como conversar com um mentor que te conhece.</p>
+              <p>Você descreve o que aconteceu: o que o cliente disse, o serviço, o preço. Ele te devolve o que falar — para quando o cliente diz "vou pensar", "preciso consultar meu marido" ou some sem responder.</p>
             </div>
             <div className="como-card fade-up d2">
               <div className="como-lottie">
@@ -53,7 +53,7 @@ export function ComoFunciona() {
                 </svg>
               </div>
               <h3>Funciona no ChatGPT gratuito</h3>
-              <p>Sem aplicativo extra. Sem mensalidade. Funciona no celular ou computador, na versão gratuita do ChatGPT. Suas conversas ficam salvas para você consultar quando quiser.</p>
+              <p>Sem aplicativo extra. Sem mensalidade. Abra o ChatGPT no celular, descreva a situação e tenha a resposta antes de responder ao cliente — enquanto o WhatsApp ainda está aberto.</p>
             </div>
             <div className="como-card fade-up d3">
               <div className="como-lottie">
@@ -62,7 +62,7 @@ export function ComoFunciona() {
                 </svg>
               </div>
               <h3>Suas conversas ficam salvas</h3>
-              <p>Tudo o que você consultou fica guardado no seu histórico. Volte quando quiser, retome de onde parou e tenha um mentor que lembra do seu contexto.</p>
+              <p>Cada situação que você consultou fica no histórico. Na próxima vez que o mesmo tipo de objeção aparecer, você já sabe o que dizer — sem precisar improvisar de novo.</p>
             </div>
           </div>
         </div>
