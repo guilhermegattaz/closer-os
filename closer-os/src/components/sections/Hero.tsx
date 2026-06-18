@@ -10,7 +10,7 @@ export function Hero() {
             {/* VARIANTE A (ativa) */}
             <h1 className="display hero-headline fade-up d1">
               Saiba exatamente o que dizer para{' '}
-              <em>fechar mais clientes</em> — sem parecer vendedor.
+              <em>fechar mais clientes</em> — sem dar desconto e sem diminuir o seu valor.
             </h1>
             {/* VARIANTE B (teste A/B) — para ativar: troque pelos dois blocos acima
             <h1 className="display hero-headline fade-up d1">
@@ -18,7 +18,7 @@ export function Hero() {
             </h1>
             */}
             <p className="body-lg fade-up d2" style={{ marginBottom: 14, maxWidth: 520 }}>
-              Você é referência no que faz — mas trava na hora de falar de preço. O problema nunca foi o seu trabalho. É que ninguém te ensinou o que dizer.
+              Quando o cliente diz "tá caro", "vou pensar" ou "preciso falar com meu marido" — você tem a resposta certa na hora. Sem improvisar, sem travar, sem ver a venda sumir.
             </p>
           </div>
 

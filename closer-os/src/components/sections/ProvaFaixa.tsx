@@ -16,10 +16,6 @@ export function ProvaFaixa() {
             <div className="prova-stat-label">de experiência em negociações</div>
           </div>
         </div>
-        <div className="prova-depo">
-          <p className="prova-depo-texto">"Fechei 3 clientes novos na mesma semana."</p>
-          <span className="prova-depo-autor">Ana Paula S. · Social Media</span>
-        </div>
       </div>
     </div>
   )
