@@ -89,7 +89,7 @@ export default function App() {
             <p className="cta-quote">Imagine a sua próxima conversa diferente.</p>
             <p className="cta-sub">
               Você, calmo, sem a mão suando. O cliente questiona o preço e você não se encolhe — conduz. Ele diz "vou pensar" e você sabe exatamente o que perguntar. Você cobra o que vale, com a voz firme, sem pedir desculpa. E fecha. Não porque virou outra pessoa. Porque finalmente teve quem te mostrasse o que dizer.<br /><br />
-              E não é só sobre fechar mais um cliente. É sobre ter segurança, encher a agenda no seu ritmo e construir a liberdade de ser dono do próprio nariz.
+              E não é só sobre fechar mais um cliente. É sobre ter segurança, encher a agenda no seu ritmo e ter a resposta certa na próxima conversa difícil — e na seguinte, e na outra.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
               <a href={KIWIFY_URL} className="btn-white" target="_blank" rel="noopener noreferrer">

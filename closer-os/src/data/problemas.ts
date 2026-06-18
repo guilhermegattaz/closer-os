@@ -18,12 +18,12 @@ export const problemas: Problema[] = [
   },
   {
     id: 'p4',
-    titulo: 'Como cobrar o que você vale sem travar.',
-    descricao: 'Você aceita menos porque não quer perder venda.',
+    titulo: 'Na hora de cobrar, você hesita.',
+    descricao: 'Aceita menos porque não quer perder a venda.',
   },
   {
     id: 'p5',
-    titulo: 'Hoje você só vende por indicação.',
-    descricao: 'E quando a indicação seca, você fica a ver navios — sem saber como prospectar ou abordar um cliente novo sozinho.',
+    titulo: 'Hoje você depende de indicação.',
+    descricao: 'E quando o cliente chega, basta uma objeção — um "tá caro", um "vou pensar" — para a conversa travar e a venda escapar.',
   },
 ]

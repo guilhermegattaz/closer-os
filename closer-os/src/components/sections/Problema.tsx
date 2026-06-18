@@ -37,7 +37,7 @@ export function ProblemaCard() {
               Você dedicou anos aprendendo o seu ofício. Você é bom — muito bom. Seus clientes que te conhecem adoram o seu trabalho.
             </p>
             <p className="body-lg fade-up d2" style={{ margin: '0 0 16px' }}>
-              Mas existe uma parte que ninguém te ensinou: o que fazer antes de alguém se tornar seu cliente.
+              Mas existe uma parte que ninguém te ensinou: o que dizer na hora em que o cliente decide se fecha com você ou não.
             </p>
             <p className="body-lg fade-up d2" style={{ margin: '0' }}>
               E aí você fica improvisando, torcendo para dar certo, sentindo aquela sensação incômoda de ter deixado dinheiro na mesa.
