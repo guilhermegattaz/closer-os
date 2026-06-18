@@ -128,9 +128,9 @@ export function VantagemCard({ tag, text, variant, btnText }: VantagemCardProps 
         <p className="vantagem-text">{text ?? 'Seja visto como autoridade no que faz para se destacar da concorrência. Conduza seu próximo cliente da primeira conversa até o sim, com confiança e naturalidade. Seu mentor disponível para você a qualquer hora do dia.'}</p>
       </div>
       <div className="vantagem-right">
-        <div className="vantagem-price">R$47</div>
+        <div className="vantagem-price">R$67</div>
         <div className="vantagem-period">pagamento único · sem mensalidade</div>
-        <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer">{btnText ?? 'Quero fechar mais clientes — R$47 →'}</a>
+        <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer">{btnText ?? 'Quero fechar mais clientes — R$67 →'}</a>
         <p className="vantagem-meta">Garantia de 7 dias · Acesso imediato</p>
       </div>
     </div>

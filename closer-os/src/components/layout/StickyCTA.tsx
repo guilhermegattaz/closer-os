@@ -7,7 +7,7 @@ export function StickyCTA() {
     <div id="sticky-cta" role="complementary" className={visible ? 'visible' : ''}>
       <div className="sticky-label">
         <small>Pagamento único</small>
-        <strong>R$47</strong>
+        <strong>R$67</strong>
       </div>
       <a href={KIWIFY_URL} className="btn-primary" style={{ minHeight: 44, padding: '0 24px', fontSize: '0.82rem' }} target="_blank" rel="noopener noreferrer">
         Quero agora →

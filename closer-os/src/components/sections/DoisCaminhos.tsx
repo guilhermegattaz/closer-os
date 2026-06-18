@@ -19,7 +19,7 @@ export function DoisCaminhos() {
           </div>
         </div>
         <p className="dois-caminhos-fechamento fade-up d2">
-          Os dois custam alguma coisa. Um custa as vendas que você continua perdendo. O outro custa R$47.
+          Os dois custam alguma coisa. Um custa as vendas que você continua perdendo. O outro custa R$67.
         </p>
       </div>
     </section>

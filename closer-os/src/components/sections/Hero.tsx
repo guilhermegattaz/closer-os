@@ -39,7 +39,7 @@ export function Hero() {
 
           <div className="hero-cta-block">
             <div className="hero-cta-row fade-up d3">
-              <a href={KIWIFY_URL} className="btn-primary large accent-btn" target="_blank" rel="noopener noreferrer">Quero o CloserOS™ — R$47 →</a>
+              <a href={KIWIFY_URL} className="btn-primary large accent-btn" target="_blank" rel="noopener noreferrer">Quero o CloserOS™ — R$67 →</a>
             </div>
             <div className="hero-trust fade-up d3">
               {['Funciona no ChatGPT gratuito', 'Sem mensalidade', 'Garantia incondicional de 7 dias'].map((text) => (

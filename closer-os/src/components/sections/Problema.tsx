@@ -80,11 +80,11 @@ export function Problema() {
       </p>
       <div className="fade-up vantagem-card">
         <div className="vantagem-left">
-          <div className="vantagem-tag" style={{ color: '#fff' }}>Isso tem solução. E ela cabe em R$47.</div>
+          <div className="vantagem-tag" style={{ color: '#fff' }}>Isso tem solução. E ela cabe em R$67.</div>
           <p className="vantagem-text">Você perde clientes todos os dias — não porque o seu trabalho é ruim. Porque ninguém te ensinou o que dizer nesses momentos.</p>
         </div>
         <div className="vantagem-right">
-          <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer" aria-label="Quero saber o que dizer — R$47">Quero saber o que dizer — R$47 →</a>
+          <a href={KIWIFY_URL} className="vantagem-btn" target="_blank" rel="noopener noreferrer" aria-label="Quero saber o que dizer — R$67">Quero saber o que dizer — R$67 →</a>
           <p className="vantagem-meta">Garantia de 7 dias · Acesso imediato</p>
         </div>
       </div>

@@ -31,7 +31,7 @@ function Countdown() {
   if (expired) return null
   return (
     <div className="oferta-countdown">
-      <p className="oferta-countdown-label">Preço de lançamento: R$47 — válido por tempo limitado</p>
+      <p className="oferta-countdown-label">Preço de lançamento: R$67 — válido por tempo limitado</p>
       <div className="oferta-countdown-timer">
         {days > 0 && (
           <div className="countdown-unit">
@@ -101,16 +101,16 @@ export function Oferta() {
             <div>
               <div className="oferta-product">CloserOS™</div>
               <div className="price-from">De R$691</div>
-              <div className="price-main" style={{ color: 'var(--accent-violet)' }}><sup>R$</sup>47</div>
+              <div className="price-main" style={{ color: 'var(--accent-violet)' }}><sup>R$</sup>67</div>
               <div className="price-period">pagamento único · sem mensalidade</div>
               <p className="oferta-ancora">Menos do que uma única consultoria de vendas — que você teria só uma vez. Aqui, o mentor fica com você para sempre.</p>
             </div>
             <div>
               <Countdown />
-              <a href={KIWIFY_URL} className="btn-oferta" target="_blank" rel="noopener noreferrer" aria-label="Quero acesso agora — R$47">
-                Quero acesso agora — R$47 →
+              <a href={KIWIFY_URL} className="btn-oferta" target="_blank" rel="noopener noreferrer" aria-label="Quero acesso agora — R$67">
+                Quero acesso agora — R$67 →
               </a>
-              <p className="oferta-risco-zero">Você arrisca R$47 por 7 dias. Se o CloserOS™ não te ajudar a conduzir melhor suas conversas com clientes, é só pedir o reembolso.</p>
+              <p className="oferta-risco-zero">Você arrisca R$67 por 7 dias. Se o CloserOS™ não te ajudar a conduzir melhor suas conversas com clientes, é só pedir o reembolso.</p>
               <p className="oferta-kiwify">Kiwify · PIX, cartão ou boleto</p>
               <div className="oferta-garantia-box">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-green)" strokeWidth="2">

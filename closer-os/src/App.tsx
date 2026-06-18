@@ -81,7 +81,7 @@ export default function App() {
           variant="naked"
           tag="Quanto valeria fechar a maioria dos clientes com quem você conversa?"
           text="Se a resposta for 'muito', você está a poucos minutos de mudar isso. Clique abaixo e tenha o CloserOS™ ao seu lado já na sua próxima conversa."
-          btnText="Quero o CloserOS™ agora — R$47 →"
+          btnText="Quero o CloserOS™ agora — R$67 →"
         />
         <Depoimentos />
         <section style={{ background: 'transparent', padding: '32px 0' }}>
@@ -93,7 +93,7 @@ export default function App() {
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 10 }}>
               <a href={KIWIFY_URL} className="btn-white" target="_blank" rel="noopener noreferrer">
-                Quero conduzir com confiança — R$47 →
+                Quero conduzir com confiança — R$67 →
               </a>
             </div>
           </div>

@@ -53,7 +53,7 @@ export const faqItems: FaqItem[] = [
   },
   {
     id: 'f8',
-    pergunta: 'Por que R$47 e não mais caro?',
+    pergunta: 'Por que R$67 e não mais caro?',
     resposta: 'Porque quero que qualquer profissional autônomo possa acessar isso — sem barreiras. O valor não reflete o resultado que você vai ter. Fechar um único cliente a mais já paga o CloserOS™ muitas vezes.',
   },
 ]
