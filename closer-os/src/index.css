@@ -410,8 +410,8 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   }
 }
 @media (max-width: 900px) {
-  .prob-bubble { max-width: 88%; }
-  #problema .prob-reply-text { max-width: 88%; }
+  .prob-bubble { max-width: min(88%, 300px); }
+  #problema .prob-reply-text { max-width: min(88%, 300px); }
 }
 @media (max-width: 600px) {
   .prob-not-sent { opacity: 0.65; }
@@ -509,7 +509,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   color: rgba(255,255,255,0.45);
 }
 .prob-bubble {
-  max-width: 78%; padding: 9px 13px;
+  max-width: min(78%, 300px); padding: 9px 13px;
   border-radius: 14px; border-top-left-radius: 4px;
   font-size: 0.86rem; line-height: 1.5;
 }
@@ -537,7 +537,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   display: flex; flex-direction: column; align-items: flex-end; gap: 4px;
 }
 #problema .prob-reply-text {
-  text-align: right; max-width: 78%;
+  text-align: right; max-width: min(78%, 300px);
   font-size: 0.8rem; color: rgba(255,255,255,0.44);
   font-style: italic; line-height: 1.5; margin: 0;
 }
