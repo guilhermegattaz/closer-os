@@ -47,13 +47,26 @@ export function ProblemaCard() {
             <div className="problema-wrap">
               <div className="stack-wrapper" ref={stackRef}>
                 {problemas.map((p) => (
-                  <div key={p.id} className="problema-item" data-stack="">
-                    <div className="x-dot">
-                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="var(--accent-violet)" strokeWidth="2.5">
-                        <line x1="1" y1="6" x2="11" y2="6" />
-                      </svg>
+                  <div key={p.id} className="problema-item problema-chat" data-stack="">
+                    {/* Bolha do cliente */}
+                    <div className="prob-row-client">
+                      <div className="prob-avatar" aria-hidden="true">CL</div>
+                      {p.id === 'p3' ? (
+                        <div className="prob-bubble prob-bubble--client prob-bubble--typing" aria-label="sem resposta do cliente">
+                          <span /><span /><span />
+                        </div>
+                      ) : (
+                        <div className="prob-bubble prob-bubble--client">{p.titulo}</div>
+                      )}
                     </div>
-                    <p><strong>{p.titulo}</strong> {p.descricao}</p>
+                    {/* Sua reação travada */}
+                    <div className="prob-row-reply">
+                      <p className="prob-reply-text">{p.descricao}</p>
+                      <span className="prob-not-sent" aria-label="não enviada">
+                        <span className="prob-not-sent-dot" />
+                        <span className="prob-not-sent-label">não enviada</span>
+                      </span>
+                    </div>
                   </div>
                 ))}
               </div>
