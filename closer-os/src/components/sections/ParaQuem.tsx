@@ -94,7 +94,7 @@ export function ParaQuem() {
           Se você vende um serviço,<br className="br-desktop" />{' '}o CloserOS foi feito <span style={{ color: 'var(--accent-2)' }}>para você.</span>
         </h2>
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 620, margin: '16px auto 0' }}>
-          Funciona para qualquer negócio de serviço — independente do seu nível de experiência em vendas.
+          Não importa o que você vende — se o seu faturamento depende de uma conversa, é aqui que ele trava ou acontece.
         </p>
         <div className="quem-grid">
           {paraQuem.map((card, i) => (
