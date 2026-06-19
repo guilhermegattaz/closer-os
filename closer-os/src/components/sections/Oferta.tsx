@@ -6,22 +6,31 @@ import { useCountdown } from '../../hooks/useCountdown'
 // {{CONFIGURAR: substitua pela data e hora reais do encerramento do preço de lançamento}}
 const LAUNCH_DEADLINE = new Date('2026-06-15T23:59:00-03:00')
 
-function BonusIcon({ tipo }: { tipo: string }) {
+function BonusIcon({ tipo, nome }: { tipo: string; nome: string }) {
   if (tipo === 'principal') {
     return (
+      <div className="bonus-mockup" aria-hidden="true">
+        <div className="bonus-mockup-line" />
+        <div className="bonus-mockup-line bonus-mockup-line--reply" />
+        <div className="bonus-mockup-line" />
+      </div>
+    )
+  }
+  if (nome.startsWith('Treinamento')) {
+    return (
       <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.6" width="18" height="18">
-        <rect x="3" y="5" width="14" height="11" rx="2"/>
-        <path d="M7 5V4a3 3 0 0 1 6 0v1"/>
+        <circle cx="10" cy="10" r="8" />
+        <polygon points="8,7 14,10 8,13" fill="currentColor" stroke="none" />
       </svg>
     )
   }
+  // Guia / documento
   return (
     <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.6" width="18" height="18">
-      <path d="M18 9H2v10h16V9z"/>
-      <path d="M21 4H3v5h18V4z"/>
-      <path d="M12 21V4"/>
-      <path d="M12 4H7.5a2.5 2.5 0 0 1 0-5C11 -1 12 4 12 4z"/>
-      <path d="M12 4h4.5a2.5 2.5 0 0 0 0-5C13 -1 12 4 12 4z"/>
+      <path d="M4 2h8l4 4v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z" />
+      <polyline points="12,2 12,6 16,6" />
+      <line x1="6" y1="9" x2="14" y2="9" />
+      <line x1="6" y1="12" x2="14" y2="12" />
     </svg>
   )
 }
@@ -75,9 +84,10 @@ export function Oferta() {
     <section id="oferta">
       <div className="container">
         <div className="oferta-layout fade-up d1">
+
           {/* ESQUERDA: itens incluídos */}
           <div className="oferta-right" id="oferta-right-panel">
-            {/* Mock de chat */}
+            {/* Mock de chat — NÃO ALTERAR */}
             <div className="oferta-chat-mock">
               <div className="oferta-chat-status">
                 <span className="oferta-chat-dot" />
@@ -94,6 +104,14 @@ export function Oferta() {
                 Não baixe o preço. Devolva o valor primeiro: "Entendo. Posso te mostrar em 1 minuto por que esse investimento se paga já no próximo cliente?"
               </div>
             </div>
+
+            {/* Âncora de valor */}
+            <div className="oferta-valor-total">
+              <div className="valor-total-label">Valor real do pacote</div>
+              <div className="valor-total-num">R$594</div>
+              <div className="valor-total-hoje">Hoje: R$67</div>
+            </div>
+
             <div className="oferta-right-headline">Tudo que você recebe hoje</div>
             <div className="oferta-right-label">O que está incluído</div>
             <div className="bonus-list">
@@ -104,9 +122,12 @@ export function Oferta() {
                   id={item.highlight ? 'bonus-roteiro' : undefined}
                 >
                   <div className={`bonus-icon${item.tipo !== 'principal' ? ' gift-icon' : ''}`}>
-                    <BonusIcon tipo={item.tipo} />
+                    <BonusIcon tipo={item.tipo} nome={item.nome} />
                   </div>
-                  <div className="bonus-name">{item.nome}</div>
+                  <div className="bonus-name">
+                    {item.nome}
+                    <span className="bonus-incluso">incluso</span>
+                  </div>
                   <div className="bonus-val" style={item.highlight ? { fontWeight: 600 } : undefined}>{item.valor}</div>
                 </div>
               ))}
@@ -120,15 +141,17 @@ export function Oferta() {
               <div className="price-from">De R$594</div>
               <div className="price-main"><sup>R$</sup>67</div>
               <div className="price-period">pagamento único · sem mensalidade</div>
-              <p className="oferta-payback">Se isso te fizer fechar um único cliente que você perderia, já se pagou, <span style={{ color: 'var(--accent-green)' }}>e o mentor fica com você para sempre.</span></p>
-              <p className="oferta-lancamento">Preço de lançamento. Em breve, o CloserOS™ passa a custar mais. Garantindo agora, você trava o valor de R$67 para sempre.</p>
-              <p className="oferta-ancora">Menos do que uma única consultoria de vendas — que você teria só uma vez. Aqui, o mentor fica com você para sempre.</p>
+              <p className="oferta-payback">Fecha um cliente e já se pagou.</p>
             </div>
             <div>
               <Countdown />
               <a href={KIWIFY_URL} className="btn-oferta" target="_blank" rel="noopener noreferrer" aria-label="Quero acesso agora — R$67">
                 Quero acesso agora — R$67 →
               </a>
+              <div className="oferta-microselos">
+                <span className="oferta-microselo oferta-microselo--peach">Preço de lançamento</span>
+                <span className="oferta-microselo">Menos que uma consultoria</span>
+              </div>
               <p className="oferta-risco-zero">Você arrisca R$67 por 7 dias. Se o CloserOS™ não te ajudar a conduzir melhor suas conversas com clientes, é só pedir o reembolso.</p>
               <p className="oferta-kiwify">Kiwify · PIX, cartão ou boleto</p>
               <div className="oferta-garantia-box">
@@ -143,6 +166,7 @@ export function Oferta() {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
