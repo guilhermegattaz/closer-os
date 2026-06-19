@@ -100,7 +100,7 @@ export function Oferta() {
           <div className="oferta-left">
             <div>
               <div className="oferta-product">CloserOS™</div>
-              <div className="price-from">De R$691</div>
+              <div className="price-from">De R$594</div>
               <div className="price-main" style={{ color: 'var(--accent-violet)' }}><sup>R$</sup>67</div>
               <div className="price-period">pagamento único · sem mensalidade</div>
               <p className="oferta-lancamento">Preço de lançamento. Em breve, o CloserOS™ passa a custar mais. Garantindo agora, você trava o valor de R$67 para sempre.</p>

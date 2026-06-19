@@ -8,12 +8,6 @@ export const bonusItems: BonusItem[] = [
     tipo: 'principal',
   },
   {
-    id: 'b2',
-    nome: 'Mini-aula: Os 3 Erros que Fazem Bons Profissionais Perderem Vendas',
-    valor: 'R$97',
-    tipo: 'bonus',
-  },
-  {
     id: 'b3',
     nome: 'Guia: Como Gerar Autoridade e Confiança Logo no Primeiro Contato',
     valor: 'R$97',
