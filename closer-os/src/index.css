@@ -541,6 +541,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   display: flex;
   flex-direction: column;
 }
+.como-distinção { font-size: 0.85rem; color: var(--text-2); line-height: 1.6; margin-top: 14px; }
 .como-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 56px; }
 .como-card {
   padding: 32px 28px;
@@ -932,6 +933,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   transition: all 200ms;
 }
 .btn-oferta:hover { background: var(--cta-hover); transform: translateY(-1px); }
+.oferta-payback { font-size: 0.75rem; color: rgba(255,255,255,0.45); line-height: 1.5; margin-top: 10px; }
 .oferta-lancamento { font-size: 0.78rem; color: var(--accent-peach); line-height: 1.5; margin-top: 16px; margin-bottom: 16px; }
 .oferta-ancora { font-size: 0.78rem; color: rgba(255,255,255,0.38); line-height: 1.5; margin-top: 10px; font-style: italic; }
 .oferta-custo-oportunidade { font-size: 0.8rem; color: var(--text-2); font-style: italic; line-height: 1.6; margin-top: 12px; text-align: center; }

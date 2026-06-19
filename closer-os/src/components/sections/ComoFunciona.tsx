@@ -36,6 +36,9 @@ export function ComoFunciona() {
             <p className="body-lg fade-up d2" style={{ margin: '16px 0 0' }}>
               Não é um curso pra assistir depois. É orientação na hora exata em que a conversa está acontecendo — para você nunca mais sair de uma conversa remoendo o que devia ter dito.
             </p>
+            <p className="como-distinção fade-up d2">
+              E não, isso não é um "prompt mágico" qualquer da internet. É um sistema construído sobre um <span style={{ color: 'var(--accent-2)' }}>método real de vendas</span> — ele entende o seu caso antes de te responder.
+            </p>
             <p className="body-lg fade-up d2" style={{ margin: '20px 0 0', fontStyle: 'italic', color: 'var(--text-2)' }}>
               Imagine ter, do seu lado, um especialista pronto para te dizer o que falar — toda vez que um cliente te deixa travado.
             </p>
