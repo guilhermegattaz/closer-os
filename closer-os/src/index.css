@@ -932,7 +932,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   transition: all 200ms;
 }
 .btn-oferta:hover { background: var(--cta-hover); transform: translateY(-1px); }
-.oferta-lancamento { font-size: 0.78rem; color: var(--accent-peach); line-height: 1.5; margin-top: 10px; }
+.oferta-lancamento { font-size: 0.78rem; color: var(--accent-peach); line-height: 1.5; margin-top: 16px; margin-bottom: 16px; }
 .oferta-ancora { font-size: 0.78rem; color: #888888; line-height: 1.5; margin-top: 10px; font-style: italic; }
 .oferta-custo-oportunidade { font-size: 0.8rem; color: var(--text-2); font-style: italic; line-height: 1.6; margin-top: 12px; text-align: center; }
 .oferta-risco-zero { font-size: 0.78rem; color: var(--text-2); line-height: 1.55; margin-top: 10px; text-align: center; }
@@ -961,7 +961,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .oferta-right {
   padding: 32px 36px;
   background: #f9f8ff;
-  display: flex; flex-direction: column; justify-content: space-between;
+  display: flex; flex-direction: column; justify-content: flex-start;
   border-left: 1px solid var(--border);
 }
 .oferta-right-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-3); margin-bottom: 12px; }

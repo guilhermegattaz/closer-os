@@ -111,7 +111,6 @@ export function Oferta() {
               <a href={KIWIFY_URL} className="btn-oferta" target="_blank" rel="noopener noreferrer" aria-label="Quero acesso agora — R$67">
                 Quero acesso agora — R$67 →
               </a>
-              <p className="oferta-custo-oportunidade">Cada conversa que você adia é uma venda que pode escapar. O CloserOS™ custa uma vez. Uma venda perdida custa toda vez.</p>
               <p className="oferta-risco-zero">Você arrisca R$67 por 7 dias. Se o CloserOS™ não te ajudar a conduzir melhor suas conversas com clientes, é só pedir o reembolso.</p>
               <p className="oferta-kiwify">Kiwify · PIX, cartão ou boleto</p>
               <div className="oferta-garantia-box">
