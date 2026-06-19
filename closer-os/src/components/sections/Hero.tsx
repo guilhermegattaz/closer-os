@@ -18,7 +18,7 @@ export function Hero() {
             </h1>
             */}
             <p className="body-lg fade-up d2" style={{ marginBottom: 14, maxWidth: 520 }}>
-              Quando o cliente diz "tá caro", "vou pensar" ou "preciso falar com minha esposa", você tem a resposta certa na hora. Sem improvisar, sem pressão, sem ver a venda sumir.
+              Quando o cliente diz "tá caro", "vou pensar" ou quando a conversa fica difícil, você tem a resposta certa na hora. Sem improvisar, sem pressão, sem ver a venda sumir.
             </p>
           </div>
 
