@@ -892,7 +892,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   padding-top: 24px;
 }
 @media (min-width: 901px) {
-  #oferta { padding: 40px 0; background: #f5f5f5; }
+  #oferta { padding: 40px 0; background: linear-gradient(180deg, #ffffff 0%, #f0eeff 100%); }
   .vantagem-card--naked { margin-top: 24px; padding-bottom: 96px; }
 }
 #oferta .container { width: 100%; }
@@ -900,27 +900,27 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
-  background: #f9f8ff;
-  border: 1px solid var(--border);
+  background: transparent;
+  border: 1px solid rgba(195,186,255,0.35);
   border-radius: 24px;
   overflow: hidden;
-  box-shadow: 0 8px 48px rgba(0,0,0,0.08);
+  box-shadow: 0 16px 64px rgba(100,80,200,0.12), 0 2px 8px rgba(0,0,0,0.06);
   max-width: 960px;
   margin: 0 auto;
 }
 
-/* COLUNA ESQUERDA: preço + cta */
+/* COLUNA ESQUERDA: preço + cta — dark premium */
 .oferta-left {
   padding: 36px 40px;
-  background: #ffffff;
+  background: #15131f;
   display: flex; flex-direction: column; justify-content: space-between;
   gap: 24px;
 }
-.oferta-product { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #000000; margin-bottom: 16px; }
-.price-from { font-size: 0.85rem; color: #000000; text-decoration: line-through; margin-bottom: 4px; }
-.price-main { font-family: 'Manrope', sans-serif; font-weight: 800; font-size: 5.5rem; color: #fff; line-height: 0.9; letter-spacing: -0.04em; }
+.oferta-product { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.55); margin-bottom: 16px; }
+.price-from { font-size: 0.85rem; color: rgba(255,255,255,0.4); text-decoration: line-through; margin-bottom: 4px; }
+.price-main { font-family: 'Manrope', sans-serif; font-weight: 800; font-size: 5.5rem; color: #ffffff; line-height: 0.9; letter-spacing: -0.04em; }
 .price-main sup { font-size: 2rem; vertical-align: super; }
-.price-period { font-size: 0.78rem; color: #888888; margin-top: 10px; }
+.price-period { font-size: 0.78rem; color: rgba(255,255,255,0.45); margin-top: 10px; }
 .oferta-cta-col { margin-top: 40px; }
 .btn-oferta {
   display: flex; align-items: center; justify-content: center;
@@ -933,21 +933,21 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 }
 .btn-oferta:hover { background: var(--cta-hover); transform: translateY(-1px); }
 .oferta-lancamento { font-size: 0.78rem; color: var(--accent-peach); line-height: 1.5; margin-top: 16px; margin-bottom: 16px; }
-.oferta-ancora { font-size: 0.78rem; color: #888888; line-height: 1.5; margin-top: 10px; font-style: italic; }
+.oferta-ancora { font-size: 0.78rem; color: rgba(255,255,255,0.38); line-height: 1.5; margin-top: 10px; font-style: italic; }
 .oferta-custo-oportunidade { font-size: 0.8rem; color: var(--text-2); font-style: italic; line-height: 1.6; margin-top: 12px; text-align: center; }
-.oferta-risco-zero { font-size: 0.78rem; color: var(--text-2); line-height: 1.55; margin-top: 10px; text-align: center; }
+.oferta-risco-zero { font-size: 0.78rem; color: rgba(255,255,255,0.5); line-height: 1.55; margin-top: 10px; text-align: center; }
 .dois-caminhos-urgencia { text-align: center; margin-top: 12px; font-size: 0.92rem; color: var(--text-3); font-style: italic; line-height: 1.6; max-width: 480px; margin-left: auto; margin-right: auto; }
 .oferta-countdown { margin-bottom: 16px; text-align: center; }
-.oferta-countdown-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #000; margin-bottom: 8px; }
+.oferta-countdown-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(255,255,255,0.65); margin-bottom: 8px; }
 .oferta-countdown-timer { display: flex; justify-content: center; gap: 8px; }
 .countdown-unit { display: flex; flex-direction: column; align-items: center; background: #1e1a16; border-radius: 8px; padding: 8px 12px; min-width: 52px; }
 .countdown-num { font-family: 'Manrope', sans-serif; font-size: 1.4rem; font-weight: 700; color: #fff; line-height: 1; }
 .countdown-label { font-size: 0.6rem; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 2px; }
-.oferta-garantia-box { display: flex; align-items: flex-start; gap: 10px; margin-top: 16px; padding: 14px 16px; background: rgba(139,229,171,0.08); border: 1px solid var(--accent-green); border-radius: 12px; }
-.oferta-garantia-box strong { display: block; font-size: 0.82rem; color: #000; }
-.oferta-garantia-box span { font-size: 0.78rem; color: #888888; }
+.oferta-garantia-box { display: flex; align-items: flex-start; gap: 10px; margin-top: 16px; padding: 14px 16px; background: rgba(139,229,171,0.06); border: 1px solid rgba(139,229,171,0.28); border-radius: 12px; }
+.oferta-garantia-box strong { display: block; font-size: 0.82rem; color: #ffffff; }
+.oferta-garantia-box span { font-size: 0.78rem; color: rgba(255,255,255,0.52); }
 .oferta-garantia-box svg { flex-shrink: 0; margin-top: 2px; }
-.oferta-kiwify { font-size: 0.72rem; color: #888888; text-align: center; margin-top: 10px; }
+.oferta-kiwify { font-size: 0.72rem; color: rgba(255,255,255,0.32); text-align: center; margin-top: 10px; }
 .oferta-garantia-mini {
   display: flex; align-items: center; gap: 8px;
   margin-top: 20px; padding-top: 20px;
@@ -960,7 +960,7 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 /* COLUNA DIREITA: bônus */
 .oferta-right {
   padding: 32px 36px;
-  background: #f9f8ff;
+  background: #ffffff;
   display: flex; flex-direction: column; justify-content: flex-start;
   border-left: 1px solid var(--border);
 }
@@ -971,7 +971,9 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
   padding: 9px 12px;
   background: var(--bg);
   border: 1px solid var(--border);
+  border-left: 3px solid var(--accent-2);
   border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
 .oferta-right-headline {
   font-family: 'Manrope', sans-serif;
@@ -1001,7 +1003,42 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .bonus-row-highlight.blue-in .bonus-icon { color: #1e1a16; }
 .bonus-tag { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 7px; border-radius: 4px; background: var(--bg-2); border: 1px solid var(--border-2); color: var(--text-3); flex-shrink: 0; white-space:nowrap; }
 .bonus-name { font-size: 0.82rem; color: var(--text); flex: 1; line-height: 1.4; }
-.bonus-val { font-size: 0.75rem; color: var(--text-3); text-decoration: line-through; flex-shrink: 0; }
+.bonus-val { font-size: 0.75rem; color: var(--accent-2); font-weight: 600; text-decoration: line-through; flex-shrink: 0; }
+
+/* Botão lavanda no card escuro */
+#oferta .btn-oferta { background: var(--cta-bg-on-dark); color: var(--cta-text-on-dark); }
+#oferta .btn-oferta:hover { background: #a99df0; transform: translateY(-1px); }
+
+/* Chat mock na coluna de bônus */
+.oferta-chat-mock {
+  background: #f8f7ff;
+  border: 1px solid rgba(195,186,255,0.3);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 12px rgba(100,80,200,0.07);
+  display: flex; flex-direction: column; gap: 8px;
+}
+.oferta-chat-status { display: flex; align-items: center; gap: 6px; margin-bottom: 2px; }
+.oferta-chat-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--accent-green);
+  box-shadow: 0 0 0 2px rgba(139,229,171,0.3);
+  flex-shrink: 0;
+}
+.oferta-chat-live { font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-3); }
+.oferta-chat-bubble { padding: 8px 12px; border-radius: 10px; font-size: 0.78rem; line-height: 1.5; max-width: 88%; }
+.oferta-chat-bubble--user { background: #e8e8ea; align-self: flex-end; border-bottom-right-radius: 3px; color: var(--text); }
+.oferta-chat-bubble--closer {
+  background: rgba(195,186,255,0.1);
+  border: 1px solid rgba(195,186,255,0.35);
+  align-self: flex-start;
+  border-bottom-left-radius: 3px;
+  color: var(--text);
+}
+.oferta-chat-sender { display: flex; align-items: center; gap: 5px; margin-bottom: 4px; }
+.oferta-chat-logo { width: 14px; height: 14px; object-fit: contain; }
+.oferta-chat-sender span { font-size: 0.65rem; font-weight: 700; color: var(--accent-2); text-transform: uppercase; letter-spacing: 0.06em; }
 
 .divisor { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
 .total-row { display: flex; justify-content: space-between; align-items: center; }
@@ -1431,6 +1468,9 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
   .oferta-layout { grid-template-columns: 1fr; }
   #sticky-cta { display: none !important; }
   .oferta-right-headline { margin-bottom: 16px; }
+  .oferta-chat-mock { padding: 12px 14px; }
+  .oferta-chat-bubble { font-size: 0.73rem; }
+  .oferta-left { padding: 28px 24px; }
   #oferta { padding-bottom: 32px; }
   #oferta .container { padding: 0 20px; }
   #faq { padding-top: 32px; padding-bottom: 32px; }

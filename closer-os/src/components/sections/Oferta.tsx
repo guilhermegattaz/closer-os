@@ -77,6 +77,23 @@ export function Oferta() {
         <div className="oferta-layout fade-up d1">
           {/* ESQUERDA: itens incluídos */}
           <div className="oferta-right" id="oferta-right-panel">
+            {/* Mock de chat */}
+            <div className="oferta-chat-mock">
+              <div className="oferta-chat-status">
+                <span className="oferta-chat-dot" />
+                <span className="oferta-chat-live">CloserOS ao vivo</span>
+              </div>
+              <div className="oferta-chat-bubble oferta-chat-bubble--user">
+                O cliente disse "tá caro" e sumiu. O que eu respondo?
+              </div>
+              <div className="oferta-chat-bubble oferta-chat-bubble--closer">
+                <div className="oferta-chat-sender">
+                  <img src="/images/Logonew1.webp" alt="CloserOS™" className="oferta-chat-logo" />
+                  <span>CloserOS</span>
+                </div>
+                Não baixe o preço. Devolva o valor primeiro: "Entendo. Posso te mostrar em 1 minuto por que esse investimento se paga já no próximo cliente?"
+              </div>
+            </div>
             <div className="oferta-right-headline">Tudo que você recebe hoje</div>
             <div className="oferta-right-label">O que está incluído</div>
             <div className="bonus-list">
@@ -101,7 +118,7 @@ export function Oferta() {
             <div>
               <div className="oferta-product">CloserOS™</div>
               <div className="price-from">De R$594</div>
-              <div className="price-main" style={{ color: 'var(--accent-violet)' }}><sup>R$</sup>67</div>
+              <div className="price-main"><sup>R$</sup>67</div>
               <div className="price-period">pagamento único · sem mensalidade</div>
               <p className="oferta-lancamento">Preço de lançamento. Em breve, o CloserOS™ passa a custar mais. Garantindo agora, você trava o valor de R$67 para sempre.</p>
               <p className="oferta-ancora">Menos do que uma única consultoria de vendas — que você teria só uma vez. Aqui, o mentor fica com você para sempre.</p>
