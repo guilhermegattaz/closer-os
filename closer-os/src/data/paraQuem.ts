@@ -28,7 +28,7 @@ export const paraQuem: ParaQuemCard[] = [
   {
     id: 'q5',
     titulo: 'Autônomos e Profissionais Liberais',
-    descricao: 'Você até chega na proposta. Mas depois dela vem o silêncio — e cada dia sem resposta vira aquela ansiedade de "mando mensagem ou espero?" que come o seu dia.',
+    descricao: 'Você até chega na proposta. Mas depois dela vem o silêncio — e cada dia sem resposta vira aquela ansiedade de "mando mensagem ou espero?" que drena sua energia.',
     icon: 'star',
   },
   {
