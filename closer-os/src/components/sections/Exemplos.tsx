@@ -39,7 +39,7 @@ export function Exemplos() {
           Por trás do CloserOS™: mais de R$9.000.000 em vendas 1:1, expertise dos maiores especialistas em vendas do mundo e a visão de quem atuou como Diretor Comercial de agência nos EUA.
         </p>
         <p className="body-lg fade-up d2" style={{ textAlign: 'center', maxWidth: 620, margin: '0 auto 40px', color: 'var(--text-2)' }}>
-          Você descreve a situação — "o cliente disse que tá caro", "mandei a proposta e sumiu", "não sei como começar a conversa" — e o CloserOS responde com orientação específica para aquele momento. Em segundos. Como um mentor que você consulta na hora que precisa, não depois que a oportunidade passou.
+          Veja com os seus próprios olhos. Abaixo, conversas reais — e a resposta exata que o CloserOS devolve em segundos.
         </p>
         <VturbPlayer />
         <div className="exemplos-video-desktop">
