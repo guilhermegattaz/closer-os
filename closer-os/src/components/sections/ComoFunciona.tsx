@@ -34,7 +34,7 @@ export function ComoFunciona() {
               O mentor que está com você<br className="br-desktop" />{' '}<span style={{ color: 'var(--accent-violet)' }}>em cada conversa.</span>
             </h2>
             <p className="body-lg fade-up d2" style={{ margin: '16px 0 0' }}>
-              Não é um curso pra assistir depois. É orientação na hora exata em que a conversa está acontecendo — para você nunca mais deitar à noite remoendo o que devia ter dito.
+              Não é um curso pra assistir depois. É orientação na hora exata em que a conversa está acontecendo — para você nunca mais sair de uma conversa remoendo o que devia ter dito.
             </p>
             <p className="body-lg fade-up d2" style={{ margin: '20px 0 0', fontStyle: 'italic', color: 'var(--text-2)' }}>
               Imagine ter, do seu lado, um especialista pronto para te dizer o que falar — toda vez que um cliente te deixa travado.
