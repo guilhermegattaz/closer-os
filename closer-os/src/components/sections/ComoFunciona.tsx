@@ -34,7 +34,7 @@ export function ComoFunciona() {
               O mentor que está com você<br className="br-desktop" />{' '}<span style={{ color: 'var(--accent-violet)' }}>em cada conversa.</span>
             </h2>
             <p className="body-lg fade-up d2" style={{ margin: '16px 0 0' }}>
-              Você descreve o que está acontecendo — ele te diz exatamente o que fazer. Não no dia seguinte. Não depois de um curso de 40 horas. Agora. Na hora que você precisa. Para você nunca mais deitar à noite remoendo o que devia ter dito.
+              Não é um curso pra assistir depois. É orientação na hora exata em que a conversa está acontecendo — para você nunca mais deitar à noite remoendo o que devia ter dito.
             </p>
             <p className="body-lg fade-up d2" style={{ margin: '20px 0 0', fontStyle: 'italic', color: 'var(--text-2)' }}>
               Imagine ter, do seu lado, um especialista pronto para te dizer o que falar — toda vez que um cliente te deixa travado.
@@ -55,7 +55,7 @@ export function ComoFunciona() {
                 </svg>
               </div>
               <h3>Disponível a qualquer hora</h3>
-              <p>Quando o cliente manda "tá caro" às 22h. Quando a reunião é amanhã e você não sabe como abrir. Quando mandou a proposta e quer saber se espera ou segue. Está lá, na hora.</p>
+              <p>O cliente manda "tá caro" às 22h. A reunião é amanhã cedo e você não sabe como abrir. O CloserOS está lá no momento exato — não no horário comercial, não daqui a uma semana.</p>
             </div>
             <div className="como-card fade-up d1">
               <div className="como-lottie">
@@ -64,7 +64,7 @@ export function ComoFunciona() {
                 </svg>
               </div>
               <h3>Para a sua situação específica</h3>
-              <p>Você descreve o que aconteceu: o que o cliente disse, o serviço, o preço. Ele te devolve o que falar — para quando o cliente diz "vou pensar", "preciso consultar meu marido" ou some sem responder.</p>
+              <p>Ele não dá conselho genérico. Entende o seu serviço, o seu preço e o tom daquela conversa — e te devolve a resposta certa para aquele cliente, não um script pronto que serve pra qualquer um.</p>
             </div>
             <div className="como-card fade-up d2">
               <div className="como-lottie">
@@ -76,7 +76,7 @@ export function ComoFunciona() {
                 </svg>
               </div>
               <h3>Funciona no ChatGPT gratuito</h3>
-              <p>Sem aplicativo extra. Sem mensalidade. Abra o ChatGPT no celular, descreva a situação e tenha a resposta antes de responder ao cliente — enquanto o WhatsApp ainda está aberto.</p>
+              <p>Sem aplicativo, sem mensalidade, sem instalar nada. Abra o ChatGPT no celular, descreva a situação e tenha a resposta — enquanto o WhatsApp do cliente ainda está aberto.</p>
             </div>
             <div className="como-card fade-up d3">
               <div className="como-lottie">
