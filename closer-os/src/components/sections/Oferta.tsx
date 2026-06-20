@@ -123,7 +123,7 @@ export function Oferta() {
                 >
                   {item.tipo === 'principal' ? (
                     <img
-                      src="/images/closeros-app-print.png"
+                      src="/images/mkoffer.webp"
                       alt="Interface do CloserOS respondendo a uma objeção de cliente"
                       className="bonus-principal-img"
                       loading="lazy"
