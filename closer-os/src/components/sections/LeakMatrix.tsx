@@ -63,6 +63,11 @@ export function LeakMatrix() {
           </div>
 
         </div>
+
+        <p className="leak-bridge fade-up">
+          Nenhum desses momentos parece grave sozinho. O problema é que eles se repetem toda semana —
+          e cada um é um contrato que era seu e foi embora <strong>em silêncio</strong>, sem você nem perceber onde perdeu.
+        </p>
       </div>
     </section>
   )
