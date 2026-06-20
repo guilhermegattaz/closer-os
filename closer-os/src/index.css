@@ -214,6 +214,33 @@ body {
 .vsl-play-btn svg { margin-left: 4px; }
 .vsl-thumb:hover .vsl-play-btn { transform: scale(1.08); box-shadow: 0 8px 36px rgba(0,0,0,.28); }
 .vsl-iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
+/* VSL anchor */
+.vsl-anchor {
+  max-width: 600px;
+  margin: 8px auto 18px;
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: #18181B;
+  text-align: center;
+}
+.vsl-anchor-arrow {
+  display: block;
+  color: #7C3AED;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  animation: vslBounce 1.6s ease-in-out infinite;
+}
+@keyframes vslBounce {
+  0%,100% { transform: translateY(0); opacity: .7; }
+  50%      { transform: translateY(4px); opacity: 1; }
+}
+@media (max-width: 640px) {
+  .vsl-anchor { font-size: 0.95rem; margin: 6px auto 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .vsl-anchor-arrow { animation: none; }
+}
 /* CTA */
 .hero-cta-wrap { margin-bottom: 12px; }
 .hero-cta-btn {

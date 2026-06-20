@@ -50,6 +50,11 @@ export function Hero() {
           O CloserOS™ é um mentor de bolso que roda no seu ChatGPT gratuito. Você descreve a situação real do cliente e ele te dá a fala exata para conduzir a conversa — do primeiro "oi" ao fechamento. Sem estudar vendas, sem parecer chato, sem implorar.
         </p>
 
+        <p className="vsl-anchor fade-up d2">
+          <span className="vsl-anchor-arrow" aria-hidden="true">▼</span>
+          Aperte o play e veja, em 2 minutos, o CloserOS™ resolvendo uma conversa travada de verdade.
+        </p>
+
         <div className="vsl-wrap fade-up d2">
           <VideoPlayer />
         </div>
