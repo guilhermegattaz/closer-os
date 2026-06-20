@@ -30,6 +30,21 @@ export function Depoimentos() {
             </div>
           ))}
         </div>
+
+        <div className="depo-cta fade-up">
+          <p className="depo-cta-line">
+            Esses resultados começaram com a mesma decisão que está na sua frente agora.
+          </p>
+          <a
+            className="hero-cta-btn"
+            href="https://pay.kiwify.com.br/F0Rpruo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            QUERO O CLOSEROS AGORA POR R$67
+          </a>
+          <p className="depo-cta-sub">Acesso imediato · Pagamento único · Garantia de 7 dias</p>
+        </div>
       </div>
     </section>
   )
