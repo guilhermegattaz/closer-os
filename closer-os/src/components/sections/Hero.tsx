@@ -43,7 +43,7 @@ export function Hero() {
 
         <h1 className="hero-headline fade-up d1">
           O cliente sumiu no WhatsApp ou você travou na hora de falar o preço?{' '}
-          <span className="hl">Saiba exatamente o que dizer para fechar o contrato sem dar desconto e sem diminuir o seu valor.</span>
+          <span className="hl">Saiba exatamente o que dizer para fechar — sem dar desconto.</span>
         </h1>
 
         <p className="hero-sub fade-up d2">
