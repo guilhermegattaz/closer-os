@@ -10,13 +10,13 @@ export const paraQuem: ParaQuemCard[] = [
   {
     id: 'q2',
     titulo: 'Terapeutas e Psicólogos',
-    descricao: 'Você acolhe como ninguém. Mas falar de dinheiro te deixa desconfortável — e quando o cliente pede pra "consultar o marido", você aceita na hora, com medo de parecer que está empurrando.',
+    descricao: 'Você acolhe como ninguém. Mas falar de dinheiro te trava — e quando o cliente diz que "não tem dinheiro agora" e pede pra começar mais pra frente, você aceita na hora, em vez de mostrar o valor e ajudá-lo a decidir pelo que ele precisa.',
     icon: 'heart',
   },
   {
     id: 'q3',
     titulo: 'Freelancers e Designers',
-    descricao: 'Você entrega um trabalho que orgulha. Aí manda o orçamento e vem o "tá caro" — e antes mesmo de respirar, você já está oferecendo desconto pra não perder o projeto.',
+    descricao: 'Você entrega um trabalho que orgulha. Aí manda o orçamento e vem o "achei mais barato com outro" — e antes mesmo de defender o seu valor, você já está baixando o preço pra não perder pro concorrente.',
     icon: 'pen-tool',
   },
   {

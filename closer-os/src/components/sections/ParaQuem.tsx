@@ -89,8 +89,8 @@ function QuemIcon({ icon }: { icon: ParaQuemCard['icon'] }) {
 
 const quemBubbles = [
   '"Vou pensar e te falo."',
-  '"Preciso consultar meu marido."',
-  '"Tá caro... dá um desconto?"',
+  '"Não tenho dinheiro agora."',
+  '"Achei mais barato com outro."',
   '"Depois eu te aviso!" (e some)',
   '"Me manda mais detalhes que eu vejo." (silêncio)',
   '"Vou precisar de um tempo pra pensar."',
