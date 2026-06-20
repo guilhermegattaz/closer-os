@@ -74,7 +74,7 @@ export function Hero() {
 
         <div className="trust-bar fade-up d3">
           {[
-            'Roda no ChatGPT Gratuito',
+            'Sem instalar nada',
             'Scripts em Segundos',
             'Garantia de 7 Dias',
           ].map((item, i) => (
