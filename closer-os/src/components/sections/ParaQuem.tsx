@@ -4,10 +4,10 @@ import type { ParaQuemCard } from '../../types'
 import { KIWIFY_URL } from '../../data/links'
 
 const negociosItems = [
-  { id: 'n1', titulo: 'Saiba o que dizer quando o cliente diz "tá caro".', descricao: 'Sem ceder desconto por medo de perder a venda.' },
-  { id: 'n2', titulo: 'Quebre o "vou pensar" e o "preciso falar com meu marido".', descricao: 'Respostas claras para as objeções que travam toda negociação.' },
-  { id: 'n3', titulo: 'Recupere o cliente que sumiu depois da proposta.', descricao: 'Saiba como e quando retomar sem parecer desesperado.' },
-  { id: 'n4', titulo: 'Feche bem — e faça a indicação vir naturalmente.', descricao: 'Quem conduz a conversa com segurança não precisa correr atrás de cliente.' },
+  { id: 'n1', tag: 'tá caro', titulo: 'Saiba o que dizer quando o cliente diz "tá caro".', descricao: 'Sem ceder desconto por medo de perder a venda.' },
+  { id: 'n2', tag: 'vou pensar', titulo: 'Quebre o "vou pensar" e o "preciso falar com meu marido".', descricao: 'Respostas claras para as objeções que travam toda negociação.' },
+  { id: 'n3', tag: 'sumiu', titulo: 'Recupere o cliente que sumiu depois da proposta.', descricao: 'Saiba como e quando retomar sem parecer desesperado.' },
+  { id: 'n4', tag: 'vou indicar?', titulo: 'Feche bem — e faça a indicação vir naturalmente.', descricao: 'Quem conduz a conversa com segurança não precisa correr atrás de cliente.' },
 ]
 
 function NegociosCard() {
@@ -41,27 +41,29 @@ function NegociosCard() {
             <h2 className="h2 fade-up d1" style={{ marginBottom: 12 }}>
               Funciona para <span style={{ color: 'var(--accent-violet)' }}>qualquer negócio de serviço.</span>
             </h2>
-            <p className="body-lg fade-up d2" style={{ margin: '0 0 16px' }}>
-              Ele se adapta ao seu negócio e aos seus objetivos.
+            <p className="negocios-ancora fade-up d2">
+              Não importa o que você vende. Se o seu faturamento depende de uma conversa, é aqui que o CloserOS entra.
             </p>
-            <p className="body-lg fade-up d2" style={{ margin: '0 0 16px' }}>
-              Mesmo que você não saiba nada sobre como apresentar, negociar e vender seu serviço, ele irá te ajudar em cada passo desde uma simples conversa, como responder uma mensagem, até quebrar objeções complexas.
-            </p>
-            <p className="body-lg fade-up d2" style={{ margin: '0' }}>
-              Qualquer que seja o seu nível, o CloserOS te mostra exatamente o que dizer nos momentos que mais travam — para você parar de perder clientes por não ter a resposta certa na hora certa.
-            </p>
+            <ul className="negocios-microlinhas fade-up d2">
+              <li>Funciona em <strong>qualquer nível</strong> — do iniciante ao avançado.</li>
+              <li>Te guia em <strong>cada passo</strong>: de responder uma mensagem a quebrar objeções complexas.</li>
+              <li>Mostra <strong>exatamente o que dizer</strong> nos momentos que mais travam.</li>
+            </ul>
           </div>
           <div className="problema-right">
             <div className="problema-wrap">
               <div className="stack-wrapper" ref={stackRef}>
                 {negociosItems.map((p) => (
-                  <div key={p.id} className="problema-item" data-stack="">
-                    <div className="x-dot" style={{ background: 'rgba(139,229,171,0.15)', border: '1px solid rgba(139,229,171,0.3)' }}>
-                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#8be5ab" strokeWidth="2">
-                        <polyline points="2,6 5,9 10,3" />
-                      </svg>
+                  <div key={p.id} className="problema-item negocios-item" data-stack="">
+                    <span className="negocios-objecao-tag">"{p.tag}"</span>
+                    <div className="negocios-ganho">
+                      <div className="x-dot" style={{ background: 'rgba(139,229,171,0.15)', border: '1px solid rgba(139,229,171,0.3)', flexShrink: 0 }}>
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#8be5ab" strokeWidth="2">
+                          <polyline points="2,6 5,9 10,3" />
+                        </svg>
+                      </div>
+                      <p><strong>{p.titulo}</strong> {p.descricao}</p>
                     </div>
-                    <p><strong>{p.titulo}</strong> {p.descricao}</p>
                   </div>
                 ))}
               </div>

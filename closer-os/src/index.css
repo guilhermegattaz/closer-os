@@ -315,6 +315,49 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .s-card .problema-item p strong { color: #8be5ab; }
 .s-card .x-dot { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.1); }
 .s-card .x-dot svg { stroke: #f9f8ff; }
+
+/* NegociosCard — coluna esquerda escaneável */
+.negocios-ancora {
+  font-size: 1rem; line-height: 1.6;
+  color: rgba(255,255,255,0.68); margin: 12px 0 20px;
+}
+.negocios-microlinhas {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.negocios-microlinhas li {
+  font-size: 0.88rem; color: rgba(255,255,255,0.58); line-height: 1.55;
+  padding-left: 14px; position: relative;
+}
+.negocios-microlinhas li::before {
+  content: '·'; position: absolute; left: 0;
+  color: rgba(255,255,255,0.28); font-size: 1.1rem; line-height: 1.4;
+}
+.negocios-microlinhas strong { color: var(--accent-2); font-weight: 600; }
+
+/* NegociosCard — cards dor→ganho */
+.negocios-item {
+  display: flex; flex-direction: column; gap: 10px;
+  padding: 14px 18px;
+  border-color: rgba(255,255,255,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.22);
+}
+.negocios-item.in-view:hover {
+  border-color: rgba(139,229,171,0.3);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.32);
+  transform: translateY(-2px);
+}
+.negocios-objecao-tag {
+  display: inline-flex; align-self: flex-start;
+  background: rgba(192,57,43,0.1);
+  border: 1px solid rgba(192,57,43,0.22);
+  border-radius: 20px; padding: 3px 10px;
+  font-size: 0.72rem; font-weight: 600; font-style: italic;
+  color: var(--red); white-space: nowrap;
+}
+.negocios-ganho {
+  display: flex; align-items: flex-start; gap: 14px;
+}
 @media (max-width: 900px) {
   .s-card, .s-card-light { margin: 0 24px; }
 }
