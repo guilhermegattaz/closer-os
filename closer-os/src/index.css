@@ -1065,22 +1065,17 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 .bonus-icon svg { width: 18px; height: 18px; }
 .gift-icon { color: #c3baff; }
 
-/* Mini-mockup chat para item principal */
-.bonus-mockup {
-  width: 44px; height: 44px; border-radius: 10px;
-  background: rgba(195,186,255,0.1);
-  border: 1px solid rgba(195,186,255,0.25);
-  display: flex; flex-direction: column; justify-content: center;
-  align-items: flex-start; gap: 5px; padding: 9px 10px;
+/* Card principal com imagem real */
+.bonus-row-principal { align-items: flex-start; }
+.bonus-principal-img {
+  height: 80px;
+  width: auto;
+  max-width: 110px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgba(195,186,255,0.3);
+  box-shadow: 0 3px 12px rgba(0,0,0,0.14);
   flex-shrink: 0;
-}
-.bonus-mockup-line {
-  height: 3px; width: 70%; border-radius: 2px;
-  background: rgba(195,186,255,0.55);
-}
-.bonus-mockup-line--reply {
-  width: 50%; align-self: flex-end;
-  background: rgba(195,186,255,0.28);
 }
 
 /* Selo INCLUSO */
@@ -1599,6 +1594,7 @@ html.js-enabled .d3 { transition-delay: 0.3s; }
   .oferta-left { padding: 28px 24px; }
   .bonus-incluso { display: none; }
   .oferta-right { padding: 24px 20px; }
+  .bonus-principal-img { height: 60px; max-width: 80px; }
   #oferta { padding-bottom: 32px; }
   #oferta .container { padding: 0 20px; }
   #faq { padding-top: 32px; padding-bottom: 32px; }

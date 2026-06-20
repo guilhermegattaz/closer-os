@@ -118,12 +118,21 @@ export function Oferta() {
               {bonusItems.map((item) => (
                 <div
                   key={item.id}
-                  className={`bonus-row${item.highlight ? ' bonus-row-highlight' : ''}`}
+                  className={`bonus-row${item.highlight ? ' bonus-row-highlight' : ''}${item.tipo === 'principal' ? ' bonus-row-principal' : ''}`}
                   id={item.highlight ? 'bonus-roteiro' : undefined}
                 >
-                  <div className={`bonus-icon${item.tipo !== 'principal' ? ' gift-icon' : ''}`}>
-                    <BonusIcon tipo={item.tipo} nome={item.nome} />
-                  </div>
+                  {item.tipo === 'principal' ? (
+                    <img
+                      src="/images/closeros-app-print.png"
+                      alt="Interface do CloserOS respondendo a uma objeção de cliente"
+                      className="bonus-principal-img"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div className="bonus-icon gift-icon">
+                      <BonusIcon tipo={item.tipo} nome={item.nome} />
+                    </div>
+                  )}
                   <div className="bonus-name">
                     {item.nome}
                     <span className="bonus-incluso">incluso</span>
