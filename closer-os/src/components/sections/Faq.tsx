@@ -7,14 +7,12 @@ export function Faq() {
   return (
     <section id="faq">
       <div className="container-sm">
-        <div className="section-eyebrow fade-up">Perguntas frequentes</div>
-        <h2 className="h2 fade-up d1" style={{ textAlign: 'center', marginBottom: 8 }}>
-          Ainda tem dúvidas?
-        </h2>
-        <p className="body-lg fade-up d2" style={{ textAlign: 'center', marginBottom: 32 }}>
-          Tudo o que você precisa saber antes de começar.
-        </p>
-        <div className="faq-list fade-up d3">
+        <div className="faq-header fade-up">
+          <span className="eyebrow">Perguntas frequentes</span>
+          <h2 className="h2">Ainda tem dúvidas?</h2>
+          <p className="body-lg" style={{ marginTop: 8 }}>Tudo o que você precisa saber antes de começar.</p>
+        </div>
+        <div className="faq-list fade-up d1">
           {faqItems.map((item) => {
             const isOpen = openId === item.id
             return (
@@ -26,7 +24,7 @@ export function Faq() {
                 >
                   {item.pergunta}
                   <svg className="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                    <polyline points="6,9 12,15 18,9"/>
+                    <polyline points="6,9 12,15 18,9" />
                   </svg>
                 </button>
                 {isOpen && <div className="faq-a">{item.resposta}</div>}
