@@ -39,7 +39,7 @@ export function Hero() {
   return (
     <section id="hero">
       <div className="hero-center">
-        <span className="hero-micro fade-up">Sistema Operacional de Fechamento</span>
+        <span className="hero-micro fade-up">Seu mentor de bolso</span>
 
         <h1 className="hero-headline fade-up d1">
           O cliente sumiu no WhatsApp ou você travou na hora de falar o preço?{' '}
