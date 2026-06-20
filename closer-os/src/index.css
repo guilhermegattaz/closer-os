@@ -411,6 +411,43 @@ body {
 }
 
 /* ================================================================
+   #5b  MANIFESTO BAND
+   ================================================================ */
+.manifesto-band {
+  background: linear-gradient(180deg, #F4F4F5 0%, #F1EEFC 100%);
+  padding: 72px 0;
+  text-align: center;
+}
+.manifesto-eyebrow {
+  color: #6D28D9;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 0 0 16px;
+}
+.manifesto-headline {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 800;
+  line-height: 1.25;
+  color: #18181B;
+}
+.manifesto-headline span { color: #6D28D9; }
+.manifesto-sub {
+  max-width: 580px;
+  margin: 20px auto 0;
+  font-size: 1.08rem;
+  line-height: 1.6;
+  color: #71717A;
+}
+@media (max-width: 640px) {
+  .manifesto-band { padding: 52px 0; }
+  .manifesto-sub { font-size: 1rem; }
+}
+
+/* ================================================================
    #6  FERRAMENTA NÃO CURSO
    ================================================================ */
 #ferramenta { padding: var(--sepy) 0; }

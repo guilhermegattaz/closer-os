@@ -7,6 +7,7 @@ import {
   ProvaFaixa,
   LeakMatrix,
   ProfessionSelector,
+  Manifesto,
   FerramentaNaoCurso,
   Pilares,
   Autoridade,
@@ -70,6 +71,7 @@ export default function App() {
         <ProvaFaixa />
         <LeakMatrix />
         <ProfessionSelector />
+        <Manifesto />
         <FerramentaNaoCurso />
         <Pilares />
         <Autoridade />
