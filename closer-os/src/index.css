@@ -847,15 +847,42 @@ wistia-player[media-id='2l92zhr9wx']:not(:defined) {
 #para-quem > .container { padding-bottom: 72px; }
 .quem-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 56px; }
 .quem-card {
-  padding: 28px 24px;
+  padding: 24px 22px;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
-  transition: all 200ms;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: border-color 200ms, box-shadow 200ms, transform 200ms;
 }
-.quem-card:hover { border-color: var(--border-2); box-shadow: 0 4px 16px rgba(0,0,0,0.07); transform: translateY(-2px); }
-.quem-icon { width: 40px; height: 40px; border-radius: 12px; background: var(--bg-2); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; margin-bottom: 16px; }
-.quem-icon svg { width: 20px; height: 20px; stroke: #8be5ab; stroke-width: 1.6; fill: none; }
+
+/* Balão de objeção */
+.quem-bubble {
+  display: block;
+  background: rgba(192,57,43,0.05);
+  border: 1px solid rgba(192,57,43,0.16);
+  border-radius: 12px; border-bottom-left-radius: 3px;
+  padding: 8px 12px;
+  font-size: 0.82rem; line-height: 1.45; color: var(--text);
+  margin-bottom: 16px; max-width: 100%;
+}
+
+/* Variante lavanda (cards 1, 4) */
+.quem-card--lavanda .quem-icon { background: rgba(195,186,255,0.15); border-color: rgba(195,186,255,0.3); }
+.quem-card--lavanda .quem-icon svg { stroke: var(--accent-2); }
+.quem-card--lavanda:hover { border-color: rgba(195,186,255,0.55); box-shadow: 0 6px 20px rgba(195,186,255,0.18); transform: translateY(-2px); }
+
+/* Variante pêssego (cards 2, 5) */
+.quem-card--peach .quem-icon { background: rgba(255,189,142,0.15); border-color: rgba(255,189,142,0.3); }
+.quem-card--peach .quem-icon svg { stroke: var(--accent-peach); }
+.quem-card--peach:hover { border-color: rgba(255,189,142,0.55); box-shadow: 0 6px 20px rgba(255,189,142,0.18); transform: translateY(-2px); }
+
+/* Variante verde (cards 3, 6) */
+.quem-card--verde .quem-icon { background: rgba(139,229,171,0.15); border-color: rgba(139,229,171,0.3); }
+.quem-card--verde .quem-icon svg { stroke: var(--accent-green); }
+.quem-card--verde:hover { border-color: rgba(139,229,171,0.55); box-shadow: 0 6px 20px rgba(139,229,171,0.18); transform: translateY(-2px); }
+
+.quem-icon { width: 40px; height: 40px; border-radius: 12px; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; margin-bottom: 14px; }
+.quem-icon svg { width: 20px; height: 20px; stroke-width: 1.6; fill: none; }
 .quem-card h3 { font-size: 0.95rem; font-weight: 600; color: var(--text); margin-bottom: 8px; }
 .quem-card p { font-size: 0.84rem; color: var(--text-2); line-height: 1.65; }
 

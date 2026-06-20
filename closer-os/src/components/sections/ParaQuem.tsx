@@ -85,6 +85,17 @@ function QuemIcon({ icon }: { icon: ParaQuemCard['icon'] }) {
   }
 }
 
+const quemBubbles = [
+  '"Vou pensar e te falo."',
+  '"Preciso consultar meu marido."',
+  '"Tá caro... dá um desconto?"',
+  '"Depois eu te aviso!" (e some)',
+  '"Me manda mais detalhes que eu vejo." (silêncio)',
+  '"Vou precisar de um tempo pra pensar."',
+]
+
+const quemColorClass = ['quem-card--lavanda', 'quem-card--peach', 'quem-card--verde']
+
 export function ParaQuem() {
   return (
     <section id="para-quem">
@@ -98,7 +109,8 @@ export function ParaQuem() {
         </p>
         <div className="quem-grid">
           {paraQuem.map((card, i) => (
-            <div key={card.id} className={`quem-card fade-up${i % 3 === 1 ? ' d1' : i % 3 === 2 ? ' d2' : ''}`}>
+            <div key={card.id} className={`quem-card ${quemColorClass[i % 3]} fade-up${i % 3 === 1 ? ' d1' : i % 3 === 2 ? ' d2' : ''}`}>
+              <div className="quem-bubble">{quemBubbles[i]}</div>
               <div className="quem-icon"><QuemIcon icon={card.icon} /></div>
               <h3>{card.titulo}</h3>
               <p>{card.descricao}</p>
