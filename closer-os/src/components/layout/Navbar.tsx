@@ -3,8 +3,7 @@ export function Navbar() {
     <nav id="navbar" role="banner">
       <div className="nav-inner">
         <span className="nav-logo">
-          CloserOS™
-          <span className="nav-dot" aria-hidden="true" />
+          <img src="/images/Logonew1.webp" alt="CloserOS" className="nav-logo-img" loading="eager" />
         </span>
         <span className="nav-launch-badge">Preço de Lançamento</span>
       </div>

@@ -152,13 +152,9 @@ body {
   max-width: var(--mw); margin: 0 auto; padding: 0 var(--px);
   height: 60px; display: flex; align-items: center; justify-content: space-between;
 }
-.nav-logo {
-  font-size: 1.1rem; font-weight: 800; letter-spacing: -.025em; color: var(--text);
-  display: flex; align-items: center; gap: 5px;
-}
-.nav-dot {
-  width: 7px; height: 7px; border-radius: 50%; background: var(--accent); flex-shrink: 0;
-}
+.nav-logo { display: flex; align-items: center; }
+.nav-logo-img { height: 25px; width: auto; display: block; }
+@media (max-width: 640px) { .nav-logo-img { height: 21px; } }
 .nav-launch-badge {
   padding: 5px 13px; border-radius: var(--r-pill);
   font-size: .63rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
@@ -423,19 +419,7 @@ body {
   .leak-quote-mark { font-size: 100px; }
   .leak-quote-text { font-size: .9rem; }
 }
-.leak-turn {
-  max-width: 640px;
-  margin: 28px auto 0;
-  text-align: center;
-  font-size: clamp(1.05rem, 2.2vw, 1.2rem);
-  font-weight: 600;
-  line-height: 1.5;
-  color: var(--text);
-}
-.leak-turn span { color: var(--accent); }
-@media (max-width: 640px) {
-  .leak-turn { font-size: 1rem; margin-top: 22px; }
-}
+
 
 /* ================================================================
    #5  PROFESSION SELECTOR

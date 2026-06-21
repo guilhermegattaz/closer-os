@@ -79,9 +79,6 @@ export function LeakMatrix() {
           </div>
         </div>
 
-        <p className="leak-turn fade-up">
-          A boa notícia: isso não é falta de talento. É só não saber o que dizer na hora exata — e isso <span>tem conserto.</span>
-        </p>
 
 
       </div>
