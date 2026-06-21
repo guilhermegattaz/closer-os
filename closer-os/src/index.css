@@ -947,8 +947,13 @@ footer {
   max-width: var(--mw-sm); margin: 0 auto; text-align: center;
   display: flex; flex-direction: column; gap: 14px;
 }
-.footer-logo-text {
-  font-size: 1rem; font-weight: 800; color: var(--text-2); letter-spacing: -.02em;
+.footer-logo-text { display: flex; justify-content: center; }
+.footer-logo-img {
+  height: 26px; width: auto;
+  display: block;
+}
+@media (max-width: 640px) {
+  .footer-logo-img { height: 22px; }
 }
 .footer-links {
   display: flex; align-items: center; justify-content: center; gap: 18px; flex-wrap: wrap;

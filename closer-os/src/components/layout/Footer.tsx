@@ -2,7 +2,9 @@ export function Footer() {
   return (
     <footer>
       <div className="footer-inner">
-        <div className="footer-logo-text">CloserOS™</div>
+        <div className="footer-logo-text">
+          <img src="/images/Logonew1.webp" alt="CloserOS" className="footer-logo-img" loading="lazy" />
+        </div>
         <div className="footer-links">
           <span>Termos de Uso</span>
           <span>·</span>
