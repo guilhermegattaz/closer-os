@@ -39,11 +39,11 @@ export function Hero() {
   return (
     <section id="hero">
       <div className="hero-center">
-        <span className="hero-micro fade-up">Seu mentor de bolso</span>
+        <span className="hero-micro fade-up">A ferramenta que resolve em 1 minuto</span>
 
         <h1 className="hero-headline fade-up d1">
-          O cliente sumiu no WhatsApp ou você travou na hora de falar o preço?{' '}
-          <span className="hl">Saiba exatamente o que dizer para fechar — sem dar desconto.</span>
+          O cliente sumiu no WhatsApp ou você travou na reunião na hora do preço?{' '}
+          <span className="hl">Saiba o que dizer para fechar, e pare de improvisar.</span>
         </h1>
 
         <p className="hero-sub fade-up d2">
