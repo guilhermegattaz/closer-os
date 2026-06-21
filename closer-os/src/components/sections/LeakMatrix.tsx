@@ -69,6 +69,7 @@ export function LeakMatrix() {
           <p className="leak-conclusion-body">
             O problema é que eles se repetem toda semana, e cada um é um contrato que era seu e foi embora <strong>em silêncio</strong>, sem você nem perceber onde perdeu.
           </p>
+          <p className="leak-conclusion-loss">Quantos desses já passaram só este mês?</p>
         </div>
 
         <p className="leak-turn fade-up">
