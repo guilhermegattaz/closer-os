@@ -12,8 +12,8 @@ const content = [
     alivio: 'Você terá roteiros de resposta exatos para defender o valor do seu trabalho, segurar o preço cheio com confiança e nunca mais improvisar do zero. Chega de perder o cliente que já queria te contratar.',
   },
   {
-    dor: 'Vender seu atendimento parece quase antiético. Você hesita no preço, vê quem precisava de ajuda sumir no "vou pensar" — e o cliente fica sem a solução que precisava.',
-    alivio: 'Conduza a primeira conversa como um convite natural. Ajudar o cliente a decidir não é pressão — é cuidado. Quem sai na dúvida "pra não ser pressionado" é quem mais perde.',
+    dor: 'Vender seu atendimento parece quase antiético. Você hesita no preço, transforma triagens em mini-consultas gratuitas exaustivas e vê pacientes que precisavam de ajuda sumirem dizendo que \'vão pensar\'.',
+    alivio: 'Descubra como conduzir a primeira conversa como um convite natural e humano. Ajudar o seu paciente a tomar a decisão de começar o tratamento é cuidar dele. Quem sai na dúvida "pra não ser pressionado" é quem mais perde.',
   },
   {
     dor: 'Você tem autoridade e palco, mas no privado, quando o lead esfria, bate aquela sensação que você não admite: a de estar improvisando justo na hora que mais decide o seu dinheiro.',
