@@ -33,7 +33,7 @@ export function LeakMatrix() {
               <div className="chat-row">
                 <span className="chat-label">Cliente</span>
                 <span className="chat-bubble chat-bubble--recv">
-                  "Achei ótimo seu trabalho... vou falar com meu sócio/marido e te aviso."
+                  "Achei ótimo seu trabalho... vou falar com meu sócio/esposa e te aviso."
                 </span>
               </div>
             </div>
