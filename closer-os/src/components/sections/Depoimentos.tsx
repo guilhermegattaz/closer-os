@@ -1,6 +1,32 @@
+import { useState, useRef, useEffect } from 'react'
 import { depoimentos } from '../../data/depoimentos'
 
 export function Depoimentos() {
+  const [active, setActive] = useState(0)
+  const gridRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const el = gridRef.current
+    if (!el) return
+    const onScroll = () => {
+      const card = el.querySelector<HTMLElement>('.depo-card')
+      if (!card) return
+      const step = card.offsetWidth + 12
+      setActive(Math.round(el.scrollLeft / step))
+    }
+    el.addEventListener('scroll', onScroll, { passive: true })
+    return () => el.removeEventListener('scroll', onScroll)
+  }, [])
+
+  const goTo = (i: number) => {
+    const el = gridRef.current
+    if (!el) return
+    const card = el.querySelector<HTMLElement>('.depo-card')
+    if (!card) return
+    el.scrollTo({ left: i * (card.offsetWidth + 12), behavior: 'smooth' })
+    setActive(i)
+  }
+
   return (
     <section id="depoimentos">
       <div className="container">
@@ -11,7 +37,12 @@ export function Depoimentos() {
             <span className="hl">Resultados comprovados.</span>
           </h2>
         </div>
-        <div className="depo-grid">
+        <div
+          className="depo-grid"
+          ref={gridRef}
+          role="region"
+          aria-label="Depoimentos de clientes"
+        >
           {depoimentos.map((d, i) => (
             <div
               key={d.id}
@@ -28,6 +59,19 @@ export function Depoimentos() {
                 </div>
               </div>
             </div>
+          ))}
+        </div>
+
+        <div className="depo-dots" role="tablist" aria-label="Navegar entre depoimentos">
+          {depoimentos.map((_, i) => (
+            <button
+              key={i}
+              role="tab"
+              aria-selected={active === i}
+              aria-label={`Ver depoimento ${i + 1}`}
+              className={`depo-dot${active === i ? ' depo-dot--active' : ''}`}
+              onClick={() => goTo(i)}
+            />
           ))}
         </div>
 

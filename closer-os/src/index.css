@@ -189,7 +189,8 @@ body {
 @media (max-width: 640px) {
   .hero-headline {
     max-width: 100%;
-    font-size: clamp(1.6rem, 7.5vw, 2rem);
+    font-size: clamp(1.6rem, 7vw, 1.75rem);
+    line-height: 1.15;
     letter-spacing: -0.5px;
   }
 }
@@ -309,7 +310,10 @@ body {
    #4  LEAK MATRIX
    ================================================================ */
 #leak { padding: var(--sepy) 0 48px; }
-@media (max-width: 640px) { #leak { padding-bottom: 32px; } }
+@media (max-width: 640px) {
+  #hero { padding-bottom: var(--sepy); }
+  #leak { padding-bottom: var(--sepy); }
+}
 .leak-header { text-align: center; margin-bottom: 48px; }
 .leak-header .h2 { margin-top: 8px; }
 .leak-grid {
@@ -530,14 +534,21 @@ body {
   display: block; pointer-events: none; -webkit-user-drag: none;
 }
 .ferra-carousel-dots {
-  display: flex; gap: 8px; justify-content: center; margin-top: 16px;
+  display: flex; justify-content: center; margin-top: 8px;
 }
 .ferra-carousel-dot {
-  width: 8px; height: 8px; border-radius: 50%; padding: 0; border: none;
-  background: var(--border-2); cursor: pointer;
-  transition: background .2s, transform .2s;
+  min-width: 44px; min-height: 44px; padding: 0; border: none;
+  background: transparent; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
 }
-.ferra-carousel-dot--active { background: var(--accent); transform: scale(1.3); }
+.ferra-carousel-dot::after {
+  content: ''; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--border-2);
+  transition: background .2s, width .2s, border-radius .2s;
+}
+.ferra-carousel-dot--active::after {
+  background: var(--accent); width: 20px; border-radius: 4px;
+}
 @media (max-width: 640px) {
   .ferra-carousel {
     width: min(230px, 70vw);
@@ -682,6 +693,47 @@ body {
 @media (max-width: 640px) {
   .depo-cta { margin-top: 36px; }
   .depo-cta-line { font-size: 1.05rem; }
+}
+
+/* Dots de navegação dos depoimentos */
+.depo-dots {
+  display: none;
+  justify-content: center;
+  margin-top: 8px;
+}
+.depo-dot {
+  min-width: 44px; min-height: 44px; padding: 0; border: none;
+  background: transparent; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+}
+.depo-dot::after {
+  content: ''; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--border-2);
+  transition: background .2s, width .2s, border-radius .2s;
+}
+.depo-dot--active::after { background: var(--accent); width: 20px; border-radius: 4px; }
+
+/* Carrossel mobile ≤900px */
+@media (max-width: 900px) {
+  .depo-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    gap: 12px;
+    padding-left: var(--px);
+    padding-right: var(--px);
+    margin-left: calc(-1 * var(--px));
+    margin-right: calc(-1 * var(--px));
+  }
+  .depo-grid::-webkit-scrollbar { display: none; }
+  .depo-card {
+    scroll-snap-align: start;
+    flex: 0 0 86%;
+    max-width: 400px;
+  }
+  .depo-dots { display: flex; }
 }
 
 /* ================================================================
@@ -953,6 +1005,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+  :root { --px: 20px; }
   .leak-grid    { grid-template-columns: 1fr; }
   .pilares-grid { grid-template-columns: 1fr; }
   .depo-grid    { grid-template-columns: 1fr; }
