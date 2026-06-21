@@ -72,9 +72,9 @@ export function LeakMatrix() {
               A SOMA SILENCIOSA DO PREJUÍZO
             </div>
             <p className="leak-quote-text">
-              &ldquo;Nenhum desses momentos parece grave sozinho. O problema é que{' '}
+              Nenhum desses momentos parece grave sozinho. O problema é que{' '}
               <span className="leak-quote-hl">eles se repetem toda semana</span>, e cada um é um contrato que era seu e{' '}
-              <span className="leak-quote-hl">foi embora em silêncio</span>, sem você nem perceber onde perdeu.&rdquo;
+              <span className="leak-quote-hl">foi embora em silêncio</span>, sem você nem perceber onde perdeu.
             </p>
           </div>
         </div>
