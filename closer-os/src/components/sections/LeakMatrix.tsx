@@ -48,7 +48,7 @@ export function LeakMatrix() {
             <div className="leak-chat">
               <div className="chat-row">
                 <span className="chat-label">Cliente</span>
-                <span className="chat-bubble chat-bubble--recv">"Cobra quanto?"</span>
+                <span className="chat-bubble chat-bubble--recv">"Quanto custa?"</span>
               </div>
               <div className="chat-row" style={{ marginTop: 4 }}>
                 <span className="chat-label">Você</span>
