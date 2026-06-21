@@ -85,7 +85,7 @@ export function Oferta() {
               </svg>
             </div>
             <p className="oferta-garantia-text">
-              <strong>Garantia Incondicional de 7 Dias:</strong> use em conversas reais esta semana. Se não fechar com mais leveza, peça reembolso de 100%. O risco é meu.
+              <strong>Garantia Incondicional de 7 Dias:</strong> Use em suas conversas reais nesta semana. Se você não sentir que fechar clientes ficou absurdamente mais simples e leve, peça reembolso e devolvemos 100%. O risco é meu.
             </p>
           </div>
 
