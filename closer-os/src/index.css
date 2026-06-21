@@ -1022,11 +1022,23 @@ footer {
   .br-mobile    { display: block; }
 }
 
+@media (max-width: 640px) {
+  .prof-tabs {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .prof-tab {
+    padding: 13px 18px;
+    font-size: .82rem;
+    width: 100%;
+    text-align: center;
+  }
+}
 @media (max-width: 480px) {
   .trust-sep  { display: none; }
   .trust-bar  { gap: 10px; }
   .trust-item { font-size: .76rem; }
   .hero-cta-btn { padding: 16px 28px; font-size: .96rem; }
   .vsl-play-btn { width: 60px; height: 60px; }
-  .prof-tab { font-size: .75rem; padding: 8px 13px; }
 }
