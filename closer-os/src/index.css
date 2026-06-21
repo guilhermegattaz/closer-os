@@ -165,7 +165,7 @@ body {
    #2  HERO
    ================================================================ */
 #hero {
-  padding: clamp(48px,8vw,96px) 0 clamp(40px,6vw,80px);
+  padding: clamp(48px,8vw,96px) 0 clamp(40px,4vw,56px);
   background: var(--bg);
 }
 .hero-center {
@@ -284,27 +284,7 @@ body {
 /* ================================================================
    #3  PROVA FAIXA
    ================================================================ */
-#prova-faixa {
-  background: var(--bg-2);
-  border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
-  padding: 28px var(--px);
-}
-.prova-faixa-inner { max-width: var(--mw); margin: 0 auto; }
-.prova-stats {
-  display: flex; align-items: stretch; justify-content: center; flex-wrap: wrap;
-}
-.prova-stat {
-  display: flex; flex-direction: column; align-items: center; text-align: center;
-  padding: 14px 48px;
-}
-.prova-stat + .prova-stat { border-left: 1px solid var(--border-2); }
-.prova-stat-num {
-  font-size: 1.156rem; font-weight: 800; color: var(--accent);
-  letter-spacing: -.03em; line-height: 1.15;
-}
-.prova-stat-label {
-  font-size: .619rem; color: var(--text-2); margin-top: 5px; font-weight: 500;
-}
+
 
 /* ================================================================
    #4  LEAK MATRIX
@@ -1023,12 +1003,6 @@ footer {
   .dc-cta-btn   { max-width: 100%; }
   .oferta-card  { padding: 28px 20px; }
   .prof-card    { padding: 22px 18px; }
-  .prova-stats  { flex-direction: column; }
-  .prova-stat + .prova-stat { border-left: none; border-top: 1px solid var(--border-2); }
-  #prova-faixa { padding-top: 18px; padding-bottom: 18px; }
-  #prova-faixa .prova-stat { padding: 3px 16px; }
-  #prova-faixa .prova-stat-num { font-size: .906rem; line-height: 16px; }
-  #prova-faixa .prova-stat-label { font-size: .594rem; line-height: 12px; margin-top: 3px; }
   .br-mobile    { display: block; }
 }
 

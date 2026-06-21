@@ -4,7 +4,6 @@ import { Footer } from './components/layout/Footer'
 import { StickyCTA } from './components/layout/StickyCTA'
 import {
   Hero,
-  ProvaFaixa,
   LeakMatrix,
   ProfessionSelector,
   Manifesto,
@@ -68,7 +67,6 @@ export default function App() {
       <Navbar />
       <main id="main">
         <Hero />
-        <ProvaFaixa />
         <LeakMatrix />
         <Manifesto />
         <ProfessionSelector />
