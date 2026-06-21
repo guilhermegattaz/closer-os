@@ -488,13 +488,13 @@ body {
 .manifesto-sub {
   max-width: 580px;
   margin: 20px auto 0;
-  font-size: 1.08rem;
-  line-height: 1.6;
+  font-size: 0.875rem;
+  line-height: 1.65;
   color: #71717A;
 }
 @media (max-width: 640px) {
   .manifesto-band { padding: 52px 0; }
-  .manifesto-sub { font-size: 1rem; }
+  .manifesto-sub { font-size: .875rem; }
 }
 
 /* ================================================================
