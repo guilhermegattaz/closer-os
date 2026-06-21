@@ -50,12 +50,12 @@ export function Autoridade() {
             </div>
             <div className="autor-stats-bar">
               <div className="autor-stat">
-                <div className="autor-stat-num">R$9M+</div>
-                <div className="autor-stat-label">em vendas consultivas 1:1</div>
-              </div>
-              <div className="autor-stat">
                 <div className="autor-stat-num">Diretor Comercial</div>
                 <div className="autor-stat-label">de agência nos EUA</div>
+              </div>
+              <div className="autor-stat">
+                <div className="autor-stat-num">R$9M+</div>
+                <div className="autor-stat-label">em vendas consultivas 1:1</div>
               </div>
               <div className="autor-stat">
                 <div className="autor-stat-num">12 anos</div>
