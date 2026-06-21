@@ -1,15 +1,15 @@
 import { useState } from 'react'
 
 const tabs = [
-  'Designers, Programadores e Freelancers',
+  'Designers, Gestores de Tráfego e Freelancers',
   'Psicólogos, Terapeutas e Nutricionistas',
   'Consultores, Mentores e Donos de Agência',
 ]
 
 const content = [
   {
-    dor: 'Você confunde competência técnica com poder de fechar. Manda o preço, toma vácuo e trabalha o dobro por metade do valor por ceder desconto na hora que o cliente hesita.',
-    alivio: 'Roteiros exatos para defender o valor do seu trabalho e segurar o preço cheio. E não: isso não é sobre virar "vendedor". Você continua sendo você, só para de perder o cliente que já queria te contratar.',
+    dor: 'Você confunde competência técnica com poder de fechar. Manda o preço por mensagem, toma vácuo e acaba trabalhando o dobro por metade do valor porque cede desconto para não perder o cliente.',
+    alivio: 'Você terá roteiros de resposta exatos para defender o valor do seu trabalho, segurar o preço cheio com confiança e nunca mais improvisar do zero. Chega de perder o cliente que já queria te contratar.',
   },
   {
     dor: 'Vender seu atendimento parece quase antiético. Você hesita no preço, vê quem precisava de ajuda sumir no "vou pensar" — e o cliente fica sem a solução que precisava.',
