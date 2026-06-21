@@ -687,6 +687,9 @@ body {
   color: #18181B;
   margin: 0;
 }
+@media (min-width: 900px) {
+  .depo-cta-line { text-wrap: balance; }
+}
 .depo-cta-sub {
   font-size: 0.75rem;
   color: #71717A;
