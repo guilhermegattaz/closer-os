@@ -16,8 +16,8 @@ const content = [
     alivio: 'Descubra como conduzir a primeira conversa como um convite natural e humano. Ajudar o seu paciente a tomar a decisão de começar o tratamento é cuidar dele. Quem sai na dúvida "pra não ser pressionado" é quem mais perde.',
   },
   {
-    dor: 'Você tem autoridade e palco, mas no privado, quando o lead esfria, bate aquela sensação que você não admite: a de estar improvisando justo na hora que mais decide o seu dinheiro.',
-    alivio: 'Um processo replicável de fechamento. Troque o feeling por perguntas cirúrgicas que fazem o próprio cliente se convencer — sem você precisar pressionar.',
+    dor: 'Suas propostas são impecáveis, mas quando o lead esfria após a reunião, você não sabe como reabrir a conversa sem parecer carente. Fica refém do improviso e perde contratos óbvios na mesa de negociação.',
+    alivio: 'Um processo replicável de fechamento. Troque o improviso por perguntas cirúrgicas que fazem o próprio cliente se convencer, sem você precisar pressionar ou diminuir sua autoridade.',
   },
 ]
 
