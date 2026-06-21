@@ -2,22 +2,22 @@ const pilares = [
   {
     num: '01',
     title: 'Roteiro de Início de Conversa',
-    desc: 'Como abrir o contato com um novo lead sem parecer ansioso ou genérico, e já criar interesse desde a primeira mensagem.',
+    desc: 'Como iniciar conversas e reuniões sem parecer ansioso ou genérico, e já criar interesse e autoridade nos primeiros minutos.',
   },
   {
     num: '02',
-    title: 'Investigação — Perguntas de Valor',
+    title: 'Investigação com Perguntas de Valor',
     desc: 'As perguntas certas que fazem o cliente revelar o que realmente importa para ele, antes de você apresentar qualquer preço.',
   },
   {
     num: '03',
-    title: 'Escudo de Objeções',
-    desc: 'Respostas exatas para "tá caro", "vou falar com meu sócio" e "não tenho dinheiro agora", sem forçar, sem suplicar, sem diminuir o seu valor.',
+    title: 'Desarme as Objeções',
+    desc: 'Respostas exatas para "tá caro", "vou falar com meu sócio" e "não tenho dinheiro agora", sem forçar, sem pressionar, sem diminuir o seu valor.',
   },
   {
     num: '04',
-    title: 'Resgatador de Vácuo',
-    desc: 'Como reativar um cliente que sumiu após receber a proposta, e transformar o silêncio incômodo em uma nova chance de fechar.',
+    title: 'Resgate de Oportunidades',
+    desc: 'Mensagens cirúrgicas para reativar um cliente que sumiu há dias após receber a proposta e transformar o silêncio incômodo em uma nova chance de fechar.',
   },
 ]
 
