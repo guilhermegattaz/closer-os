@@ -83,9 +83,7 @@ export function LeakMatrix() {
           A boa notícia: isso não é falta de talento. É só não saber o que dizer na hora exata — e isso <span>tem conserto.</span>
         </p>
 
-        <a href="#profissao" className="leak-microcta fade-up">
-          Ver como o CloserOS resolve isso na minha profissão ↓
-        </a>
+
       </div>
     </section>
   )
