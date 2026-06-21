@@ -808,7 +808,7 @@ body {
    ================================================================ */
 #faq {
   padding: var(--sepy) 0;
-  background: var(--bg-2); border-top: 1px solid var(--border);
+  background: var(--bg); border-top: 1px solid var(--border);
 }
 .faq-header { text-align: center; margin-bottom: 36px; }
 .faq-list {

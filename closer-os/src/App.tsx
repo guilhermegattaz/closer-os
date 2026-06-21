@@ -75,8 +75,8 @@ export default function App() {
         <Depoimentos />
         <Oferta />
         <Autoridade />
-        <Faq />
         <DoisCaminhos />
+        <Faq />
       </main>
       <Footer />
       <StickyCTA />
