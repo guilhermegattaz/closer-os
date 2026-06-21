@@ -347,16 +347,16 @@ body {
 }
 .leak-bridge {
   max-width: 680px;
-  margin: 44px auto 0;
+  margin: 40px auto 0;
   text-align: center;
-  font-size: 1.2rem;
-  line-height: 1.6;
-  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  font-weight: 600;
   color: #18181B;
 }
-.leak-bridge strong { color: #6D28D9; font-weight: 700; }
+.leak-bridge strong { color: inherit; font-weight: 700; }
 @media (max-width: 640px) {
-  .leak-bridge { font-size: 1.05rem; margin-top: 32px; }
+  .leak-bridge { font-size: 0.92rem; margin-top: 28px; }
 }
 
 /* ================================================================
