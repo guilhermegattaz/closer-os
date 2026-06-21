@@ -69,12 +69,12 @@ export default function App() {
         <Hero />
         <LeakMatrix />
         <Manifesto />
-        <ProfessionSelector />
         <FerramentaNaoCurso />
         <Pilares />
-        <Autoridade />
+        <ProfessionSelector />
         <Depoimentos />
         <Oferta />
+        <Autoridade />
         <Faq />
         <DoisCaminhos />
       </main>
