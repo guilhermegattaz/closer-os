@@ -39,20 +39,20 @@ export function Hero() {
   return (
     <section id="hero">
       <div className="hero-center">
-        <span className="hero-micro fade-up">A ferramenta que resolve em 1 minuto</span>
+        <span className="hero-micro fade-up">Pare de ficar sem resposta</span>
 
         <h1 className="hero-headline fade-up d1">
-          O cliente sumiu no WhatsApp ou você travou na reunião na hora do preço?{' '}
-          <span className="hl">Saiba o que dizer para fechar, e pare de improvisar.</span>
+          Saiba exatamente o que dizer quando o cliente disser{' '}
+          <span className="hl">&ldquo;tá caro&rdquo;, falar que vai pensar ou simplesmente sumir.</span>
         </h1>
 
         <p className="hero-sub fade-up d2">
-          O CloserOS™ é um mentor de bolso que roda no seu ChatGPT gratuito. Você descreve a situação real do cliente e ele te dá a fala exata para conduzir a conversa, do primeiro "oi" ao fechamento. Sem estudar vendas, sem parecer chato, sem implorar.
+          Descreva a situação real da conversa e o CloserOS™ te mostra, em segundos, exatamente o que responder para conduzir o cliente até o fechamento. Funciona dentro do ChatGPT gratuito. Sem estudar vendas. Sem improvisar. Sem forçar.
         </p>
 
         <p className="vsl-anchor fade-up d2">
           <span className="vsl-anchor-arrow" aria-hidden="true">▼</span>
-          Aperte o play e veja, em 2 minutos, o CloserOS™ resolvendo uma conversa travada de verdade.
+          Aperte o play e veja, em 2 minutos, uma conversa travada sendo resolvida na prática.
         </p>
 
         <div className="vsl-wrap fade-up d2">
