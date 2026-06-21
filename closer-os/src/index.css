@@ -377,15 +377,6 @@ body {
   font-size: .9rem; color: #52525b; line-height: 1.65; margin: 0;
 }
 .leak-conclusion-body strong { color: var(--text); font-weight: 700; }
-.leak-conclusion-loss {
-  margin: 14px 0 0;
-  padding-top: 12px;
-  border-top: 1px dashed var(--border-2);
-  font-size: .88rem;
-  font-weight: 600;
-  font-style: italic;
-  color: var(--accent);
-}
 @media (max-width: 640px) {
   .leak-conclusion { padding: 20px 18px; margin-top: 24px; }
 }
