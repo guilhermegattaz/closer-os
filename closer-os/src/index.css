@@ -801,7 +801,7 @@ body {
    #13  FOOTER
    ================================================================ */
 footer {
-  padding: 44px var(--px);
+  padding: 44px var(--px) 88px;
   background: var(--bg-2); border-top: 1px solid var(--border);
 }
 .footer-inner {
