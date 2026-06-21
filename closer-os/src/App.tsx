@@ -70,8 +70,8 @@ export default function App() {
         <Hero />
         <ProvaFaixa />
         <LeakMatrix />
-        <ProfessionSelector />
         <Manifesto />
+        <ProfessionSelector />
         <FerramentaNaoCurso />
         <Pilares />
         <Autoridade />
