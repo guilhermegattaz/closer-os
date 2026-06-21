@@ -42,8 +42,10 @@ export function Hero() {
         <span className="hero-micro fade-up">Pare de ficar sem resposta</span>
 
         <h1 className="hero-headline fade-up d1">
-          Saiba exatamente o que dizer quando o cliente{' '}
-          <span className="hl">falar que vai pensar, disser que &ldquo;tá caro&rdquo; ou simplesmente sumir.</span>
+          Saiba exatamente o que dizer quando o cliente falar que{' '}
+          <span className="hl">vai pensar</span>, disser que{' '}
+          <span className="hl">&ldquo;tá caro&rdquo;</span>{' '}
+          ou <span className="hl">simplesmente sumir.</span>
         </h1>
 
         <p className="hero-sub fade-up d2">
