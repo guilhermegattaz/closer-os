@@ -451,7 +451,7 @@ body {
    #5b  MANIFESTO BAND
    ================================================================ */
 .manifesto-band {
-  background: linear-gradient(180deg, #F4F4F5 0%, #F1EEFC 100%);
+  background: #F4F4F5;
   padding: 72px 0;
   text-align: center;
 }
