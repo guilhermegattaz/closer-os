@@ -312,7 +312,8 @@ body {
 /* ================================================================
    #4  LEAK MATRIX
    ================================================================ */
-#leak { padding: var(--sepy) 0; }
+#leak { padding: var(--sepy) 0 48px; }
+@media (max-width: 640px) { #leak { padding-bottom: 32px; } }
 .leak-header { text-align: center; margin-bottom: 48px; }
 .leak-header .h2 { margin-top: 8px; }
 .leak-grid {
