@@ -379,6 +379,34 @@ body {
 @media (max-width: 640px) {
   .leak-conclusion { padding: 20px 18px; margin-top: 24px; }
 }
+.leak-turn {
+  max-width: 640px;
+  margin: 28px auto 0;
+  text-align: center;
+  font-size: clamp(1.05rem, 2.2vw, 1.2rem);
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--text);
+}
+.leak-turn span { color: var(--accent); }
+.leak-microcta {
+  display: block;
+  width: fit-content;
+  margin: 18px auto 0;
+  padding: 10px 22px;
+  border: 1px solid var(--accent);
+  border-radius: var(--r-xl);
+  font-size: .88rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  transition: background .18s, color .18s;
+}
+.leak-microcta:hover { background: var(--accent); color: #fff; }
+@media (max-width: 640px) {
+  .leak-turn { font-size: 1rem; margin-top: 22px; }
+  .leak-microcta { font-size: .84rem; padding: 9px 18px; }
+}
 
 /* ================================================================
    #5  PROFESSION SELECTOR
