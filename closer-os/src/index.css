@@ -680,20 +680,20 @@ body {
 }
 .depo-cta-line {
   max-width: 540px;
-  font-size: 1.15rem;
-  font-weight: 600;
+  font-size: 0.9375rem;
+  font-weight: 500;
   line-height: 1.45;
   color: #18181B;
   margin: 0;
 }
 .depo-cta-sub {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   color: #71717A;
   margin: 0;
 }
 @media (max-width: 640px) {
   .depo-cta { margin-top: 36px; }
-  .depo-cta-line { font-size: 1.05rem; }
+  .depo-cta-line { font-size: 0.9375rem; }
 }
 
 /* Dots de navegação dos depoimentos */
