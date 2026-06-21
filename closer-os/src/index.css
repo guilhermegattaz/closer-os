@@ -869,6 +869,8 @@ footer {
   .prof-card    { padding: 22px 18px; }
   .prova-stats  { flex-direction: column; }
   .prova-stat + .prova-stat { border-left: none; border-top: 1px solid var(--border-2); }
+  #prova-faixa { padding-top: 18px; padding-bottom: 18px; }
+  #prova-faixa .prova-stat { padding: 8px 16px; }
   .br-mobile    { display: block; }
 }
 
