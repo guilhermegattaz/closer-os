@@ -299,11 +299,11 @@ body {
 }
 .prova-stat + .prova-stat { border-left: 1px solid var(--border-2); }
 .prova-stat-num {
-  font-size: 1.45rem; font-weight: 800; color: var(--accent);
-  letter-spacing: -.03em; line-height: 1;
+  font-size: 1.156rem; font-weight: 800; color: var(--accent);
+  letter-spacing: -.03em; line-height: 1.15;
 }
 .prova-stat-label {
-  font-size: .77rem; color: var(--text-2); margin-top: 5px; font-weight: 500;
+  font-size: .619rem; color: var(--text-2); margin-top: 5px; font-weight: 500;
 }
 
 /* ================================================================
@@ -629,11 +629,11 @@ body {
 .autor-stat { padding: 16px 10px; text-align: center; }
 .autor-stat + .autor-stat { border-left: 1px solid var(--border); }
 .autor-stat-num {
-  font-size: 1.1rem; font-weight: 800; color: var(--accent);
-  letter-spacing: -.03em; line-height: 1;
+  font-size: .988rem; font-weight: 800; color: var(--accent);
+  letter-spacing: -.03em; line-height: 1.1;
 }
 .autor-stat-label {
-  font-size: .68rem; color: var(--text-2); margin-top: 4px; font-weight: 500; line-height: 1.35;
+  font-size: .613rem; color: var(--text-2); margin-top: 4px; font-weight: 500; line-height: 1.35;
 }
 
 /* ================================================================
