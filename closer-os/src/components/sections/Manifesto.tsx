@@ -6,7 +6,7 @@ export function Manifesto() {
           A boa notícia é que se até hoje você perdeu clientes e <span>ficou no vácuo...</span>
         </h2>
         <p className="manifesto-sub">
-          a culpa não é do seu talento, é que ninguém tinha te ensinado o que dizer nesses momentos para desarmar cada dúvida. Até agora.
+          a culpa não é do seu talento, é que ninguém tinha te ensinado o que dizer quando o cliente decide se fecha com você ou não. Até agora.
         </p>
       </div>
     </section>
