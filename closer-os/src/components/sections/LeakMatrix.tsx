@@ -65,8 +65,7 @@ export function LeakMatrix() {
         </div>
 
         <div className="leak-quote-card fade-up">
-          <span className="leak-quote-mark" aria-hidden="true">&rdquo;</span>
-          <div className="leak-quote-inner">
+<div className="leak-quote-inner">
             <div className="leak-quote-pill">
               <span className="leak-quote-dot" aria-hidden="true" />
               A SOMA SILENCIOSA DO PREJUÍZO

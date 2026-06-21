@@ -364,17 +364,7 @@ body {
   background: linear-gradient(135deg, rgba(109,40,217,.07) 0%, #fff 50%, var(--bg-2) 100%);
   box-shadow: 0 10px 30px -10px rgba(109,40,217,.15);
 }
-.leak-quote-mark {
-  position: absolute;
-  bottom: -18px; right: 16px;
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size: 140px;
-  line-height: 1;
-  color: rgba(109,40,217,.05);
-  pointer-events: none;
-  user-select: none;
-  z-index: 0;
-}
+
 .leak-quote-inner {
   position: relative;
   z-index: 1;
@@ -416,7 +406,7 @@ body {
 .leak-quote-hl { color: var(--accent); font-weight: 600; }
 @media (max-width: 640px) {
   .leak-quote-card { padding: 24px 20px; margin-top: 24px; }
-  .leak-quote-mark { font-size: 100px; }
+
   .leak-quote-text { font-size: .9rem; }
 }
 
