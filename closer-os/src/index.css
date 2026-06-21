@@ -506,7 +506,7 @@ body {
   gap: 64px; align-items: center;
 }
 .ferra-title {
-  font-size: clamp(1.3rem,3vw,1.9rem);
+  font-size: clamp(1.3rem,3vw,2rem);
   font-weight: 700; line-height: 1.2; letter-spacing: -.025em;
   color: var(--text); margin-bottom: 20px;
 }
@@ -591,7 +591,7 @@ body {
    ================================================================ */
 #autoridade { padding: var(--sepy) 0; }
 .autor-grid {
-  display: grid; grid-template-columns: 1fr 380px; gap: 60px; align-items: start;
+  display: grid; grid-template-columns: 1fr 380px; gap: 60px; align-items: center;
 }
 .autor-profile {
   display: flex; align-items: center; gap: 14px; margin-bottom: 26px;
@@ -654,7 +654,8 @@ body {
   box-shadow: var(--s-sm); display: flex; flex-direction: column; gap: 14px;
 }
 .depo-badge {
-  display: inline-flex; padding: 4px 10px; border-radius: var(--r-pill);
+  display: inline-flex; align-items: center; min-height: 44px;
+  padding: 4px 10px; border-radius: var(--r-pill);
   font-size: .65rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
   background: var(--accent-light); color: var(--accent); border: 1px solid var(--accent-ring);
   width: fit-content;
