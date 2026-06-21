@@ -33,9 +33,9 @@ export function Autoridade() {
               className="autor-cta"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Quero aprender o método — R$67"
+              aria-label="Quero meu mentor de bolso — R$67"
             >
-              Quero aprender o método — R$67 →
+              Quero meu mentor de bolso — R$67 →
             </a>
           </div>
 
