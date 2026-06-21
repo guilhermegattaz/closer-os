@@ -184,8 +184,19 @@ body {
   font-size: clamp(1.8rem,5.2vw,3.25rem);
   font-weight: 800; line-height: 1.1; letter-spacing: -.03em;
   color: var(--text); margin-bottom: 22px;
+  max-width: 900px;
 }
 .hero-headline .hl { color: var(--accent); }
+@media (min-width: 860px) {
+  .hero-headline { margin-left: -50px; margin-right: -50px; }
+}
+@media (max-width: 640px) {
+  .hero-headline {
+    max-width: 100%;
+    font-size: clamp(1.6rem, 7.5vw, 2rem);
+    letter-spacing: -0.5px;
+  }
+}
 .hero-sub {
   font-size: clamp(.9rem,1.5vw,1.05rem); line-height: 1.75; color: var(--text-2);
   max-width: 660px; margin: 0 auto 44px;
