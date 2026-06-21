@@ -47,7 +47,7 @@ export function Hero() {
         </h1>
 
         <p className="hero-sub fade-up d2">
-          Descreva a situação real da conversa e o CloserOS™ te mostra, em segundos, exatamente o que responder para conduzir o cliente até o fechamento. Funciona dentro do ChatGPT gratuito. Sem estudar vendas. Sem improvisar. Sem forçar.
+          Descreva a situação real da conversa e o CloserOS™ te mostra, em segundos, exatamente o que responder para conduzir o cliente até o fechamento. Sem estudar vendas. Sem improvisar. Sem forçar.
         </p>
 
         <p className="vsl-anchor fade-up d2">
