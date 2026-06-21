@@ -59,7 +59,7 @@ export function Oferta() {
           </div>
 
           <p className="oferta-payback">
-            Fecha um cliente e já se pagou.
+            Basta fechar um único cliente que hoje iria embora e já se pagou.
           </p>
 
           <div>
