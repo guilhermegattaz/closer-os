@@ -227,13 +227,13 @@ body {
 .vsl-iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
 /* VSL anchor */
 .vsl-anchor {
-  max-width: 600px;
   margin: 8px auto 18px;
-  font-size: 1.02rem;
-  font-weight: 600;
+  font-size: 0.875rem;
+  font-weight: 400;
   line-height: 1.45;
-  color: #18181B;
+  color: #71717a;
   text-align: center;
+  white-space: nowrap;
 }
 .vsl-anchor-arrow {
   display: block;
@@ -247,7 +247,7 @@ body {
   50%      { transform: translateY(4px); opacity: 1; }
 }
 @media (max-width: 640px) {
-  .vsl-anchor { font-size: 0.95rem; margin: 6px auto 14px; }
+  .vsl-anchor { font-size: 0.8rem; margin: 6px auto 14px; white-space: normal; }
 }
 @media (prefers-reduced-motion: reduce) {
   .vsl-anchor-arrow { animation: none; }
