@@ -923,7 +923,7 @@ body {
 .dc-cost-text {
   font-size: .95rem; font-weight: 600; color: var(--text); line-height: 1.55; margin-bottom: 10px;
 }
-.dc-urgencia { font-size: .87rem; color: var(--text-2); font-style: italic; margin: 0; }
+.dc-urgencia { font-size: .87rem; color: var(--text-2); font-style: italic; margin: 0; text-wrap: balance; }
 .dc-cta { text-align: center; margin-top: 36px; }
 .dc-cta-btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
