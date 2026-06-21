@@ -402,10 +402,11 @@ body {
 .leak-quote-text {
   max-width: 640px;
   font-size: .95rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.75;
   color: var(--text);
   margin: 0;
+  text-wrap: balance;
 }
 .leak-quote-hl { color: var(--accent); font-weight: 600; }
 @media (max-width: 640px) {
