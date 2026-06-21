@@ -18,7 +18,7 @@ export function DoisCaminhos() {
           <div className="dc-card dc-card--destaque fade-up d2">
             <span className="dc-label">Caminho 2</span>
             <h3>Saber exatamente o que dizer</h3>
-            <p>Abrir o CloserOS, descrever a situação e ter, na hora, a resposta certa para conduzir a conversa com confiança — do primeiro contato até o cliente dizer "fechado".</p>
+            <p>Abrir o CloserOS, descrever a situação e ter, na hora, a resposta certa para conduzir a conversa com confiança, do primeiro contato até o cliente dizer "fechado".</p>
           </div>
         </div>
 
@@ -26,7 +26,7 @@ export function DoisCaminhos() {
           Os dois custam alguma coisa. Um custa as vendas que você continua perdendo. O outro custa R$67.
         </p>
         <p className="dc-urgencia fade-up d2">
-          E cada dia que você espera é mais uma conversa em que você vai improvisar — e talvez perder.
+          E cada dia que você espera é mais uma conversa em que você vai improvisar, e talvez perder.
         </p>
 
         <div className="dc-cta fade-up d3">

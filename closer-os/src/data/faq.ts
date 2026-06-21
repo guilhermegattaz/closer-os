@@ -4,7 +4,7 @@ export const faqItems: FaqItem[] = [
   {
     id: 'f1',
     pergunta: 'Preciso pagar mensalidade do ChatGPT para usar?',
-    resposta: 'Não. O CloserOS™ funciona na versão gratuita do ChatGPT — sem nenhum custo adicional. Tudo que você precisa é de uma conta gratuita.',
+    resposta: 'Não. O CloserOS™ funciona na versão gratuita do ChatGPT, sem nenhum custo adicional. Tudo que você precisa é de uma conta gratuita.',
   },
   {
     id: 'f-prompt',

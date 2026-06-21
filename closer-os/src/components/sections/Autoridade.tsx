@@ -23,8 +23,8 @@ export function Autoridade() {
             </div>
 
             <div className="autor-bio">
-              <p>Ao longo de anos conduzindo vendas consultivas de alto valor, desenvolvi um método próprio para cada situação de negociação — o que perguntar, o que dizer, como conduzir cada etapa de uma conversa com um cliente.</p>
-              <p>Aprendi com os maiores especialistas em vendas do mundo — mentores que estão no top 1% do mercado americano — e adaptei tudo isso para a realidade de quem vende serviços no Brasil.</p>
+              <p>Ao longo de anos conduzindo vendas consultivas de alto valor, desenvolvi um método próprio para cada situação de negociação, o que perguntar, o que dizer, como conduzir cada etapa de uma conversa com um cliente.</p>
+              <p>Aprendi com os maiores especialistas em vendas do mundo, mentores que estão no top 1% do mercado americano — e adaptei tudo isso para a realidade de quem vende serviços no Brasil.</p>
               <p>O CloserOS™ reúne tudo isso em um único lugar. Não é teoria. É o que funciona quando o cliente diz "não é pra mim", "tá caro" ou "vou pensar" — e você precisa saber o que fazer agora.</p>
             </div>
 

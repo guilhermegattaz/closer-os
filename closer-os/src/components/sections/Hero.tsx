@@ -47,7 +47,7 @@ export function Hero() {
         </h1>
 
         <p className="hero-sub fade-up d2">
-          O CloserOS™ é um mentor de bolso que roda no seu ChatGPT gratuito. Você descreve a situação real do cliente e ele te dá a fala exata para conduzir a conversa — do primeiro "oi" ao fechamento. Sem estudar vendas, sem parecer chato, sem implorar.
+          O CloserOS™ é um mentor de bolso que roda no seu ChatGPT gratuito. Você descreve a situação real do cliente e ele te dá a fala exata para conduzir a conversa, do primeiro "oi" ao fechamento. Sem estudar vendas, sem parecer chato, sem implorar.
         </p>
 
         <p className="vsl-anchor fade-up d2">

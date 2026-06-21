@@ -22,7 +22,7 @@ export function LeakMatrix() {
               <div className="chat-silence">— 48 horas de silêncio —</div>
             </div>
             <p className="leak-sub">
-              O orçamento foi visualizado, o cliente sumiu — e você não sabe como cobrar retorno sem parecer desesperado.
+              O orçamento foi visualizado, o cliente sumiu, e você não sabe como cobrar retorno sem parecer desesperado.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export function LeakMatrix() {
               </div>
             </div>
             <p className="leak-sub">
-              Apresentação impecável — mas você aceita a primeira desculpa e perde a venda por não saber reagir na hora.
+              Apresentação impecável, mas você aceita a primeira desculpa e perde a venda por não saber reagir na hora.
             </p>
           </div>
 
@@ -58,14 +58,14 @@ export function LeakMatrix() {
               </div>
             </div>
             <p className="leak-sub">
-              Você se desvaloriza e queima sua margem por medo de ouvir um não — antes mesmo de o cliente questionar o preço.
+              Você se desvaloriza e queima sua margem por medo de ouvir um não, antes mesmo de o cliente questionar o preço.
             </p>
           </div>
 
         </div>
 
         <p className="leak-bridge fade-up">
-          Nenhum desses momentos parece grave sozinho. O problema é que eles se repetem toda semana —
+          Nenhum desses momentos parece grave sozinho. O problema é que eles se repetem toda semana,
           e cada um é um contrato que era seu e foi embora <strong>em silêncio</strong>, sem você nem perceber onde perdeu.
         </p>
       </div>

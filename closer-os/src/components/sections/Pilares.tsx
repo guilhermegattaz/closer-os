@@ -2,7 +2,7 @@ const pilares = [
   {
     num: '01',
     title: 'Roteiro de Início de Conversa',
-    desc: 'Como abrir o contato com um novo lead sem parecer ansioso ou genérico — e já criar interesse desde a primeira mensagem.',
+    desc: 'Como abrir o contato com um novo lead sem parecer ansioso ou genérico, e já criar interesse desde a primeira mensagem.',
   },
   {
     num: '02',
@@ -12,12 +12,12 @@ const pilares = [
   {
     num: '03',
     title: 'Escudo de Objeções',
-    desc: 'Respostas exatas para "tá caro", "vou falar com meu sócio" e "não tenho dinheiro agora" — sem forçar, sem suplicar, sem diminuir o seu valor.',
+    desc: 'Respostas exatas para "tá caro", "vou falar com meu sócio" e "não tenho dinheiro agora", sem forçar, sem suplicar, sem diminuir o seu valor.',
   },
   {
     num: '04',
     title: 'Resgatador de Vácuo',
-    desc: 'Como reativar um cliente que sumiu após receber a proposta — e transformar o silêncio incômodo em uma nova chance de fechar.',
+    desc: 'Como reativar um cliente que sumiu após receber a proposta, e transformar o silêncio incômodo em uma nova chance de fechar.',
   },
 ]
 

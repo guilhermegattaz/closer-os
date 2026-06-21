@@ -9,7 +9,7 @@ const tabs = [
 const content = [
   {
     dor: 'Você confunde competência técnica com poder de fechar. Manda o preço, toma vácuo e trabalha o dobro por metade do valor por ceder desconto na hora que o cliente hesita.',
-    alivio: 'Roteiros exatos para defender o valor do seu trabalho e segurar o preço cheio. E não: isso não é sobre virar "vendedor". Você continua sendo você — só para de perder o cliente que já queria te contratar.',
+    alivio: 'Roteiros exatos para defender o valor do seu trabalho e segurar o preço cheio. E não: isso não é sobre virar "vendedor". Você continua sendo você, só para de perder o cliente que já queria te contratar.',
   },
   {
     dor: 'Vender seu atendimento parece quase antiético. Você hesita no preço, vê quem precisava de ajuda sumir no "vou pensar" — e o cliente fica sem a solução que precisava.',

@@ -11,7 +11,7 @@ export function FerramentaNaoCurso() {
               <span className="hl">que vai acumular poeira.</span>
             </h2>
             <p className="ferra-body">
-              Cursos exigem esforço e estudo. O CloserOS te dá alívio: uma inteligência comercial de bolso no seu ChatGPT gratuito. Abra o celular, descreva o problema com o cliente naquele minuto e copie a abordagem exata — sem estudar nada, sem decorar script, sem precisar virar outra pessoa.
+              Cursos exigem esforço e estudo. O CloserOS te dá alívio: uma inteligência comercial de bolso no seu ChatGPT gratuito. Abra o celular, descreva o problema com o cliente naquele minuto e copie a abordagem exata, sem estudar nada, sem decorar script, sem precisar virar outra pessoa.
             </p>
           </div>
 
