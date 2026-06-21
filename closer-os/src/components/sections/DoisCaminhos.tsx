@@ -32,7 +32,6 @@ export function DoisCaminhos() {
 
           {/* Card 2 — o caminho bom */}
           <div className="dc-card dc-card--destaque fade-up d2">
-            <span className="dc-card-glow" aria-hidden="true" />
             <div className="dc-card-top">
               <div className="dc-path-label">
                 <span className="dc-path-num">2</span>
