@@ -557,45 +557,41 @@ body {
 .ferra-body {
   font-size: .94rem; line-height: 1.76; color: var(--text-2);
 }
-.ferra-phone-wrap { display: flex; justify-content: center; }
-/* Phone frame */
-.phone-frame {
-  width: 230px; height: 468px; position: relative;
-  background: #13131f; border-radius: 42px;
-  border: 7px solid #1e1e30; overflow: hidden;
-  box-shadow: 0 28px 60px rgba(0,0,0,.24), 0 0 0 1px rgba(255,255,255,.04);
+.ferra-phone-wrap { display: flex; flex-direction: column; align-items: center; }
+/* Carousel */
+.ferra-carousel {
+  width: 230px; height: 468px;
+  border-radius: 42px; overflow: hidden;
+  box-shadow: 0 28px 60px rgba(0,0,0,.24);
+  outline: none; cursor: grab; flex-shrink: 0;
 }
-.phone-notch {
-  position: absolute; top: 0; left: 50%; transform: translateX(-50%);
-  width: 72px; height: 26px; background: #13131f;
-  border-radius: 0 0 14px 14px; z-index: 2;
+.ferra-carousel:active { cursor: grabbing; }
+.ferra-carousel:focus-visible { box-shadow: 0 28px 60px rgba(0,0,0,.24), 0 0 0 3px var(--accent); }
+.ferra-carousel-track {
+  display: flex; width: 400%; height: 100%;
+  transition: transform .35s cubic-bezier(.4,0,.2,1);
+  will-change: transform;
 }
-.phone-screen {
-  height: 100%; padding: 38px 10px 14px;
-  display: flex; flex-direction: column; gap: 8px; overflow: hidden;
+.ferra-carousel-slide { flex: 0 0 25%; height: 100%; }
+.ferra-carousel-img {
+  width: 100%; height: 100%; object-fit: cover;
+  display: block; pointer-events: none; -webkit-user-drag: none;
 }
-.phone-header {
-  font-size: .54rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
-  color: rgba(255,255,255,.32); text-align: center; margin-bottom: 4px;
+.ferra-carousel-dots {
+  display: flex; gap: 8px; justify-content: center; margin-top: 16px;
 }
-.phone-bubble {
-  padding: 8px 11px; border-radius: 11px; font-size: .6rem; line-height: 1.5;
+.ferra-carousel-dot {
+  width: 8px; height: 8px; border-radius: 50%; padding: 0; border: none;
+  background: var(--border-2); cursor: pointer;
+  transition: background .2s, transform .2s;
 }
-.phone-bubble--user {
-  background: rgba(109,40,217,.5); color: rgba(255,255,255,.92);
-  align-self: flex-end; border-bottom-right-radius: 3px; max-width: 82%;
-}
-.phone-bubble--label {
-  font-size: .5rem; color: rgba(255,255,255,.28); align-self: flex-start; padding: 0 2px;
-  margin-bottom: -4px; text-transform: uppercase; letter-spacing: .06em;
-}
-.phone-bubble--closer {
-  background: rgba(255,255,255,.09); color: rgba(255,255,255,.82);
-  align-self: flex-start; border-bottom-left-radius: 3px; max-width: 90%;
-}
-.phone-bubble--tag {
-  font-size: .5rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
-  color: rgba(109,40,217,.7); align-self: flex-start; margin-bottom: -2px; padding: 0 2px;
+.ferra-carousel-dot--active { background: var(--accent); transform: scale(1.3); }
+@media (max-width: 640px) {
+  .ferra-carousel {
+    width: min(230px, 70vw);
+    height: auto;
+    aspect-ratio: 230 / 468;
+  }
 }
 
 /* ================================================================
