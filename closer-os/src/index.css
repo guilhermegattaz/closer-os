@@ -1005,7 +1005,9 @@ footer {
 @media (max-width: 900px) {
   .autor-grid { grid-template-columns: 1fr; }
   .autor-img { aspect-ratio: 4/3; max-height: 300px; border-radius: var(--r-lg) var(--r-lg) 0 0; }
-  .autor-stats-bar { border-top: 1px solid var(--border); border-radius: 0 0 var(--r-lg) var(--r-lg); }
+  .autor-stats-bar { border-top: 1px solid var(--border); border-radius: 0 0 var(--r-lg) var(--r-lg); align-items: stretch; }
+  .autor-stat { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10px; }
+  .autor-stat-label { margin-top: 3px; }
   .ferra-grid { grid-template-columns: 1fr; gap: 40px; }
   .ferra-phone-wrap { order: -1; }
 }
