@@ -1024,9 +1024,9 @@ footer {
   .prova-stats  { flex-direction: column; }
   .prova-stat + .prova-stat { border-left: none; border-top: 1px solid var(--border-2); }
   #prova-faixa { padding-top: 18px; padding-bottom: 18px; }
-  #prova-faixa .prova-stat { padding: 5px 16px; }
-  #prova-faixa .prova-stat-num { font-size: 1.125rem; line-height: 1.25; }
-  #prova-faixa .prova-stat-label { font-size: .72rem; }
+  #prova-faixa .prova-stat { padding: 3px 16px; }
+  #prova-faixa .prova-stat-num { font-size: .906rem; line-height: 16px; }
+  #prova-faixa .prova-stat-label { font-size: .594rem; line-height: 12px; margin-top: 3px; }
   .br-mobile    { display: block; }
 }
 
