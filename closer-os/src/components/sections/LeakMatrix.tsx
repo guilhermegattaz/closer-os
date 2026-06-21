@@ -64,11 +64,19 @@ export function LeakMatrix() {
 
         </div>
 
-        <div className="leak-conclusion fade-up">
-          <span className="leak-conclusion-title">Nenhum desses momentos parece grave sozinho</span>
-          <p className="leak-conclusion-body">
-            O problema é que eles se repetem toda semana, e cada um é um contrato que era seu e foi embora <strong>em silêncio</strong>, sem você nem perceber onde perdeu.
-          </p>
+        <div className="leak-quote-card fade-up">
+          <span className="leak-quote-mark" aria-hidden="true">&rdquo;</span>
+          <div className="leak-quote-inner">
+            <div className="leak-quote-pill">
+              <span className="leak-quote-dot" aria-hidden="true" />
+              A SOMA SILENCIOSA DO PREJUÍZO
+            </div>
+            <p className="leak-quote-text">
+              &ldquo;Nenhum desses momentos parece grave sozinho. O problema é que{' '}
+              <span className="leak-quote-hl">eles se repetem toda semana</span>, e cada um é um contrato que era seu e{' '}
+              <span className="leak-quote-hl">foi embora em silêncio</span>, sem você nem perceber onde perdeu.&rdquo;
+            </p>
+          </div>
         </div>
 
         <p className="leak-turn fade-up">
