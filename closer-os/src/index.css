@@ -196,7 +196,7 @@ body {
 }
 .hero-sub {
   font-size: clamp(.9rem,1.5vw,1.05rem); line-height: 1.75; color: var(--text-2);
-  max-width: 660px; margin: 0 auto 44px;
+  max-width: 660px; margin: 0 auto 24px;
 }
 /* Video */
 .vsl-wrap {
@@ -209,8 +209,27 @@ body {
 }
 .vsl-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
 .vsl-thumb:hover img { transform: scale(1.02); }
+.vsl-thumb::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 50%;
+  background: linear-gradient(to bottom, rgba(0,0,0,.42) 0%, transparent 100%);
+  z-index: 0; pointer-events: none;
+}
+.vsl-caption {
+  position: absolute; top: 10%; left: 0; right: 0;
+  text-align: center; padding: 0 28px;
+  color: #fff; font-size: .78rem; font-weight: 600; line-height: 1.4;
+  text-shadow: 0 1px 6px rgba(0,0,0,.8);
+  z-index: 1; pointer-events: none;
+}
+.vsl-caption .vsl-anchor-arrow {
+  display: block; color: #fff; font-size: .85rem;
+  margin-top: 8px;
+  animation: vslBounce 1.6s ease-in-out infinite;
+}
 .vsl-play {
   position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  z-index: 2;
 }
 .vsl-play-btn {
   width: 76px; height: 76px; border-radius: 50%;
@@ -222,32 +241,15 @@ body {
 .vsl-play-btn svg { margin-left: 4px; }
 .vsl-thumb:hover .vsl-play-btn { transform: scale(1.08); box-shadow: 0 8px 36px rgba(0,0,0,.28); }
 .vsl-iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
-/* VSL anchor */
-.vsl-anchor {
-  margin: 8px auto 18px;
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.45;
-  color: #71717a;
-  text-align: center;
-  white-space: nowrap;
-}
-.vsl-anchor-arrow {
-  display: block;
-  color: #7C3AED;
-  font-size: 0.9rem;
-  margin-bottom: 6px;
-  animation: vslBounce 1.6s ease-in-out infinite;
-}
 @keyframes vslBounce {
   0%,100% { transform: translateY(0); opacity: .7; }
   50%      { transform: translateY(4px); opacity: 1; }
 }
 @media (max-width: 640px) {
-  .vsl-anchor { font-size: 0.8rem; margin: 6px auto 14px; white-space: normal; }
+  .vsl-caption { font-size: .7rem; top: 6%; padding: 0 18px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .vsl-anchor-arrow { animation: none; }
+  .vsl-caption .vsl-anchor-arrow { animation: none; }
 }
 /* CTA */
 .hero-cta-wrap { margin-bottom: 12px; }

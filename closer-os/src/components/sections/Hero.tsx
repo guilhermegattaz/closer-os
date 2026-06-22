@@ -22,6 +22,10 @@ function VideoPlayer() {
             alt="Prévia do vídeo CloserOS™"
             loading="eager"
           />
+          <div className="vsl-caption">
+            Aperte o play e veja, em 2 minutos, uma conversa travada sendo resolvida na prática.
+            <span className="vsl-anchor-arrow" aria-hidden="true">▼</span>
+          </div>
           <div className="vsl-play">
             <div className="vsl-play-btn">
               <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
@@ -50,11 +54,6 @@ export function Hero() {
 
         <p className="hero-sub fade-up d2">
           Descreva a situação real da conversa e o CloserOS™ te mostra, em segundos, exatamente o que responder para conduzir o cliente até o fechamento. Sem estudar vendas. Sem improvisar. Sem forçar.
-        </p>
-
-        <p className="vsl-anchor fade-up d2">
-          <span className="vsl-anchor-arrow" aria-hidden="true">▼</span>
-          Aperte o play e veja, em 2 minutos, uma conversa travada sendo resolvida na prática.
         </p>
 
         <div className="vsl-wrap fade-up d2">
