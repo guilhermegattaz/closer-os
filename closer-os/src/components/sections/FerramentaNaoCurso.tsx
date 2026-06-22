@@ -1,4 +1,37 @@
+import { useEffect } from 'react'
+
 export function FerramentaNaoCurso() {
+  useEffect(() => {
+    const handler = (e: MouseEvent) => {
+      const btn = (e.target as Element).closest('[data-copy-msg]') as HTMLButtonElement | null
+      if (!btn) return
+      const block = btn.closest('.ferra-copyblock')
+      if (!block) return
+      const msg = [...block.querySelectorAll('p')]
+        .map(p => p.textContent?.trim().replace(/^"|"$/g, '') ?? '')
+        .join('\n\n')
+      const done = () => {
+        const o = btn.innerHTML
+        btn.innerHTML = '✓ Copiado!'
+        btn.classList.add('copied')
+        setTimeout(() => { btn.innerHTML = o; btn.classList.remove('copied') }, 2000)
+      }
+      if (navigator.clipboard?.writeText) {
+        navigator.clipboard.writeText(msg).then(done).catch(done)
+      } else {
+        const t = document.createElement('textarea')
+        t.value = msg
+        document.body.appendChild(t)
+        t.select()
+        try { document.execCommand('copy') } catch (_) {}
+        t.remove()
+        done()
+      }
+    }
+    document.addEventListener('click', handler)
+    return () => document.removeEventListener('click', handler)
+  }, [])
+
   return (
     <section id="ferramenta">
       <div className="container">
@@ -37,7 +70,7 @@ export function FerramentaNaoCurso() {
                 <p className="ferra-card-text">Não mande "Oi, tudo bem?" nem "Você pensou na proposta?" Mande exatamente isso:</p>
                 <div className="ferra-copyblock">
                   <span className="ferra-copyblock-tag">Mensagem pronta</span>
-                  <button className="ferra-copyblock-btn" aria-hidden="true" tabIndex={-1}>⧉ Copiar</button>
+                  <button type="button" className="ferra-copyblock-btn" data-copy-msg="">⧉ Copiar</button>
                   <p>"Oi [nome], estava pensando na conversa que a gente teve sobre [problema específico que ele mencionou].</p>
                   <p>Surgiu uma ideia que pode ser útil pra você — posso te mandar?"</p>
                 </div>

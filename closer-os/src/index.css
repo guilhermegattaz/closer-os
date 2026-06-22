@@ -503,11 +503,11 @@ body {
 .ferra-chat-name{ display:flex; align-items:center; gap:6px; font-size:15px; color:#18181b; }
 .ferra-dot-on{ width:8px; height:8px; border-radius:50%; background:#22c55e; display:inline-block; }
 .ferra-chat-status{ font-size:12px; color:#71717a; }
-.ferra-chat-body{ padding:18px; background:#f8f9fa; }
+.ferra-chat-body{ padding:18px; background:#f8f9fa; display:flex; flex-direction:column; }
 .ferra-daysep{ text-align:center; font-size:11px; letter-spacing:0.5px; color:#a1a1aa; text-transform:uppercase; margin-bottom:14px; }
 .ferra-bubble-user{ background:var(--accent,#6d28d9); color:#fff; padding:12px 14px; border-radius:18px 18px 4px 18px; font-size:14px; line-height:1.45; margin-left:auto; max-width:88%; }
 .ferra-bubble-user .ferra-time{ display:block; text-align:right; font-size:10px; opacity:0.8; margin-top:6px; }
-.ferra-typing{ font-size:12px; color:#71717a; background:#fff; border:1px solid rgba(24,24,27,0.06); padding:8px 12px; border-radius:14px; display:inline-flex; align-items:center; gap:6px; margin:14px 0; }
+.ferra-typing{ font-size:12px; color:#71717a; background:#fff; border:1px solid rgba(24,24,27,0.06); padding:8px 12px; border-radius:14px 14px 14px 4px; display:inline-flex; align-items:center; gap:6px; margin:14px 0; align-self:flex-start; }
 .ferra-typing span{ width:5px; height:5px; border-radius:50%; background:var(--accent,#6d28d9); opacity:0.5; animation:ferraBlink 1.2s infinite; }
 .ferra-typing span:nth-child(2){ animation-delay:0.2s; } .ferra-typing span:nth-child(3){ animation-delay:0.4s; }
 @keyframes ferraBlink{ 0%,60%,100%{opacity:0.3} 30%{opacity:1} }
@@ -515,9 +515,11 @@ body {
 .ferra-card-label{ font-size:11px; font-weight:700; letter-spacing:0.8px; text-transform:uppercase; color:var(--accent,#6d28d9); margin-bottom:8px; }
 .ferra-card-text{ font-size:14px; line-height:1.5; color:#18181b; }
 .ferra-card-text--after{ margin-top:12px; color:#52525b; }
-.ferra-copyblock{ position:relative; background:#f4f4f5; border:1px solid rgba(24,24,27,0.1); border-radius:12px; padding:14px 14px 12px; margin:12px 0; }
-.ferra-copyblock-tag{ display:inline-block; font-size:10px; font-weight:700; letter-spacing:0.6px; text-transform:uppercase; color:#71717a; margin-bottom:8px; }
-.ferra-copyblock-btn{ position:absolute; top:10px; right:10px; border:1px solid rgba(24,24,27,0.12); background:#fff; border-radius:8px; font-size:11px; font-weight:600; color:#52525b; padding:4px 8px; cursor:pointer; }
+.ferra-copyblock{ position:relative; background:rgba(109,40,217,0.04); border:1px solid rgba(109,40,217,0.22); border-radius:12px; padding:14px 14px 12px; margin:12px 0; }
+.ferra-copyblock-tag{ display:inline-block; font-size:10px; font-weight:700; letter-spacing:0.6px; text-transform:uppercase; color:var(--accent,#6d28d9); margin-bottom:8px; }
+.ferra-copyblock-btn{ position:absolute; top:10px; right:10px; display:inline-flex; align-items:center; gap:4px; border:1px solid rgba(109,40,217,0.3); background:#fff; border-radius:8px; font-size:11px; font-weight:600; color:var(--accent,#6d28d9); padding:5px 10px; cursor:pointer; transition:background .15s, color .15s; }
+.ferra-copyblock-btn:hover{ background:var(--accent,#6d28d9); color:#fff; }
+.ferra-copyblock-btn.copied{ background:#16a34a; border-color:#16a34a; color:#fff; }
 .ferra-copyblock p{ font-size:14px; line-height:1.55; color:#18181b; }
 .ferra-copyblock p + p{ margin-top:10px; }
 .ferra-card-meta{ display:block; font-size:11px; color:#a1a1aa; margin-top:10px; }
@@ -529,6 +531,16 @@ body {
 .ferra-guarantees span{ font-size:14px; font-weight:600; color:#18181b; }
 .ferra-guarantees b{ color:var(--accent,#6d28d9); margin-right:4px; }
 
+@media (min-width:901px){
+  .ferra-step{ position:relative; }
+  .ferra-step--left::after,
+  .ferra-steps-right .ferra-step::after{
+    content:""; position:absolute; top:50%; width:28px; border-top:1px dashed rgba(109,40,217,0.3);
+  }
+  .ferra-step--left::after{ right:-30px; }
+  .ferra-steps-right .ferra-step::after{ left:-30px; }
+  .ferra-steps-right{ gap:64px; }
+}
 @media (max-width:900px){
   .ferra-demo{ grid-template-columns:1fr; justify-items:center; gap:36px; }
   .ferra-step--left, .ferra-step{ flex-direction:row; text-align:left; justify-content:flex-start; max-width:360px; }
