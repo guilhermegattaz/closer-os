@@ -8,7 +8,7 @@ export function Autoridade() {
         <div className="autor-grid">
 
           <div className="fade-up">
-            <span className="eyebrow">Ainda não me conhece? Tudo bem.</span>
+            <span className="eyebrow">Ainda não me conhece? <span style={{ color: 'var(--text)' }}>Tudo bem.</span></span>
             <div className="autor-profile">
               <div className="autor-avatar-sm">
                 <img
