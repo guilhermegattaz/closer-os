@@ -6,7 +6,7 @@ const pilares = [
   },
   {
     num: '02',
-    title: 'Investigação com Perguntas de Valor',
+    title: 'Descubra o Que o Cliente Realmente Quer',
     desc: 'As perguntas certas que fazem o cliente revelar o que realmente importa para ele, antes de você apresentar qualquer preço.',
   },
   {

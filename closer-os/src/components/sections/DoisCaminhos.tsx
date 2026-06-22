@@ -59,7 +59,8 @@ export function DoisCaminhos() {
             <span className="dc-hl">O outro custa R$67.</span>
           </p>
           <p className="dc-urgencia">
-            E cada dia que você espera é mais uma conversa em que você vai improvisar, e talvez perder.
+            A próxima objeção que você receber provavelmente vai chegar antes de amanhã.<br /><br />
+            A única diferença é que, dessa vez, você não precisa improvisar.
           </p>
         </div>
 
