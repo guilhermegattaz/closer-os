@@ -17,7 +17,7 @@ const pilares = [
   {
     num: '04',
     title: 'Resgate de Oportunidades',
-    desc: 'Mensagens cirúrgicas para reativar um cliente que sumiu há dias após receber a proposta e transformar o silêncio incômodo em uma nova chance de fechar.',
+    desc: 'Mensagens cirúrgicas para reativar conversas que pareciam perdidas, sem parecer insistente ou desesperado, e ganhar uma nova chance de fechar.',
   },
 ]
 
