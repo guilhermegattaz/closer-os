@@ -1,35 +1,23 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 
 export function FerramentaNaoCurso() {
+  const videoRef = useRef<HTMLVideoElement>(null)
+
   useEffect(() => {
-    const handler = (e: MouseEvent) => {
-      const btn = (e.target as Element).closest('[data-copy-msg]') as HTMLButtonElement | null
-      if (!btn) return
-      const block = btn.closest('.ferra-copyblock')
-      if (!block) return
-      const msg = [...block.querySelectorAll('p')]
-        .map(p => p.textContent?.trim().replace(/^"|"$/g, '') ?? '')
-        .join('\n\n')
-      const done = () => {
-        const o = btn.innerHTML
-        btn.innerHTML = '✓ Copiado!'
-        btn.classList.add('copied')
-        setTimeout(() => { btn.innerHTML = o; btn.classList.remove('copied') }, 2000)
-      }
-      if (navigator.clipboard?.writeText) {
-        navigator.clipboard.writeText(msg).then(done).catch(done)
-      } else {
-        const t = document.createElement('textarea')
-        t.value = msg
-        document.body.appendChild(t)
-        t.select()
-        try { document.execCommand('copy') } catch (_) {}
-        t.remove()
-        done()
-      }
-    }
-    document.addEventListener('click', handler)
-    return () => document.removeEventListener('click', handler)
+    const video = videoRef.current
+    if (!video) return
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          video.play().catch(() => {})
+        } else {
+          video.pause()
+        }
+      },
+      { threshold: 0.25 }
+    )
+    observer.observe(video)
+    return () => observer.disconnect()
   }, [])
 
   return (
@@ -50,38 +38,20 @@ export function FerramentaNaoCurso() {
             </div>
           </div>
 
-          <div className="ferra-phone fade-up visible">
-            <div className="ferra-chat-head">
-              <span className="ferra-avatar">C</span>
-              <div>
-                <strong className="ferra-chat-name">CloserOS <span className="ferra-dot-on"></span></strong>
-                <span className="ferra-chat-status">Online · responde em segundos</span>
-              </div>
-            </div>
-            <div className="ferra-chat-body">
-              <div className="ferra-daysep">Hoje · 14:32</div>
-              <div className="ferra-bubble-user">
-                Meu cliente sumiu depois da reunião. Faz 5 dias sem resposta. O que eu mando agora?
-                <span className="ferra-time">14:32 ✓</span>
-              </div>
-              <div className="ferra-typing">Analisando <span></span><span></span><span></span></div>
-              <div className="ferra-card">
-                <div className="ferra-card-label">Resposta</div>
-                <p className="ferra-card-text">Não mande "Oi, tudo bem?" nem "Você pensou na proposta?" Mande exatamente isso:</p>
-                <div className="ferra-copyblock">
-                  <span className="ferra-copyblock-tag">Mensagem pronta</span>
-                  <button type="button" className="ferra-copyblock-btn" data-copy-msg="">⧉ Copiar</button>
-                  <p>"Oi [nome], estava pensando na conversa que a gente teve sobre [problema específico que ele mencionou].</p>
-                  <p>Surgiu uma ideia que pode ser útil pra você — posso te mandar?"</p>
-                </div>
-                <p className="ferra-card-text ferra-card-text--after">Esse tipo de mensagem gera resposta porque não pressiona e ainda gera curiosidade. Me conta o que ele disse sobre o problema dele que eu ajusto o texto pra você.</p>
-                <span className="ferra-card-meta">14:32 · gerado em 4s</span>
-              </div>
-            </div>
-            <div className="ferra-chat-input">
-              <span>Descreva a próxima situação...</span>
-              <button className="ferra-send" aria-hidden="true" tabIndex={-1}>→</button>
-            </div>
+          <div className="ferra-video-wrap fade-up visible">
+            <video
+              ref={videoRef}
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="metadata"
+              poster="/images/exemplomockofc-poster.jpg"
+              aria-label="Demonstração do CloserOS respondendo a uma situação de venda"
+              className="ferra-demo-video"
+            >
+              <source src="/images/exemplomockofc.mp4" type="video/mp4" />
+            </video>
           </div>
 
           <div className="ferra-steps-right">
