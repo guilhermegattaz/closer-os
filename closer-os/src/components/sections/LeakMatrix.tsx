@@ -2,6 +2,7 @@ export function LeakMatrix() {
   return (
     <section id="leak">
       <div className="container">
+        <p className="leak-bridge fade-up">Antes de te mostrar a saída, veja onde o seu dinheiro está escapando agora:</p>
         <div className="leak-header fade-up">
           <span className="eyebrow">O diagnóstico</span>
           <h2 className="h2">Onde o seu dinheiro está<br className="br-mobile" /> morrendo todos os dias?</h2>
