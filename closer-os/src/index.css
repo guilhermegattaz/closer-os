@@ -291,7 +291,7 @@ body {
 /* ================================================================
    #4  LEAK MATRIX
    ================================================================ */
-#leak { padding: var(--sepy) 0 48px; }
+#leak { padding: var(--sepy) 0 48px; background-color: #f4f4f5; }
 @media (max-width: 640px) {
   #hero { padding-bottom: var(--sepy); }
   #leak { padding-bottom: var(--sepy); }
@@ -453,7 +453,7 @@ body {
    #5b  MANIFESTO BAND
    ================================================================ */
 .manifesto-band {
-  background: #F4F4F5;
+  background: #f8f9fa;
   padding: 72px 0;
   text-align: center;
 }
