@@ -39,12 +39,12 @@ export function LeakMatrix() {
                 <span>Meet · 32:14</span>
               </div>
               <div className="lm-meet-grid">
-                <div className="lm-tile">
+                <div className="lm-tile lm-tile--active">
                   <div className="lm-avatar" style={{ background: '#71717a' }}>C</div>
                   <span className="lm-tile-mic">🎙️</span>
                   <span className="lm-tile-name">Cliente</span>
                 </div>
-                <div className="lm-tile lm-tile--active">
+                <div className="lm-tile">
                   <div className="lm-avatar" style={{ background: '#6d28d9' }}>V</div>
                   <span className="lm-tile-mic">🎙️</span>
                   <span className="lm-tile-name">Você</span>
