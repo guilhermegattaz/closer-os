@@ -311,7 +311,9 @@ body {
   color: var(--accent);
 }
 .leak-chat {
-  background: var(--bg-2); border-radius: var(--r);
+  background: #E2E2E7; border-radius: var(--r);
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.08);
   padding: 14px; display: flex; flex-direction: column; gap: 9px; flex: 1;
 }
 .chat-row { display: flex; flex-direction: column; gap: 3px; }
