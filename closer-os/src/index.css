@@ -293,12 +293,8 @@ body {
    ================================================================ */
 #leak { padding: var(--sepy) 0 48px; }
 @media (max-width: 640px) {
-  #hero { padding-bottom: 32px; }
-  #leak { padding-top: 32px; padding-bottom: var(--sepy); }
-}
-.leak-bridge {
-  text-align: center; color: #71717a; font-size: 14px; line-height: 1.6;
-  text-wrap: balance; margin: 0 auto 20px; max-width: 38ch;
+  #hero { padding-bottom: var(--sepy); }
+  #leak { padding-bottom: var(--sepy); }
 }
 .leak-header { text-align: center; margin-bottom: 48px; }
 .leak-header .h2 { margin-top: 8px; }
