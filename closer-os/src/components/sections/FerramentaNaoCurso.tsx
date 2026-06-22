@@ -1,95 +1,76 @@
-import { useState, useRef } from 'react'
-
-const slides = [
-  { src: '/images/mock1.webp', alt: 'Exemplo do CloserOS respondendo no WhatsApp' },
-  { src: '/images/mock2.webp', alt: 'Exemplo do CloserOS em conversa de negociação' },
-  { src: '/images/mock3.webp', alt: 'Exemplo do CloserOS contornando objeção de preço' },
-  { src: '/images/mock4.webp', alt: 'Exemplo do CloserOS reativando cliente em silêncio' },
-]
-
 export function FerramentaNaoCurso() {
-  const [active, setActive] = useState(0)
-  const touchX = useRef<number | null>(null)
-
-  const prev = () => setActive(i => (i - 1 + slides.length) % slides.length)
-  const next = () => setActive(i => (i + 1) % slides.length)
-
-  const handleTouchStart = (e: React.TouchEvent) => {
-    touchX.current = e.touches[0].clientX
-  }
-  const handleTouchEnd = (e: React.TouchEvent) => {
-    if (touchX.current === null) return
-    const delta = touchX.current - e.changedTouches[0].clientX
-    if (delta > 40) next()
-    else if (delta < -40) prev()
-    touchX.current = null
-  }
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'ArrowLeft') { e.preventDefault(); prev() }
-    else if (e.key === 'ArrowRight') { e.preventDefault(); next() }
-  }
-
   return (
     <section id="ferramenta">
       <div className="container">
-        <div className="ferra-grid">
+        <div className="ferra-head fade-up visible">
+          <span className="eyebrow">Como funciona</span>
+          <h2 className="ferra-title">Receba a resposta certa em <span className="hl">menos de 1 minuto.</span></h2>
+          <p className="ferra-sub">Veja, na prática, como é a conversa real entre você e o CloserOS.</p>
+        </div>
 
-          <div className="fade-up">
-            <span className="eyebrow">Ferramenta, não curso</span>
-            <h2 className="ferra-title">
-              O CloserOS™ não é um curso de 40 horas{' '}
-              <span className="hl">que vai acumular poeira.</span>
-            </h2>
-            <p className="ferra-body">
-              Cursos exigem esforço e estudo. O CloserOS te dá alívio: uma inteligência comercial de bolso no seu ChatGPT gratuito. Abra o celular, descreva o problema com o cliente naquele minuto e copie a abordagem exata, sem estudar nada, sem decorar script, sem precisar virar outra pessoa.
-            </p>
+        <div className="ferra-demo">
+          <div className="ferra-step ferra-step--left fade-up visible">
+            <span className="ferra-step-num">01</span>
+            <div>
+              <h3 className="ferra-step-title">Descreva a situação</h3>
+              <p className="ferra-step-desc">Em uma frase, conte o que o cliente disse ou o que aconteceu na conversa.</p>
+            </div>
           </div>
 
-          <div className="ferra-phone-wrap fade-up d1">
-            <div
-              className="ferra-carousel"
-              role="region"
-              aria-label="Exemplos do CloserOS"
-              tabIndex={0}
-              onTouchStart={handleTouchStart}
-              onTouchEnd={handleTouchEnd}
-              onKeyDown={handleKeyDown}
-            >
-              <div
-                className="ferra-carousel-track"
-                style={{ transform: `translateX(calc(-${active} * 25%))` }}
-                aria-live="polite"
-              >
-                {slides.map((s, i) => (
-                  <div key={s.src} className="ferra-carousel-slide" aria-hidden={active !== i}>
-                    <img
-                      src={s.src}
-                      alt={s.alt}
-                      className="ferra-carousel-img"
-                      width={230}
-                      height={468}
-                      loading={i === 0 ? 'eager' : 'lazy'}
-                      decoding={i === 0 ? 'sync' : 'async'}
-                    />
-                  </div>
-                ))}
+          <div className="ferra-phone fade-up visible">
+            <div className="ferra-chat-head">
+              <span className="ferra-avatar">C</span>
+              <div>
+                <strong className="ferra-chat-name">CloserOS <span className="ferra-dot-on"></span></strong>
+                <span className="ferra-chat-status">Online · responde em segundos</span>
               </div>
             </div>
-
-            <div className="ferra-carousel-dots" role="tablist" aria-label="Navegar entre exemplos">
-              {slides.map((_, i) => (
-                <button
-                  key={i}
-                  role="tab"
-                  aria-selected={active === i}
-                  aria-label={`Ver exemplo ${i + 1}`}
-                  className={`ferra-carousel-dot${active === i ? ' ferra-carousel-dot--active' : ''}`}
-                  onClick={() => setActive(i)}
-                />
-              ))}
+            <div className="ferra-chat-body">
+              <div className="ferra-daysep">Hoje · 14:32</div>
+              <div className="ferra-bubble-user">
+                O cliente respondeu <b>"tá caro"</b> depois que mandei a proposta. Já era a segunda vez que conversávamos.
+                <span className="ferra-time">14:32 ✓</span>
+              </div>
+              <div className="ferra-typing">Analisando <span></span><span></span><span></span></div>
+              <div className="ferra-card">
+                <div className="ferra-card-label">📍 Resposta sugerida</div>
+                <p className="ferra-card-text">"Antes de eu falar sobre o investimento, posso te perguntar uma coisa? <b>O que te fez achar caro</b> — foi o valor em si ou o que você imaginou que estaria incluso?"</p>
+                <div className="ferra-tags">
+                  <span className="ferra-tag">+ tom calmo</span>
+                  <span className="ferra-tag">+ desarme</span>
+                  <span className="ferra-tag">+ investiga</span>
+                </div>
+                <span className="ferra-card-meta">14:32 · gerado em 4s</span>
+              </div>
+            </div>
+            <div className="ferra-chat-input">
+              <span>Descreva a próxima situação...</span>
+              <button className="ferra-send" aria-hidden="true" tabIndex={-1}>→</button>
             </div>
           </div>
 
+          <div className="ferra-steps-right">
+            <div className="ferra-step fade-up visible">
+              <span className="ferra-step-num">02</span>
+              <div>
+                <h3 className="ferra-step-title">O CloserOS analisa</h3>
+                <p className="ferra-step-desc">Lê contexto, intenção e emoção da conversa em poucos segundos.</p>
+              </div>
+            </div>
+            <div className="ferra-step fade-up visible">
+              <span className="ferra-step-num">03</span>
+              <div>
+                <h3 className="ferra-step-title">Receba o que dizer</h3>
+                <p className="ferra-step-desc">Resposta cirúrgica, no tom certo, pronta pra copiar e colar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="ferra-guarantees fade-up visible">
+          <span><b>✓</b> Sem improvisar</span>
+          <span><b>✓</b> Sem sair dando desconto</span>
+          <span><b>✓</b> Sem travar</span>
         </div>
       </div>
     </section>
