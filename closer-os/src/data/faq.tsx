@@ -6,7 +6,8 @@ export const faqItems: FaqItem[] = [
     pergunta: 'Isso não é só um prompt que eu acharia de graça por aí?',
     resposta: (
       <>
-        <p>Se fosse apenas um prompt, você poderia copiar um texto da internet e ter o mesmo resultado. O problema é que clientes reais não seguem roteiro. O CloserOS foi construído com milhares de situações reais de negociação para entender contexto, intenção e momento da conversa antes de sugerir uma resposta.</p>
+        <p>Se fosse apenas um prompt, você poderia copiar um texto da internet e ter o mesmo resultado. O problema é que clientes reais não seguem roteiro.</p>
+        <p>O CloserOS foi construído com milhares de situações reais de negociação para entender contexto, intenção e momento da conversa antes de sugerir uma resposta.</p>
         <p>Ele não entrega frases genéricas. Ele entrega direção para situações reais.</p>
       </>
     ),
