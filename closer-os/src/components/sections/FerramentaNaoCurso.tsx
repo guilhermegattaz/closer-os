@@ -13,7 +13,7 @@ export function FerramentaNaoCurso() {
             <span className="ferra-step-num">01</span>
             <div>
               <h3 className="ferra-step-title">Descreva a situação</h3>
-              <p className="ferra-step-desc">Em uma frase, conte o que o cliente disse ou o que aconteceu na conversa.</p>
+              <p className="ferra-step-desc">Envie áudio ou mensagem, conte o que o cliente disse ou o que aconteceu na conversa.</p>
             </div>
           </div>
 
@@ -28,18 +28,20 @@ export function FerramentaNaoCurso() {
             <div className="ferra-chat-body">
               <div className="ferra-daysep">Hoje · 14:32</div>
               <div className="ferra-bubble-user">
-                O cliente respondeu <b>"tá caro"</b> depois que mandei a proposta. Já era a segunda vez que conversávamos.
+                Meu cliente sumiu depois da reunião. Faz 5 dias sem resposta. O que eu mando agora?
                 <span className="ferra-time">14:32 ✓</span>
               </div>
               <div className="ferra-typing">Analisando <span></span><span></span><span></span></div>
               <div className="ferra-card">
-                <div className="ferra-card-label">📍 Resposta sugerida</div>
-                <p className="ferra-card-text">"Antes de eu falar sobre o investimento, posso te perguntar uma coisa? <b>O que te fez achar caro</b> — foi o valor em si ou o que você imaginou que estaria incluso?"</p>
-                <div className="ferra-tags">
-                  <span className="ferra-tag">+ tom calmo</span>
-                  <span className="ferra-tag">+ desarme</span>
-                  <span className="ferra-tag">+ investiga</span>
+                <div className="ferra-card-label">Resposta</div>
+                <p className="ferra-card-text">Não mande "Oi, tudo bem?" nem "Você pensou na proposta?" Mande exatamente isso:</p>
+                <div className="ferra-copyblock">
+                  <span className="ferra-copyblock-tag">Mensagem pronta</span>
+                  <button className="ferra-copyblock-btn" aria-hidden="true" tabIndex={-1}>⧉ Copiar</button>
+                  <p>"Oi [nome], estava pensando na conversa que a gente teve sobre [problema específico que ele mencionou].</p>
+                  <p>Surgiu uma ideia que pode ser útil pra você — posso te mandar?"</p>
                 </div>
+                <p className="ferra-card-text ferra-card-text--after">Esse tipo de mensagem gera resposta porque não pressiona e ainda gera curiosidade. Me conta o que ele disse sobre o problema dele que eu ajusto o texto pra você.</p>
                 <span className="ferra-card-meta">14:32 · gerado em 4s</span>
               </div>
             </div>
@@ -54,14 +56,14 @@ export function FerramentaNaoCurso() {
               <span className="ferra-step-num">02</span>
               <div>
                 <h3 className="ferra-step-title">O CloserOS analisa</h3>
-                <p className="ferra-step-desc">Lê contexto, intenção e emoção da conversa em poucos segundos.</p>
+                <p className="ferra-step-desc">Lê contexto, intenção por trás e emoção da conversa em poucos segundos como um especialista.</p>
               </div>
             </div>
             <div className="ferra-step fade-up visible">
               <span className="ferra-step-num">03</span>
               <div>
                 <h3 className="ferra-step-title">Receba o que dizer</h3>
-                <p className="ferra-step-desc">Resposta cirúrgica, no tom certo, pronta pra copiar e colar.</p>
+                <p className="ferra-step-desc">Resposta cirúrgica, no tom certo, pronto para copiar e colar ou para dizer na próxima conversa.</p>
               </div>
             </div>
           </div>
