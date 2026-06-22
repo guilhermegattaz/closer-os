@@ -16,7 +16,11 @@ export function LeakMatrix() {
               <div className="lm-row lm-row--end">
                 <div className="lm-bubble lm-bubble--sent">
                   "Aqui está a proposta! Fico no aguardo 🙂"
-                  <div className="lm-meta">10:42 ✓✓ <span className="lm-read">Lido</span></div>
+                  <div className="lm-meta" style={{ display:'inline-flex', alignItems:'center', gap:4, justifyContent:'flex-end', width:'100%' }}>
+                    <span style={{ opacity:.7 }}>10:42</span>
+                    <span style={{ color:'#38bdf8', letterSpacing:'-0.15em' }}>✓✓</span>
+                    <span style={{ color:'#38bdf8' }}>Lido</span>
+                  </div>
                 </div>
               </div>
               <div className="lm-silence">— 48 horas de silêncio —</div>
@@ -41,7 +45,7 @@ export function LeakMatrix() {
                   <span className="lm-tile-name">Cliente</span>
                 </div>
                 <div className="lm-tile lm-tile--active">
-                  <div className="lm-avatar" style={{ background: '#c94f7c' }}>V</div>
+                  <div className="lm-avatar" style={{ background: '#6d28d9' }}>V</div>
                   <span className="lm-tile-mic">🎙️</span>
                   <span className="lm-tile-name">Você</span>
                 </div>
@@ -58,7 +62,7 @@ export function LeakMatrix() {
             <span className="leak-tag">O Desconto por Impulso</span>
             <div className="lm-dark">
               <div className="lm-row lm-row--start">
-                <div className="lm-bubble lm-bubble--recv">Quanto custa?</div>
+                <div className="lm-bubble lm-bubble--recv">Qual o valor?</div>
               </div>
               <div className="lm-row lm-row--end" style={{ marginTop: 8 }}>
                 <div className="lm-bubble lm-bubble--sent">
