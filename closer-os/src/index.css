@@ -847,6 +847,7 @@ body {
 .faq-a {
   padding: 0 20px 18px; font-size: .86rem; line-height: 1.72; color: var(--text-2);
 }
+.faq-a p + p { margin-top: 12px; }
 
 /* ================================================================
    #12  DOIS CAMINHOS

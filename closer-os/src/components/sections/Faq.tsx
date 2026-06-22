@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { faqItems } from '../../data/faq'
+import { faqItems } from '../../data/faq.tsx'
 
 export function Faq() {
-  const [openId, setOpenId] = useState<string | null>('f1')
+  const [openId, setOpenId] = useState<string | null>('f-prompt')
 
   return (
     <section id="faq">

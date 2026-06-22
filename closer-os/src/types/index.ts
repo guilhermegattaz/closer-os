@@ -37,5 +37,5 @@ export interface BonusItem {
 export interface FaqItem {
   id: string
   pergunta: string
-  resposta: string
+  resposta: import('react').ReactNode
 }
