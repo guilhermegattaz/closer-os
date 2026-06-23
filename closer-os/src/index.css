@@ -566,7 +566,7 @@ body {
   .ferra-phone{ order:-1; }
   .ferra-steps-right{ width:100%; max-width:360px; }
   .ferra-head{ margin-bottom:40px; }
-  .ferra-guarantees{ flex-direction:column; align-items:center; gap:14px; }
+  .ferra-guarantees{ flex-direction:row; flex-wrap:wrap; justify-content:center; align-items:center; gap:14px; }
   .ferra-video-wrap{ width:100%; max-width:100%; margin-inline:auto; }
   .ferra-demo .ferra-step--left{ order:1; }
   .ferra-demo .ferra-steps-right{ order:2; }
@@ -576,16 +576,7 @@ body {
 /* ================================================================
    #7  PILARES
    ================================================================ */
-.hl-brush{ position:relative; color:#6d28d9; white-space:nowrap; }
-.hl-brush::after{
-  content:""; position:absolute; left:0; right:0; bottom:-0.12em; height:0.28em;
-  background:#6d28d9;
-  -webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'><path d='M1,6 C20,2 40,9 60,5 C75,2 90,7 99,4' stroke='black' stroke-width='4' fill='none' stroke-linecap='round'/></svg>") no-repeat center/100% 100%;
-  mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'><path d='M1,6 C20,2 40,9 60,5 C75,2 90,7 99,4' stroke='black' stroke-width='4' fill='none' stroke-linecap='round'/></svg>") no-repeat center/100% 100%;
-  transform:scaleX(0); transform-origin:left center;
-  transition:transform 0.7s cubic-bezier(0.2,0.7,0.2,1);
-}
-.pilares-header.visible .hl-brush::after{ transform:scaleX(1); }
+
 #pilares {
   padding: var(--sepy) 0;
   background: var(--bg-2);

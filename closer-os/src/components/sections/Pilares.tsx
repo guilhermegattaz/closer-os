@@ -27,7 +27,7 @@ export function Pilares() {
       <div className="container">
         <div className="pilares-header fade-up">
           <span className="eyebrow">O que está incluso</span>
-          <h2 className="h2">Tudo o que o CloserOS<br className="br-mobile" /> faz por você <span className="hl-brush">em segundos</span>:</h2>
+          <h2 className="h2">Tudo o que o CloserOS<br className="br-mobile" /> faz por você em segundos:</h2>
         </div>
         <div className="pilares-grid">
           {pilares.map((p, i) => (
