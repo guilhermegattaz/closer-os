@@ -8,8 +8,7 @@ export function Autoridade() {
         <div className="autor-grid">
 
           <div className="fade-up">
-            <span className="eyebrow">QUEM TE ENSINA</span>
-            <h2 className="h2 autor-headline">Ainda não me conhece? <span className="hl">Tudo bem.</span></h2>
+            <h2 className="h2 autor-headline"><span className="hl">Ainda não me conhece?</span> Tudo bem.</h2>
             <div className="autor-profile">
               <div className="autor-avatar-sm">
                 <img
