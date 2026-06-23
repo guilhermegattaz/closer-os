@@ -191,9 +191,10 @@ body {
 @media (max-width: 640px) {
   .hero-headline {
     max-width: 100%;
-    font-size: clamp(1.6rem, 7vw, 1.75rem);
-    line-height: 1.15;
+    font-size: clamp(23px, 6.4vw, 27px);
+    line-height: 1.18;
     letter-spacing: -0.5px;
+    text-wrap: balance;
   }
 }
 .hero-sub {
