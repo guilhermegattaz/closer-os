@@ -73,8 +73,8 @@ export default function App() {
         <Pilares />
         <ProfessionSelector />
         <Depoimentos />
-        <Oferta />
         <Autoridade />
+        <Oferta />
         <DoisCaminhos />
         <Faq />
       </main>

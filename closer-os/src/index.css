@@ -610,7 +610,7 @@ body {
 /* ================================================================
    #8  AUTORIDADE
    ================================================================ */
-#autoridade { padding: var(--sepy) 0; background: var(--bg-2); border-top: 1px solid var(--border); }
+#autoridade { padding: var(--sepy) 0; background: #f8f9fa; border-top: 1px solid var(--border); }
 .autor-headline{ margin-top:0; margin-bottom:20px; text-wrap:balance; }
 .autor-headline .hl{ color:var(--accent); }
 .autor-grid {
