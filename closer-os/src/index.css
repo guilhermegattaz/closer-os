@@ -492,7 +492,7 @@ body {
 .ferra-title .hl{ color:var(--accent,#6d28d9); }
 .ferra-sub{ font-size:16px; color:#71717a; margin-top:14px; }
 
-.ferra-demo{ display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:32px; max-width:980px; margin:0 auto; }
+.ferra-demo{ display:grid; grid-template-columns:1fr auto 1fr; align-items:center; gap:32px; max-width:1060px; margin:0 auto; }
 .ferra-step{ display:flex; gap:16px; align-items:flex-start; }
 .ferra-step--left{ justify-content:flex-end; text-align:right; flex-direction:row-reverse; }
 .ferra-steps-right{ display:flex; flex-direction:column; gap:40px; }
@@ -534,7 +534,7 @@ body {
 .ferra-guarantees{ display:flex; justify-content:center; flex-wrap:wrap; gap:32px; max-width:760px; margin:56px auto 0; padding:20px 28px; background:#fff; border:1px solid rgba(24,24,27,0.07); border-radius:16px; }
 .ferra-guarantees span{ font-size:14px; font-weight:600; color:#18181b; }
 .ferra-guarantees b{ color:var(--accent,#6d28d9); margin-right:4px; }
-.ferra-video-wrap{ width:100%; max-width:400px; margin-inline:auto; border-radius:0; overflow:hidden; box-sizing:border-box; }
+.ferra-video-wrap{ width:100%; max-width:480px; margin-inline:auto; border-radius:0; overflow:hidden; box-sizing:border-box; }
 .ferra-demo-video{ display:block; width:100%; height:auto; box-sizing:border-box; }
 
 @media (min-width:901px){
