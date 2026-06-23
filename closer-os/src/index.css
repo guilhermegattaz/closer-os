@@ -486,7 +486,7 @@ body {
 /* ================================================================
    #6  FERRAMENTA NÃO CURSO
    ================================================================ */
-#ferramenta { padding: var(--sepy) 0; background-color: #fbfbfc; }
+#ferramenta { padding: var(--sepy) 0; background-color: #fdfbfb; }
 .ferra-head{ text-align:center; max-width:680px; margin:0 auto 64px; }
 .ferra-title{ font-size:clamp(28px,4vw,40px); font-weight:700; letter-spacing:-0.8px; color:#18181b; line-height:1.15; }
 .ferra-title .hl{ color:var(--accent,#6d28d9); }
