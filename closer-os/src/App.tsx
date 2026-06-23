@@ -11,7 +11,6 @@ import {
   Pilares,
   Autoridade,
   Provas,
-  Depoimentos,
   Oferta,
   Faq,
   DoisCaminhos,
@@ -74,7 +73,6 @@ export default function App() {
         <Pilares />
         <ProfessionSelector />
         <Provas />
-        <Depoimentos />
         <Autoridade />
         <Oferta />
         <DoisCaminhos />

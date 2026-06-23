@@ -660,7 +660,7 @@ body {
 }
 
 /* ================================================================
-   #9  PROVAS  — Cards print (acima dos depoimentos, para teste)
+   #9  PROVAS  — Cards de depoimentos em formato print
    ================================================================ */
 #provas {
   padding: var(--sepy) 0;
@@ -886,112 +886,6 @@ body {
    ════════════════════════════════ */
 @media (max-width: 639px) {
   .pv-card--x, .pv-card--email { transform: none; }
-}
-
-/* ================================================================
-   #10  DEPOIMENTOS
-   ================================================================ */
-#depoimentos {
-  padding: var(--sepy) 0;
-  background: var(--bg-2);
-  border-top: 1px solid var(--border);
-}
-.depo-header { text-align: center; margin-bottom: 44px; }
-.depo-header .hl { color: var(--accent); }
-.depo-grid {
-  display: grid; grid-template-columns: repeat(3,1fr); gap: 14px;
-}
-.depo-card {
-  background: var(--card); border: 1px solid var(--border);
-  border-radius: var(--r-lg); padding: 22px;
-  box-shadow: var(--s-sm); display: flex; flex-direction: column; gap: 14px;
-}
-.depo-badge {
-  display: inline-flex; align-items: center; min-height: 44px;
-  padding: 4px 10px; border-radius: var(--r-pill);
-  font-size: .65rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
-  background: var(--accent-light); color: var(--accent); border: 1px solid var(--accent-ring);
-  width: fit-content;
-}
-.depo-texto { font-size: .86rem; line-height: 1.7; color: var(--text); flex: 1; }
-.depo-divider { border: none; border-top: 1px solid var(--border); }
-.depo-rodape { display: flex; align-items: center; gap: 10px; }
-.depo-avatar {
-  width: 34px; height: 34px; border-radius: 50%; flex-shrink: 0;
-  background: var(--accent-light); color: var(--accent);
-  font-size: .72rem; font-weight: 700;
-  display: flex; align-items: center; justify-content: center;
-}
-.depo-nome  { font-size: .82rem; font-weight: 700; color: var(--text); }
-.depo-cargo { font-size: .74rem; color: var(--text-2); }
-.depo-cta {
-  text-align: center;
-  margin-top: 48px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 14px;
-}
-.depo-cta-line {
-  max-width: 540px;
-  font-size: 0.9375rem;
-  font-weight: 500;
-  line-height: 1.45;
-  color: #18181B;
-  margin: 0;
-}
-@media (min-width: 900px) {
-  .depo-cta-line { text-wrap: balance; }
-}
-.depo-cta-sub {
-  font-size: 0.75rem;
-  color: #71717A;
-  margin: 0;
-}
-@media (max-width: 640px) {
-  .depo-cta { margin-top: 36px; }
-  .depo-cta-line { font-size: 0.9375rem; }
-}
-
-/* Dots de navegação dos depoimentos */
-.depo-dots {
-  display: none;
-  justify-content: center;
-  margin-top: 8px;
-}
-.depo-dot {
-  min-width: 44px; min-height: 44px; padding: 0; border: none;
-  background: transparent; cursor: pointer;
-  display: flex; align-items: center; justify-content: center;
-}
-.depo-dot::after {
-  content: ''; width: 8px; height: 8px; border-radius: 50%;
-  background: var(--border-2);
-  transition: background .2s, width .2s, border-radius .2s;
-}
-.depo-dot--active::after { background: var(--accent); width: 20px; border-radius: 4px; }
-
-/* Carrossel mobile ≤900px */
-@media (max-width: 900px) {
-  .depo-grid {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-    -webkit-overflow-scrolling: touch;
-    gap: 12px;
-    padding-left: var(--px);
-    padding-right: var(--px);
-    margin-left: calc(-1 * var(--px));
-    margin-right: calc(-1 * var(--px));
-  }
-  .depo-grid::-webkit-scrollbar { display: none; }
-  .depo-card {
-    scroll-snap-align: start;
-    flex: 0 0 86%;
-    max-width: 400px;
-  }
-  .depo-dots { display: flex; }
 }
 
 /* ================================================================
@@ -1269,7 +1163,6 @@ footer {
   :root { --px: 20px; }
   .leak-grid    { grid-template-columns: 1fr; }
   .pilares-grid { grid-template-columns: 1fr; }
-  .depo-grid    { grid-template-columns: 1fr; }
   .dc-grid      { grid-template-columns: 1fr; margin-bottom: 32px; }
   .dc-grid::before { display: none; }
   .dc-cost-box  { padding: 24px 20px; }
