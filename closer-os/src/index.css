@@ -171,12 +171,25 @@ body {
 .hero-center {
   max-width: 800px; margin: 0 auto; padding: 0 var(--px); text-align: center;
 }
+@keyframes heroMicroPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: .5; transform: scale(.85); }
+}
 .hero-micro {
-  display: inline-block;
-  font-size: .63rem; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase;
-  color: var(--accent); margin-bottom: 22px;
-  background: rgba(109,40,217,0.07); border: 1px solid rgba(109,40,217,0.18);
-  border-radius: 9999px; padding: 5px 13px;
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: .635rem; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase;
+  color: #52525b; margin-bottom: 22px;
+  background: #ffffff; border: 1px solid rgba(24,24,27,0.10);
+  border-radius: 9999px; padding: 5px 14px;
+  box-shadow: 0 1px 2px rgba(24,24,27,0.04);
+}
+.hero-micro-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: #6d28d9; flex: 0 0 auto;
+  animation: heroMicroPulse 1.8s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-micro-dot { animation: none; }
 }
 .hero-headline {
   font-size: clamp(1.8rem,5.2vw,3.25rem);

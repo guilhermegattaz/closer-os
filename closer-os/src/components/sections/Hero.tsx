@@ -43,7 +43,7 @@ export function Hero() {
   return (
     <section id="hero">
       <div className="hero-center">
-        <span className="hero-micro fade-up">Pare de ficar sem resposta</span>
+        <span className="hero-micro fade-up"><span className="hero-micro-dot" aria-hidden="true"></span>Pare de ficar sem resposta</span>
 
         <h1 className="hero-headline fade-up d1">
           Saiba exatamente o que dizer quando o cliente falar que{' '}
