@@ -10,6 +10,7 @@ import {
   FerramentaNaoCurso,
   Pilares,
   Autoridade,
+  Provas,
   Depoimentos,
   Oferta,
   Faq,
@@ -72,6 +73,7 @@ export default function App() {
         <FerramentaNaoCurso />
         <Pilares />
         <ProfessionSelector />
+        <Provas />
         <Depoimentos />
         <Autoridade />
         <Oferta />

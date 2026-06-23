@@ -660,7 +660,232 @@ body {
 }
 
 /* ================================================================
-   #9  DEPOIMENTOS
+   #9  PROVAS  — Cards print (acima dos depoimentos, para teste)
+   ================================================================ */
+#provas {
+  padding: var(--sepy) 0;
+  background: #fff;
+  border-top: 1px solid var(--border);
+}
+.provas-header { text-align: center; margin-bottom: 44px; }
+
+.provas-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: start;
+}
+@media (min-width: 640px) {
+  .provas-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .provas-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ── Base card ── */
+.pv-card {
+  border-radius: 22px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 20px -4px rgba(24,24,27,.10), 0 0 0 1px rgba(24,24,27,.07);
+}
+
+/* ── Avatar circular ── */
+.pv-avatar {
+  width: 38px; height: 38px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 13px; color: #fff;
+  flex-shrink: 0;
+}
+.pv-avatar--sm { width: 26px; height: 26px; font-size: 10px; }
+
+/* ── Footer de cada card ── */
+.pv-footer {
+  padding: 10px 14px;
+  font-size: 11px; color: #71717a;
+  border-top: 1px solid rgba(24,24,27,.06);
+  display: flex; flex-wrap: wrap; gap: 3px; align-items: center;
+  background: #fff;
+}
+.pv-footer-sep { color: rgba(24,24,27,.28); }
+.pv-platform { font-weight: 600; color: #52525b; }
+
+/* ════════════════════════════════
+   WhatsApp claro
+   ════════════════════════════════ */
+.pv-card--wa-light { border-radius: 28px; background: #e5ddd5; }
+.pv-card--wa-light .pv-footer { background: #d9d0c7; }
+
+.pv-wa-header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 12px 14px;
+  background: #075e54;
+}
+.pv-wa-name { font-size: 14px; font-weight: 600; color: #fff; line-height: 1.2; }
+.pv-wa-status { font-size: 11px; color: rgba(255,255,255,.75); }
+.pv-wa-body { padding: 12px 10px; display: flex; flex-direction: column; gap: 6px; }
+.pv-bubble--sent {
+  align-self: flex-end;
+  background: #dcf8c6;
+  border-radius: 14px 14px 3px 14px;
+  padding: 9px 12px;
+  font-size: 13.5px; line-height: 1.5; max-width: 88%; color: #111827;
+}
+.pv-bubble-time {
+  display: block; text-align: right;
+  font-size: 10px; color: rgba(0,0,0,.45); margin-top: 3px;
+}
+.pv-ticks { letter-spacing: -.15em; color: #53bdeb; font-size: 11px; }
+.pv-wa-lido { color: #53bdeb; }
+
+/* ════════════════════════════════
+   Instagram DM
+   ════════════════════════════════ */
+.pv-card--ig-dm { border-radius: 28px; }
+.pv-ig-dm-header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 11px 14px;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+.pv-back-btn {
+  font-size: 22px; color: #262626; line-height: 1;
+  padding: 0; background: none; border: none; cursor: default; font-family: sans-serif;
+}
+.pv-ig-handle { font-size: 13px; font-weight: 600; color: #262626; line-height: 1.2; }
+.pv-ig-active { font-size: 11px; color: #8e8e8e; }
+.pv-ig-dm-body { padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; }
+.pv-bubble--ig-sent {
+  align-self: flex-end;
+  background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: #fff;
+  border-radius: 20px 20px 3px 20px;
+  padding: 10px 14px;
+  font-size: 13.5px; line-height: 1.5; max-width: 88%;
+}
+.pv-ig-seen { align-self: flex-end; font-size: 10px; color: #8e8e8e; }
+
+/* ════════════════════════════════
+   X / Twitter
+   ════════════════════════════════ */
+.pv-card--x { border-radius: 22px; }
+.pv-x-header { display: flex; gap: 10px; align-items: center; padding: 14px 14px 8px; }
+.pv-x-name-row { font-size: 13px; font-weight: 700; color: #0f1419; line-height: 1.3; }
+.pv-x-handle { font-weight: 400; color: #536471; }
+.pv-x-text { font-size: 14px; line-height: 1.55; color: #0f1419; padding: 0 14px; margin: 0 0 6px; }
+.pv-x-time { font-size: 12px; color: #536471; padding: 0 14px 8px; }
+.pv-x-metrics {
+  display: flex; gap: 14px; flex-wrap: wrap;
+  padding: 8px 14px 12px;
+  border-top: 1px solid #eff3f4;
+  font-size: 13px; color: #536471;
+}
+.pv-x-metric { display: flex; align-items: center; gap: 4px; }
+@media (min-width: 640px) {
+  .pv-card--x { transform: rotate(-1.5deg); }
+}
+
+/* ════════════════════════════════
+   Instagram Post
+   ════════════════════════════════ */
+.pv-card--ig-post { border-radius: 28px; }
+.pv-ig-post-img {
+  height: 160px;
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: 700; letter-spacing: 2.5px;
+  color: rgba(255,255,255,.75); user-select: none;
+}
+.pv-ig-post-bar {
+  display: flex; gap: 14px; align-items: center;
+  padding: 8px 12px 4px; font-size: 20px;
+}
+.pv-ig-post-save { margin-left: auto; }
+.pv-ig-likes { font-size: 12px; font-weight: 600; color: #262626; padding: 0 12px 6px; }
+.pv-ig-comment-wrap { display: flex; gap: 8px; padding: 0 12px 12px; align-items: flex-start; }
+.pv-ig-commenter { font-size: 12px; font-weight: 600; color: #262626; }
+.pv-ig-comment-text { font-size: 12px; color: #262626; line-height: 1.45; }
+.pv-ig-comment-meta { font-size: 10px; color: #8e8e8e; margin-top: 3px; }
+
+/* ════════════════════════════════
+   E-mail
+   ════════════════════════════════ */
+.pv-card--email { border-radius: 22px; }
+.pv-email-bar {
+  display: flex; align-items: center; gap: 8px;
+  padding: 9px 12px;
+  background: #f5f5f7;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+.pv-email-dots { display: flex; gap: 5px; }
+.pv-email-dot { width: 11px; height: 11px; border-radius: 50%; display: block; }
+.pv-email-bar-title { flex: 1; font-size: 12px; font-weight: 600; color: #1d1d1f; text-align: center; }
+.pv-email-bar-time { font-size: 11px; color: #86868b; }
+.pv-email-body { padding: 12px 14px; }
+.pv-email-subject { font-size: 14px; font-weight: 600; color: #1d1d1f; margin-bottom: 4px; }
+.pv-email-from { font-size: 11px; color: #86868b; margin-bottom: 10px; }
+.pv-email-text { font-size: 13px; line-height: 1.55; color: #1d1d1f; margin: 0; }
+@media (min-width: 640px) {
+  .pv-card--email { transform: rotate(1.5deg); }
+}
+
+/* ════════════════════════════════
+   WhatsApp escuro
+   ════════════════════════════════ */
+.pv-card--wa-dark { border-radius: 28px; background: #0b141a; }
+.pv-wa-header--dark { background: #1f2c34; }
+.pv-back-btn--dark {
+  font-size: 22px; color: #aebac1; line-height: 1;
+  background: none; border: none; cursor: default;
+}
+.pv-wa-name--dark { color: #e9edef; }
+.pv-wa-status--dark { color: rgba(134,150,160,.8); }
+.pv-wa-body--dark { background: #0b141a; }
+.pv-bubble--wa-dark-r {
+  align-self: flex-end;
+  background: #005c4b;
+  border-radius: 14px 14px 3px 14px;
+  padding: 9px 12px;
+  font-size: 13.5px; line-height: 1.5; max-width: 88%; color: #e9edef;
+}
+.pv-audio-bubble {
+  align-self: flex-end;
+  background: #005c4b;
+  border-radius: 14px 14px 3px 14px;
+  padding: 10px 14px;
+  display: flex; align-items: center; gap: 10px; min-width: 170px;
+}
+.pv-audio-play-btn {
+  width: 30px; height: 30px; border-radius: 50%;
+  background: rgba(255,255,255,.15);
+  display: flex; align-items: center; justify-content: center;
+  color: #e9edef; font-size: 11px; flex-shrink: 0;
+}
+.pv-audio-waveform {
+  flex: 1; display: flex; align-items: center; gap: 2px; height: 22px;
+}
+.pv-audio-bar {
+  width: 2.5px; background: rgba(134,150,160,.55); border-radius: 2px; flex-shrink: 0;
+}
+.pv-audio-duration { font-size: 11px; color: rgba(134,150,160,.8); white-space: nowrap; }
+.pv-ticks--dark { color: #53bdeb; }
+.pv-bubble-time--dark { color: rgba(134,150,160,.7); }
+.pv-footer--dark {
+  background: #1f2c34 !important;
+  border-top-color: rgba(255,255,255,.06) !important;
+  color: #aebac1 !important;
+}
+.pv-footer--dark .pv-footer-sep { color: rgba(255,255,255,.2); }
+.pv-footer--dark .pv-platform { color: #e9edef; }
+
+/* ════════════════════════════════
+   Mobile: sem rotação, sem overflow
+   ════════════════════════════════ */
+@media (max-width: 639px) {
+  .pv-card--x, .pv-card--email { transform: none; }
+}
+
+/* ================================================================
+   #10  DEPOIMENTOS
    ================================================================ */
 #depoimentos {
   padding: var(--sepy) 0;
