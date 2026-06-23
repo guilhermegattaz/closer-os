@@ -7,6 +7,7 @@ export function Provas() {
         <div className="provas-header fade-up">
           <span className="eyebrow">Prova social</span>
           <h2 className="h2">Mensagens reais de quem<br className="br-mobile" /> usa o CloserOS.</h2>
+          <p className="provas-disclaimer">mensagens reais, compartilhadas com permissão. nomes e @ alterados para preservar a privacidade.</p>
         </div>
 
         <div className="provas-grid">
@@ -17,17 +18,21 @@ export function Provas() {
               <div className="pv-avatar" style={{ background: 'linear-gradient(135deg,#25d366,#128c7e)' }}>AP</div>
               <div>
                 <div className="pv-wa-name">Ana Paula S.</div>
-                <div className="pv-wa-status">online</div>
+                <div className="pv-wa-status">visto por último hoje</div>
               </div>
             </div>
             <div className="pv-wa-body">
               <div className="pv-bubble--sent">
-                Eu sempre travava na hora de cobrar. Com o CloserOS, aprendi como conduzir e o melhor jeito de falar sobre o preço...
-                <span className="pv-bubble-time">09:14 <span className="pv-ticks">✓✓</span></span>
+                Oiii, deixa eu te contar pq vc não vai acreditar
+                <span className="pv-bubble-time">23:44 <span className="pv-ticks">✓✓</span></span>
               </div>
               <div className="pv-bubble--sent">
-                Fechei 3 clientes novos na mesma semana! 🎉
-                <span className="pv-bubble-time">09:15 <span className="pv-ticks">✓✓</span> <span className="pv-wa-lido">Lido</span></span>
+                lembra q eu vivia reclamando q mandava orçamento e a pessoa sumia? eu nunca sabia se cobrava ou se parecia desesperada kkkk
+                <span className="pv-bubble-time">23:45 <span className="pv-ticks">✓✓</span></span>
+              </div>
+              <div className="pv-bubble--sent">
+                comecei a usar o closeros pra saber oq mandar nessas horas. ainda tem gente q some. mas essa semana 2 q tinham sumido voltaram e fecharam!!! 🙈
+                <span className="pv-bubble-time">23:47 <span className="pv-ticks">✓✓</span> <span className="pv-wa-lido">Lido</span></span>
               </div>
             </div>
             <div className="pv-footer">
@@ -51,10 +56,13 @@ export function Provas() {
             </div>
             <div className="pv-ig-dm-body">
               <div className="pv-bubble--ig-sent">
-                O cliente disse "tá caro" e eu sabia exatamente o que responder.
+                Lembra q eu te falei q sempre ficava perdido quando o cliente falava q tava caro?
               </div>
               <div className="pv-bubble--ig-sent">
-                Fechei o contrato no valor cheio, sem desconto. 💜
+                ontem aconteceu de novo, mas dessa vez eu não saí dando desconto na hora igual idiota... respondi com uma pergunta q o Closeros tinha me dado e o cara meio q se começou a se justificar sozinhooo
+              </div>
+              <div className="pv-bubble--ig-sent">
+                e fechou no valor normal, acredita? ainda to meio em choque pra falar a real...
               </div>
               <div className="pv-ig-seen">Visto há 2 min</div>
             </div>
@@ -72,18 +80,18 @@ export function Provas() {
             <div className="pv-x-header">
               <div className="pv-avatar" style={{ background: 'linear-gradient(135deg,#10b981,#0d9488)' }}>FL</div>
               <div className="pv-x-name-row">
-                fer 🌱 <span className="pv-x-handle">@fer.mentora</span> · 2d
+                fer 🌱 <span className="pv-x-handle">@ferd.mentora</span> · 2d
               </div>
             </div>
             <p className="pv-x-text">
-              Nunca imaginei que algumas perguntas certas poderiam mudar tanto uma negociação. O CloserOS me mostrou exatamente o que dizer em cada etapa. Me senti confiante pela primeira vez vendendo minha mentoria.
+              vou ser honesta q quando vi "ferramenta que te ajuda a vender" eu revirei o olho. Achei que era mais uma ferramenta genérica dessas que vc paga barato e não funciona. Comprei com o pé atrás (era barato). A verdade é que não é mágico, é além disso! O que ela faz é te fazer perguntas que vc devia ter feito sozinha mas não faz pq ta nervosa na hora. Usei em 3 conversas essa semana, 2 deram certo. Isso mudou meu jogo demais.
             </p>
-            <div className="pv-x-time">10:23 · 18 jun</div>
+            <div className="pv-x-time">21:05 · 18 jun</div>
             <div className="pv-x-metrics">
-              <span className="pv-x-metric">💬 4</span>
-              <span className="pv-x-metric">🔁 11</span>
-              <span className="pv-x-metric">❤ 89</span>
-              <span className="pv-x-metric">📊 2.341</span>
+              <span className="pv-x-metric">💬 6</span>
+              <span className="pv-x-metric">🔁 9</span>
+              <span className="pv-x-metric">❤ 73</span>
+              <span className="pv-x-metric">📊 1.847</span>
             </div>
             <div className="pv-footer">
               <span>Fernanda L.</span>
@@ -111,7 +119,7 @@ export function Provas() {
               <div>
                 <span className="pv-ig-commenter">thais.estetica </span>
                 <span className="pv-ig-comment-text">
-                  Gente, o que mais me cansava era quando a cliente falava "no outro lugar é mais barato". Aprendi a responder com uma pergunta em vez de me defender. Testei e deu super certo! 🙌
+                  amiga, isso q ela falou no post é exatamente eu. o q mais me travava era quando a cliente dizia "a outra especialista é mais barata". eu já ficava sem graça e às vezes baixava o preço antes mesmo dela pedir. Não curto vender, eu ainda fico nervosa. Mas aprendi a perguntar oq tava por trás em vez de me diminuir na hora. Ainda to testando mas já é diferente, consegui vender um tratamento completo essa semana.
                 </span>
                 <div className="pv-ig-comment-meta">2 d · 34 curtidas · Responder</div>
               </div>
@@ -134,13 +142,13 @@ export function Provas() {
                 <span className="pv-email-dot" style={{ background: '#28c840' }} />
               </div>
               <span className="pv-email-bar-title">Caixa de entrada</span>
-              <span className="pv-email-bar-time">14:08</span>
+              <span className="pv-email-bar-time">07:12</span>
             </div>
             <div className="pv-email-body">
-              <div className="pv-email-subject">só queria agradecer</div>
+              <div className="pv-email-subject">obrigada (e um desabafo)</div>
               <div className="pv-email-from">Mari Uchôa · ...@gmail.com · para: oi@closeros.app</div>
               <p className="pv-email-text">
-                Tenho um conflito enorme com essa ideia de "vender" atendimento psicológico. Mas fui no CloserOS sem expectativa e fiquei surpresa: as orientações não pareciam técnica de vendas. Pareciam como conduzir uma conversa natural. Mudei a triagem e lotei a agenda.
+                Oi. Respondendo a pergunta sobre minha experiência com o CloserOS, eu tenho um conflito enorme com a ideia de "vender" terapia, sempre achei um pouco anti-ético. Aí as pessoas falavam "vou pensar" e sumiam e eu nem entendia o porquê, ficava remoendo. Confesso que comprei cética achando que seria papo de coach. Não era. Me ajudou a entender o que dizer quando a pessoa fica em cima do muro, sem soar como pressão ou forçada. Me sinto segura e muito mais confiante nessas horas. Obrigada mesmo.
               </p>
             </div>
             <div className="pv-footer">
@@ -162,8 +170,8 @@ export function Provas() {
             </div>
             <div className="pv-wa-body pv-wa-body--dark">
               <div className="pv-bubble--wa-dark-r">
-                Não sabia o que responder sem parecer desesperado quando alguém queria deixar para o próximo mês...
-                <span className="pv-bubble-time pv-bubble-time--dark">22:38 <span className="pv-ticks pv-ticks--dark">✓✓</span></span>
+                Gente, lembra que comentei sobre a consulta importante que eu disse que tava nervoso pra caramba?
+                <span className="pv-bubble-time pv-bubble-time--dark">22:54 <span className="pv-ticks pv-ticks--dark">✓✓</span></span>
               </div>
               <div className="pv-audio-bubble">
                 <div className="pv-audio-play-btn" aria-label="Mensagem de áudio">▶</div>
@@ -175,8 +183,8 @@ export function Provas() {
                 <span className="pv-audio-duration">0:47</span>
               </div>
               <div className="pv-bubble--wa-dark-r">
-                Consegui mais um paciente novo! A pergunta que o CloserOS me deu não era pressão — era a certa. 🙌
-                <span className="pv-bubble-time pv-bubble-time--dark">22:41 <span className="pv-ticks pv-ticks--dark">✓✓</span></span>
+                Então, na noite anterior eu joguei a situação na ferramenta pra me ajudar a planejar o que falar se a pessoa enrolasse pra começar. Não decorei nada rsrs só fui mais preparado. O paciente veio com o papo de começar mês que vem e dessa vez eu soube perguntar o que tava impedindo agora. Ele se convenceu e decidiu começar! Ainda não acredito hahaha
+                <span className="pv-bubble-time pv-bubble-time--dark">23:02 <span className="pv-ticks pv-ticks--dark">✓✓</span></span>
               </div>
             </div>
             <div className="pv-footer pv-footer--dark">
