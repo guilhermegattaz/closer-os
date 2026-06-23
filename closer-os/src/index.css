@@ -546,6 +546,7 @@ body {
   .ferra-guarantees .guarantee-item{ font-size:11px; white-space:nowrap; }
   .ferra-guarantees .check-badge{ display:none; }
   .ferra-guarantees .divider{ display:block; width:3px; height:3px; border-radius:50%; background:rgba(24,24,27,0.22); flex:0 0 auto; }
+  .autor-headline{ margin-bottom:30px; }
 }
 @media(max-width:320px){
   .ferra-guarantees{ flex-wrap:wrap; row-gap:6px; }
