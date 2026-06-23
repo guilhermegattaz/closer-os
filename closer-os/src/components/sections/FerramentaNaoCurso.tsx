@@ -73,9 +73,26 @@ export function FerramentaNaoCurso() {
         </div>
 
         <div className="ferra-guarantees fade-up visible">
-          <span><b>✓</b> Sem improvisar</span>
-          <span><b>✓</b> Sem sair dando desconto</span>
-          <span><b>✓</b> Sem travar</span>
+          <div className="guarantee-item">
+            <span className="check-badge">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" /></svg>
+            </span>
+            <span>Sem improvisar</span>
+          </div>
+          <div className="divider" aria-hidden="true" />
+          <div className="guarantee-item">
+            <span className="check-badge">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" /></svg>
+            </span>
+            <span>Sem sair dando desconto</span>
+          </div>
+          <div className="divider" aria-hidden="true" />
+          <div className="guarantee-item">
+            <span className="check-badge">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" /></svg>
+            </span>
+            <span>Sem travar</span>
+          </div>
         </div>
       </div>
     </section>
