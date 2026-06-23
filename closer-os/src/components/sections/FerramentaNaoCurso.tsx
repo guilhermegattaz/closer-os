@@ -50,7 +50,7 @@ export function FerramentaNaoCurso() {
               aria-label="Demonstração do CloserOS respondendo a uma situação de venda"
               className="ferra-demo-video"
             >
-              <source src="/images/exemplomockofc.mp4" type="video/mp4" />
+              <source src="/images/closerosdemo.mp4" type="video/mp4" />
             </video>
           </div>
 
