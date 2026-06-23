@@ -557,6 +557,9 @@ body {
   .ferra-head{ margin-bottom:40px; }
   .ferra-guarantees{ flex-direction:column; align-items:center; gap:14px; }
   .ferra-video-wrap{ width:100%; max-width:100%; margin-inline:auto; }
+  .ferra-demo .ferra-step--left{ order:1; }
+  .ferra-demo .ferra-steps-right{ order:2; }
+  .ferra-demo .ferra-video-wrap{ order:3; }
 }
 
 /* ================================================================
