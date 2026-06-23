@@ -408,7 +408,6 @@ body {
 #profissao {
   padding: var(--sepy) 0;
   background: var(--bg);
-  border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
 }
 .prof-inner { max-width: 820px; margin: 0 auto; padding: 0 var(--px); }
 .prof-header { text-align: center; margin-bottom: 28px; }
@@ -564,7 +563,6 @@ body {
 #pilares {
   padding: var(--sepy) 0;
   background: var(--bg-2);
-  border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
 }
 .pilares-header { text-align: center; margin-bottom: 44px; }
 .pilares-header .h2 { margin-top: 8px; }
@@ -644,7 +642,7 @@ body {
    ================================================================ */
 #depoimentos {
   padding: var(--sepy) 0;
-  background: var(--bg-2); border-top: 1px solid var(--border);
+  background: var(--bg-2);
 }
 .depo-header { text-align: center; margin-bottom: 44px; }
 .depo-header .hl { color: var(--accent); }
@@ -831,7 +829,7 @@ body {
    ================================================================ */
 #faq {
   padding: var(--sepy) 0;
-  background-color: #fbfbfc; border-top: 1px solid var(--border);
+  background-color: #fbfbfc;
 }
 .faq-header { text-align: center; margin-bottom: 36px; }
 .faq-list {
