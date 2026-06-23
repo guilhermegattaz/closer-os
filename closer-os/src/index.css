@@ -610,9 +610,7 @@ body {
    #8  AUTORIDADE
    ================================================================ */
 #autoridade { padding: var(--sepy) 0; background: var(--bg-2); border-top: 1px solid var(--border); }
-#autoridade .eyebrow {
-  font-size: .9rem; letter-spacing: 0; text-transform: none; font-weight: 600;
-}
+.autor-headline{ margin-top:14px; margin-bottom:20px; text-wrap:balance; }
 .autor-grid {
   display: grid; grid-template-columns: 1fr 380px; gap: 60px; align-items: center;
 }
