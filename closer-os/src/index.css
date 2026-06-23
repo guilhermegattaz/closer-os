@@ -548,13 +548,14 @@ body {
   .ferra-steps-right{ gap:64px; }
 }
 @media (max-width:900px){
-  .ferra-demo{ grid-template-columns:1fr; justify-items:center; gap:36px; }
+  .ferra-demo{ grid-template-columns:1fr; justify-items:center; gap:36px; overflow-x:hidden; }
   .ferra-step--left, .ferra-step{ flex-direction:row; text-align:left; justify-content:flex-start; max-width:360px; }
   .ferra-step--left .ferra-step-desc, .ferra-step-desc{ margin-left:0; max-width:none; }
   .ferra-phone{ order:-1; }
   .ferra-steps-right{ width:100%; max-width:360px; }
   .ferra-head{ margin-bottom:40px; }
   .ferra-guarantees{ flex-direction:column; align-items:center; gap:14px; }
+  .ferra-video-wrap{ width:calc(100% + 32px); max-width:none; margin-inline:-16px; }
 }
 
 /* ================================================================
