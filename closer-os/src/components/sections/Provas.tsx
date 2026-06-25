@@ -23,15 +23,15 @@ export function Provas() {
             </div>
             <div className="pv-wa-body">
               <div className="pv-bubble--sent">
-                Oiii, deixa eu te contar pq vc não vai acreditar
+                oii deixa eu te contar uma coisa pq ainda to processando
                 <span className="pv-bubble-time">23:44 <span className="pv-ticks">✓✓</span></span>
               </div>
               <div className="pv-bubble--sent">
-                lembra q eu vivia reclamando q mandava orçamento e a pessoa sumia? eu nunca sabia se cobrava ou se parecia desesperada kkkk
+                lembra q eu vivia reclamando q mandava orçamento e a pessoa sumia? eu nunca sabia se cobrava de novo ou se ia parecer desesperada kkkk
                 <span className="pv-bubble-time">23:45 <span className="pv-ticks">✓✓</span></span>
               </div>
               <div className="pv-bubble--sent">
-                comecei a usar o closeros pra saber oq mandar nessas horas. ainda tem gente q some. mas essa semana 2 q tinham sumido voltaram e fecharam!!! 🙈
+                comecei a usar o closeros só pra saber oq mandar nessas horas. não é magico, ainda tem gente q some. mas teve uma cliente q tinha sumido faz uns dias, mandei do jeito q ele sugeriu e ela respondeu na hora 🙈 fechou ontem
                 <span className="pv-bubble-time">23:47 <span className="pv-ticks">✓✓</span> <span className="pv-wa-lido">Lido</span></span>
               </div>
             </div>
@@ -44,32 +44,32 @@ export function Provas() {
             </div>
           </div>
 
-          {/* ── Card 2: Instagram Direct — Rodrigo M. ── */}
+          {/* ── Card 2: Instagram Direct — Gabi Freire ── */}
           <div className="pv-card pv-card--ig-dm fade-up d1">
             <div className="pv-ig-dm-header">
               <span className="pv-back-btn" aria-hidden="true">‹</span>
-              <div className="pv-avatar" style={{ background: 'linear-gradient(135deg,#f77737,#c13584)' }}>RM</div>
+              <div className="pv-avatar" style={{ background: 'linear-gradient(135deg,#f77737,#c13584)' }}>GF</div>
               <div>
-                <div className="pv-ig-handle">rodrigo.makesales</div>
+                <div className="pv-ig-handle">gabi.freiredesign</div>
                 <div className="pv-ig-active">Ativo agora</div>
               </div>
             </div>
             <div className="pv-ig-dm-body">
               <div className="pv-bubble--ig-sent">
-                Lembra q eu te falei q sempre ficava perdido quando o cliente falava q tava caro?
+                mano lembra q eu sempre amarelava qnd o cliente falava q tava caro?
               </div>
               <div className="pv-bubble--ig-sent">
-                ontem aconteceu de novo, mas dessa vez eu não saí dando desconto na hora igual idiota... respondi com uma pergunta q o Closeros tinha me dado e o cara meio q se começou a se justificar sozinhooo
+                ontem rolou de novo. só q dessa vez eu não saí dando desconto na hora igual eu sempre fazia. respondi com uma pergunta q o closeros tinha me dado e o cara meio q foi se justificando sozinho
               </div>
               <div className="pv-bubble--ig-sent">
-                e fechou no valor normal, acredita? ainda to meio em choque pra falar a real...
+                acabou fechando sem eu baixar nada. ainda to meio sem acreditar pra ser sincera
               </div>
               <div className="pv-ig-seen">Visto há 2 min</div>
             </div>
             <div className="pv-footer">
-              <span>Rodrigo M.</span>
+              <span>Gabi Freire</span>
               <span className="pv-footer-sep">·</span>
-              <span>Agência de Marketing</span>
+              <span>Designer</span>
               <span className="pv-footer-sep">·</span>
               <span className="pv-platform">Direct · Instagram</span>
             </div>
@@ -84,7 +84,7 @@ export function Provas() {
               </div>
             </div>
             <p className="pv-x-text">
-              vou ser honesta q quando vi "ferramenta que te ajuda a vender" eu revirei o olho. Achei que era mais uma ferramenta genérica dessas que vc paga barato e não funciona. Comprei com o pé atrás (era barato). A verdade é que não é mágico, é além disso! O que ela faz é te fazer perguntas que vc devia ter feito sozinha mas não faz pq ta nervosa na hora. Usei em 3 conversas essa semana, 2 deram certo. Isso mudou meu jogo demais.
+              vou ser bem honesta: qnd vi "ferramenta q te ajuda a vender" eu revirei o olho. achei q era mais um prompt genérico desses q vc acha de graça por aí. comprei meio sem fé pq era barato. n é nenhuma magica, oq ele faz é te lembrar das perguntas q vc devia fazer mas n faz pq ta nervosa na hora. usei em 3 conversas essa semana. ainda n fechei nenhuma, mas pela primeira vez eu n travei e n saí me justificando. já valeu
             </p>
             <div className="pv-x-time">21:05 · 18 jun</div>
             <div className="pv-x-metrics">
@@ -119,7 +119,7 @@ export function Provas() {
               <div>
                 <span className="pv-ig-commenter">thais.estetica </span>
                 <span className="pv-ig-comment-text">
-                  amiga, isso q ela falou no post é exatamente eu. o q mais me travava era quando a cliente dizia "a outra especialista é mais barata". eu já ficava sem graça e às vezes baixava o preço antes mesmo dela pedir. Não curto vender, eu ainda fico nervosa. Mas aprendi a perguntar oq tava por trás em vez de me diminuir na hora. Ainda to testando mas já é diferente, consegui vender um tratamento completo essa semana.
+                  amiga isso q ela falou é EXATAMENTE eu. o q mais me travava era qnd a cliente dizia "na outra especialista é mais barato". eu já ficava sem graça e às vezes baixava o preço antes dela nem pedir. n é q virei vendedora agora, ainda fico nervosa. mas aprendi a perguntar oq tava por trás em vez de me diminuir. semana passada uma falou isso e em vez de dar desconto eu perguntei e ela acabou fechando o tratamento completo
                 </span>
                 <div className="pv-ig-comment-meta">2 d · 34 curtidas · Responder</div>
               </div>
@@ -133,7 +133,7 @@ export function Provas() {
             </div>
           </div>
 
-          {/* ── Card 5: E-mail — Mari Uchôa ── */}
+          {/* ── Card 5: E-mail — Dra. Diana Mendes ── */}
           <div className="pv-card pv-card--email fade-up d1">
             <div className="pv-email-bar">
               <div className="pv-email-dots" aria-hidden="true">
@@ -145,14 +145,14 @@ export function Provas() {
               <span className="pv-email-bar-time">07:12</span>
             </div>
             <div className="pv-email-body">
-              <div className="pv-email-subject">obrigada (e um desabafo)</div>
-              <div className="pv-email-from">Mari Uchôa · ...@gmail.com · para: oi@closeros.app</div>
+              <div className="pv-email-subject">obrigada (e um pequeno desabafo)</div>
+              <div className="pv-email-from">Dra. Diana Mendes · ...@gmail.com · para: oi@closeros.app</div>
               <p className="pv-email-text">
-                Oi. Respondendo a pergunta sobre minha experiência com o CloserOS, eu tenho um conflito enorme com a ideia de "vender" terapia, sempre achei um pouco anti-ético. Aí as pessoas falavam "vou pensar" e sumiam e eu nem entendia o porquê, ficava remoendo. Confesso que comprei cética achando que seria papo de coach. Não era. Me ajudou a entender o que dizer quando a pessoa fica em cima do muro, sem soar como pressão ou forçada. Me sinto segura e muito mais confiante nessas horas. Obrigada mesmo.
+                Oi. Nem sei se vocês leem esses e-mails, mas precisava escrever. Eu sempre tive um conflito enorme com a ideia de "vender" terapia, achava quase antiético. Aí as pessoas diziam "vou pensar" e sumiam, e eu ficava remoendo sem entender o porquê. Confesso que comprei cética, achando que ia ser papo de coach. Não foi. Me ajudou a saber o que dizer quando a pessoa fica em cima do muro, sem soar como pressão. Ainda perco gente, mas tenho me sentido mais tranquila nessas horas. Obrigada de verdade.
               </p>
             </div>
             <div className="pv-footer">
-              <span>Mari Uchôa</span>
+              <span>Dra. Diana Mendes</span>
               <span className="pv-footer-sep">·</span>
               <span className="pv-platform">Psicóloga</span>
             </div>
@@ -170,7 +170,7 @@ export function Provas() {
             </div>
             <div className="pv-wa-body pv-wa-body--dark">
               <div className="pv-bubble--wa-dark-r">
-                Gente, lembra que comentei sobre a consulta importante que eu disse que tava nervoso pra caramba?
+                cara lembra aquela consulta importante q eu te falei q tava nervoso pra caramba?
                 <span className="pv-bubble-time pv-bubble-time--dark">22:54 <span className="pv-ticks pv-ticks--dark">✓✓</span></span>
               </div>
               <div className="pv-audio-bubble">
@@ -183,7 +183,7 @@ export function Provas() {
                 <span className="pv-audio-duration">0:47</span>
               </div>
               <div className="pv-bubble--wa-dark-r">
-                Então, na noite anterior eu joguei a situação na ferramenta pra me ajudar a planejar o que falar se a pessoa enrolasse pra começar. Não decorei nada rsrs só fui mais preparado. O paciente veio com o papo de começar mês que vem e dessa vez eu soube perguntar o que tava impedindo agora. Ele se convenceu e decidiu começar! Ainda não acredito hahaha
+                então. na noite anterior eu joguei a situação no closeros pra pensar oq falar se a pessoa enrolasse pra começar. n decorei nada rsrs só fui mais preparado. ela veio com o "mês q vem eu começo" e em vez de aceitar eu soube perguntar oq tava impedindo agora. acabou marcando pra semana q vem. fiquei feliz demais
                 <span className="pv-bubble-time pv-bubble-time--dark">23:02 <span className="pv-ticks pv-ticks--dark">✓✓</span></span>
               </div>
             </div>
