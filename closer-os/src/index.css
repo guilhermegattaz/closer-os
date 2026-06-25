@@ -480,37 +480,6 @@ body {
   font-size: .8rem; color: var(--text-3); line-height: 1.65; font-style: italic;
 }
 
-/* ================================================================
-   #5b  MANIFESTO BAND
-   ================================================================ */
-.manifesto-band {
-  background: #f8f9fa;
-  padding: 72px 0;
-  text-align: center;
-  border-top: 1px solid var(--border);
-}
-
-.manifesto-headline {
-  max-width: 760px;
-  margin: 0 auto;
-  font-size: clamp(1.4rem, 3.5vw, 2.2rem);
-  font-weight: 700;
-  line-height: 1.25;
-  color: #18181B;
-}
-.manifesto-headline span { color: #6D28D9; }
-.manifesto-sub {
-  max-width: 580px;
-  margin: 20px auto 0;
-  font-size: 0.875rem;
-  line-height: 1.65;
-  color: #71717A;
-}
-.manifesto-sub--gap { margin-top: 14px; }
-@media (max-width: 640px) {
-  .manifesto-band { padding: 52px 0; }
-  .manifesto-sub { font-size: .875rem; }
-}
 
 /* ================================================================
    #6  FERRAMENTA NÃO CURSO

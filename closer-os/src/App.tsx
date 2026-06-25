@@ -6,7 +6,6 @@ import {
   Hero,
   LeakMatrix,
   ProfessionSelector,
-  Manifesto,
   FerramentaNaoCurso,
   Pilares,
   Autoridade,
@@ -68,7 +67,6 @@ export default function App() {
       <main id="main">
         <Hero />
         <LeakMatrix />
-        <Manifesto />
         <FerramentaNaoCurso />
         <Pilares />
         <ProfessionSelector />
