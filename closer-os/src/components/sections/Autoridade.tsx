@@ -23,8 +23,8 @@ export function Autoridade() {
             </div>
 
             <div className="autor-bio">
-              <p>Ao longo de anos conduzindo vendas consultivas de alto valor, percebi uma coisa curiosa: a maioria das negociações não era perdida por causa do preço.</p>
-              <p>Era perdida porque a pessoa simplesmente não sabia o que dizer quando ouvia &ldquo;tá caro&rdquo;, &ldquo;vou pensar&rdquo; ou &ldquo;preciso conversar com meu marido&rdquo;.</p>
+              <p>Ao longo de anos conduzindo vendas consultivas de alto valor, percebi uma coisa curiosa: a maioria das negociações não era perdida porque o cliente não queria comprar.</p>
+              <p>Era perdida porque o profissional simplesmente não sabia o que dizer quando a conversa travava, quando ouvia &ldquo;tá caro&rdquo;, &ldquo;vou pensar&rdquo; ou &ldquo;preciso conversar com minha esposa/sócio&rdquo;.</p>
               <p>Depois de mais de R$9 milhões em vendas conduzidas pessoalmente, transformei o que realmente funciona nessas situações no CloserOS™: uma ferramenta simples que mostra exatamente o que dizer quando uma conversa trava.</p>
               <p>Não é teoria. É o que funciona no mundo real.</p>
             </div>

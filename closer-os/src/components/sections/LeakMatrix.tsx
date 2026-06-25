@@ -71,7 +71,7 @@ export function LeakMatrix() {
               </div>
             </div>
             <p className="leak-sub">
-              Você se desvaloriza e queima sua margem por medo de ouvir um não, antes mesmo de o cliente questionar o preço.
+              Você dá desconto antes mesmo de o cliente pedir. Sai da conversa com menos dinheiro, e com a sensação de que trabalhou mais para ganhar menos.
             </p>
           </div>
 
@@ -81,12 +81,15 @@ export function LeakMatrix() {
           <div className="leak-quote-inner">
             <div className="leak-quote-pill">
               <span className="leak-quote-dot" aria-hidden="true" />
-              A SOMA SILENCIOSA DO PREJUÍZO
+              Isso se repete toda semana
             </div>
             <p className="leak-quote-text">
-              Nenhum desses momentos parece grave sozinho. O problema é que{' '}
-              <span className="leak-quote-hl">eles se repetem toda semana</span>, e cada um é um contrato que era seu e{' '}
-              <span className="leak-quote-hl">foi embora em silêncio</span>, sem você nem perceber onde perdeu.
+              Você já fez o trabalho mais difícil. A reunião aconteceu. O interesse existia. A proposta foi enviada. Mesmo assim{' '}
+              <span className="leak-quote-hl">a venda morreu</span>...
+            </p>
+            <p className="leak-quote-text leak-quote-text--gap">
+              E normalmente não foi porque faltava interesse. Foi porque{' '}
+              <span className="leak-quote-hl">faltava saber como conduzir</span>.
             </p>
           </div>
         </div>

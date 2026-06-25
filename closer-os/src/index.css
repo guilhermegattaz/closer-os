@@ -191,6 +191,15 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .hero-micro-dot { animation: none; }
 }
+@media (max-width: 480px) {
+  .hero-micro {
+    max-width: calc(100% - 32px);
+    letter-spacing: 0.5px;
+    justify-content: center;
+    text-align: center;
+    padding: 6px 14px;
+  }
+}
 .hero-headline {
   font-size: clamp(1.8rem,5.2vw,3.25rem);
   font-weight: 800; line-height: 1.1; letter-spacing: -.03em;
@@ -495,6 +504,8 @@ body {
   line-height: 1.65;
   color: #71717A;
 }
+.manifesto-sub--gap { margin-top: 14px; }
+.leak-quote-text--gap { margin-top: 12px; }
 @media (max-width: 640px) {
   .manifesto-band { padding: 52px 0; }
   .manifesto-sub { font-size: .875rem; }

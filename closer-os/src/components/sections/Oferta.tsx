@@ -59,7 +59,7 @@ export function Oferta() {
           </div>
 
           <p className="oferta-payback">
-            Uma única conversa recuperada pode pagar o CloserOS várias vezes.
+            Se o CloserOS impedir apenas um desconto que você daria por insegurança... Ou recuperar apenas um cliente que iria embora... Ele já se pagou. O restante vira lucro.
           </p>
 
           <div>
