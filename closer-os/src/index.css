@@ -201,10 +201,10 @@ body {
   }
 }
 .hero-headline {
-  font-size: clamp(1.8rem,5.2vw,3.25rem);
+  font-size: clamp(1.8rem,5.2vw,3.125rem);
   font-weight: 800; line-height: 1.1; letter-spacing: -.03em;
   color: var(--text); margin-bottom: 22px;
-  max-width: 900px;
+  max-width: 900px; text-wrap: balance;
 }
 .hero-headline .hl { color: var(--accent); }
 @media (min-width: 860px) {
