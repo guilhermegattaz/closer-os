@@ -83,14 +83,12 @@ export function LeakMatrix() {
               <span className="leak-quote-dot" aria-hidden="true" />
               Isso se repete toda semana
             </div>
-            <p className="leak-quote-text">
-              Você já fez o trabalho mais difícil. A reunião aconteceu. O interesse existia. A proposta foi enviada. Mesmo assim{' '}
-              <span className="leak-quote-hl">a venda morreu</span>...
-            </p>
-            <p className="leak-quote-text leak-quote-text--gap">
-              E normalmente não foi porque faltava interesse. Foi porque{' '}
-              <span className="leak-quote-hl">faltava saber como conduzir</span>.
-            </p>
+            <div className="leak-quote-text">
+              <p>Você fez o trabalho mais difícil. A reunião aconteceu. O interesse existia. A proposta foi enviada. Mesmo assim, a conversa morreu...</p>
+              <p>E normalmente não foi porque faltava interesse.</p>
+              <p>Talvez o problema não seja que você não consegue clientes. Talvez o problema seja <span className="leak-quote-hl">quantos você perde sem perceber</span>.</p>
+              <p>Toda vez que uma conversa trava, você perde mais do que dinheiro. Perde o tempo que investiu, a confiança para cobrar o que vale e começa a acreditar que o problema é o seu preço, quando muitas vezes faltava apenas saber como conduzir a conversa.</p>
+            </div>
           </div>
         </div>
 

@@ -417,8 +417,10 @@ body {
   line-height: 1.75;
   color: var(--text);
   margin: 0;
-  text-wrap: balance;
+  text-wrap: pretty;
 }
+.leak-quote-text p { margin: 0 0 14px; }
+.leak-quote-text p:last-child { margin-bottom: 0; }
 .leak-quote-hl { color: var(--accent); font-weight: 600; }
 @media (max-width: 640px) {
   .leak-quote-card { padding: 24px 20px; margin-top: 24px; }
@@ -505,7 +507,6 @@ body {
   color: #71717A;
 }
 .manifesto-sub--gap { margin-top: 14px; }
-.leak-quote-text--gap { margin-top: 12px; }
 @media (max-width: 640px) {
   .manifesto-band { padding: 52px 0; }
   .manifesto-sub { font-size: .875rem; }
