@@ -15,7 +15,7 @@ export function LeakMatrix() {
               Isso se repete toda semana
             </div>
             <div className="leak-quote-text">
-              <p>Você fez o trabalho mais difícil. A reunião aconteceu. O interesse existia. A proposta foi enviada. <span className="leak-quote-hl">Mesmo assim, a conversa morreu...</span> E normalmente não foi porque faltava interesse.</p>
+              <p>Você fez o trabalho mais difícil. A reunião aconteceu. O interesse existia. A proposta foi enviada. <span className="leak-quote-hl">Mesmo assim, a conversa morreu...</span> E não foi porque faltava interesse.</p>
             </div>
           </div>
         </div>
