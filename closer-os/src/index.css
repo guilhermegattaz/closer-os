@@ -1078,6 +1078,9 @@ body {
 .dc-cost-text {
   font-size: .95rem; font-weight: 600; color: var(--text); line-height: 1.55; margin-bottom: 10px;
 }
+@media (max-width: 640px) {
+  .dc-cost-text .dc-hl { display: block; margin-top: 4px; }
+}
 .dc-urgencia { font-size: .87rem; color: var(--text-2); font-style: italic; margin: 0; text-wrap: balance; }
 .dc-cta { text-align: center; margin-top: 36px; }
 .dc-cta-btn {
