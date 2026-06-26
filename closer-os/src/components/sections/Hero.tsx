@@ -3,7 +3,7 @@ import { KIWIFY_URL } from '../../data/links'
 
 function VturbHeroPlayer() {
   useEffect(() => {
-    const SRC = 'https://scripts.converteai.net/9a830ae7-afc8-422f-84b7-f587f3948a96/players/6a3e0c08b84c1d6bd60713f2/v4/player.js'
+    const SRC = 'https://scripts.converteai.net/9a830ae7-afc8-422f-84b7-f587f3948a96/players/6a3e78c9cbea5b52000fa903/v4/player.js'
     if (document.querySelector(`script[src="${SRC}"]`)) return
     const s = document.createElement('script')
     s.src = SRC
@@ -13,7 +13,7 @@ function VturbHeroPlayer() {
 
   return (
     <vturb-smartplayer
-      id="vid-6a3e0c08b84c1d6bd60713f2"
+      id="vid-6a3e78c9cbea5b52000fa903"
       style={{ position: 'absolute', inset: 0, display: 'block', width: '100%', height: '100%' }}
     >
       <div
