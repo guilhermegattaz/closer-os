@@ -69,9 +69,9 @@ export function DoisCaminhos() {
             className="dc-cta-btn"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Sim, quero parar de improvisar — R$67"
+            aria-label="Sim, é isso que eu quero · R$67"
           >
-            Sim, quero parar de improvisar — R$67 →
+            Sim, é isso que eu quero · R$67
           </a>
           <p className="dc-cta-sub">Acesso Imediato · Pagamento Único · Garantia de 7 Dias</p>
         </div>

@@ -55,9 +55,9 @@ export function Hero() {
             className="hero-cta-btn"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Quero o CloserOS agora — R$67"
+            aria-label="Quero saber o próximo passo"
           >
-            QUERO O CLOSEROS AGORA
+            Quero saber o próximo passo
           </a>
           <p className="hero-subtexto">Acesso Imediato · Pagamento Único de R$67 · Sem Mensalidades</p>
         </div>

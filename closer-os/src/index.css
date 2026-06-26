@@ -1175,9 +1175,9 @@ footer {
 .sticky-label strong { font-size: 1.1rem; font-weight: 800; color: var(--text); }
 .sticky-btn {
   display: inline-flex; align-items: center; gap: 6px;
-  padding: 12px 24px; border-radius: var(--r-lg);
+  padding: 12px 14px; border-radius: var(--r-lg);
   background: var(--accent); color: #fff;
-  font-size: .84rem; font-weight: 700; cursor: pointer; white-space: nowrap;
+  font-size: .78rem; font-weight: 700; cursor: pointer; white-space: nowrap;
   transition: background .18s;
 }
 .sticky-btn:hover { background: var(--accent-h); }

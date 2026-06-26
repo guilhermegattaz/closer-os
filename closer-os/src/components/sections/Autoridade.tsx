@@ -34,9 +34,9 @@ export function Autoridade() {
               className="autor-cta"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Quero acessar agora — R$67"
+              aria-label="Quero parar de improvisar · R$67"
             >
-              Quero acessar agora — R$67 →
+              Quero parar de improvisar · R$67
             </a>
           </div>
 

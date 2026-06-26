@@ -11,7 +11,7 @@ export function StickyCTA() {
           <strong>R$67</strong>
         </div>
         <a href={KIWIFY_URL} className="sticky-btn" target="_blank" rel="noopener noreferrer">
-          Quero agora →
+          Quero o próximo passo
         </a>
       </div>
     </div>
