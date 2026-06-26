@@ -23,6 +23,8 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   --bg:   #F8F9FA;
   --bg-2: #F4F4F5;
   --card: #FFFFFF;
+  --section-bg:     #ffffff;
+  --section-bg-alt: #f4f1fb;
 
   /* Borders */
   --border:   rgba(24,24,27,.07);
@@ -166,7 +168,7 @@ body {
    ================================================================ */
 #hero {
   padding: clamp(48px,8vw,96px) 0 clamp(40px,4vw,56px);
-  background: var(--bg);
+  background: var(--section-bg);
 }
 .hero-center {
   max-width: 800px; margin: 0 auto; padding: 0 var(--px); text-align: center;
@@ -329,7 +331,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 /* ================================================================
    #4  LEAK MATRIX
    ================================================================ */
-#leak { padding: var(--sepy) 0 48px; background-color: #f4f4f5; border-top: 1px solid var(--border); }
+#leak { padding: var(--sepy) 0 48px; background: var(--section-bg-alt); border-top: 1px solid var(--border); }
 @media (max-width: 640px) {
   #hero { padding-bottom: var(--sepy); }
   #leak { padding-bottom: var(--sepy); }
@@ -448,7 +450,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
    ================================================================ */
 #profissao {
   padding: var(--sepy) 0;
-  background: var(--bg);
+  background: var(--section-bg);
   border-top: 1px solid var(--border);
 }
 .prof-inner { max-width: 820px; margin: 0 auto; padding: 0 var(--px); }
@@ -508,7 +510,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 /* ================================================================
    #6  FERRAMENTA NÃO CURSO
    ================================================================ */
-#ferramenta { padding: var(--sepy) 0; background-color: #f6f6f6; border-top: 1px solid var(--border); }
+#ferramenta { padding: var(--sepy) 0; background: var(--section-bg); border-top: 1px solid var(--border); }
 .ferra-head{ text-align:center; max-width:680px; margin:0 auto 64px; }
 .ferra-title{ font-size:clamp(28px,4vw,40px); font-weight:700; letter-spacing:-0.8px; color:#18181b; line-height:1.15; }
 .ferra-title .hl{ color:var(--accent,#6d28d9); }
@@ -602,7 +604,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 
 #pilares {
   padding: var(--sepy) 0;
-  background: var(--bg-2);
+  background: var(--section-bg-alt);
   border-top: 1px solid var(--border);
 }
 .pilares-header { text-align: center; margin-bottom: 44px; }
@@ -628,7 +630,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 /* ================================================================
    #8  AUTORIDADE
    ================================================================ */
-#autoridade { padding: var(--sepy) 0; background: #f8f9fa; border-top: 1px solid var(--border); }
+#autoridade { padding: var(--sepy) 0; background: var(--section-bg-alt); border-top: 1px solid var(--border); }
 .autor-headline{ margin-top:0; margin-bottom:20px; text-wrap:balance; }
 .autor-headline .hl{ color:var(--accent); }
 .autor-grid {
@@ -682,7 +684,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
    ================================================================ */
 #provas {
   padding: var(--sepy) 0;
-  background: #fff;
+  background: var(--section-bg);
   border-top: 1px solid var(--border);
 }
 .provas-header { text-align: center; margin-bottom: 44px; }
@@ -909,7 +911,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 /* ================================================================
    #10  OFERTA
    ================================================================ */
-#oferta { padding: var(--sepy) 0; border-top: 1px solid var(--border); }
+#oferta { padding: var(--sepy) 0; background: var(--section-bg); border-top: 1px solid var(--border); }
 .oferta-card {
   max-width: 560px; margin: 0 auto;
   background: var(--card); border: 1.5px solid var(--accent-ring);
@@ -1006,7 +1008,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
    ================================================================ */
 #faq {
   padding: var(--sepy) 0;
-  background-color: #fbfbfc;
+  background: var(--section-bg);
   border-top: 1px solid var(--border);
 }
 .faq-header { text-align: center; margin-bottom: 36px; }
@@ -1038,7 +1040,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 /* ================================================================
    #12  DOIS CAMINHOS
    ================================================================ */
-#dois-caminhos { padding: var(--sepy) 0; border-top: 1px solid var(--border); }
+#dois-caminhos { padding: var(--sepy) 0; background: var(--section-bg-alt); border-top: 1px solid var(--border); }
 .dc-header { text-align: center; margin-bottom: 44px; }
 .dc-eyebrow-pill {
   display: inline-flex; align-items: center;
