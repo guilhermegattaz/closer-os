@@ -73,13 +73,7 @@ export function Oferta() {
               QUERO O CLOSEROS AGORA POR R$67
             </a>
             <div className="oferta-social-proof">
-              <div className="osp-avatars">
-                <span className="osp-avatar osp-avatar--initial" style={{ background: 'linear-gradient(135deg,#25d366,#128c7e)' }}>AP</span>
-                <span className="osp-avatar osp-avatar--initial" style={{ background: 'linear-gradient(135deg,#f77737,#c13584)' }}>GF</span>
-                <span className="osp-avatar osp-avatar--initial" style={{ background: 'linear-gradient(135deg,#10b981,#0d9488)' }}>FL</span>
-                <span className="osp-avatar osp-avatar--initial" style={{ background: 'linear-gradient(135deg,#f77737,#833ab4)' }}>TO</span>
-                <span className="osp-avatar osp-avatar--initial" style={{ background: 'linear-gradient(135deg,#3b82f6,#1d4ed8)' }}>AL</span>
-              </div>
+              <img className="osp-people" src="/images/pessoas.webp" alt="Profissionais que aprovam o CloserOS" loading="lazy" />
               <span className="osp-text">Aprovado por mais de <strong>100 profissionais</strong></span>
             </div>
             <p className="oferta-payment-info">

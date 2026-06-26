@@ -980,23 +980,12 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   display: flex; align-items: center; justify-content: center;
   gap: 12px; margin: 14px auto 0; flex-wrap: wrap;
 }
-.osp-avatars { display: flex; align-items: center; }
-.osp-avatar {
-  width: 34px; height: 34px; border-radius: 50%;
-  object-fit: cover; border: 2px solid #fff;
-  box-shadow: 0 0 0 1.5px #6d28d9;
-  margin-left: -10px; background: #ece8fb;
-}
-.osp-avatar:first-child { margin-left: 0; }
-.osp-avatar--initial {
-  display: flex; align-items: center; justify-content: center;
-  color: #fff; font-weight: 700; font-size: 12px; flex-shrink: 0;
-}
+.osp-people { height: 38px; width: auto; max-width: 100%; display: block; object-fit: contain; }
 .osp-text { font-size: 15px; color: #3f3f46; font-weight: 500; line-height: 1.3; }
 .osp-text strong { color: #18181b; font-weight: 700; }
 @media (max-width: 480px) {
   .oferta-social-proof { gap: 10px; margin-top: 12px; }
-  .osp-avatar { width: 30px; height: 30px; }
+  .osp-people { height: 34px; }
   .osp-text { font-size: 14px; }
 }
 
