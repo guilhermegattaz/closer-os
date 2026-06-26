@@ -201,19 +201,19 @@ body {
   }
 }
 .hero-headline {
-  font-size: clamp(1.8rem,5.2vw,3.125rem);
+  font-size: clamp(1.8rem,5.2vw,2.75rem);
   font-weight: 800; line-height: 1.1; letter-spacing: -.03em;
   color: var(--text); margin-bottom: 22px;
-  max-width: 900px; text-wrap: balance;
+  max-width: 900px; text-wrap: balance; overflow-wrap: break-word;
 }
-.hero-headline .hl { color: var(--accent); }
+.hero-headline .hl { color: var(--accent); white-space: nowrap; }
 @media (min-width: 860px) {
   .hero-headline { margin-left: -50px; margin-right: -50px; }
 }
 @media (max-width: 640px) {
   .hero-headline {
     max-width: 100%;
-    font-size: clamp(23px, 6.4vw, 27px);
+    font-size: clamp(20px, 5.6vw, 24px);
     line-height: 1.18;
     letter-spacing: -0.5px;
     text-wrap: balance;
