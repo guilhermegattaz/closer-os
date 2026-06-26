@@ -235,6 +235,11 @@ body {
   box-shadow: var(--accent-glow); background: #e8e4f8;
 }
 .vsl-ratio { position: relative; padding-top: 56.25%; }
+/* fullscreen: remove overflow clip herdado + garante tamanho total */
+:fullscreen, ::backdrop { background: #000; }
+vturb-smartplayer:fullscreen,
+vturb-smartplayer :fullscreen,
+vturb-smartplayer:-webkit-full-screen { width: 100% !important; height: 100% !important; }
 .vsl-thumb {
   position: absolute; inset: 0; cursor: pointer; overflow: hidden;
 }

@@ -40,9 +40,11 @@ export function Hero() {
           Descreva a situação da conversa e o CloserOS™ te mostra, em segundos, exatamente o que responder em seguida para conduzir o cliente até o fechamento.
         </p>
 
-        <div className="vsl-wrap fade-up d2">
-          <div className="vsl-ratio">
-            <VturbHeroPlayer />
+        <div className="fade-up d2">
+          <div className="vsl-wrap">
+            <div className="vsl-ratio">
+              <VturbHeroPlayer />
+            </div>
           </div>
         </div>
 
