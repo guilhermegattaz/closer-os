@@ -1,41 +1,25 @@
-import { useState, Fragment } from 'react'
+import { useEffect, Fragment } from 'react'
 import { KIWIFY_URL } from '../../data/links'
 
-function VideoPlayer() {
-  const [playing, setPlaying] = useState(false)
-  const vid = 'S_esS7a8FUY'
+function VturbHeroPlayer() {
+  useEffect(() => {
+    const SRC = 'https://scripts.converteai.net/9a830ae7-afc8-422f-84b7-f587f3948a96/players/6a3e0c08b84c1d6bd60713f2/v4/player.js'
+    if (document.querySelector(`script[src="${SRC}"]`)) return
+    const s = document.createElement('script')
+    s.src = SRC
+    s.async = true
+    document.head.appendChild(s)
+  }, [])
 
   return (
-    <div className="vsl-ratio">
-      {playing ? (
-        <iframe
-          className="vsl-iframe"
-          src={`https://www.youtube.com/embed/${vid}?autoplay=1&rel=0&modestbranding=1`}
-          title="CloserOS™ — Apresentação"
-          allow="autoplay; encrypted-media; fullscreen"
-          allowFullScreen
-        />
-      ) : (
-        <div className="vsl-thumb" onClick={() => setPlaying(true)} role="button" aria-label="Reproduzir vídeo de apresentação do CloserOS™">
-          <img
-            src={`https://img.youtube.com/vi/${vid}/maxresdefault.jpg`}
-            alt="Prévia do vídeo CloserOS™"
-            loading="eager"
-          />
-          <div className="vsl-caption">
-            Aperte o play e veja, em 2 minutos, uma conversa travada sendo resolvida na prática.
-            <span className="vsl-anchor-arrow" aria-hidden="true">▼</span>
-          </div>
-          <div className="vsl-play">
-            <div className="vsl-play-btn">
-              <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
-                <polygon points="6,3 20,12 6,21" />
-              </svg>
-            </div>
-          </div>
-        </div>
-      )}
-    </div>
+    <vturb-smartplayer
+      id="vid-6a3e0c08b84c1d6bd60713f2"
+      style={{ position: 'absolute', inset: 0, display: 'block', width: '100%', height: '100%' }}
+    >
+      <div
+        style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', zIndex: 0, backgroundColor: '#e8e4f8' }}
+      />
+    </vturb-smartplayer>
   )
 }
 
@@ -57,7 +41,9 @@ export function Hero() {
         </p>
 
         <div className="vsl-wrap fade-up d2">
-          <VideoPlayer />
+          <div className="vsl-ratio">
+            <VturbHeroPlayer />
+          </div>
         </div>
 
         <div className="hero-cta-wrap fade-up d3">
