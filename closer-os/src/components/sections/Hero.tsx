@@ -29,15 +29,16 @@ export function Hero() {
       <div className="hero-center">
         <span className="hero-micro fade-up"><span className="hero-micro-dot" aria-hidden="true"></span>Pare de perder clientes interessados</span>
 
+        {/* ROLLBACK: headline anterior
+          Saiba exatamente o que dizer quando o cliente falar <span className="hl">&ldquo;vou pensar&rdquo;</span>, <span className="hl">&ldquo;tá caro&rdquo;</span> ou simplesmente <span className="hl">sumir depois da proposta</span>.
+        */}
         <h1 className="hero-headline fade-up d1">
-          Saiba exatamente o que dizer quando o cliente falar{' '}
-          <span className="hl">&ldquo;vou pensar&rdquo;</span>,{' '}
-          <span className="hl">&ldquo;tá caro&rdquo;</span>{' '}
-          ou simplesmente <span className="hl">sumir depois da proposta</span>.
+          Você não precisa de mais clientes.<br />
+          Você precisa parar de <span className="hl-wrap">perder os que já estavam prontos para fechar</span>.
         </h1>
 
         <p className="hero-sub fade-up d2">
-          Descreva a situação da conversa e o CloserOS™ te mostra, em segundos, exatamente o que responder em seguida para conduzir o cliente até o fechamento.
+          Descreva a situação da conversa e o CloserOS™ te mostra, em segundos, qual é o próximo passo. Você para de improvisar e passa a conduzir cada negociação com segurança até o fechamento.
         </p>
 
         <div className="fade-up d2">
