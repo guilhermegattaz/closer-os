@@ -7,6 +7,19 @@ export function LeakMatrix() {
           <h2 className="h2">Onde o seu dinheiro está<br className="br-mobile" /> morrendo todos os dias?</h2>
         </div>
 
+        {/* Abertura: pill + 1º parágrafo — antes dos cards */}
+        <div className="leak-quote-card leak-quote-card--intro fade-up d1">
+          <div className="leak-quote-inner">
+            <div className="leak-quote-pill">
+              <span className="leak-quote-dot" aria-hidden="true" />
+              Isso se repete toda semana
+            </div>
+            <div className="leak-quote-text">
+              <p>Você fez o trabalho mais difícil. A reunião aconteceu. O interesse existia. A proposta foi enviada. <span className="leak-quote-hl">Mesmo assim, a conversa morreu...</span> E normalmente não foi porque faltava interesse.</p>
+            </div>
+          </div>
+        </div>
+
         <div className="leak-grid">
 
           {/* Card 1 — O Vácuo (WhatsApp) */}
@@ -77,14 +90,10 @@ export function LeakMatrix() {
 
         </div>
 
-        <div className="leak-quote-card fade-up">
+        {/* Fechamento: 2º parágrafo — depois dos cards */}
+        <div className="leak-quote-card leak-quote-card--close fade-up">
           <div className="leak-quote-inner">
-            <div className="leak-quote-pill">
-              <span className="leak-quote-dot" aria-hidden="true" />
-              Isso se repete toda semana
-            </div>
             <div className="leak-quote-text">
-              <p>Você fez o trabalho mais difícil. A reunião aconteceu. O interesse existia. A proposta foi enviada. <span className="leak-quote-hl">Mesmo assim, a conversa morreu...</span> E normalmente não foi porque faltava interesse.</p>
               <p>Toda vez que uma conversa trava, <span className="leak-quote-hl">você perde mais do que dinheiro</span>. Perde o tempo que investiu, a confiança para cobrar o que vale e começa a acreditar que o problema é o seu preço, quando muitas vezes <span className="leak-quote-hl">faltava apenas saber como conduzir a conversa</span>.</p>
             </div>
           </div>
