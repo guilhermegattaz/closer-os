@@ -23,7 +23,7 @@ export function Provas() {
             </div>
             <div className="pv-wa-body">
               <div className="pv-bubble--sent">
-                Oii deixa eu te contar uma coisa pq ainda to processando
+                oii deixa eu te contar uma coisa pq ainda to processando
                 <span className="pv-bubble-time">23:44 <span className="pv-ticks">✓✓</span></span>
               </div>
               <div className="pv-bubble--sent">
@@ -170,7 +170,7 @@ export function Provas() {
             </div>
             <div className="pv-wa-body pv-wa-body--dark">
               <div className="pv-bubble--wa-dark-r">
-                Pessoal, passando aqui pra compartilhar, lembram aquela consulta importante que eu te falei que eu tava nervoso pra caramba?
+                Cara, passando aqui pra te contar, lembra aquela consulta importante que eu te falei que eu tava nervoso pra caramba?
                 <span className="pv-bubble-time pv-bubble-time--dark">22:54 <span className="pv-ticks pv-ticks--dark">✓✓</span></span>
               </div>
               <div className="pv-audio-bubble">
