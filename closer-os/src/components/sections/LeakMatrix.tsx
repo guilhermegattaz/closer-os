@@ -84,9 +84,8 @@ export function LeakMatrix() {
               Isso se repete toda semana
             </div>
             <div className="leak-quote-text">
-              <p>Você fez o trabalho mais difícil. A reunião aconteceu. O interesse existia. A proposta foi enviada. Mesmo assim, <span className="leak-quote-hl">a conversa morreu</span>...</p>
-              <p>E normalmente não foi porque faltava interesse.</p>
-              <p>Toda vez que uma conversa trava, você perde mais do que dinheiro. Perde o tempo que investiu, a confiança para cobrar o que vale e começa a acreditar que o problema é o seu preço, quando muitas vezes faltava apenas saber como conduzir a conversa.</p>
+              <p>Você fez o trabalho mais difícil. A reunião aconteceu. O interesse existia. A proposta foi enviada. Mesmo assim, a conversa morreu... E normalmente não foi porque faltava interesse.</p>
+              <p>Toda vez que uma conversa trava, você perde mais do que dinheiro. Perde o tempo que investiu, a confiança para cobrar o que vale e começa a acreditar que o problema é o seu preço, quando muitas vezes <span className="leak-quote-hl">faltava apenas saber como conduzir a conversa</span>.</p>
             </div>
           </div>
         </div>
