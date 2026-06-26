@@ -36,7 +36,7 @@ export function Oferta() {
           <div className="oferta-card-header">
             <div className="oferta-launch-badge">Preço de Lançamento</div>
             <div className="oferta-anchor-label">Valor real do pacote</div>
-            <div className="oferta-price-from">R$594</div>
+            <div className="oferta-price-from">R$791</div>
             <div className="oferta-price-hoje">Hoje:</div>
             <div className="oferta-price-big"><sup>R$</sup>67</div>
             <div style={{ fontSize: '.78rem', color: 'var(--text-3)', marginTop: 4 }}>
@@ -70,7 +70,7 @@ export function Oferta() {
               rel="noopener noreferrer"
               aria-label="Quero o CloserOS agora por R$67"
             >
-              QUERO O CLOSEROS AGORA POR R$67
+              Quero parar de improvisar · R$67
             </a>
             <p className="oferta-payment-info">
               PIX, cartão ou boleto · Processado pela Kiwify

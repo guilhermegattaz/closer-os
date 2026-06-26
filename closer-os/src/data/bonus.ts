@@ -3,7 +3,7 @@ import type { BonusItem } from '../types'
 export const bonusItems: BonusItem[] = [
   {
     id: 'b1',
-    nome: 'CloserOS™ — acesso completo e permanente',
+    nome: 'CloserOS™: acesso completo e permanente',
     valor: 'R$497',
     tipo: 'principal',
   },
@@ -16,7 +16,7 @@ export const bonusItems: BonusItem[] = [
   {
     id: 'b4',
     nome: 'Treinamento: Como Criar Seu Roteiro de Vendas Personalizado com o CloserOS™',
-    valor: 'Exclusivo',
+    valor: 'R$197',
     tipo: 'bonus',
     highlight: true,
   },
