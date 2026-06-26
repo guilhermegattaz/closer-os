@@ -213,7 +213,7 @@ body {
 @media (max-width: 640px) {
   .hero-headline {
     max-width: 100%;
-    font-size: clamp(20px, 5.6vw, 24px);
+    font-size: clamp(19px, 5.2vw, 22px);
     line-height: 1.18;
     letter-spacing: -0.5px;
     text-wrap: balance;
