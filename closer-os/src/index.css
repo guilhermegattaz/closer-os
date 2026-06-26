@@ -216,11 +216,14 @@ body {
 @media (max-width: 640px) {
   .hero-headline {
     max-width: 100%;
-    font-size: clamp(19px, 5.2vw, 22px);
-    line-height: 1.18;
+    font-size: clamp(22px, 6.4vw, 27px);
+    line-height: 1.25;
     letter-spacing: -0.5px;
     text-wrap: balance;
   }
+  .hero-micro  { margin-bottom: 16px; }
+  .hero-headline { margin-bottom: 18px; }
+  .hero-sub { font-size: 15px; line-height: 1.6; margin-bottom: 24px; }
 }
 .hero-sub {
   font-size: clamp(.9rem,1.5vw,1.05rem); line-height: 1.75; color: var(--text-2);
