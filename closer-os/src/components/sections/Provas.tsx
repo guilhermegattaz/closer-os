@@ -23,7 +23,7 @@ export function Provas() {
             </div>
             <div className="pv-wa-body">
               <div className="pv-bubble--sent">
-                oii deixa eu te contar uma coisa pq ainda to processando
+                Oii deixa eu te contar uma coisa pq ainda to processando
                 <span className="pv-bubble-time">23:44 <span className="pv-ticks">✓✓</span></span>
               </div>
               <div className="pv-bubble--sent">
@@ -31,7 +31,7 @@ export function Provas() {
                 <span className="pv-bubble-time">23:45 <span className="pv-ticks">✓✓</span></span>
               </div>
               <div className="pv-bubble--sent">
-                comecei a usar o closeros só pra saber oq mandar nessas horas. não é magico, ainda tem gente q some. mas teve uma cliente q tinha sumido faz uns dias, mandei do jeito q ele sugeriu e ela respondeu na hora 🙈 fechou ontem
+                comecei a usar o Closeros só pra saber oq mandar nessas horas e teve uma cliente q tinha sumido faz uns dias, mandei do jeito q ele sugeriu e ela respondeu na hora 🙈 fechou ontem
                 <span className="pv-bubble-time">23:47 <span className="pv-ticks">✓✓</span> <span className="pv-wa-lido">Lido</span></span>
               </div>
             </div>
@@ -56,13 +56,13 @@ export function Provas() {
             </div>
             <div className="pv-ig-dm-body">
               <div className="pv-bubble--ig-sent">
-                mano lembra q eu sempre amarelava qnd o cliente falava q tava caro?
+                Mano lembra q eu sempre ficava nervosa qnd o cliente falava q tava caro? N sabia mto bem oq fazer.....
               </div>
               <div className="pv-bubble--ig-sent">
-                ontem rolou de novo. só q dessa vez eu não saí dando desconto na hora igual eu sempre fazia. respondi com uma pergunta q o closeros tinha me dado e o cara meio q foi se justificando sozinho
+                Ontem rolou de novo!!! Só q dessa vez eu não saí dando desconto na hora igual eu sempre fazia. Respondi com uma pergunta q a ferramenta tinha me dado e o cara meio q foi se justificando sozinho
               </div>
               <div className="pv-bubble--ig-sent">
-                acabou fechando sem eu baixar nada. ainda to meio sem acreditar pra ser sincera
+                ele acabou contratando sem eu baixar nada!!! Ainda to meio sem acreditar pra ser sincera, serio
               </div>
               <div className="pv-ig-seen">Visto há 2 min</div>
             </div>
@@ -119,7 +119,7 @@ export function Provas() {
               <div>
                 <span className="pv-ig-commenter">thais.estetica </span>
                 <span className="pv-ig-comment-text">
-                  amiga isso q ela falou é EXATAMENTE eu. o q mais me travava era qnd a cliente dizia "na outra especialista é mais barato". eu já ficava sem graça e às vezes baixava o preço antes dela nem pedir. n é q virei vendedora agora, ainda fico nervosa. mas aprendi a perguntar oq tava por trás em vez de me diminuir. semana passada uma falou isso e em vez de dar desconto eu perguntei e ela acabou fechando o tratamento completo
+                  Amiga isso q ela falou é EXATAMENTE eu. Oq mais me travava era qnd a cliente dizia "na outra especialista é mais barato". Eu já ficava sem graça e às vezes baixava o preço antes dela nem pedir. Não queria perder, né. Mas a verdade é que eu n sabia oq fazer. Claro q ainda fico nervosa mas aprendi a perguntar oq tava por trás pra entender a cliente em vez de me diminuir. Semana passada uma falou isso e em vez de dar desconto eu perguntei e ela acabou fechando o tratamento completo
                 </span>
                 <div className="pv-ig-comment-meta">2 d · 34 curtidas · Responder</div>
               </div>
@@ -170,7 +170,7 @@ export function Provas() {
             </div>
             <div className="pv-wa-body pv-wa-body--dark">
               <div className="pv-bubble--wa-dark-r">
-                cara lembra aquela consulta importante q eu te falei q tava nervoso pra caramba?
+                Pessoal, passando aqui pra compartilhar, lembram aquela consulta importante que eu te falei que eu tava nervoso pra caramba?
                 <span className="pv-bubble-time pv-bubble-time--dark">22:54 <span className="pv-ticks pv-ticks--dark">✓✓</span></span>
               </div>
               <div className="pv-audio-bubble">
@@ -183,7 +183,7 @@ export function Provas() {
                 <span className="pv-audio-duration">0:47</span>
               </div>
               <div className="pv-bubble--wa-dark-r">
-                então. na noite anterior eu joguei a situação no closeros pra pensar oq falar se a pessoa enrolasse pra começar. n decorei nada rsrs só fui mais preparado. ela veio com o "mês q vem eu começo" e em vez de aceitar eu soube perguntar oq tava impedindo agora. acabou marcando pra semana q vem. fiquei feliz demais
+                Então, na noite anterior eu joguei a situação no CloserOS pra pensar o que falar se a paciente enrolasse pra começar. Não decorei nada rsrs só fui mais preparado, consegui preparar um roteirinho. Ela veio com o "mês que vem eu começo" e em vez de aceitar eu soube perguntar o que tava impedindo ela agora. Nunca tinha feito isso.. Acabou marcando a primeira consulta pra semana que vem. Fiquei feliz demais
                 <span className="pv-bubble-time pv-bubble-time--dark">23:02 <span className="pv-ticks pv-ticks--dark">✓✓</span></span>
               </div>
             </div>
