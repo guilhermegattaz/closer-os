@@ -35,6 +35,15 @@ export function ProfessionSelector() {
           </h2>
         </div>
 
+        <div className="prof-qualify fade-up d1">
+          <ul className="pq-list">
+            <li>Você presta serviços ou vende o seu conhecimento?</li>
+            <li>Você depende de conversas e reuniões para fechar clientes?</li>
+            <li>Você já sentiu que perdeu vendas sem entender exatamente o porquê?</li>
+          </ul>
+          <p className="pq-bridge">Se respondeu sim, provavelmente vai se identificar com um destes perfis:</p>
+        </div>
+
         <div className="prof-tabs fade-up d1">
           {tabs.map((tab, i) => (
             <button
