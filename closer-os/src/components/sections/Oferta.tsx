@@ -72,13 +72,13 @@ export function Oferta() {
             >
               QUERO O CLOSEROS AGORA POR R$67
             </a>
+            <p className="oferta-payment-info">
+              PIX, cartão ou boleto · Processado pela Kiwify
+            </p>
             <div className="oferta-social-proof">
               <img className="osp-people" src="/images/pessoas.webp" alt="Profissionais que aprovam o CloserOS" loading="lazy" />
               <span className="osp-text">Aprovado por mais de <strong>100 profissionais</strong></span>
             </div>
-            <p className="oferta-payment-info">
-              PIX, cartão ou boleto · Processado pela Kiwify
-            </p>
           </div>
 
           <div className="oferta-garantia">
