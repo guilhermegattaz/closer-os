@@ -195,6 +195,8 @@ export function Provas() {
           </div>
 
         </div>
+
+        <p className="provas-closing fade-up">O que muda aqui não é sorte. É parar de improvisar e saber o próximo passo. Foi só isso que cada uma dessas pessoas fez diferente.</p>
       </div>
     </section>
   )

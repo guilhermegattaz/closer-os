@@ -613,6 +613,11 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .ferra-guarantees .check-badge{ display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:9999px; background:rgba(109,40,217,0.12); border:1px solid rgba(109,40,217,0.28); color:#6d28d9; flex:0 0 auto; }
 .ferra-guarantees .check-badge svg{ width:13px; height:13px; stroke:currentColor; stroke-width:3; }
 .ferra-guarantees .divider{ width:1px; height:28px; align-self:center; background:linear-gradient(to bottom,transparent,rgba(24,24,27,0.12),transparent); }
+.ferra-closing {
+  text-align: center; font-size: .95rem; font-weight: 500;
+  color: var(--text); max-width: 520px; margin: 32px auto 0;
+  line-height: 1.55; text-wrap: balance; overflow-wrap: break-word;
+}
 @media(max-width:600px){
   .ferra-guarantees{ flex-direction:row; flex-wrap:nowrap; justify-content:center; align-items:center; column-gap:8px; row-gap:0; padding:12px 14px; }
   .ferra-guarantees .guarantee-item{ font-size:11px; white-space:nowrap; }
@@ -959,6 +964,11 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   grid-template-columns: 1fr;
   gap: 24px;
   align-items: start;
+}
+.provas-closing {
+  text-align: center; font-size: .93rem; color: var(--text-2);
+  max-width: 560px; margin: 44px auto 0;
+  line-height: 1.65; text-wrap: balance; overflow-wrap: break-word;
 }
 @media (min-width: 640px) {
   .provas-grid { grid-template-columns: repeat(2, 1fr); }

@@ -94,6 +94,8 @@ export function FerramentaNaoCurso() {
             <span>Sem travar</span>
           </div>
         </div>
+
+        <p className="ferra-closing fade-up">Você sai de cada conversa sabendo que conduziu. Não torcendo para ter acertado.</p>
       </div>
     </section>
   )
