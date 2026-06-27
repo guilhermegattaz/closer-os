@@ -1,4 +1,5 @@
 export { Hero } from './Hero'
+export { ComoPensa } from './ComoPensa'
 export { ProvaFaixa } from './ProvaFaixa'
 export { LeakMatrix } from './LeakMatrix'
 export { ProfessionSelector } from './ProfessionSelector'

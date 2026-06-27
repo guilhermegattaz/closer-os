@@ -5,6 +5,7 @@ import { StickyCTA } from './components/layout/StickyCTA'
 import {
   Hero,
   LeakMatrix,
+  ComoPensa,
   ProfessionSelector,
   FerramentaNaoCurso,
   Pilares,
@@ -68,6 +69,7 @@ export default function App() {
         <Hero />
         <LeakMatrix />
         <FerramentaNaoCurso />
+        <ComoPensa />
         <Pilares />
         <ProfessionSelector />
         <Provas />
