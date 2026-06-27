@@ -5,9 +5,9 @@ export function ComoPensa() {
 
         <div className="cp-header fade-up">
           <span className="eyebrow">COMO ELE PENSA</span>
-          <h2 className="h2">O CloserOS não entrega respostas.<br className="br-mobile" /> Primeiro ele entende a negociação.</h2>
+          <h2 className="h2">Toda resposta começa muito antes da resposta.</h2>
           <p className="cp-subtitle">
-            Antes de sugerir qualquer mensagem, o CloserOS identifica o contexto da conversa, entende o que provavelmente está impedindo a decisão do cliente e só então mostra qual é o próximo passo. É isso que faz cada resposta parecer natural, estratégica e específica para aquela situação.
+            Antes de sugerir qualquer frase, o CloserOS faz a mesma coisa que um negociador experiente faria mentalmente: ele tenta entender o que realmente está acontecendo naquela conversa, antes de dizer qualquer coisa.
           </p>
         </div>
 
@@ -19,7 +19,10 @@ export function ComoPensa() {
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
               </svg>
             </div>
-            <p className="cp-step-label">Você descreve a situação</p>
+            <div className="cp-step-content">
+              <p className="cp-step-title">O que aconteceu?</p>
+              <p className="cp-step-desc">Você descreve rapidamente o contexto. Não precisa explicar tudo, apenas o suficiente para o CloserOS entender a situação.</p>
+            </div>
           </div>
 
           <div className="cp-connector" aria-hidden="true">›</div>
@@ -27,11 +30,14 @@ export function ComoPensa() {
           <div className="cp-step fade-up d2" role="listitem">
             <div className="cp-step-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="24" height="24">
-                <circle cx="12" cy="12" r="10" />
-                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
               </svg>
             </div>
-            <p className="cp-step-label">Identifica o momento da negociação</p>
+            <div className="cp-step-content">
+              <p className="cp-step-title">O que está travando a decisão?</p>
+              <p className="cp-step-desc">Nem toda objeção significa a mesma coisa. Às vezes o cliente está inseguro, às vezes ainda não enxergou valor, às vezes só precisa de mais clareza.</p>
+            </div>
           </div>
 
           <div className="cp-connector" aria-hidden="true">›</div>
@@ -39,11 +45,14 @@ export function ComoPensa() {
           <div className="cp-step fade-up d3" role="listitem">
             <div className="cp-step-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="24" height="24">
-                <circle cx="11" cy="11" r="8" />
-                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <circle cx="12" cy="12" r="10" />
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
               </svg>
             </div>
-            <p className="cp-step-label">Analisa o que provavelmente está travando a decisão</p>
+            <div className="cp-step-content">
+              <p className="cp-step-title">Qual é o próximo passo mais inteligente?</p>
+              <p className="cp-step-desc">Só depois dessa análise ele escolhe como conduzir: às vezes responder, às vezes perguntar, às vezes esperar, às vezes mudar a direção da conversa.</p>
+            </div>
           </div>
 
           <div className="cp-connector" aria-hidden="true">›</div>
@@ -51,41 +60,47 @@ export function ComoPensa() {
           <div className="cp-step fade-up d4" role="listitem">
             <div className="cp-step-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="24" height="24">
-                <circle cx="12" cy="12" r="10" />
-                <circle cx="12" cy="12" r="6" />
-                <circle cx="12" cy="12" r="2" />
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
               </svg>
             </div>
-            <p className="cp-step-label">Escolhe a melhor estratégia</p>
-          </div>
-
-          <div className="cp-connector" aria-hidden="true">›</div>
-
-          <div className="cp-step fade-up d5" role="listitem">
-            <div className="cp-step-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="24" height="24">
-                <polyline points="9 18 15 12 9 6" />
-              </svg>
+            <div className="cp-step-content">
+              <p className="cp-step-title">Agora sim: o que dizer.</p>
+              <p className="cp-step-desc">A resposta nasce da estratégia, não o contrário.</p>
             </div>
-            <p className="cp-step-label">Mostra qual é o próximo passo</p>
           </div>
 
         </div>
 
         <div className="cp-insight fade-up">
-          <p className="cp-insight-lead">A mesma frase pode significar coisas completamente diferentes.</p>
-          <p>Quando um cliente diz "Vou pensar.", ele pode estar:</p>
-          <ul className="cp-insight-list">
-            <li>sem urgência</li>
-            <li>inseguro</li>
-            <li>comparando propostas</li>
-            <li>sem enxergar valor suficiente</li>
-          </ul>
-          <p>Responder igual para todos esses cenários normalmente gera o mesmo resultado: <span className="cp-silence">silêncio</span>.</p>
-          <p>Por isso o CloserOS primeiro entende o contexto da negociação. Só depois decide como conduzir a conversa.</p>
+          <p className="cp-insight-lead">A mesma frase pode exigir respostas completamente diferentes.</p>
+          <p className="cp-quote-client">Cliente: &ldquo;Vou pensar.&rdquo;</p>
+
+          <div className="cp-situations">
+            <div className="cp-situation">
+              <p className="cp-sit-desc">Ainda não enxergou valor.</p>
+              <span className="cp-sit-arrow">↓</span>
+              <p className="cp-sit-step">O próximo passo pode ser aprofundar o problema.</p>
+            </div>
+            <div className="cp-situation">
+              <p className="cp-sit-desc">Gostou da proposta, mas precisa conversar com outra pessoa.</p>
+              <span className="cp-sit-arrow">↓</span>
+              <p className="cp-sit-step">O próximo passo pode ser organizar essa decisão.</p>
+            </div>
+            <div className="cp-situation">
+              <p className="cp-sit-desc">Está apenas adiando uma resposta.</p>
+              <span className="cp-sit-arrow">↓</span>
+              <p className="cp-sit-step">O próximo passo pode ser criar clareza sobre a prioridade.</p>
+            </div>
+          </div>
+
+          <p>A frase é exatamente a mesma. Mas a estratégia muda completamente. É por isso que o CloserOS primeiro entende o contexto, antes de sugerir qualquer mensagem.</p>
         </div>
 
-        <p className="cp-microcopy fade-up">Quanto menos você improvisa, mais cada conversa passa a ter direção.</p>
+        <p className="cp-final-statement fade-up">
+          Grandes negociações raramente são decididas pela melhor resposta. Normalmente são decididas pela melhor leitura da situação.
+        </p>
+
+        <p className="cp-microcopy fade-up">O CloserOS foi criado para ajudar você justamente nessa leitura.</p>
 
       </div>
     </section>
