@@ -54,9 +54,7 @@ export function CustoInvisivel() {
             Você provavelmente não está perdendo clientes.<br className="br-mobile" />
             Está perdendo todo o trabalho que veio antes deles.
           </h2>
-          <p className="ci-subtitle">
-            Quando uma negociação morre, normalmente o prejuízo não começa naquele momento. Ele começou muito antes. Você encontrou o cliente. Conquistou a confiança. Preparou uma proposta. Investiu tempo em mensagens, reuniões e apresentações. E justamente quando faltava apenas conduzir os próximos minutos da conversa, tudo para.
-          </p>
+          <p className="ci-subtitle">O prejuízo de uma negociação perdida quase nunca aparece de uma vez. Ele se divide em quatro.</p>
         </div>
 
         <div className="ci-grid">

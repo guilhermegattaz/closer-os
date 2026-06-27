@@ -36,7 +36,7 @@ export function LeakMatrix() {
                   </div>
                 </div>
               </div>
-              <div className="lm-silence">— 48 horas de silêncio —</div>
+              <div className="lm-silence">48 horas de silêncio</div>
             </div>
             <p className="leak-sub">
               O orçamento foi visualizado, o cliente sumiu, e você não sabe como cobrar retorno sem parecer desesperado.
@@ -94,7 +94,7 @@ export function LeakMatrix() {
         <div className="leak-quote-card leak-quote-card--close fade-up">
           <div className="leak-quote-inner">
             <div className="leak-quote-text">
-              <p>Toda vez que uma conversa trava, <span className="leak-quote-hl">você perde mais do que dinheiro</span>. Perde o tempo que investiu, a confiança para cobrar o que vale e começa a acreditar que o problema é o seu preço, quando muitas vezes <span className="leak-quote-hl">faltava apenas saber como conduzir a conversa</span>.</p>
+              <p>Quando isso se repete, você começa a acreditar que o problema é o seu preço. <span className="leak-quote-hl">Na maioria das vezes, faltava apenas saber como conduzir a conversa.</span></p>
             </div>
           </div>
         </div>
