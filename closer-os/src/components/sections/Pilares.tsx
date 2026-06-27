@@ -1,45 +1,112 @@
-const pilares = [
+const steps = [
   {
-    num: '01',
-    title: 'ANTES DA REUNIÃO',
-    desc: 'Você abre a conversa com segurança, sem parecer ansioso ou genérico, e já desperta interesse e autoridade nos primeiros minutos.',
+    phase: 'PRIMEIRO CONTATO',
+    desc: 'O CloserOS ajuda você a iniciar conversas de forma natural e estratégica.',
+    example: 'Como começo essa conversa sem parecer invasivo?',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+      </svg>
+    ),
   },
   {
-    num: '02',
-    title: 'DURANTE A REUNIÃO',
-    desc: 'Você faz as perguntas certas e o cliente revela o que realmente importa pra ele, antes de qualquer preço entrar na mesa.',
+    phase: 'DIAGNÓSTICO',
+    desc: 'Cria roteiros de investigação para entender melhor o cliente antes de apresentar qualquer solução.',
+    example: 'Quais perguntas devo fazer?',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">
+        <circle cx="11" cy="11" r="8" />
+        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+      </svg>
+    ),
   },
   {
-    num: '03',
-    title: 'QUANDO QUESTIONA O PREÇO OU VAI PENSAR',
-    desc: 'Você sabe exatamente o que responder a "tá caro", "vou falar com meu sócio" ou "vou pensar", sem forçar, sem pressionar e sem diminuir o seu valor.',
+    phase: 'A REUNIÃO',
+    desc: 'Estrutura a conversa e organiza as perguntas mais importantes para conduzir a apresentação com clareza e confiança.',
+    example: 'Tenho uma reunião daqui a 20 minutos.',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">
+        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+        <circle cx="9" cy="7" r="4" />
+        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+      </svg>
+    ),
   },
   {
-    num: '04',
-    title: 'DEPOIS DA REUNIÃO',
-    desc: 'Você reativa conversas que pareciam perdidas com a mensagem certa, sem parecer insistente ou desesperado, e ganha uma nova chance de fechar.',
+    phase: 'PREÇO',
+    desc: 'Mostra como continuar a conversa sem entrar em defesa nem recorrer ao desconto automaticamente.',
+    example: 'O cliente achou caro.',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">
+        <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+        <line x1="7" y1="7" x2="7.01" y2="7" />
+      </svg>
+    ),
+  },
+  {
+    phase: 'FOLLOW-UP',
+    desc: 'Sugere formas naturais de retomar a conversa mantendo a sua autoridade.',
+    example: 'O cliente sumiu há quatro dias.',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="12 6 12 12 16 14" />
+      </svg>
+    ),
+  },
+  {
+    phase: 'FECHAMENTO',
+    desc: 'Ajuda você a conduzir os últimos minutos da negociação sem improvisar.',
+    example: 'Ele disse que vai pensar.',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+        <polyline points="22 4 12 14.01 9 11.01" />
+      </svg>
+    ),
   },
 ]
+
+const delays = ['d1', 'd2', 'd3', 'd4', 'd5', 'd6']
 
 export function Pilares() {
   return (
     <section id="pilares">
       <div className="container">
-        <div className="pilares-header fade-up">
-          <span className="eyebrow">O que está incluso</span>
-          <h2 className="h2">O CloserOS te acompanha em cada etapa da negociação:</h2>
+
+        <div className="tl-header fade-up">
+          <span className="eyebrow">DO PRIMEIRO CONTATO AO FECHAMENTO</span>
+          <h2 className="h2">
+            O CloserOS acompanha toda a conversa.<br className="br-mobile" />
+            Não apenas o momento em que ela trava.
+          </h2>
+          <p className="tl-subtitle">
+            Desde o primeiro contato até o fechamento, ele mostra qual é o próximo passo para conduzir a negociação com mais segurança. Você não precisa esperar uma objeção aparecer para usar.
+          </p>
         </div>
-        <div className="pilares-grid">
-          {pilares.map((p, i) => (
-            <div key={p.num} className={`pilar fade-up${i % 2 === 1 ? ' d1' : ''}`}>
-              <span className="pilar-num">{p.num}</span>
-              <div>
-                <div className="pilar-title">{p.title}</div>
-                <div className="pilar-desc">{p.desc}</div>
+
+        <div className="tl-track">
+          <div className="tl-steps">
+            {steps.map((s, i) => (
+              <div key={s.phase} className={`tl-step fade-up ${delays[i]}`}>
+                <div className="tl-dot" aria-hidden="true">{s.icon}</div>
+                <div className="tl-content">
+                  <div className="tl-phase">{s.phase}</div>
+                  <p className="tl-desc">{s.desc}</p>
+                  <p className="tl-example">&ldquo;{s.example}&rdquo;</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
+
+        <div className="tl-insight fade-up">
+          <p>A maioria das pessoas usa o CloserOS pela primeira vez quando uma negociação trava. Depois percebe que faz muito mais sentido abrir a ferramenta antes da conversa começar.</p>
+        </div>
+
+        <p className="tl-microcopy fade-up">Quanto antes você sabe qual é o próximo passo, menor a chance de precisar apagar incêndios depois.</p>
+
       </div>
     </section>
   )
