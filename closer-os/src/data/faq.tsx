@@ -23,6 +23,17 @@ export const faqItems: FaqItem[] = [
     resposta: 'Especialmente para quem não tem. O CloserOS™ foi criado para profissionais que são excelentes no que fazem, mas que nunca aprenderam a parte de vendas. Você não precisa saber nada sobre vendas, o sistema te guia em cada situação.',
   },
   {
+    id: 'f-robotico',
+    pergunta: 'Usar o CloserOS não vai me deixar com cara de robô ou genérico?',
+    resposta: (
+      <>
+        <p>Não. O CloserOS não coloca palavras na sua boca. Ele te mostra qual é o próximo passo da conversa e qual caminho faz mais sentido naquele momento. Quem conduz e quem fala continua sendo você, com as suas palavras.</p>
+        <p>Pense nele como alguém experiente do seu lado dizendo "aqui vale perguntar isso" ou "esse é o momento de segurar o preço". A decisão e o tom são sempre seus.</p>
+        <p>Na prática, a maioria das pessoas sente o contrário de ficar robótica: como para de improvisar no susto, a conversa flui mais natural e mais parecida com o seu melhor dia.</p>
+      </>
+    ),
+  },
+  {
     id: 'f3',
     pergunta: 'Funciona para qualquer tipo de serviço?',
     resposta: 'Sim. O CloserOS™ foi desenvolvido para qualquer profissional que vende serviços: consultores, terapeutas, designers, coaches, prestadores de serviços, agências e qualquer profissional que perde vendas na conversa por não saber o que dizer na hora certa.',
