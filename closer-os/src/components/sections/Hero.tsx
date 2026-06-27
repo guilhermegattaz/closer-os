@@ -55,9 +55,9 @@ export function Hero() {
             className="hero-cta-btn"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Quero saber o próximo passo"
+            aria-label="Quero saber o que dizer · R$67"
           >
-            Quero saber o próximo passo
+            Quero saber o que dizer · R$67
           </a>
           <p className="hero-subtexto">Acesso Imediato · Pagamento Único de R$67 · Sem Mensalidades</p>
         </div>
