@@ -5,6 +5,7 @@ import { StickyCTA } from './components/layout/StickyCTA'
 import {
   Hero,
   LeakMatrix,
+  CustoInvisivel,
   ComoPensa,
   ProfessionSelector,
   FerramentaNaoCurso,
@@ -68,6 +69,7 @@ export default function App() {
       <main id="main">
         <Hero />
         <LeakMatrix />
+        <CustoInvisivel />
         <FerramentaNaoCurso />
         <ComoPensa />
         <Pilares />
