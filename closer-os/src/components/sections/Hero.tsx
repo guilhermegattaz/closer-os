@@ -33,12 +33,12 @@ export function Hero() {
           Saiba exatamente o que dizer quando o cliente falar <span className="hl">&ldquo;vou pensar&rdquo;</span>, <span className="hl">&ldquo;tá caro&rdquo;</span> ou simplesmente <span className="hl">sumir depois da proposta</span>.
         */}
         <h1 className="hero-headline fade-up d1">
-          Saiba exatamente o que dizer em cada etapa da negociação.<br />
+          Saiba exatamente o que dizer em cada conversa com um cliente.<br />
           Do primeiro contato ao <span className="hl-wrap">&ldquo;fechado&rdquo;</span>.
         </h1>
 
         <p className="hero-sub fade-up d2">
-          Descreva a situação real da conversa e o CloserOS™ te mostra, em segundos, o próximo passo certo. Você para de improvisar e passa a conduzir cada negociação com segurança, até o cliente dizer sim.
+          Descreva a situação real da conversa e o CloserOS™ te mostra, em segundos, o próximo passo certo. Você para de improvisar e passa a conduzir cada conversa com segurança, até o cliente dizer sim.
         </p>
 
         <div className="fade-up d2">
