@@ -36,7 +36,7 @@ export function Hero() {
         </h1>
 
         <p className="hero-sub fade-up d2">
-          Descreva a situação real da conversa e o CloserOS™ te mostra, em segundos, o próximo passo certo. Você para de improvisar e passa a conduzir cada conversa com segurança, até o cliente dizer sim.
+          Você descreve o que aconteceu na conversa, antes, durante ou depois que o cliente sumiu, e o CloserOS™ mostra o próximo passo para conduzir até o cliente dizer sim.
         </p>
 
         <div className="fade-up d2">
