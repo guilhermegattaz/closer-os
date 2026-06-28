@@ -559,6 +559,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .ci-card {
   background: var(--accent-light); border-radius: var(--r-lg);
   padding: 28px 24px; display: flex; flex-direction: column; gap: 14px;
+  border: 1px solid var(--border); box-shadow: var(--elev-1);
 }
 .ci-card-icon { color: var(--accent); display: flex; }
 .ci-card-title { font-size: .95rem; font-weight: 700; color: var(--text); }
@@ -575,9 +576,12 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   text-align: center; font-size: .82rem; color: var(--text-3);
   font-style: italic; margin: 0;
 }
-/* Checklist-ponte */
+/* Checklist-ponte — plano de destaque (elev-2) */
 .ci-checklist {
   max-width: 560px; margin: 44px auto 0;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r-lg); padding: 32px;
+  box-shadow: var(--elev-2);
 }
 .ci-checklist-title {
   text-align: center; font-size: .88rem; color: var(--text-2);
@@ -610,6 +614,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   .ci-insight { padding: 24px 20px; }
   .ci-header { margin-bottom: 32px; }
   .ci-grid { margin-bottom: 36px; }
+  .ci-checklist { padding: 24px 16px; }
 }
 @media (min-width: 701px) and (max-width: 900px) {
   .ci-grid { grid-template-columns: repeat(2, 1fr); }
@@ -758,12 +763,14 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   flex-shrink: 0; align-self: flex-start; margin-top: 16px; padding: 0 2px;
 }
 
-/* Insight block */
+/* Insight block — painel estrutural sutil */
 .cp-insight {
   max-width: 640px; margin: 0 auto 28px;
   background: var(--section-bg-alt);
+  border: 1px solid var(--border);
   border-radius: var(--r-xl); padding: 32px;
   font-size: .93rem; color: var(--text); line-height: 1.7;
+  box-shadow: var(--elev-1);
 }
 .cp-insight p { margin: 0 0 12px; }
 .cp-insight p:last-child { margin-bottom: 0; }
@@ -797,6 +804,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   background: rgba(255,255,255,.85); border: 1px solid rgba(109,40,217,.18);
   border-radius: var(--r-lg); display: flex; flex-direction: column;
   align-items: center; text-align: center; gap: 6px;
+  box-shadow: var(--elev-1);
   transition: box-shadow .18s, transform .18s;
 }
 /* conector vertical de cada ramo */
@@ -1423,7 +1431,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .faq-list {
   display: flex; flex-direction: column;
   border: 1px solid var(--border); border-radius: var(--r-lg);
-  overflow: hidden; background: var(--card); box-shadow: var(--s-sm);
+  overflow: hidden; background: var(--card); box-shadow: var(--elev-2);
 }
 .faq-item { border-bottom: 1px solid var(--border); }
 .faq-item:last-child { border-bottom: none; }
@@ -1434,6 +1442,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   cursor: pointer; background: transparent; transition: background .15s;
 }
 .faq-q:hover { background: var(--bg); }
+.faq-item.open { border-left: 3px solid rgba(109,40,217,.22); }
 .faq-item.open .faq-q { background: var(--bg); color: var(--accent); }
 .faq-chevron {
   width: 17px; height: 17px; flex-shrink: 0; color: var(--text-3);
