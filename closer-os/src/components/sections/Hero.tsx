@@ -27,8 +27,6 @@ export function Hero() {
   return (
     <section id="hero">
       <div className="hero-center">
-        <span className="hero-micro fade-up"><span className="hero-micro-dot" aria-hidden="true"></span>Pare de perder clientes interessados</span>
-
         {/* ROLLBACK: headline anterior
           Saiba exatamente o que dizer quando o cliente falar <span className="hl">&ldquo;vou pensar&rdquo;</span>, <span className="hl">&ldquo;tá caro&rdquo;</span> ou simplesmente <span className="hl">sumir depois da proposta</span>.
         */}
