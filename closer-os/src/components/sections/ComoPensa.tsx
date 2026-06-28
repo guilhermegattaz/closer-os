@@ -100,6 +100,8 @@ export function ComoPensa() {
           Grandes negociações raramente são decididas pela melhor resposta. Normalmente são decididas pela melhor leitura da situação.
         </p>
 
+        <p className="cp-proof fade-up">Construído a partir de milhares de negociações reais, onde clientes foram perdidos por uma resposta errada ou recuperados pela resposta certa.</p>
+
         <p className="cp-microcopy fade-up">O CloserOS foi criado para ajudar você justamente nessa leitura.</p>
 
       </div>
