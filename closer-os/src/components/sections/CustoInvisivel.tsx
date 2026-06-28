@@ -73,6 +73,18 @@ export function CustoInvisivel() {
 
         <p className="ci-microcopy fade-up">É exatamente nesse momento que a maioria das vendas se perde.</p>
 
+        <div className="ci-checklist fade-up">
+          <p className="ci-checklist-title">Você provavelmente já viveu pelo menos uma destas:</p>
+          <ul className="ci-checklist-list">
+            <li>Abriu o WhatsApp, escreveu e apagou a mensagem mais de uma vez.</li>
+            <li>Não soube como cobrar um retorno sem parecer desesperado.</li>
+            <li>Deu desconto antes mesmo de o cliente pedir.</li>
+            <li>Saiu de uma reunião pensando "depois eu penso no que mando".</li>
+            <li>Reviveu uma conversa por dias, imaginando o que poderia ter dito.</li>
+          </ul>
+          <p className="ci-checklist-turn">Se você marcou pelo menos uma, o problema nunca foi esforço. Foi não saber qual era o próximo passo.</p>
+        </div>
+
       </div>
     </section>
   )
