@@ -1189,6 +1189,29 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
    #10  OFERTA
    ================================================================ */
 #oferta { padding: var(--sepy) 0; background: var(--section-bg); border-top: 1px solid var(--border); }
+.oferta-emotional {
+  text-align: center; margin-bottom: 44px;
+}
+.oferta-emotional-lead {
+  font-size: 1.1rem; font-weight: 600; color: var(--text);
+  max-width: 520px; margin: 0 auto 28px; line-height: 1.5; text-wrap: balance;
+}
+.oferta-emotional-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr);
+  gap: 12px 32px; max-width: 540px; margin: 0 auto;
+}
+.oferta-emotional-item {
+  display: flex; align-items: flex-start; gap: 10px;
+  font-size: .93rem; color: var(--text-2); line-height: 1.55; text-align: left;
+}
+.oferta-emotional-item::before {
+  content: ""; flex-shrink: 0; width: 7px; height: 7px;
+  border-radius: 50%; background: #6d28d9; margin-top: .47em;
+}
+@media (max-width: 640px) {
+  .oferta-emotional-grid { grid-template-columns: 1fr; gap: 10px; }
+  .oferta-emotional-lead { font-size: 1rem; }
+}
 .oferta-card {
   max-width: 560px; margin: 0 auto;
   background: var(--card); border: 1.5px solid var(--accent-ring);

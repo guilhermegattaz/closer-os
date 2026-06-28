@@ -57,9 +57,9 @@ export function ProfessionSelector() {
         </div>
 
         <div className="prof-card fade-up d2">
-          <span className="prof-label prof-label--dor">A Dor:</span>
+          <span className="prof-label prof-label--dor">ANTES:</span>
           <div className="prof-dor">{c.dor}</div>
-          <span className="prof-label prof-label--alivio">O Alívio com o CloserOS:</span>
+          <span className="prof-label prof-label--alivio">DEPOIS (com o CloserOS):</span>
           <div className="prof-alivio">{c.alivio}</div>
         </div>
       </div>

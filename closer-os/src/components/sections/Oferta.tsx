@@ -31,6 +31,16 @@ export function Oferta() {
   return (
     <section id="oferta">
       <div className="container">
+        <div className="oferta-emotional fade-up">
+          <p className="oferta-emotional-lead">No fundo, não é sobre vender mais. É sobre como você se sente em cada conversa.</p>
+          <div className="oferta-emotional-grid">
+            <div className="oferta-emotional-item">Enviar proposta e dormir tranquilo.</div>
+            <div className="oferta-emotional-item">Parar de remoer a conversa depois.</div>
+            <div className="oferta-emotional-item">Cobrar o preço cheio com naturalidade.</div>
+            <div className="oferta-emotional-item">Não temer a próxima objeção.</div>
+          </div>
+        </div>
+
         <div className="oferta-card fade-up">
 
           <div className="oferta-card-header">
