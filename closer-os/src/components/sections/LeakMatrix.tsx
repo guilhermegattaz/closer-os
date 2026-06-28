@@ -22,8 +22,22 @@ export function LeakMatrix() {
 
         <div className="leak-grid">
 
-          {/* Card 1 — O Vácuo (WhatsApp) */}
+          {/* Card 1 — A Página em Branco (primeiro contato) */}
           <div className="leak-card fade-up d1">
+            <span className="leak-tag">A Página em Branco</span>
+            <div className="lm-dark">
+              <div className="lm-row lm-row--start">
+                <div className="lm-bubble lm-bubble--recv">Bom dia! Como funciona? 😊</div>
+              </div>
+              <div className="lm-silence">você escreve, apaga, escreve, apaga…</div>
+            </div>
+            <p className="leak-sub">
+              O cliente chega interessado, e você trava no que responder. Sem clareza nem confiança para conduzir, a conversa esfria antes de começar.
+            </p>
+          </div>
+
+          {/* Card 2 — O Vácuo (WhatsApp) */}
+          <div className="leak-card fade-up d2">
             <span className="leak-tag">O Vácuo</span>
             <div className="lm-dark">
               <div className="lm-row lm-row--end">
@@ -43,8 +57,8 @@ export function LeakMatrix() {
             </p>
           </div>
 
-          {/* Card 2 — O Gelo na Reunião (Meet) */}
-          <div className="leak-card fade-up d2">
+          {/* Card 3 — O Gelo na Reunião (Meet) */}
+          <div className="leak-card fade-up d3">
             <span className="leak-tag">O Gelo na Reunião</span>
             <div className="lm-dark lm-meet">
               <div className="lm-meet-bar">
@@ -70,8 +84,8 @@ export function LeakMatrix() {
             </p>
           </div>
 
-          {/* Card 3 — O Desconto por Impulso (Chat) */}
-          <div className="leak-card fade-up d3">
+          {/* Card 4 — O Desconto por Impulso (Chat) */}
+          <div className="leak-card fade-up d4">
             <span className="leak-tag">O Desconto por Impulso</span>
             <div className="lm-dark">
               <div className="lm-row lm-row--start">
