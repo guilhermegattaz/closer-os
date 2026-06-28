@@ -34,6 +34,10 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   --s-sm: 0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
   --s-md: 0 4px 16px rgba(0,0,0,.08);
   --s-lg: 0 16px 56px rgba(0,0,0,.12);
+  /* Escala de elevação: luz superior, preta fria, sem roxo estrutural */
+  --elev-1: 0 1px 2px rgba(16,16,18,.06), 0 1px 3px rgba(16,16,18,.08);
+  --elev-2: 0 4px 12px -2px rgba(16,16,18,.08), 0 2px 6px -2px rgba(16,16,18,.06);
+  --elev-3: 0 16px 40px -12px rgba(16,16,18,.16), 0 4px 12px -4px rgba(16,16,18,.08);
 
   /* Text */
   --text:   #18181B;
@@ -238,7 +242,7 @@ body {
 /* Video */
 .vsl-wrap {
   border-radius: var(--r-xl); overflow: hidden; margin-bottom: 44px;
-  box-shadow: var(--accent-glow); background: #e8e4f8;
+  box-shadow: var(--elev-2); background: #e8e4f8;
 }
 .vsl-ratio { position: relative; padding-top: 56.25%; }
 /* fullscreen: remove overflow clip e transform residual de ancestrais */
@@ -304,7 +308,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   transition: background .18s, transform .18s;
   animation: pulse-accent 2.8s ease infinite;
 }
-.hero-cta-btn:hover { background: var(--accent-h); transform: translateY(-2px); animation: none; }
+.hero-cta-btn:hover { background: var(--accent-h); transform: translateY(-2px); animation: none; box-shadow: 0 8px 24px -8px rgba(109,40,217,.30); }
 .hero-subtexto {
   font-size: .78rem; color: var(--text-3); margin-top: 11px; letter-spacing: .01em;
 }
@@ -801,7 +805,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   width: 2px; height: 20px; background: rgba(109,40,217,.22);
 }
 .cp-situation:hover {
-  box-shadow: 0 4px 18px rgba(109,40,217,.12); transform: translateY(-2px);
+  box-shadow: var(--elev-2); transform: translateY(-2px);
 }
 .cp-sit-desc { font-size: .83rem; font-weight: 600; color: var(--text); margin: 0; }
 .cp-sit-arrow { color: var(--accent); font-size: .95rem; line-height: 1; display: none; }
@@ -912,7 +916,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   border-radius: 50%;
   background: #fff;
   border: 2px solid var(--accent);
-  box-shadow: 0 0 0 4px var(--section-bg-alt); /* "corta" a linha atrás */
+  box-shadow: var(--elev-1);
   display: flex; align-items: center; justify-content: center;
   color: var(--accent);
   position: relative; z-index: 2;
@@ -1316,7 +1320,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   max-width: 560px; margin: 0 auto;
   background: var(--card); border: 1.5px solid var(--accent-ring);
   border-radius: var(--r-xl); padding: 40px;
-  box-shadow: var(--accent-glow);
+  box-shadow: var(--elev-3);
   display: flex; flex-direction: column; gap: 26px;
 }
 .oferta-card-header { text-align: center; }
@@ -1372,7 +1376,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   cursor: pointer; transition: background .18s, transform .18s;
   animation: pulse-accent 2.8s ease infinite; text-align: center;
 }
-.oferta-cta-btn:hover { background: var(--accent-h); transform: translateY(-1px); animation: none; }
+.oferta-cta-btn:hover { background: var(--accent-h); transform: translateY(-1px); animation: none; box-shadow: 0 8px 24px -8px rgba(109,40,217,.30); }
 @media (max-width: 640px) { .oferta-cta-btn { font-size: 0.9375rem; } }
 .oferta-payment-info {
   text-align: center; font-size: .76rem; color: var(--text-3); margin-top: 10px;
@@ -1464,7 +1468,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 }
 .dc-card--destaque {
   border: 2px solid rgba(109,40,217,.30);
-  box-shadow: 0 8px 24px -8px rgba(109,40,217,.22);
+  box-shadow: var(--elev-2);
   overflow: hidden;
 }
 .dc-card-glow {
@@ -1524,7 +1528,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   max-width: 440px; width: 100%;
   transition: background .18s, transform .18s, box-shadow .18s;
 }
-.dc-cta-btn:hover { background: var(--accent-h); transform: translateY(-1px); box-shadow: 0 6px 16px rgba(109,40,217,.26); }
+.dc-cta-btn:hover { background: var(--accent-h); transform: translateY(-1px); box-shadow: 0 8px 24px -8px rgba(109,40,217,.30); }
 .dc-cta-sub { margin-top: 10px; font-size: .75rem; color: var(--text-3); text-align: center; }
 
 /* ================================================================
@@ -1563,7 +1567,7 @@ footer {
 #sticky-cta {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
   background: var(--card); border-top: 1px solid var(--border);
-  box-shadow: 0 -4px 28px rgba(0,0,0,.09);
+  /* sem shadow negativo — border-top serve como separador */
   transform: translateY(100%); transition: transform .32s ease;
   padding: 12px var(--px);
 }
