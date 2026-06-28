@@ -988,24 +988,30 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 /* ================================================================
    #8  AUTORIDADE
    ================================================================ */
-#autoridade { padding: var(--sepy) 0; background: var(--section-bg-alt); border-top: 1px solid var(--border); }
-.autor-headline{ margin-top:0; margin-bottom:20px; text-wrap:balance; }
-.autor-headline .hl{ color:var(--accent); }
+/* fundo grafite com luz superior sutil */
+#autoridade {
+  padding: var(--sepy) 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(109,40,217,.10) 0%, transparent 60%),
+    #0f0f12;
+  border-top: none;
+}
+.autor-headline { margin-top: 0; margin-bottom: 20px; text-wrap: balance; }
+/* roxo claro no escuro — mantém destaque com contraste AA */
+.autor-headline .hl { color: #a78bfa; }
 .autor-grid {
   display: grid; grid-template-columns: 1fr 380px; gap: 60px; align-items: center;
 }
-.autor-profile {
-  display: flex; align-items: center; gap: 14px; margin-bottom: 26px;
-}
+.autor-profile { display: flex; align-items: center; gap: 14px; margin-bottom: 26px; }
 .autor-avatar-sm {
   width: 54px; height: 54px; border-radius: 50%; overflow: hidden; flex-shrink: 0;
-  border: 2px solid var(--border-2); box-shadow: var(--s-sm);
+  border: 1px solid rgba(255,255,255,.12);
 }
 .autor-avatar-sm img { width: 100%; height: 100%; object-fit: cover; }
-.autor-name { font-size: 1rem; font-weight: 700; color: var(--text); }
-.autor-role { font-size: .77rem; color: var(--text-2); margin-top: 2px; line-height: 1.4; }
+.autor-name { font-size: 1rem; font-weight: 700; color: #f4f4f5; }
+.autor-role { font-size: .77rem; color: #a1a1aa; margin-top: 2px; line-height: 1.4; }
 .autor-bio { display: flex; flex-direction: column; gap: 14px; margin-bottom: 28px; }
-.autor-bio p { font-size: .91rem; line-height: 1.76; color: var(--text-2); }
+.autor-bio p { font-size: .91rem; line-height: 1.76; color: #a1a1aa; }
 .autor-cta {
   display: inline-flex; align-items: center; gap: 8px;
   padding: 14px 28px; border-radius: var(--r-lg);
@@ -1013,28 +1019,36 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   font-size: .9rem; font-weight: 700;
   transition: background .18s, transform .18s, box-shadow .18s;
 }
-.autor-cta:hover { background: var(--accent-h); transform: translateY(-1px); box-shadow: 0 6px 16px rgba(109,40,217,.26); }
+.autor-cta:hover {
+  background: var(--accent-h); transform: translateY(-1px);
+  box-shadow: 0 8px 24px -8px rgba(109,40,217,.35);
+}
+/* foto: borda sutil + sombra de profundidade (luz superior) */
 .autor-img {
   width: 100%; aspect-ratio: 3/4; border-radius: var(--r-lg) var(--r-lg) 0 0;
-  overflow: hidden; box-shadow: var(--s-md);
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: 0 24px 48px -16px rgba(0,0,0,.50);
 }
 .autor-img img {
   width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block;
 }
+/* barra de stats no escuro */
 .autor-stats-bar {
   display: grid; grid-template-columns: repeat(3,1fr);
-  background: var(--card); border: 1px solid var(--border);
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.10);
   border-top: none; border-radius: 0 0 var(--r-lg) var(--r-lg);
-  box-shadow: var(--s-sm); overflow: hidden;
+  overflow: hidden;
 }
 .autor-stat { padding: 16px 10px; text-align: center; }
-.autor-stat + .autor-stat { border-left: 1px solid var(--border); }
+.autor-stat + .autor-stat { border-left: 1px solid rgba(255,255,255,.10); }
 .autor-stat-num {
-  font-size: .988rem; font-weight: 800; color: var(--accent);
+  font-size: .988rem; font-weight: 800; color: #ffffff;
   letter-spacing: -.03em; line-height: 1.1;
 }
 .autor-stat-label {
-  font-size: .613rem; color: var(--text-2); margin-top: 4px; font-weight: 500; line-height: 1.35;
+  font-size: .613rem; color: #a1a1aa; margin-top: 4px; font-weight: 500; line-height: 1.35;
 }
 
 /* ================================================================
@@ -1579,7 +1593,7 @@ footer {
 @media (max-width: 900px) {
   .autor-grid { grid-template-columns: 1fr; }
   .autor-img { aspect-ratio: 4/3; max-height: 300px; border-radius: var(--r-lg) var(--r-lg) 0 0; }
-  .autor-stats-bar { border-top: 1px solid var(--border); border-radius: 0 0 var(--r-lg) var(--r-lg); align-items: stretch; }
+  .autor-stats-bar { border-top: 1px solid rgba(255,255,255,.10); border-radius: 0 0 var(--r-lg) var(--r-lg); align-items: stretch; }
   .autor-stat { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10px; }
   .autor-stat-label { margin-top: 3px; }
 }
