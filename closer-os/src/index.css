@@ -667,7 +667,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .guarantee-item{ display:inline-flex; align-items:center; gap:10px; font-size:15px; font-weight:700; color:#18181b; transition:transform .25s cubic-bezier(.2,.7,.2,1); }
 .guarantee-item:hover{ transform:translateY(-2px); }
 .ferra-guarantees .check-badge{ display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:9999px; background:rgba(109,40,217,0.12); border:1px solid rgba(109,40,217,0.28); color:#6d28d9; flex:0 0 auto; }
-.ferra-guarantees .check-badge svg{ width:13px; height:13px; stroke:currentColor; stroke-width:3; }
+.ferra-guarantees .check-badge svg{ width:13px; height:13px; stroke:currentColor; stroke-width:2; }
 .ferra-guarantees .divider{ width:1px; height:28px; align-self:center; background:linear-gradient(to bottom,transparent,rgba(24,24,27,0.12),transparent); }
 .ferra-closing {
   text-align: center; font-size: .95rem; font-weight: 500;

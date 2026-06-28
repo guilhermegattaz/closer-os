@@ -4,25 +4,25 @@ import { KIWIFY_URL } from '../../data/links'
 function StackIcon({ tipo, nome }: { tipo: string; nome: string }) {
   if (tipo === 'principal') {
     return (
-      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.8" width="16" height="16">
-        <path d="M3 5h14M3 10h14M3 15h8" strokeLinecap="round" />
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
+        <path d="M4 6h16M4 12h16M4 18h10" />
       </svg>
     )
   }
   if (nome.startsWith('Treinamento')) {
     return (
-      <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.8" width="16" height="16">
-        <circle cx="10" cy="10" r="8" />
-        <polygon points="8,7 14,10 8,13" fill="currentColor" stroke="none" />
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
+        <circle cx="12" cy="12" r="10" />
+        <polygon points="10,8 17,12 10,16" fill="currentColor" stroke="none" />
       </svg>
     )
   }
   return (
-    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.8" width="16" height="16">
-      <path d="M4 2h8l4 4v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z" />
-      <polyline points="12,2 12,6 16,6" />
-      <line x1="6" y1="9" x2="14" y2="9" />
-      <line x1="6" y1="12" x2="14" y2="12" />
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+      <polyline points="14,2 14,8 20,8" />
+      <line x1="8" y1="13" x2="16" y2="13" />
+      <line x1="8" y1="17" x2="16" y2="17" />
     </svg>
   )
 }

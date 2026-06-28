@@ -70,8 +70,8 @@ export function Hero() {
               {i > 0 && <span className="trust-sep" aria-hidden="true" />}
               <div className="trust-item">
                 <span className="trust-check" aria-hidden="true">
-                  <svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2.2">
-                    <polyline points="2,6 5,9 10,3" />
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <polyline points="4,12 10,18 20,6" />
                   </svg>
                 </span>
                 {item}
