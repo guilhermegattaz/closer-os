@@ -59,6 +59,16 @@ export const faqItems: FaqItem[] = [
     resposta: 'Não. Ele serve para qualquer momento em que você trava na conversa, do primeiro "oi" até a hora de fechar. Seja para abrir uma conversa, responder a um "tá caro" ou recuperar um cliente que sumiu, você descreve a situação e ele te diz o que dizer naquele momento.',
   },
   {
+    id: 'f-formato',
+    pergunta: 'Funciona em qualquer formato de conversa?',
+    resposta: (
+      <>
+        <p>Sim. WhatsApp, mensagem, ligação, reunião online ou presencial, antes da conversa começar, durante ou no follow-up depois que o cliente sumiu.</p>
+        <p>Você descreve onde a conversa está e recebe o próximo passo certo para aquele momento. Não importa o canal nem a etapa.</p>
+      </>
+    ),
+  },
+  {
     id: 'f-perfil',
     pergunta: 'Eu sou péssimo em vendas, acho que não tenho perfil. Funciona mesmo pra mim?',
     resposta: 'Funciona principalmente pra você. O CloserOS não exige nenhuma experiência em vendas. Ele foi feito justamente pra te guiar quando você não sabe o que fazer. Vender não é dom, é método. Você descreve a situação e ele te diz o caminho, passo a passo.',
