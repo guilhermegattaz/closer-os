@@ -69,7 +69,7 @@ export function Oferta() {
           </div>
 
           <p className="oferta-payback">
-            Se o CloserOS impedir apenas um desconto que você daria por insegurança... Ou recuperar apenas um cliente que iria embora... Ele já se pagou. O restante vira lucro.
+            Se o CloserOS impedir apenas um desconto que você daria por insegurança… Ou recuperar apenas um cliente que iria embora… Ele já se pagou. O restante vira lucro.
           </p>
 
           <div>

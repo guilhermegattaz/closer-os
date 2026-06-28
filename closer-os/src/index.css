@@ -1569,6 +1569,9 @@ footer {
   transition: background .18s;
 }
 .sticky-btn:hover { background: var(--accent-h); }
+@media (max-width: 380px) {
+  .sticky-btn { padding-left: 10px; padding-right: 10px; font-size: .73rem; }
+}
 
 /* ================================================================
    RESPONSIVE
