@@ -22,9 +22,9 @@ export function LeakMatrix() {
 
         <div className="leak-grid">
 
-          {/* Card 1 — A Página em Branco (primeiro contato) */}
+          {/* Card 1 — Não tem estratégia (primeiro contato) */}
           <div className="leak-card fade-up d1">
-            <span className="leak-tag">A Página em Branco</span>
+            <span className="leak-tag">Não tem estratégia</span>
             <div className="lm-dark">
               <div className="lm-row lm-row--start">
                 <div className="lm-bubble lm-bubble--recv">Bom dia! Como funciona? 😊</div>
