@@ -741,21 +741,49 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .cp-insight p { margin: 0 0 12px; }
 .cp-insight p:last-child { margin-bottom: 0; }
 .cp-insight-lead { font-size: 1.02rem; font-weight: 700; }
+/* Decision tree — nó raiz */
 .cp-quote-client {
-  font-size: 1rem; font-weight: 700; color: var(--accent);
-  font-style: italic; margin: 14px 0 16px;
+  font-size: 1rem; font-weight: 700; color: var(--accent); font-style: italic;
+  text-align: center;
+  background: rgba(109,40,217,.08); border: 1.5px solid rgba(109,40,217,.22);
+  border-radius: var(--r-xl); padding: 14px 28px;
+  margin: 14px auto 0; display: table;
 }
+.cp-quote-client::after {
+  content: ""; display: block;
+  width: 2px; height: 20px;
+  background: rgba(109,40,217,.25); margin: 0 auto;
+}
+/* Decision tree — 3 ramos */
 .cp-situations {
-  display: flex; flex-direction: column; gap: 10px; margin: 0 0 16px;
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 12px; margin: 0 0 16px; position: relative;
+}
+/* barra horizontal conectando os 3 ramos ao nó */
+.cp-situations::before {
+  content: ""; position: absolute;
+  top: 0; left: calc(100% / 6); right: calc(100% / 6);
+  height: 2px; background: rgba(109,40,217,.22);
 }
 .cp-situation {
-  background: rgba(255,255,255,.7); border-radius: var(--r-lg);
-  padding: 14px 16px; display: flex; flex-direction: column;
-  align-items: flex-start; gap: 4px;
+  position: relative; padding: 22px 14px 14px;
+  background: rgba(255,255,255,.85); border: 1px solid rgba(109,40,217,.18);
+  border-radius: var(--r-lg); display: flex; flex-direction: column;
+  align-items: center; text-align: center; gap: 6px;
+  transition: box-shadow .18s, transform .18s;
 }
-.cp-sit-desc { font-size: .88rem; font-weight: 600; color: var(--text); margin: 0; }
-.cp-sit-arrow { color: var(--accent); font-size: .95rem; line-height: 1; }
-.cp-sit-step { font-size: .82rem; color: var(--text-2); margin: 0; font-style: italic; }
+/* conector vertical de cada ramo */
+.cp-situation::before {
+  content: ""; position: absolute;
+  top: 0; left: 50%; transform: translateX(-50%);
+  width: 2px; height: 20px; background: rgba(109,40,217,.22);
+}
+.cp-situation:hover {
+  box-shadow: 0 4px 18px rgba(109,40,217,.12); transform: translateY(-2px);
+}
+.cp-sit-desc { font-size: .83rem; font-weight: 600; color: var(--text); margin: 0; }
+.cp-sit-arrow { color: var(--accent); font-size: .95rem; line-height: 1; display: none; }
+.cp-sit-step { font-size: .79rem; color: var(--accent); margin: 0; font-weight: 600; }
 
 /* Frase final */
 .cp-final-statement {
@@ -788,8 +816,15 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   .cp-step-content { min-width: 0; }
   .cp-connector { align-self: center; margin: 2px 0 2px 19px; transform: rotate(90deg); }
   .cp-insight { padding: 24px 20px; }
-  .cp-situation { padding: 12px 14px; }
-  .cp-sit-arrow { align-self: flex-start; }
+  /* decision tree → coluna única no mobile */
+  .cp-quote-client { display: block; max-width: 100%; margin-top: 14px; }
+  .cp-quote-client::after { display: none; }
+  .cp-situations { grid-template-columns: 1fr; gap: 10px; }
+  .cp-situations::before { display: none; }
+  .cp-situation { align-items: flex-start; text-align: left; padding: 12px 14px; }
+  .cp-situation::before { display: none; }
+  .cp-situation:hover { transform: none; box-shadow: none; }
+  .cp-sit-arrow { display: block; }
   .cp-final-statement { font-size: .97rem; padding-top: 20px; }
   .cp-header { margin-bottom: 32px; }
   .cp-flow { margin-bottom: 36px; }
