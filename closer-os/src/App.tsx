@@ -11,6 +11,7 @@ import {
   FerramentaNaoCurso,
   Pilares,
   Autoridade,
+  Respiro,
   Provas,
   Oferta,
   Faq,
@@ -75,6 +76,7 @@ export default function App() {
         <Pilares />
         <ProfessionSelector />
         <Provas />
+        <Respiro />
         <Autoridade />
         <Oferta />
         <DoisCaminhos />
