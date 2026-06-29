@@ -352,7 +352,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .leak-card {
   background: var(--card); border: 1px solid var(--border);
   border-radius: var(--r-lg); padding: 28px 22px;
-  box-shadow: var(--s-sm); display: flex; flex-direction: column; gap: 18px;
+  box-shadow: var(--elev-1); display: flex; flex-direction: column; gap: 18px;
 }
 .leak-tag {
   font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
@@ -400,7 +400,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   overflow: hidden;
   border: 1px solid var(--border);
   background: var(--card);
-  box-shadow: var(--s-sm);
+  box-shadow: var(--elev-1);
 }
 .leak-quote-card--intro { margin-bottom: 32px; }
 
@@ -514,7 +514,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .prof-card {
   background: var(--card); border: 1px solid var(--border);
   border-radius: var(--r-lg); padding: 32px;
-  box-shadow: var(--s-sm); animation: fadein .22s ease;
+  box-shadow: var(--elev-1); animation: fadein .22s ease;
 }
 .prof-label {
   font-size: .66rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
@@ -668,7 +668,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .ferra-chat-input span{ flex:1; font-size:13px; color:#52525b; }
 .ferra-send{ width:36px; height:36px; border:none; border-radius:50%; background:var(--accent,#6d28d9); color:#fff; font-size:16px; cursor:pointer; }
 
-.ferra-guarantees{ display:flex; align-items:center; justify-content:space-around; flex-wrap:wrap; gap:16px; max-width:760px; margin:56px auto 0; padding:18px 24px; background:#fff; border:1px solid rgba(24,24,27,0.08); border-radius:var(--r); box-shadow:0 8px 24px -16px rgba(24,24,27,0.15); }
+.ferra-guarantees{ display:flex; align-items:center; justify-content:space-around; flex-wrap:wrap; gap:16px; max-width:760px; margin:56px auto 0; padding:18px 24px; background:#fff; border:1px solid rgba(24,24,27,0.08); border-radius:var(--r); box-shadow:var(--elev-1); }
 .guarantee-item{ display:inline-flex; align-items:center; gap:10px; font-size:15px; font-weight:700; color:#18181b; transition:transform .25s cubic-bezier(.2,.7,.2,1); }
 .guarantee-item:hover{ transform:translateY(-2px); }
 .ferra-guarantees .check-badge{ display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:9999px; background:rgba(109,40,217,0.12); border:1px solid rgba(109,40,217,0.28); color:#6d28d9; flex:0 0 auto; }
@@ -1090,7 +1090,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   width: 100%; aspect-ratio: 3/4; border-radius: var(--r-lg) var(--r-lg) 0 0;
   overflow: hidden;
   border: 1px solid rgba(255,255,255,.08);
-  box-shadow: 0 24px 48px -16px rgba(0,0,0,.50);
+  box-shadow: var(--elev-2);
 }
 .autor-img img {
   width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block;
@@ -1570,7 +1570,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   max-width: 640px; margin: 0 auto;
   background: var(--card); border: 1px solid rgba(109,40,217,.15);
   border-radius: var(--r-lg); padding: 32px; overflow: hidden;
-  box-shadow: var(--s-sm), 0 8px 24px -8px rgba(0,0,0,.06);
+  box-shadow: var(--elev-1);
   text-align: center;
 }
 .dc-cost-text {
