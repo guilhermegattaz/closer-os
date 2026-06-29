@@ -609,9 +609,12 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   background-size: 12px; background-repeat: no-repeat; background-position: center;
 }
 .ci-checklist-turn {
-  text-align: center; font-size: .97rem; font-weight: 700;
+  text-align: center; font-size: 17px; font-weight: 700;
   color: var(--text); line-height: 1.5; margin: 0; text-wrap: balance;
+  margin-top: 24px; padding-top: 24px;
+  border-top: 1px solid var(--border);
 }
+.ci-turn-hl { color: var(--accent); }
 /* Mobile */
 @media (max-width: 700px) {
   .ci-grid { grid-template-columns: 1fr; gap: 12px; }
@@ -619,6 +622,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   .ci-header { margin-bottom: 32px; }
   .ci-grid { margin-bottom: 36px; }
   .ci-checklist { padding: 24px; }
+  .ci-checklist-turn { font-size: 16px; }
 }
 @media (min-width: 701px) and (max-width: 900px) {
   .ci-grid { grid-template-columns: repeat(2, 1fr); }

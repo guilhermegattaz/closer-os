@@ -82,7 +82,7 @@ export function CustoInvisivel() {
             <li>Saiu de uma reunião pensando "depois eu penso no que mando".</li>
             <li>Reviveu uma conversa por dias, imaginando o que poderia ter dito.</li>
           </ul>
-          <p className="ci-checklist-turn">Se você marcou pelo menos uma, o problema nunca foi esforço. Foi não saber qual era o próximo passo.</p>
+          <p className="ci-checklist-turn">Se você marcou pelo menos uma, o problema nunca foi esforço. Foi não <span className="ci-turn-hl">saber qual era o próximo passo</span>.</p>
         </div>
 
       </div>
