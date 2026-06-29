@@ -629,6 +629,34 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 }
 
 /* ================================================================
+   #5b ESPERANÇA — micro-respiro de transição (Fase C.2)
+   ================================================================ */
+#esperanca {
+  padding: 96px 0;
+  background: var(--section-bg-alt);
+}
+.esperanca-container {
+  max-width: 680px;
+  text-align: center;
+}
+.esperanca-mark {
+  display: block;
+  font-size: 10.88px; font-weight: 700; letter-spacing: 1.5px;
+  text-transform: uppercase; color: var(--accent);
+  margin-bottom: 16px;
+}
+.esperanca-frase {
+  font-size: clamp(22px, 3vw, 30px); font-weight: 500;
+  line-height: 1.4; letter-spacing: -0.4px;
+  color: var(--text); margin: 0;
+  text-wrap: balance;
+}
+.esperanca-hl { color: var(--accent); }
+@media (max-width: 600px) {
+  #esperanca { padding: 64px 0; }
+}
+
+/* ================================================================
    #6  FERRAMENTA NÃO CURSO
    ================================================================ */
 #ferramenta { padding: 128px 0; background: #f6f6f6; border-top: 1px solid var(--border); }
@@ -697,7 +725,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 @media(max-width:320px){
   .ferra-guarantees{ flex-wrap:wrap; row-gap:6px; }
 }
-.ferra-video-wrap{ width:100%; max-width:480px; margin-inline:auto; border-radius:0; overflow:hidden; box-sizing:border-box; position:relative; aspect-ratio:980/1868; }
+.ferra-video-wrap{ width:100%; max-width:480px; margin-inline:auto; border-radius:0; overflow:hidden; box-sizing:border-box; position:relative; aspect-ratio:9/16; }
 .ferra-demo-video{ display:block; width:100%; height:100%; object-fit:cover; object-position:center center; box-sizing:border-box; }
 
 @media (min-width:901px){

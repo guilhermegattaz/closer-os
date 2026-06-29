@@ -1,6 +1,7 @@
 export { Hero } from './Hero'
 export { ComoPensa } from './ComoPensa'
 export { CustoInvisivel } from './CustoInvisivel'
+export { Esperanca } from './Esperanca'
 export { ProvaFaixa } from './ProvaFaixa'
 export { LeakMatrix } from './LeakMatrix'
 export { ProfessionSelector } from './ProfessionSelector'
