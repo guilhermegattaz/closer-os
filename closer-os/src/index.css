@@ -163,22 +163,16 @@ body {
 }
 .nav-inner {
   max-width: var(--mw); margin: 0 auto; padding: 0 var(--px);
-  height: 60px; display: flex; align-items: center; justify-content: space-between;
+  height: 60px; display: flex; align-items: center; justify-content: flex-start;
 }
 .nav-logo { display: flex; align-items: center; }
 .nav-logo-img { height: 30px; width: auto; display: block; }
 @media (max-width: 640px) { .nav-logo-img { height: 25px; } }
-.nav-launch-badge {
-  padding: 5px 13px; border-radius: var(--r-pill);
-  font-size: .63rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
-  background: transparent; color: #6d28d9; border: 1px solid #18181b;
-}
-
 /* ================================================================
    #2  HERO
    ================================================================ */
 #hero {
-  padding: clamp(48px,8vw,96px) 0 clamp(40px,4vw,56px);
+  padding: 120px 0 clamp(40px,4vw,56px);
   background: var(--section-bg);
 }
 .hero-center {
@@ -345,7 +339,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
    ================================================================ */
 #leak { padding: var(--sepy) 0 48px; background: var(--section-bg-alt); border-top: 1px solid var(--border); }
 @media (max-width: 640px) {
-  #hero { padding-bottom: var(--sepy); }
+  #hero { padding-top: 80px; padding-bottom: var(--sepy); }
   #leak { padding-bottom: var(--sepy); }
 }
 .leak-header { text-align: center; margin-bottom: 48px; }
