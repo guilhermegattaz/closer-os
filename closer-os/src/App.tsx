@@ -8,6 +8,7 @@ import {
   CustoInvisivel,
   Esperanca,
   TrabalhoPerdidoBloco,
+  TodaRespostaBloco,
   ComoPensa,
   ProfessionSelector,
   FerramentaNaoCurso,
@@ -76,11 +77,7 @@ export default function App() {
         <CustoInvisivel />
         <Esperanca />
         <FerramentaNaoCurso />
-        <section id="img-todaresposta" className="img-bloco">
-          <div className="img-bloco-inner">
-            <img className="img-bloco-img" src="/images/todaresposta.webp" alt="Toda resposta" loading="lazy" width="1728" height="910" />
-          </div>
-        </section>
+        <TodaRespostaBloco />
         <ComoPensa />
         <section id="img-acompanhatudo" className="img-bloco">
           <div className="img-bloco-inner">
