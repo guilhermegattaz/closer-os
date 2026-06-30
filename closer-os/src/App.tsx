@@ -71,10 +71,25 @@ export default function App() {
       <main id="main">
         <Hero />
         <LeakMatrix />
+        <section id="img-trabalhoperdido" className="img-bloco">
+          <div className="img-bloco-inner">
+            <img className="img-bloco-img" src="/images/trabalhoperdido.webp" alt="Trabalho perdido" loading="lazy" width="1728" height="910" />
+          </div>
+        </section>
         <CustoInvisivel />
         <Esperanca />
         <FerramentaNaoCurso />
+        <section id="img-todaresposta" className="img-bloco">
+          <div className="img-bloco-inner">
+            <img className="img-bloco-img" src="/images/todaresposta.webp" alt="Toda resposta" loading="lazy" width="1728" height="910" />
+          </div>
+        </section>
         <ComoPensa />
+        <section id="img-acompanhatudo" className="img-bloco">
+          <div className="img-bloco-inner">
+            <img className="img-bloco-img" src="/images/acompanhatudo.webp" alt="Acompanha tudo" loading="lazy" width="1728" height="910" />
+          </div>
+        </section>
         <Pilares />
         <ProfessionSelector />
         <Provas />
