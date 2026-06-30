@@ -462,6 +462,67 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 }
 
 /* ================================================================
+   TRABALHO PERDIDO BLOCO — seção nativa (Fase C / timeline 01-06)
+   ================================================================ */
+.tp-card {
+  background: #f5f6f6; border-radius: var(--r-lg); overflow: hidden;
+  position: relative; padding: 56px 48px; box-shadow: var(--elev-1);
+}
+.tp-deco {
+  position: absolute; inset: 0; overflow: hidden;
+  pointer-events: none; border-radius: var(--r-lg);
+}
+.tp-circle-r {
+  position: absolute; width: 700px; height: 700px; border-radius: 50%;
+  background: radial-gradient(circle, #ffffff 0%, #eef0f2 55%, transparent 80%);
+  opacity: 0.5; right: -240px; top: 50%; transform: translateY(-50%);
+}
+.tp-arc-bl {
+  position: absolute; width: 420px; height: 420px; border-radius: 50%;
+  background: radial-gradient(circle, #ebebed 0%, transparent 65%);
+  opacity: 0.45; bottom: -160px; left: -100px;
+}
+.tp-dots {
+  position: absolute;
+  background-image: radial-gradient(circle, #d9d9de 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
+}
+.tp-dots--tl { top: 32px; left: 32px; width: 84px; height: 70px; }
+.tp-dots--br { bottom: 32px; right: 32px; width: 84px; height: 70px; }
+
+.tp-content { position: relative; z-index: 1; text-align: center; }
+.tp-headline {
+  font-size: clamp(28px, 5vw, 52px); font-weight: 700; line-height: 1.08; margin: 0;
+}
+.tp-hl-dark  { color: var(--text); }
+.tp-hl-accent { color: var(--accent); }
+.tp-sub {
+  margin: 24px auto 0; color: var(--text-2); font-weight: 400;
+  font-size: clamp(15px, 2vw, 18px); line-height: 1.5; max-width: 620px; text-align: center;
+}
+
+.tp-tl-wrap { margin-top: 48px; position: relative; z-index: 1; }
+.tp-tl-h { display: block; width: 100%; }
+.tp-tl-v { display: none; width: 100%; }
+
+.tp-footer {
+  margin-top: 40px; text-align: center; position: relative; z-index: 1;
+  font-size: 22px; font-weight: 700;
+}
+.tp-logo-closer { color: var(--text); }
+.tp-logo-os    { color: var(--accent); }
+.tp-logo-tm    { font-size: .52em; color: var(--text-3); font-weight: 400; vertical-align: super; margin-left: 1px; }
+
+@media (max-width: 860px) {
+  .tp-tl-h { display: none; }
+  .tp-tl-v { display: block; }
+}
+@media (max-width: 640px) {
+  .tp-card { padding: 32px 20px; }
+  .tp-dots--tl, .tp-dots--br { display: none; }
+}
+
+/* ================================================================
    #5  PROFESSION SELECTOR
    ================================================================ */
 #profissao {

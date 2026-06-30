@@ -7,6 +7,7 @@ import {
   LeakMatrix,
   CustoInvisivel,
   Esperanca,
+  TrabalhoPerdidoBloco,
   ComoPensa,
   ProfessionSelector,
   FerramentaNaoCurso,
@@ -71,11 +72,7 @@ export default function App() {
       <main id="main">
         <Hero />
         <LeakMatrix />
-        <section id="img-trabalhoperdido" className="img-bloco">
-          <div className="img-bloco-inner">
-            <img className="img-bloco-img" src="/images/trabalhoperdido.webp" alt="Trabalho perdido" loading="lazy" width="1728" height="910" />
-          </div>
-        </section>
+        <TrabalhoPerdidoBloco />
         <CustoInvisivel />
         <Esperanca />
         <FerramentaNaoCurso />
