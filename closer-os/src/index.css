@@ -24,7 +24,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   --bg-2: #F4F4F5;
   --card: #FFFFFF;
   --section-bg:     #ffffff;
-  --section-bg-alt: #f4f1fb;
+  --section-bg-alt: #ebebee;
 
   /* Borders */
   --border:   rgba(24,24,27,.08);  /* borda neutra unica - cards */
