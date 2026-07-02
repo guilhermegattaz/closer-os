@@ -71,31 +71,6 @@ export function ComoPensa() {
 
         </div>
 
-        <div className="cp-insight fade-up">
-          <p className="cp-insight-lead">A mesma frase pode exigir respostas completamente diferentes.</p>
-          <p className="cp-quote-client">Cliente: &ldquo;Vou pensar.&rdquo;</p>
-
-          <div className="cp-situations">
-            <div className="cp-situation">
-              <p className="cp-sit-desc">Ainda não enxergou valor.</p>
-              <span className="cp-sit-arrow">↓</span>
-              <p className="cp-sit-step">O próximo passo pode ser aprofundar o problema.</p>
-            </div>
-            <div className="cp-situation">
-              <p className="cp-sit-desc">Gostou da proposta, mas precisa conversar com outra pessoa.</p>
-              <span className="cp-sit-arrow">↓</span>
-              <p className="cp-sit-step">O próximo passo pode ser organizar essa decisão.</p>
-            </div>
-            <div className="cp-situation">
-              <p className="cp-sit-desc">Está apenas adiando uma resposta.</p>
-              <span className="cp-sit-arrow">↓</span>
-              <p className="cp-sit-step">O próximo passo pode ser criar clareza sobre a prioridade.</p>
-            </div>
-          </div>
-
-          <p>A frase é exatamente a mesma. Mas a estratégia muda completamente. É por isso que o CloserOS primeiro entende o contexto, antes de sugerir qualquer mensagem.</p>
-        </div>
-
         <p className="cp-final-statement fade-up">
           Grandes negociações raramente são decididas pela melhor resposta. Normalmente são decididas pela melhor leitura da situação.
         </p>

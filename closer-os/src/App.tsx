@@ -6,8 +6,6 @@ import {
   LeakMatrix,
   CustoInvisivel,
   Esperanca,
-  TrabalhoPerdidoBloco,
-  TodaRespostaBloco,
   ComoPensa,
   ProfessionSelector,
   FerramentaNaoCurso,
@@ -71,17 +69,10 @@ export default function App() {
       <main id="main">
         <Hero />
         <LeakMatrix />
-        <TrabalhoPerdidoBloco />
         <CustoInvisivel />
         <Esperanca />
         <FerramentaNaoCurso />
-        <TodaRespostaBloco />
         <ComoPensa />
-        <section id="img-acompanhatudo" className="img-bloco">
-          <div className="img-bloco-inner">
-            <img className="img-bloco-img" src="/images/acompanhatudo.webp" alt="Acompanha tudo" loading="lazy" width="1728" height="910" />
-          </div>
-        </section>
         <Pilares />
         <ProfessionSelector />
         <Provas />

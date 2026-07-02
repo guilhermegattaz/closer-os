@@ -65,10 +65,6 @@ export function Autoridade() {
 
         </div>
 
-        <div className="virada-bloco fade-up">
-          <p className="virada-frase">O próximo &ldquo;<span className="virada-hl">fechado</span>&rdquo; pode estar a uma resposta de distância.</p>
-        </div>
-
       </div>
     </section>
   )
