@@ -14,7 +14,7 @@ function VturbHeroPlayer() {
   return (
     <vturb-smartplayer
       id="vid-6a446a53848157530b637061"
-      style={{ display: 'block', margin: '0 auto', width: '100%' }}
+      style={{ display: 'block', margin: '0 auto', width: '100%', '--player-border-radius': '28px' } as React.CSSProperties}
     />
   )
 }
