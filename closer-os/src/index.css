@@ -1560,11 +1560,9 @@ footer {
 #sticky-cta {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
   background: var(--card); border-top: 1px solid var(--border);
-  /* sem shadow negativo — border-top serve como separador */
-  transform: translateY(100%); transition: transform .32s ease;
+  transform: translateY(0); transition: transform .32s ease;
   padding: 12px var(--px);
 }
-#sticky-cta.visible { transform: translateY(0); }
 .sticky-inner {
   max-width: var(--mw); margin: 0 auto;
   display: flex; align-items: center; justify-content: space-between; gap: 16px;
