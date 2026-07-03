@@ -5,9 +5,9 @@ export function ComoPensa() {
 
         <div className="cp-header fade-up">
           <span className="eyebrow">COMO ELE PENSA</span>
-          <h2 className="h2">Toda resposta começa muito antes da resposta.</h2>
+          <h2 className="h2">Ele pensa por você e te ajuda na melhor decisão.</h2>
           <p className="cp-subtitle">
-            Antes de sugerir qualquer frase, o CloserOS faz a mesma coisa que um negociador experiente faria mentalmente: ele tenta entender o que realmente está acontecendo naquela conversa, antes de dizer qualquer coisa.
+            Antes de sugerir o que dizer, o CloserOS faz a mesma coisa que um negociador experiente faria: ele primeiro entende o que está acontecendo naquela conversa.
           </p>
         </div>
 
@@ -65,15 +65,11 @@ export function ComoPensa() {
             </div>
             <div className="cp-step-content">
               <p className="cp-step-title">Agora sim: o que dizer.</p>
-              <p className="cp-step-desc">A resposta nasce da estratégia, não o contrário.</p>
+              <p className="cp-step-desc">A resposta nasce da estratégia, não o contrário. Ele acompanha toda a conversa com o cliente.</p>
             </div>
           </div>
 
         </div>
-
-        <p className="cp-final-statement fade-up">
-          Grandes negociações raramente são decididas pela melhor resposta. Normalmente são decididas pela melhor leitura da situação.
-        </p>
 
         <p className="cp-proof fade-up">Construído a partir de milhares de negociações reais, onde clientes foram perdidos por uma resposta errada ou recuperados pela resposta certa.</p>
 

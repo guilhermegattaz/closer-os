@@ -82,7 +82,7 @@ export function Pilares() {
             Não apenas o momento em que ela trava.
           </h2>
           <p className="tl-subtitle">
-            Desde o primeiro contato até o fechamento, ele mostra qual é o próximo passo para conduzir a negociação com mais segurança. Você não precisa esperar uma objeção aparecer para usar.
+            O CloserOS acompanha toda a conversa, do primeiro contato até o fechamento. Não apenas o momento em que ela trava. Sempre que surgir uma dúvida durante uma conversa com um cliente, ele pode ajudar você a decidir o próximo passo.
           </p>
         </div>
 
