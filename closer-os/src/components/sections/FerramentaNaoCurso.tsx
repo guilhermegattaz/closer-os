@@ -26,15 +26,17 @@ export function FerramentaNaoCurso() {
         <div className="ferra-head fade-up visible">
           <span className="eyebrow">Como funciona</span>
           <h2 className="ferra-title">Receba a resposta certa em <span className="hl">menos de 1 minuto.</span></h2>
-          <p className="ferra-sub">Veja, na prática, como é a conversa real entre você e o CloserOS.</p>
+          <p className="ferra-sub">Você não precisa aprender vendas. Nem escrever prompts. Basta mostrar ao CloserOS o que aconteceu. O restante da conversa ele constrói junto com você.</p>
         </div>
+
+        <p className="ferra-legend fade-up">Veja quatro situações reais sendo resolvidas pelo CloserOS.</p>
 
         <div className="ferra-demo">
           <div className="ferra-step ferra-step--left fade-up visible">
             <span className="ferra-step-num">01</span>
             <div>
-              <h3 className="ferra-step-title">Descreva a situação</h3>
-              <p className="ferra-step-desc">Envie áudio ou mensagem, conte o que o cliente disse ou o que aconteceu na conversa.</p>
+              <h3 className="ferra-step-title">Conte ao CloserOS o que aconteceu.</h3>
+              <p className="ferra-step-desc">Enviei a mensagem do cliente, um áudio ou o print. Ou explique a situação.</p>
             </div>
           </div>
 
@@ -58,14 +60,14 @@ export function FerramentaNaoCurso() {
               <span className="ferra-step-num">02</span>
               <div>
                 <h3 className="ferra-step-title">O CloserOS analisa</h3>
-                <p className="ferra-step-desc">Lê contexto, intenção por trás e emoção da conversa em poucos segundos como um especialista.</p>
+                <p className="ferra-step-desc">Entende o contexto e a intenção por trás do cliente em poucos segundos como um especialista.</p>
               </div>
             </div>
             <div className="ferra-step fade-up visible">
               <span className="ferra-step-num">03</span>
               <div>
                 <h3 className="ferra-step-title">Receba o que dizer</h3>
-                <p className="ferra-step-desc">Resposta cirúrgica, no tom certo, pronto para copiar e colar ou para dizer na próxima conversa.</p>
+                <p className="ferra-step-desc">Resposta cirúrgica, adaptada ao seu jeito, pronta para copiar e colar ou para dizer na próxima conversa.</p>
               </div>
             </div>
           </div>
@@ -76,25 +78,25 @@ export function FerramentaNaoCurso() {
             <span className="check-badge">
               <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" /></svg>
             </span>
-            <span>Sem improvisar</span>
+            <span>Se adapta a você</span>
           </div>
           <div className="divider" aria-hidden="true" />
           <div className="guarantee-item">
             <span className="check-badge">
               <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" /></svg>
             </span>
-            <span>Sem sair dando desconto</span>
+            <span>Resposta em segundos</span>
           </div>
           <div className="divider" aria-hidden="true" />
           <div className="guarantee-item">
             <span className="check-badge">
               <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" /></svg>
             </span>
-            <span>Sem travar</span>
+            <span>Prático e seguro</span>
           </div>
         </div>
 
-        <p className="ferra-closing fade-up">Você sai de cada conversa sabendo que conduziu. Não torcendo para ter acertado.</p>
+        <p className="ferra-closing fade-up">É como conversar com alguém que entende exatamente o momento da conversa e ajuda você a decidir o próximo passo.</p>
       </div>
     </section>
   )

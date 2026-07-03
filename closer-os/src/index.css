@@ -706,6 +706,11 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .ferra-guarantees .check-badge{ display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:9999px; background:rgba(109,40,217,0.12); border:1px solid rgba(109,40,217,0.28); color:#6d28d9; flex:0 0 auto; }
 .ferra-guarantees .check-badge svg{ width:13px; height:13px; stroke:currentColor; stroke-width:2; }
 .ferra-guarantees .divider{ width:1px; height:28px; align-self:center; background:linear-gradient(to bottom,transparent,rgba(24,24,27,0.12),transparent); }
+.ferra-legend {
+  text-align: center; font-size: 15px; color: var(--text-2);
+  max-width: 640px; margin: 0 auto var(--space-4);
+  line-height: 1.5; overflow-wrap: break-word;
+}
 .ferra-closing {
   text-align: center; font-size: .95rem; font-weight: 500;
   color: var(--text); max-width: 520px; margin: 32px auto 0;
