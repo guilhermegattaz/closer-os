@@ -1,5 +1,32 @@
-import { useState } from 'react'
+import { useState, useRef, useLayoutEffect } from 'react'
 import { faqItems } from '../../data/faq.tsx'
+
+function FaqAnswer({ isOpen, children }: { isOpen: boolean; children: React.ReactNode }) {
+  const ref = useRef<HTMLDivElement>(null)
+
+  useLayoutEffect(() => {
+    const el = ref.current
+    if (!el) return
+    if (isOpen) {
+      el.style.maxHeight = el.scrollHeight + 'px'
+      el.style.opacity = '1'
+    } else {
+      el.style.maxHeight = '0'
+      el.style.opacity = '0'
+    }
+  }, [isOpen])
+
+  return (
+    <div
+      ref={ref}
+      className="faq-a"
+      style={{ maxHeight: 0, opacity: 0, overflow: 'hidden', transition: 'max-height 0.25s ease, opacity 0.2s ease' }}
+      aria-hidden={!isOpen}
+    >
+      {children}
+    </div>
+  )
+}
 
 export function Faq() {
   const [openId, setOpenId] = useState<string | null>('f-prompt')
@@ -27,7 +54,7 @@ export function Faq() {
                     <polyline points="6,9 12,15 18,9" />
                   </svg>
                 </button>
-                {isOpen && <div className="faq-a">{item.resposta}</div>}
+                <FaqAnswer isOpen={isOpen}>{item.resposta}</FaqAnswer>
               </div>
             )
           })}
