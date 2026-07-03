@@ -8,7 +8,7 @@ export function Autoridade() {
         <div className="autor-grid">
 
           <div className="fade-up">
-            <h2 className="h2 autor-headline"><span className="hl">Ainda não me conhece?</span> Tudo bem.</h2>
+            <h2 className="h2 autor-headline">O CloserOS nasceu depois de milhares de conversas exatamente como essas.</h2>
             <div className="autor-profile">
               <div className="autor-avatar-sm">
                 <img
@@ -27,6 +27,7 @@ export function Autoridade() {
               <p>Era perdida porque o profissional simplesmente não sabia o que dizer quando a conversa travava, quando ouvia &ldquo;tá caro&rdquo;, &ldquo;vou pensar&rdquo; ou &ldquo;preciso conversar com minha esposa/sócio&rdquo;.</p>
               <p>Depois de mais de R$9 milhões em vendas conduzidas pessoalmente, transformei o que realmente funciona nessas situações no CloserOS™: uma ferramenta simples que mostra exatamente o que dizer quando uma conversa trava.</p>
               <p>Não é teoria. É o que funciona no mundo real.</p>
+              <p>E agora você pode utilizar exatamente a mesma lógica nas suas próximas conversas com clientes.</p>
             </div>
 
             <a
