@@ -1,67 +1,56 @@
-import { useState } from 'react'
-
-const tabs = [
-  'Designers, Gestores de Tráfego e Freelancers',
-  'Psicólogos, Terapeutas e Nutricionistas',
-  'Consultores, Mentores e Donos de Agência',
-]
-
-const content = [
+const blocks = [
   {
-    dor: 'Você confunde competência técnica com poder de fechar. Manda o preço por mensagem, toma vácuo e acaba trabalhando o dobro por metade do valor porque cede desconto para não perder o cliente.',
-    alivio: 'Você terá roteiros de resposta exatos para defender o valor do seu trabalho, segurar o preço cheio com confiança e nunca mais improvisar do zero. Chega de perder o cliente que já queria te contratar.',
+    title: 'Você domina o que faz.',
+    text: 'Mas quando o cliente faz uma pergunta inesperada, você sente que poderia responder melhor.',
   },
   {
-    dor: 'Vender seu atendimento parece quase antiético. Você hesita no preço, transforma triagens em mini-consultas gratuitas exaustivas e vê pacientes que precisavam de ajuda sumirem dizendo que \'vão pensar\'.',
-    alivio: 'Descubra como conduzir a primeira conversa como um convite natural e humano. Ajudar o seu paciente a tomar a decisão de começar o tratamento é cuidar dele. Quem sai na dúvida "pra não ser pressionado" é quem mais perde.',
+    title: 'Você já perdeu clientes...',
+    text: '...e ficou pensando depois: "Se eu tivesse respondido diferente, talvez essa venda tivesse acontecido."',
   },
   {
-    dor: 'Suas propostas são impecáveis, mas quando o lead esfria após a reunião, você não sabe como reabrir a conversa sem parecer carente. Fica refém do improviso e perde contratos óbvios na mesa de negociação.',
-    alivio: 'Um processo replicável de fechamento. Troque o improviso por perguntas cirúrgicas que fazem o próprio cliente se convencer, sem você precisar pressionar ou diminuir sua autoridade.',
+    title: 'Você evita parecer insistente.',
+    text: 'Então muitas vezes demora para fazer um follow-up ou simplesmente deixa a conversa morrer.',
+  },
+  {
+    title: 'Você sabe fazer o seu trabalho.',
+    text: 'Mas apresentar o preço ainda gera insegurança em algumas situações.',
+  },
+  {
+    title: 'Você conversa com clientes praticamente todos os dias.',
+    text: 'Mesmo assim, algumas respostas continuam difíceis.',
+  },
+  {
+    title: 'Você não quer aprender técnicas complicadas.',
+    text: 'Só quer saber exatamente o que responder quando a conversa sair do roteiro.',
   },
 ]
 
 export function ProfessionSelector() {
-  const [active, setActive] = useState(0)
-  const c = content[active]
-
   return (
     <section id="profissao">
       <div className="prof-inner">
         <div className="prof-header fade-up">
           <span className="eyebrow">Para quem é</span>
           <h2 className="h2">
-            Toque na sua profissão e veja<br className="br-mobile" /> como o CloserOS muda o seu jogo:
+            Você provavelmente vai se identificar com pelo menos uma destas situações.
           </h2>
+          <p className="pq-sub">
+            Você não precisa trabalhar com vendas para viver isso. Basta conversar com clientes, apresentar um orçamento ou depender de novas vendas para crescer.
+          </p>
         </div>
 
-        <div className="prof-qualify fade-up d1">
-          <ul className="pq-list">
-            <li>Você presta serviços ou vende o seu conhecimento?</li>
-            <li>Você depende de conversas e reuniões para fechar clientes?</li>
-            <li>Você já sentiu que perdeu vendas sem entender exatamente o porquê?</li>
-          </ul>
-          <p className="pq-bridge">Se respondeu sim, provavelmente vai se identificar com um destes perfis:</p>
-        </div>
-
-        <div className="prof-tabs fade-up d1">
-          {tabs.map((tab, i) => (
-            <button
-              key={tab}
-              className={`prof-tab${active === i ? ' prof-tab--active' : ''}`}
-              onClick={() => setActive(i)}
-            >
-              {tab}
-            </button>
+        <div className="pq-blocks-grid fade-up d1">
+          {blocks.map((block) => (
+            <div className="pq-block" key={block.title}>
+              <p className="pq-block-title">{block.title}</p>
+              <p className="pq-block-text">{block.text}</p>
+            </div>
           ))}
         </div>
 
-        <div className="prof-card fade-up d2">
-          <span className="prof-label prof-label--dor">ANTES:</span>
-          <div className="prof-dor">{c.dor}</div>
-          <span className="prof-label prof-label--alivio">DEPOIS (com o CloserOS):</span>
-          <div className="prof-alivio">{c.alivio}</div>
-        </div>
+        <p className="pq-impact fade-up d2">
+          Não importa se você vende um serviço, uma consultoria, um tratamento, um projeto ou qualquer outra solução. Sempre que existir uma conversa importante com um cliente, o CloserOS pode ajudar.
+        </p>
       </div>
     </section>
   )
