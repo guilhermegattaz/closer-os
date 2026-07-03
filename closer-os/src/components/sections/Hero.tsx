@@ -27,12 +27,12 @@ export function Hero() {
           Saiba exatamente o que dizer quando o cliente falar <span className="hl">&ldquo;vou pensar&rdquo;</span>, <span className="hl">&ldquo;tá caro&rdquo;</span> ou simplesmente <span className="hl">sumir depois da proposta</span>.
         */}
         <h1 className="hero-headline fade-up d1">
-          Saiba exatamente o que dizer em cada conversa com um cliente. Do primeiro{' '}
-          <span className="hero-nb">contato ao <span className="hl-wrap">&ldquo;fechado&rdquo;</span>.</span>
+          Chega de perder clientes porque você não sabe o que responder.
         </h1>
 
         <p className="hero-sub fade-up d2">
-          Você descreve o que aconteceu na conversa, antes, durante ou depois que o cliente sumiu, e o CloserOS™ mostra o próximo passo para conduzir até o cliente dizer sim.
+          Quando um cliente diz &ldquo;está caro&rdquo;, &ldquo;vou pensar&rdquo;, pede desconto ou simplesmente para de responder, você não precisa mais improvisar.<br /><br />
+          Descreva rapidamente o que aconteceu, envie a mensagem, o print ou o áudio da conversa e receba exatamente como continuar.
         </p>
 
         <div className="fade-up d2">
@@ -49,18 +49,18 @@ export function Hero() {
             className="hero-cta-btn"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Quero saber o que dizer · R$67"
+            aria-label="Eu quero o meu"
           >
-            Quero saber o que dizer · R$67
+            Eu quero o meu
           </a>
-          <p className="hero-subtexto">Acesso Imediato · Pagamento Único de R$67 · Sem Mensalidades</p>
+          <p className="hero-subtexto">Comece em menos de 2 minutos.</p>
         </div>
 
         <div className="trust-bar fade-up d3">
           {[
-            'Sem instalar nada',
-            'Scripts em Segundos',
-            'Garantia de 7 Dias',
+            'Compra Segura',
+            'Privacidade Protegida',
+            'Pagamento único',
           ].map((item, i) => (
             <Fragment key={item}>
               {i > 0 && <span className="trust-sep" aria-hidden="true" />}
