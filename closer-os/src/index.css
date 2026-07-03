@@ -309,7 +309,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   transition: background .2s cubic-bezier(.2,.7,.2,1), transform .2s cubic-bezier(.2,.7,.2,1), box-shadow .2s cubic-bezier(.2,.7,.2,1);
   animation: pulse-accent 2.8s ease infinite;
 }
-.hero-cta-btn:hover { background: #5b21b6; transform: translateY(-2px); animation: none; box-shadow: 0 14px 32px -8px rgba(109,40,217,.44); }
+.hero-cta-btn:hover { animation: none; }
 .hero-subtexto {
   font-size: .78rem; color: var(--text-3); margin-top: 8px; letter-spacing: .01em;
 }
@@ -932,10 +932,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   box-shadow: 0 8px 24px -8px rgba(109,40,217,.32);
   transition: background .2s cubic-bezier(.2,.7,.2,1), transform .2s cubic-bezier(.2,.7,.2,1), box-shadow .2s cubic-bezier(.2,.7,.2,1);
 }
-.autor-cta:hover {
-  background: #5b21b6; transform: translateY(-2px);
-  box-shadow: 0 14px 32px -8px rgba(109,40,217,.44);
-}
+.autor-cta:hover {}
 /* foto: borda sutil + sombra de profundidade (luz superior) */
 .autor-img {
   width: 100%; aspect-ratio: 3/4; border-radius: var(--r-lg) var(--r-lg) 0 0;
@@ -1310,7 +1307,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   transition: background .2s cubic-bezier(.2,.7,.2,1), transform .2s cubic-bezier(.2,.7,.2,1), box-shadow .2s cubic-bezier(.2,.7,.2,1);
   animation: pulse-accent 2.8s ease infinite; text-align: center;
 }
-.oferta-cta-btn:hover { background: #5b21b6; transform: translateY(-2px); animation: none; box-shadow: 0 14px 32px -8px rgba(109,40,217,.44); }
+.oferta-cta-btn:hover { animation: none; }
 @media (max-width: 640px) { .oferta-cta-btn { font-size: 0.9375rem; } }
 .oferta-payment-info {
   text-align: center; font-size: .76rem; color: var(--text-3); margin-top: 10px;
@@ -1465,8 +1462,36 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   box-shadow: 0 8px 24px -8px rgba(109,40,217,.32);
   transition: background .2s cubic-bezier(.2,.7,.2,1), transform .2s cubic-bezier(.2,.7,.2,1), box-shadow .2s cubic-bezier(.2,.7,.2,1);
 }
-.dc-cta-btn:hover { background: #5b21b6; transform: translateY(-2px); box-shadow: 0 14px 32px -8px rgba(109,40,217,.44); }
+.dc-cta-btn:hover {}
 .dc-cta-sub { margin-top: 10px; font-size: .75rem; color: var(--text-3); text-align: center; }
+
+/* ── CTA buttons — shared premium style ── */
+.hero-cta-btn,
+.autor-cta,
+.oferta-cta-btn,
+.dc-cta-btn {
+  border-radius: 9999px;
+  padding: 16px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  color: oklch(1 0 0);
+  background: linear-gradient(oklch(0.68 0.26 293), oklch(0.55 0.28 293));
+  box-shadow:
+    0px 10px 30px -10px oklch(0.62 0.26 293 / 0.6),
+    0px 1px 0px 0px oklch(1 0 0 / 0.25) inset;
+  border: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hero-cta-btn:hover,
+.autor-cta:hover,
+.oferta-cta-btn:hover,
+.dc-cta-btn:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0px 14px 34px -10px oklch(0.62 0.26 293 / 0.7),
+    0px 1px 0px 0px oklch(1 0 0 / 0.3) inset;
+}
 
 /* ================================================================
    #13  FOOTER
