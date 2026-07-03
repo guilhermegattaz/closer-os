@@ -40,8 +40,8 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   --elev-3: 0 16px 40px -12px rgba(16,16,18,.16), 0 4px 12px -4px rgba(16,16,18,.08);
 
   /* Spacing scale (cards) */
-  --space-1: 8px; --space-2: 16px; --space-3: 24px;
-  --space-4: 32px; --space-6: 48px; --space-8: 64px;
+  --space-1: 8px;  --space-2: 16px; --space-3: 24px; --space-4: 32px;
+  --space-5: 40px; --space-6: 48px; --space-7: 56px; --space-8: 64px;
 
   /* Text */
   --text:   #18181B;
