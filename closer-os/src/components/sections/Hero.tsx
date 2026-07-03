@@ -31,8 +31,7 @@ export function Hero() {
         </h1>
 
         <p className="hero-sub fade-up d2">
-          Quando um cliente diz &ldquo;está caro&rdquo;, &ldquo;vou pensar&rdquo;, pede desconto ou simplesmente para de responder, você não precisa mais improvisar.<br /><br />
-          Descreva rapidamente o que aconteceu, envie a mensagem, o print ou o áudio da conversa e receba exatamente como continuar.
+          Quando um cliente diz &ldquo;está caro&rdquo;, &ldquo;vou pensar&rdquo;, pede desconto ou simplesmente para de responder, você não precisa mais improvisar. Descreva rapidamente o que aconteceu, envie a mensagem, o print ou o áudio da conversa e receba exatamente como continuar.
         </p>
 
         <div className="fade-up d2">
@@ -49,9 +48,9 @@ export function Hero() {
             className="hero-cta-btn"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Eu quero o meu"
+            aria-label="Quero o CloserOS"
           >
-            Eu quero o meu
+            Quero o CloserOS
           </a>
           <p className="hero-subtexto">Comece em menos de 2 minutos.</p>
         </div>

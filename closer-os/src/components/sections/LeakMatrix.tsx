@@ -11,9 +11,6 @@ export function LeakMatrix() {
         <div className="leak-quote-card leak-quote-card--intro fade-up d1">
           <div className="leak-quote-inner">
             <p className="leak-sub">Você perde clientes porque chega um momento da conversa em que não sabe exatamente o que responder. E isso se repete toda semana.</p>
-            <div className="leak-quote-text">
-              <p>Você fez o trabalho mais difícil. A reunião aconteceu. O interesse existia. A proposta foi enviada. <span className="leak-quote-hl">Mesmo assim, a conversa morreu…</span> E não foi porque faltava interesse.</p>
-            </div>
           </div>
         </div>
 

@@ -1458,7 +1458,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
    #13  FOOTER
    ================================================================ */
 footer {
-  padding: 48px var(--px) 88px;
+  padding: 48px var(--px) 48px;
   background: var(--bg-2); border-top: 1px solid var(--border);
 }
 .footer-inner {
