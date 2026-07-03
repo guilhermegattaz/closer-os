@@ -5,7 +5,6 @@ import {
   Hero,
   LeakMatrix,
   CustoInvisivel,
-  Esperanca,
   ComoPensa,
   ProfessionSelector,
   FerramentaNaoCurso,
@@ -70,7 +69,6 @@ export default function App() {
         <Hero />
         <LeakMatrix />
         <CustoInvisivel />
-        <Esperanca />
         <FerramentaNaoCurso />
         <ComoPensa />
         <Pilares />

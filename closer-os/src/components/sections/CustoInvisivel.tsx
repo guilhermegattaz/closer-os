@@ -68,22 +68,16 @@ export function CustoInvisivel() {
         </div>
 
         <div className="ci-insight fade-up">
-          <p>A maioria das pessoas acredita que precisa aprender a vender melhor. Mas, muitas vezes, o que falta não é falar mais. É saber qual é o próximo passo quando a conversa muda de direção.</p>
+          <p>O problema raramente começa quando o cliente diz &ldquo;vou pensar&rdquo;. Na maioria das vezes, ele começa alguns minutos antes.</p>
+          <p>Em uma pergunta que ficou sem aprofundamento. Em um preço apresentado cedo demais. Em uma resposta enviada por impulso. Ou simplesmente porque você não sabia exatamente como continuar a conversa.</p>
         </div>
 
-        <p className="ci-microcopy fade-up">É exatamente nesse momento que a maioria das vendas se perde.</p>
-
-        <div className="ci-checklist fade-up">
-          <p className="ci-checklist-title">Você provavelmente já viveu pelo menos uma destas:</p>
-          <ul className="ci-checklist-list">
-            <li>Abriu o WhatsApp, escreveu e apagou a mensagem mais de uma vez.</li>
-            <li>Não soube como cobrar um retorno sem parecer desesperado.</li>
-            <li>Deu desconto antes mesmo de o cliente pedir.</li>
-            <li>Saiu de uma reunião pensando "depois eu penso no que mando".</li>
-            <li>Reviveu uma conversa por dias, imaginando o que poderia ter dito.</li>
-          </ul>
-          <p className="ci-checklist-turn">Se você marcou pelo menos uma, o problema nunca foi esforço. Foi não <span className="ci-turn-hl">saber qual era o próximo passo</span>.</p>
+        <div className="ci-impact fade-up">
+          <p>Você não precisa recuperar uma venda.</p>
+          <p>Precisa evitar perdê-la no momento em que a conversa muda de direção.</p>
         </div>
+
+        <p className="ci-transition fade-up">É exatamente para esse momento que o CloserOS foi criado.</p>
 
       </div>
     </section>
