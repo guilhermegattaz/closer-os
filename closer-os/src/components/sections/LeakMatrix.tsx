@@ -7,13 +7,10 @@ export function LeakMatrix() {
           <h2 className="h2">A maioria das vendas não morre no preço. <span className="hl-wrap">Morre na resposta errada.</span></h2>
         </div>
 
-        {/* Abertura: pill + 1º parágrafo — antes dos cards */}
+        {/* Abertura: subtítulo + 1º parágrafo — antes dos cards */}
         <div className="leak-quote-card leak-quote-card--intro fade-up d1">
           <div className="leak-quote-inner">
-            <div className="leak-quote-pill">
-              <span className="leak-quote-dot" aria-hidden="true" />
-              Isso se repete toda semana
-            </div>
+            <p className="leak-sub">Você perde clientes porque chega um momento da conversa em que não sabe exatamente o que responder. E isso se repete toda semana.</p>
             <div className="leak-quote-text">
               <p>Você fez o trabalho mais difícil. A reunião aconteceu. O interesse existia. A proposta foi enviada. <span className="leak-quote-hl">Mesmo assim, a conversa morreu…</span> E não foi porque faltava interesse.</p>
             </div>
@@ -22,9 +19,9 @@ export function LeakMatrix() {
 
         <div className="leak-grid">
 
-          {/* Card 1 — Não tem estratégia (primeiro contato) */}
+          {/* Card 1 — Não tem padrão (primeiro contato) */}
           <div className="leak-card fade-up d1">
-            <span className="leak-tag">Não tem estratégia</span>
+            <span className="leak-tag">Não tem padrão</span>
             <div className="lm-dark">
               <div className="lm-row lm-row--start">
                 <div className="lm-bubble lm-bubble--recv">Bom dia! Como funciona? 😊</div>
@@ -36,9 +33,9 @@ export function LeakMatrix() {
             </p>
           </div>
 
-          {/* Card 2 — O Vácuo (WhatsApp) */}
+          {/* Card 2 — Tudo parecia certo (WhatsApp) */}
           <div className="leak-card fade-up d2">
-            <span className="leak-tag">O Vácuo</span>
+            <span className="leak-tag">Tudo parecia certo</span>
             <div className="lm-dark">
               <div className="lm-row lm-row--end">
                 <div className="lm-bubble lm-bubble--sent">
@@ -57,9 +54,9 @@ export function LeakMatrix() {
             </p>
           </div>
 
-          {/* Card 3 — O Gelo na Reunião (Meet) */}
+          {/* Card 3 — O silêncio na reunião (Meet) */}
           <div className="leak-card fade-up d3">
-            <span className="leak-tag">O Gelo na Reunião</span>
+            <span className="leak-tag">O silêncio na reunião</span>
             <div className="lm-dark lm-meet">
               <div className="lm-meet-bar">
                 <span className="lm-meet-bar-left"><span className="lm-rec-dot" /> Gravando</span>
@@ -108,9 +105,15 @@ export function LeakMatrix() {
         <div className="leak-quote-card leak-quote-card--close fade-up">
           <div className="leak-quote-inner">
             <div className="leak-quote-text">
-              <p>Quando isso se repete, você começa a acreditar que o problema é o seu preço. <span className="leak-quote-hl">Na maioria das vezes, faltava apenas saber como conduzir a conversa.</span></p>
+              <p>Esses momentos parecem pequenos. Mas é justamente neles que a maioria das vendas acontece… ou deixa de acontecer.</p>
             </div>
           </div>
+        </div>
+
+        {/* Frase de transição */}
+        <div className="leak-transition fade-up">
+          <p>E o pior é que, quase sempre, o problema não está na sua proposta.</p>
+          <p className="leak-transition-sub">Está na resposta que veio alguns minutos antes.</p>
         </div>
 
       </div>
