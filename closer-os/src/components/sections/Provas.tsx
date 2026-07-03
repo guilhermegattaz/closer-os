@@ -6,7 +6,7 @@ export function Provas() {
       <div className="container">
         <div className="provas-header fade-up">
           <span className="eyebrow">Resultados reais</span>
-          <h2 className="h2">Depoimentos de quem usa o CloserOS.</h2>
+          <h2 className="h2">Quem começa a usar o CloserOS percebe a diferença na primeira conversa importante.</h2>
           <p className="provas-disclaimer">Mensagens reais, compartilhadas com permissão. Nomes e @ alterados para preservar a privacidade.</p>
         </div>
 
@@ -196,7 +196,7 @@ export function Provas() {
 
         </div>
 
-        <p className="provas-closing fade-up">O que muda aqui não é sorte. É parar de improvisar e saber o próximo passo. Foi só isso que cada uma dessas pessoas fez diferente.</p>
+        <p className="provas-closing fade-up">O objetivo nunca foi criar vendedores melhores. Foi fazer com que pessoas comuns soubessem exatamente o que responder quando isso realmente importasse.</p>
       </div>
     </section>
   )
