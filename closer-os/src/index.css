@@ -1484,37 +1484,6 @@ footer {
 .footer-copy { font-size: .71rem; color: var(--text-3); line-height: 1.65; }
 
 /* ================================================================
-   STICKY CTA
-   ================================================================ */
-#sticky-cta {
-  position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
-  background: var(--card); border-top: 1px solid var(--border);
-  transform: translateY(0); transition: transform .32s ease;
-  padding: 12px var(--px);
-  padding-bottom: max(12px, env(safe-area-inset-bottom));
-}
-.sticky-inner {
-  max-width: var(--mw); margin: 0 auto;
-  display: flex; align-items: center; justify-content: space-between; gap: 16px;
-}
-.sticky-label { display: flex; flex-direction: column; gap: 1px; }
-.sticky-label small { font-size: .71rem; color: var(--text-2); }
-.sticky-label strong { font-size: 1.1rem; font-weight: 800; color: var(--text); }
-.sticky-btn {
-  display: inline-flex; align-items: center; gap: 6px;
-  padding: 12px 16px; border-radius: var(--r-sm);
-  background: var(--accent); color: #fff;
-  font-size: .78rem; font-weight: 700; cursor: pointer; white-space: nowrap;
-  min-height: 44px;
-  box-shadow: 0 8px 24px -8px rgba(109,40,217,.32);
-  transition: background .2s cubic-bezier(.2,.7,.2,1), box-shadow .2s cubic-bezier(.2,.7,.2,1);
-}
-.sticky-btn:hover { background: #5b21b6; box-shadow: 0 14px 32px -8px rgba(109,40,217,.44); }
-@media (max-width: 380px) {
-  .sticky-btn { padding-left: 10px; padding-right: 10px; font-size: .73rem; }
-}
-
-/* ================================================================
    RESPONSIVE
    ================================================================ */
 @media (max-width: 900px) {

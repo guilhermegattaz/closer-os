@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import { Footer } from './components/layout/Footer'
-import { StickyCTA } from './components/layout/StickyCTA'
 import {
   Hero,
   LeakMatrix,
@@ -81,7 +80,6 @@ export default function App() {
         <Faq />
       </main>
       <Footer />
-      <StickyCTA />
     </>
   )
 }
