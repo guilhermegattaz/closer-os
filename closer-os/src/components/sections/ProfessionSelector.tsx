@@ -32,7 +32,7 @@ export function ProfessionSelector() {
         <div className="prof-header fade-up">
           <span className="eyebrow">Para quem é</span>
           <h2 className="h2">
-            Você provavelmente vai se identificar com pelo menos uma destas situações.
+            Você provavelmente vai se identificar com <span className="text-gradient">pelo menos uma destas situações.</span>
           </h2>
           <p className="pq-sub">
             Você não precisa trabalhar com vendas para viver isso. Basta conversar com clientes, apresentar um orçamento ou depender de novas vendas para crescer.

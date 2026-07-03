@@ -7,7 +7,7 @@ export function DoisCaminhos() {
 
         <div className="dc-header fade-up">
           <div className="dc-eyebrow-pill">A DECISÃO É SUA</div>
-          <h2 className="h2">A partir daqui, você tem dois caminhos.</h2>
+          <h2 className="h2">A partir daqui, você tem <span className="text-gradient">dois caminhos.</span></h2>
         </div>
 
         <div className="dc-grid">

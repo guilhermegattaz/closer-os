@@ -36,7 +36,7 @@ export function Faq() {
       <div className="container-sm">
         <div className="faq-header fade-up">
           <span className="eyebrow">Perguntas frequentes</span>
-          <h2 className="h2">Ainda tem dúvidas?</h2>
+          <h2 className="h2">Ainda tem <span className="text-gradient">dúvidas?</span></h2>
           <p className="body-lg" style={{ marginTop: 8 }}>Tudo o que você precisa saber antes de começar.</p>
         </div>
         <div className="faq-list fade-up d1">

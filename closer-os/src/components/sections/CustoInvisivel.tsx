@@ -52,7 +52,7 @@ export function CustoInvisivel() {
           <span className="eyebrow">O CUSTO INVISÍVEL</span>
           <h2 className="h2">
             Você provavelmente não está perdendo clientes.<br className="br-mobile" />
-            Está perdendo todo o trabalho que veio antes deles.
+            <span className="text-gradient">Está perdendo todo o trabalho que veio antes deles.</span>
           </h2>
           <p className="ci-subtitle">O prejuízo de uma negociação perdida quase nunca aparece de uma vez. Ele se divide em quatro.</p>
         </div>

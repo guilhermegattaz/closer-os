@@ -6,7 +6,7 @@ export function Provas() {
       <div className="container">
         <div className="provas-header fade-up">
           <span className="eyebrow">Resultados reais</span>
-          <h2 className="h2">Quem começa a usar o CloserOS percebe a diferença na primeira conversa importante.</h2>
+          <h2 className="h2">Quem começa a usar o CloserOS percebe a diferença na <span className="text-gradient">primeira conversa importante.</span></h2>
           <p className="provas-disclaimer">Mensagens reais, compartilhadas com permissão. Nomes e @ alterados para preservar a privacidade.</p>
         </div>
 

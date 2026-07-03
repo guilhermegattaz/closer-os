@@ -4,7 +4,7 @@ export function LeakMatrix() {
       <div className="container">
         <div className="leak-header fade-up">
           <span className="eyebrow">O diagnóstico</span>
-          <h2 className="h2">A maioria das vendas não morre no preço. <span className="hl-wrap">Morre na resposta errada.</span></h2>
+          <h2 className="h2">A maioria das vendas não morre no preço. <span className="hl-wrap text-gradient">Morre na resposta errada.</span></h2>
         </div>
 
         {/* Abertura: subtítulo + 1º parágrafo — antes dos cards */}

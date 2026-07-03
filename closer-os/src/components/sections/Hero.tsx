@@ -27,7 +27,7 @@ export function Hero() {
           Saiba exatamente o que dizer quando o cliente falar <span className="hl">&ldquo;vou pensar&rdquo;</span>, <span className="hl">&ldquo;tá caro&rdquo;</span> ou simplesmente <span className="hl">sumir depois da proposta</span>.
         */}
         <h1 className="hero-headline fade-up d1">
-          Chega de perder clientes porque você <span className="hl">não sabe o que responder</span>.
+          Chega de perder clientes porque você <span className="hl text-gradient">não sabe o que responder</span>.
         </h1>
 
         <p className="hero-sub fade-up d2">

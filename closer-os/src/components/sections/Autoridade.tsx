@@ -8,7 +8,7 @@ export function Autoridade() {
         <div className="autor-grid">
 
           <div className="fade-up">
-            <h2 className="h2 autor-headline">O CloserOS nasceu depois de milhares de conversas exatamente como essas.</h2>
+            <h2 className="h2 autor-headline">O CloserOS nasceu depois de <span className="text-gradient">milhares de conversas</span> exatamente como essas.</h2>
             <div className="autor-profile">
               <div className="autor-avatar-sm">
                 <img
