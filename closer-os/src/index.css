@@ -208,21 +208,8 @@ body {
   position: relative;
 }
 
-#hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  background-image:
-    radial-gradient(600px 300px at 15% 10%, rgba(109, 40, 217, 0.18), rgba(0, 0, 0, 0) 60%),
-    radial-gradient(500px 300px at 85% 20%, rgba(124, 58, 237, 0.14), rgba(0, 0, 0, 0) 60%),
-    radial-gradient(700px 400px at 50% 100%, rgba(109, 40, 217, 0.12), rgba(0, 0, 0, 0) 60%);
-}
-
-#hero .hero-center {
-  position: relative;
-  z-index: 1;
+#hero .vsl-wrap {
+  box-shadow: 0 0 70px 24px rgba(109, 40, 217, 0.22);
 }
 #hero h1 { color: oklch(0.98 0.005 285); }
 #hero .hero-sub { color: rgba(255, 255, 255, 0.65); }
