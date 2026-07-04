@@ -1195,7 +1195,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 
 /* ── Base card ── */
 .pv-card {
-  border-radius: var(--r-xl);
+  border-radius: 22px;
   overflow: hidden;
   background: var(--card);
   box-shadow: 0 2px 20px -4px rgba(24,24,27,.10), 0 0 0 1px rgba(24,24,27,.07);
@@ -1234,13 +1234,13 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 }
 .pv-wa-name { font-size: 14px; font-weight: 600; color: #fff; line-height: 1.2; }
 .pv-wa-status { font-size: 11px; color: rgba(255,255,255,.75); }
-.pv-wa-body { padding: 12px 10px; display: flex; flex-direction: column; gap: 6px; }
+.pv-wa-body { padding: 10px 10px; display: flex; flex-direction: column; gap: 6px; }
 .pv-bubble--sent {
   align-self: flex-end;
   background: #dcf8c6;
   border-radius: 14px 14px 3px 14px;
-  padding: 9px 12px;
-  font-size: 13.5px; line-height: 1.5; max-width: 88%; color: #111827;
+  padding: 8px 12px;
+  font-size: 12.5px; line-height: 1.4; max-width: 88%; color: #111827;
 }
 .pv-bubble-time {
   display: block; text-align: right;
@@ -1264,14 +1264,14 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 }
 .pv-ig-handle { font-size: 13px; font-weight: 600; color: #262626; line-height: 1.2; }
 .pv-ig-active { font-size: 11px; color: #8e8e8e; }
-.pv-ig-dm-body { padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; }
+.pv-ig-dm-body { padding: 10px 14px; display: flex; flex-direction: column; gap: 8px; }
 .pv-bubble--ig-sent {
   align-self: flex-end;
   background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   color: #fff;
   border-radius: 20px 20px 3px 20px;
-  padding: 10px 14px;
-  font-size: 13.5px; line-height: 1.5; max-width: 88%;
+  padding: 8px 14px;
+  font-size: 12.5px; line-height: 1.4; max-width: 88%;
 }
 .pv-ig-seen { align-self: flex-end; font-size: 10px; color: #8e8e8e; }
 
@@ -1355,8 +1355,8 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   align-self: flex-end;
   background: #005c4b;
   border-radius: 14px 14px 3px 14px;
-  padding: 9px 12px;
-  font-size: 13.5px; line-height: 1.4; max-width: 88%; color: #e9edef;
+  padding: 8px 12px;
+  font-size: 12.5px; line-height: 1.4; max-width: 88%; color: #e9edef;
 }
 .pv-audio-bubble {
   align-self: flex-end;
