@@ -63,6 +63,14 @@ export default function App() {
       >
         Pular para o conteúdo
       </a>
+      <header className="site-header">
+        <div className="site-header-inner">
+          <a href="#hero" className="site-header-logo">
+            <img src="/images/Logonew1.webp" alt="CloserOS" className="site-header-logo-img" />
+          </a>
+          <a href="https://pay.kiwify.com.br/F0Rpruo" className="site-header-cta" target="_blank" rel="noopener noreferrer">Quero meu acesso · R$67</a>
+        </div>
+      </header>
       <main id="main">
         <Hero />
         <LeakMatrix />
