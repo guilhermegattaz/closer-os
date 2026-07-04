@@ -478,9 +478,9 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .lm-meet-quote { font-size: 12px; color: #d4d4d8; font-style: italic; line-height: 1.4; margin: 0; }
 .leak-sub {
   color: var(--text-2);
-  font-size: 0.95rem;
+  font-size: 0.875rem;
   line-height: 1.7;
-  margin-top: 16px;
+  margin: 16px auto 0;
   max-width: 620px;
 }
 .leak-quote-card {
@@ -962,9 +962,9 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .tl-dot {
   width: 48px; height: 48px; flex-shrink: 0;
   border-radius: 50%;
-  background: #fff;
+  background: rgba(109, 40, 217, 0.15);
   border: 2px solid var(--accent);
-  box-shadow: var(--elev-1);
+  box-shadow: 0 8px 20px -6px rgba(109,40,217,0.45), 0 2px 6px -2px rgba(109,40,217,0.25);
   display: flex; align-items: center; justify-content: center;
   color: var(--accent);
   position: relative; z-index: 2;
@@ -982,6 +982,15 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
     0px 1px 2px rgba(16, 16, 18, 0.05),
     0px 6px 16px -8px rgba(16, 16, 18, 0.10);
 }
+#pilares .tl-content {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  box-shadow: none;
+}
+#pilares .tl-desc { color: rgba(255, 255, 255, 0.85); }
 .tl-phase {
   font-size: .68rem; font-weight: 800; letter-spacing: .12em;
   text-transform: uppercase; color: var(--accent);

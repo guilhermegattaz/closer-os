@@ -78,8 +78,7 @@ export function Pilares() {
         <div className="tl-header fade-up">
           <span className="eyebrow">Quando ele ajuda</span>
           <h2 className="h2">
-            O CloserOS acompanha toda a conversa.<br className="br-mobile" />
-            <span className="text-gradient">Do primeiro contato ao fechamento.</span>
+            O CloserOS acompanha toda a conversa.<br className="br-mobile" /> <span className="text-gradient">Do primeiro contato ao fechamento.</span>
           </h2>
           <p className="tl-subtitle">
             Sempre que surgir uma dúvida durante uma conversa com um cliente, ele pode ajudar você a decidir o próximo passo.
