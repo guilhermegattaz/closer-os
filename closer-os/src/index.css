@@ -208,9 +208,6 @@ body {
   position: relative;
 }
 
-#hero .vsl-wrap {
-  box-shadow: 0 0 70px 24px rgba(109, 40, 217, 0.22);
-}
 #hero h1 { color: oklch(0.98 0.005 285); }
 #hero .hero-sub { color: rgba(255, 255, 255, 0.65); }
 #hero .hero-subtexto { color: rgba(255, 255, 255, 0.5); }
