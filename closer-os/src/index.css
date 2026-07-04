@@ -352,7 +352,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
    ================================================================ */
 #leak {
   padding: var(--sepy) 0 48px; background-color: #fff; border-top: 1px solid var(--border);
-  position: relative; overflow: visible;
+  position: relative; overflow: visible; overflow-x: hidden;
 }
 #leak::before {
   content: '';
@@ -1308,7 +1308,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
    ================================================================ */
 #oferta {
   padding: var(--sepy) 0; background: var(--section-bg); border-top: 1px solid var(--border);
-  position: relative; overflow: visible;
+  position: relative; overflow: visible; overflow-x: hidden;
 }
 #oferta::before {
   content: '';
