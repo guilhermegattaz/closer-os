@@ -1,4 +1,3 @@
-import { GUILHERME_B64 } from '../../assets/guilherme'
 import { KIWIFY_URL } from '../../data/links'
 
 export function Autoridade() {
