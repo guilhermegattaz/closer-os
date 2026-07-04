@@ -1934,3 +1934,48 @@ footer {
   .ar-card { padding: 20px; }
   .ar-header { margin-bottom: 32px; }
 }
+
+/* ================================================================
+   HERO — 2 colunas desktop (≥901px)
+   ================================================================ */
+@media (width >= 901px) {
+  .hero-center {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: center;
+    gap: 64px;
+    max-width: 1100px;
+    text-align: left;
+  }
+
+  .hero-headline {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hero-sub {
+    margin: 0 0 24px;
+    max-width: none;
+  }
+
+  .hero-cta-wrap {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 0;
+  }
+
+  .hero-cta-wrap .hero-subtexto {
+    margin-top: 0;
+  }
+
+  .trust-bar {
+    justify-content: flex-start;
+  }
+
+  .hero-vsl-col .vsl-wrap {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+  }
+}
