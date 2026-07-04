@@ -106,8 +106,6 @@ export function Pilares() {
           <p className="tl-insight-body">Não importa se você ainda vai falar com o cliente, está no meio da conversa ou tentando recuperar uma negociação parada. Você não precisa decorar uma técnica para cada situação. Basta entender onde a conversa está, e o CloserOS ajuda você a decidir o próximo passo. Ele não responde mensagens soltas: ele conduz situações.</p>
         </div>
 
-        <p className="tl-microcopy fade-up">Quanto antes você sabe qual é o próximo passo, menor a chance de precisar apagar incêndios depois.</p>
-
       </div>
     </section>
   )
