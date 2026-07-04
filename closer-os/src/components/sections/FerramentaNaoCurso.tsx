@@ -29,7 +29,6 @@ export function FerramentaNaoCurso() {
           <p className="ferra-sub">Basta mostrar ao CloserOS o que aconteceu. O restante da conversa ele constrói junto com você.</p>
         </div>
 
-        <p className="ferra-legend fade-up">Veja quatro situações reais sendo resolvidas pelo CloserOS.</p>
 
         <div className="ferra-demo">
           <div className="ferra-step ferra-step--left fade-up visible">
