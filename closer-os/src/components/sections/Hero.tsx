@@ -31,7 +31,7 @@ export function Hero() {
         </h1>
 
         <p className="hero-sub fade-up d2">
-          Quando um cliente diz &ldquo;está caro&rdquo;, &ldquo;vou pensar&rdquo;, pede desconto ou simplesmente para de responder, você não precisa mais improvisar. Descreva rapidamente o que aconteceu, envie a mensagem, o print ou o áudio da conversa e receba exatamente como continuar.
+          Quando um cliente diz &ldquo;está caro&rdquo;, &ldquo;vou pensar&rdquo;, pede desconto ou simplesmente para de responder, você não precisa mais improvisar. Descreva o que aconteceu e receba exatamente o que dizer.
         </p>
 
         <div className="fade-up d2">
