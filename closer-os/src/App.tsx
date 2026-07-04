@@ -11,6 +11,7 @@ import {
   Autoridade,
   Provas,
   Oferta,
+  AcessoRapido,
   Faq,
   DoisCaminhos,
 } from './components/sections'
@@ -82,6 +83,7 @@ export default function App() {
         <Provas />
         <Autoridade />
         <Oferta />
+        <AcessoRapido />
         <DoisCaminhos />
         <Faq />
       </main>

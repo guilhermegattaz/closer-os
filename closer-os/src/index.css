@@ -1844,3 +1844,93 @@ footer {
   /* pilares ainda mais compacto no mobile */
   #pilares { padding-top: 48px; padding-bottom: 48px; }
 }
+
+/* ================================================================
+   ACESSO RÁPIDO
+   ================================================================ */
+#acesso-rapido {
+  background-color: #fff;
+  padding-top: var(--sepy);
+  padding-bottom: var(--sepy);
+}
+
+.ar-header {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 48px;
+}
+
+.ar-sub {
+  color: var(--text-2);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-top: 16px;
+}
+
+.ar-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.ar-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ar-step-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
+.ar-card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.ar-card-text {
+  font-size: 0.9rem;
+  color: var(--text-2);
+  line-height: 1.65;
+  flex: 1;
+  margin: 0;
+}
+
+.ar-card-footer {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-3);
+  margin-top: 4px;
+}
+
+.ar-footer-note {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-2);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+@media (max-width: 1024px) {
+  .ar-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; }
+}
+
+@media (max-width: 640px) {
+  .ar-grid { grid-template-columns: 1fr; gap: 16px; }
+  .ar-card { padding: 20px; }
+  .ar-header { margin-bottom: 32px; }
+}
