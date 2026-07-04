@@ -72,10 +72,16 @@ export function Oferta() {
           {/* BLOCO 03: Preço */}
           <div className="oferta-card-header">
             <div className="oferta-launch-badge">Preço de Lançamento</div>
-            <div className="oferta-anchor-label">Valor real do pacote</div>
-            <div className="oferta-price-from">R$791</div>
-            <div className="oferta-price-hoje">Hoje:</div>
-            <div className="oferta-price-big"><sup>R$</sup>67</div>
+            <div className="oferta-price-row">
+              <div className="oferta-price-col-left">
+                <div className="oferta-anchor-label">Valor real do pacote</div>
+                <div className="oferta-price-from">R$791</div>
+              </div>
+              <div className="oferta-price-col-right">
+                <div className="oferta-price-hoje">Hoje:</div>
+                <div className="oferta-price-big"><sup>R$</sup>67</div>
+              </div>
+            </div>
             <p className="oferta-price-details">Pagamento único. Sem mensalidade. Sem assinatura. Acesso imediato.</p>
           </div>
 
@@ -110,6 +116,11 @@ export function Oferta() {
             <div className="oferta-social-proof">
               <img className="osp-people" src="/images/pessoas.webp" alt="Profissionais que aprovam o CloserOS" loading="lazy" />
               <span className="osp-text">Aprovado por mais de <strong>100 profissionais</strong></span>
+              <div className="oferta-stars" aria-label="5 estrelas">
+                {[1,2,3,4,5].map(i => (
+                  <svg key={i} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="2" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.878L2.55 8.792a.53.53 0 0 1 .294-.904l5.166-.756a2.122 2.122 0 0 0 1.597-1.16z" /></svg>
+                ))}
+              </div>
             </div>
           </div>
 
