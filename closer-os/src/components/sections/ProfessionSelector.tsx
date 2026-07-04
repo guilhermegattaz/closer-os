@@ -1,29 +1,10 @@
-const blocks = [
-  {
-    title: 'Você domina o que faz.',
-    text: 'Mas quando o cliente faz uma pergunta inesperada, você sente que poderia responder melhor.',
-  },
-  {
-    title: 'Você já perdeu clientes...',
-    text: '...e ficou pensando depois: "Se eu tivesse respondido diferente, talvez essa venda tivesse acontecido."',
-  },
-  {
-    title: 'Você evita parecer insistente.',
-    text: 'Então muitas vezes demora para fazer um follow-up ou simplesmente deixa a conversa morrer.',
-  },
-  {
-    title: 'Você sabe fazer o seu trabalho.',
-    text: 'Mas apresentar o preço ainda gera insegurança em algumas situações.',
-  },
-  {
-    title: 'Você conversa com clientes praticamente todos os dias.',
-    text: 'Mesmo assim, algumas respostas continuam difíceis.',
-  },
-  {
-    title: 'Você não quer aprender técnicas complicadas.',
-    text: 'Só quer saber exatamente o que responder quando a conversa sair do roteiro.',
-  },
-]
+function CheckIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" width="14" height="14">
+      <path d="M20 6 9 17l-5-5" />
+    </svg>
+  )
+}
 
 export function ProfessionSelector() {
   return (
@@ -39,13 +20,31 @@ export function ProfessionSelector() {
           </p>
         </div>
 
-        <div className="pq-blocks-grid fade-up d1">
-          {blocks.map((block) => (
-            <div className="pq-block" key={block.title}>
-              <p className="pq-block-title">{block.title}</p>
-              <p className="pq-block-text">{block.text}</p>
-            </div>
-          ))}
+        <div className="pq-list-card fade-up d1 visible">
+          <div className="pq-row">
+            <span className="pq-check" aria-hidden="true"><CheckIcon /></span>
+            <p className="pq-row-text">Já ficou olhando para uma conversa sem saber exatamente o que responder.</p>
+          </div>
+          <div className="pq-row">
+            <span className="pq-check" aria-hidden="true"><CheckIcon /></span>
+            <p className="pq-row-text">Envia uma proposta, um orçamento ou um preço e depois fica torcendo para o cliente responder.</p>
+          </div>
+          <div className="pq-row">
+            <span className="pq-check" aria-hidden="true"><CheckIcon /></span>
+            <p className="pq-row-text">Trava quando o cliente diz "tá caro" ou "vou pensar".</p>
+          </div>
+          <div className="pq-row">
+            <span className="pq-check" aria-hidden="true"><CheckIcon /></span>
+            <p className="pq-row-text">Sabe fazer muito bem o seu trabalho, mas sente que poderia conduzir melhor as conversas com os clientes.</p>
+          </div>
+          <div className="pq-row">
+            <span className="pq-check" aria-hidden="true"><CheckIcon /></span>
+            <p className="pq-row-text">Já terminou uma reunião pensando: "Eu poderia ter respondido aquilo de outro jeito."</p>
+          </div>
+          <div className="pq-row">
+            <span className="pq-check" aria-hidden="true"><CheckIcon /></span>
+            <p className="pq-row-text">Quer parar de improvisar e ter mais clareza sempre que uma conversa importante sair do roteiro.</p>
+          </div>
         </div>
 
         <p className="pq-impact fade-up d2">
