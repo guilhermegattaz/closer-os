@@ -1060,7 +1060,10 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
     padding: 0 0 28px 0;
   }
   .tl-step:last-child { padding-bottom: 0; }
-  .tl-dot { flex-shrink: 0; }
+  .tl-dot { flex-shrink: 0; width: 36px; height: 36px; }
+  .tl-dot svg { width: 16px; height: 16px; }
+  .tl-steps::before { top: 18px; left: 18px; height: calc(100% - 36px); }
+  .tl-step { gap: 12px; }
   .tl-content { padding-top: 10px; }
   .tl-header { margin-bottom: 40px; border-left: none; padding-left: 0; }
   .tl-track { margin-bottom: 40px; }
@@ -1492,10 +1495,18 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .oferta-stars svg { width: 16px; height: 16px; }
 .oferta-price-row {
   display: flex; align-items: flex-end; justify-content: center;
-  gap: 16px; margin-top: 6px;
+  gap: 20px; margin-top: 8px;
 }
-.oferta-price-col-left { text-align: left; }
-.oferta-price-col-right { text-align: center; }
+.oferta-price-col-left {
+  display: flex; flex-direction: column; align-items: flex-end;
+  padding-bottom: 6px;
+}
+.oferta-price-col-right {
+  display: flex; flex-direction: column; align-items: flex-start;
+}
+@media (max-width: 480px) {
+  .oferta-price-row { gap: 14px; }
+}
 .oferta-card-header {
   text-align: center;
   border-radius: 22px;
@@ -1593,12 +1604,18 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 /* social proof abaixo do CTA */
 .oferta-social-proof {
   display: flex; align-items: center; justify-content: center;
-  gap: 8px; margin: 24px auto 0; flex-wrap: wrap;
+  gap: 8px; margin: 22px auto 0; flex-wrap: wrap;
   flex-direction: column;
 }
 .osp-people { height: 38px; width: auto; max-width: 100%; display: block; object-fit: contain; }
 .osp-text { font-size: 15px; color: #3f3f46; font-weight: 500; line-height: 1.3; }
 .osp-text strong { color: #18181b; font-weight: 700; }
+@media (max-width: 640px) {
+  .stack-icon { width: 30px; height: 30px; }
+  .stack-icon svg { width: 14px; height: 14px; }
+  .stack-row { gap: 10px; padding: 14px; }
+  .oferta-card { gap: 28px; }
+}
 @media (max-width: 480px) {
   .oferta-social-proof { gap: 10px; margin-top: 16px; }
   .osp-people { height: 34px; }
