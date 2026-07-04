@@ -104,9 +104,6 @@ export function Provas() {
 
           {/* ── Card 4: Post do Instagram — Thaís Oliveira ── */}
           <div className="pv-card pv-card--ig-post fade-up">
-            <div className="pv-ig-post-img" aria-hidden="true">
-              <span>POST · CLOSEROS</span>
-            </div>
             <div className="pv-ig-post-bar" aria-hidden="true">
               <span>♡</span>
               <span>💬</span>
