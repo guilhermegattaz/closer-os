@@ -1664,6 +1664,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
    #12  DOIS CAMINHOS
    ================================================================ */
 #dois-caminhos { padding: var(--sepy) 0; background: var(--section-bg-alt); border-top: 1px solid var(--border); }
+#dois-caminhos .container-sm { max-width: var(--mw); }
 .dc-header { text-align: center; margin-bottom: 48px; }
 .dc-eyebrow-pill {
   display: inline-flex; align-items: center;
@@ -1726,18 +1727,15 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .dc-card-footer--accent { border-top-color: rgba(109,40,217,.20); color: var(--accent); font-weight: 700; }
 .dc-cost-box {
   max-width: 640px; margin: 0 auto;
-  background: var(--card); border: 1px solid var(--border);
-  border-radius: var(--r-lg); padding: 32px; overflow: hidden;
-  box-shadow: var(--elev-1);
   text-align: center;
 }
 .dc-cost-text {
-  font-size: .95rem; font-weight: 600; color: var(--text); line-height: 1.55; margin-bottom: 10px;
+  font-size: clamp(0.9rem, 1.5vw, 1.0125rem); font-weight: 600; color: var(--text); line-height: 1.75; margin-bottom: 10px;
 }
 @media (max-width: 640px) {
   .dc-cost-text .dc-hl { display: block; margin-top: 4px; }
 }
-.dc-urgencia { font-size: .87rem; color: var(--text-2); font-style: italic; margin: 0; text-wrap: balance; }
+.dc-urgencia { font-size: clamp(0.9rem, 1.5vw, 1.0125rem); color: var(--text-2); font-style: italic; margin: 0; text-wrap: balance; line-height: 1.75; }
 .dc-cta { text-align: center; margin-top: 32px; }
 .dc-cta-btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
@@ -1825,7 +1823,7 @@ footer {
   .leak-grid    { grid-template-columns: 1fr; }
   .dc-grid      { grid-template-columns: 1fr; margin-bottom: 32px; }
   .dc-grid::before { display: none; }
-  .dc-cost-box  { padding: 24px; }
+  /* .dc-cost-box padding removed — no background */
   .dc-cta-btn   { max-width: 100%; }
   .oferta-card  { padding: 28px; }
   .br-mobile    { display: block; }

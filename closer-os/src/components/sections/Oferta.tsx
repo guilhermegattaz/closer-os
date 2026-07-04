@@ -48,19 +48,16 @@ export function Oferta() {
               <div className="stack-icon"><IconPrincipal /></div>
               <div className="stack-name">Converse com o CloserOS sempre que um cliente responder, fizer uma objeção ou você não souber como continuar a conversa.</div>
               <div className="stack-val">R$497</div>
-              <div className="stack-incluso">incluso</div>
             </div>
             <div className="stack-row">
               <div className="stack-icon"><IconFile /></div>
               <div className="stack-name">Biblioteca de exemplos reais para descobrir novas formas de utilizar o CloserOS no dia a dia.</div>
               <div className="stack-val">R$97</div>
-              <div className="stack-incluso">incluso</div>
             </div>
             <div className="stack-row">
               <div className="stack-icon"><IconVideo /></div>
               <div className="stack-name">Construa um roteiro de perguntas totalmente adaptado ao seu negócio com ajuda do próprio CloserOS.</div>
               <div className="stack-val">R$197</div>
-              <div className="stack-incluso">incluso</div>
             </div>
             <div className="stack-row">
               <div className="stack-icon"><IconFile /></div>
