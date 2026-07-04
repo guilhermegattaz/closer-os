@@ -6,6 +6,7 @@ import {
 
   ComoPensa,
   ProfessionSelector,
+  ImpactoCloserOS,
   FerramentaNaoCurso,
   Pilares,
   Autoridade,
@@ -80,6 +81,7 @@ export default function App() {
         <ComoPensa />
         <Pilares />
         <ProfessionSelector />
+        <ImpactoCloserOS />
         <Provas />
         <Autoridade />
         <Oferta />

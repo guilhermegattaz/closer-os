@@ -47,9 +47,6 @@ export function ProfessionSelector() {
           </div>
         </div>
 
-        <p className="pq-impact fade-up d2">
-          Não importa se você vende um serviço, uma consultoria, um tratamento, um projeto ou qualquer outra solução. Sempre que existir uma conversa importante com um cliente, o CloserOS pode ajudar.
-        </p>
       </div>
     </section>
   )

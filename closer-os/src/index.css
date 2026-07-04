@@ -1959,6 +1959,25 @@ footer {
 }
 
 /* ================================================================
+   IMPACTO CLOSEROS — seção de transição com fundo escuro
+   ================================================================ */
+#impacto-closeros {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(109,40,217,.10) 0%, transparent 60%),
+    #0f0f12;
+  padding: var(--sepy) 0;
+  text-align: center;
+}
+
+.impacto-heading {
+  color: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+/* ================================================================
    TÍTULOS H2 — +15% nas seções principais
    ================================================================ */
 #leak .h2,
