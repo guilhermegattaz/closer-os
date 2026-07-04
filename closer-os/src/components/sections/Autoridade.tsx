@@ -9,19 +9,6 @@ export function Autoridade() {
 
           <div className="fade-up">
             <h2 className="h2 autor-headline">O CloserOS nasceu depois de <span className="text-gradient">milhares de conversas</span> exatamente como essas.</h2>
-            <div className="autor-profile">
-              <div className="autor-avatar-sm">
-                <img
-                  src={GUILHERME_B64}
-                  alt="Guilherme Dias Gattaz"
-                />
-              </div>
-              <div>
-                <div className="autor-name">Guilherme Dias Gattaz</div>
-                <div className="autor-role">Especialista em vendas consultivas 1:1 · Diretor Comercial de agência nos EUA</div>
-              </div>
-            </div>
-
             <div className="autor-bio">
               <p>Ao longo de anos conduzindo vendas consultivas, percebi um padrão: a maioria das vendas não era perdida porque o cliente não queria comprar.</p>
               <p>Era perdida porque o profissional não sabia exatamente o que responder quando a conversa mudava de direção.</p>
