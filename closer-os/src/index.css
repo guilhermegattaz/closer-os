@@ -1942,10 +1942,26 @@ footer {
   .hero-center {
     display: grid;
     grid-template-columns: 1.05fr 0.95fr;
+    grid-template-areas:
+      "textTop video"
+      "textBottom video";
     align-items: center;
-    gap: 64px;
+    gap: 24px 64px;
     max-width: 1100px;
     text-align: left;
+  }
+
+  .hero-text-top {
+    grid-area: textTop;
+  }
+
+  .hero-text-bottom {
+    grid-area: textBottom;
+  }
+
+  .hero-vsl-col {
+    grid-area: video;
+    align-self: center;
   }
 
   .hero-headline {

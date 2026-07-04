@@ -23,7 +23,7 @@ export function Hero() {
   return (
     <section id="hero">
       <div className="hero-center">
-        <div className="hero-text-col">
+        <div className="hero-text-top">
           {/* ROLLBACK: headline anterior
             Saiba exatamente o que dizer quando o cliente falar <span className="hl">&ldquo;vou pensar&rdquo;</span>, <span className="hl">&ldquo;tá caro&rdquo;</span> ou simplesmente <span className="hl">sumir depois da proposta</span>.
           */}
@@ -34,7 +34,17 @@ export function Hero() {
           <p className="hero-sub fade-up d2">
             Quando um cliente diz &ldquo;está caro&rdquo;, &ldquo;vou pensar&rdquo;, pede desconto ou simplesmente para de responder, você não precisa mais improvisar. Descreva o que aconteceu e receba exatamente o que dizer.
           </p>
+        </div>
 
+        <div className="fade-up d2 hero-vsl-col">
+          <div className="vsl-wrap">
+            <div className="vsl-ratio">
+              <VturbHeroPlayer />
+            </div>
+          </div>
+        </div>
+
+        <div className="hero-text-bottom">
           <div className="hero-cta-wrap fade-up d3">
             <a
               href={KIWIFY_URL}
@@ -69,14 +79,6 @@ export function Hero() {
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="14" x="2" y="5" rx="2" /><line x1="2" x2="22" y1="10" y2="10" /></svg>
               </span>
               Pagamento único
-            </div>
-          </div>
-        </div>
-
-        <div className="fade-up d2 hero-vsl-col">
-          <div className="vsl-wrap">
-            <div className="vsl-ratio">
-              <VturbHeroPlayer />
             </div>
           </div>
         </div>
