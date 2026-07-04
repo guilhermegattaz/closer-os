@@ -299,6 +299,13 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 @media (max-width: 640px) {
   .vsl-caption { font-size: .7rem; top: 6%; padding: 0 18px; }
 }
+@media (max-width: 640px) {
+  .vsl-wrap {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   .vsl-caption .vsl-anchor-arrow { animation: none; }
 }
