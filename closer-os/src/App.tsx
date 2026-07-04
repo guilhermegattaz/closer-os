@@ -66,7 +66,7 @@ export default function App() {
       <header className="site-header">
         <div className="site-header-inner">
           <a href="#hero" className="site-header-logo">
-            <img src="/images/logodark.webp" alt="CloserOS" className="site-header-logo-img" />
+            <img src="/images/Logodark.webp" alt="CloserOS" className="site-header-logo-img" />
           </a>
           <a href="https://pay.kiwify.com.br/F0Rpruo" className="site-header-cta" target="_blank" rel="noopener noreferrer">Quero meu acesso · R$67</a>
         </div>
