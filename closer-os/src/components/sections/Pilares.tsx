@@ -10,7 +10,7 @@ const steps = [
     ),
   },
   {
-    phase: 'DIAGNÓSTICO',
+    phase: 'CONHECER O CLIENTE',
     desc: 'Cria roteiros de investigação para entender melhor o cliente antes de apresentar qualquer solução.',
     example: 'Quais perguntas devo fazer?',
     icon: (
@@ -34,8 +34,8 @@ const steps = [
     ),
   },
   {
-    phase: 'PREÇO',
-    desc: 'Mostra como continuar a conversa sem entrar em defesa nem recorrer ao desconto automaticamente.',
+    phase: 'SEU VALOR',
+    desc: 'Mostra como apresentar seu valor e ser visto como a escolha óbvia.',
     example: 'O cliente achou caro.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">
@@ -45,7 +45,7 @@ const steps = [
     ),
   },
   {
-    phase: 'FOLLOW-UP',
+    phase: 'ACOMPANHAMENTO',
     desc: 'Sugere formas naturais de retomar a conversa mantendo a sua autoridade.',
     example: 'O cliente sumiu há quatro dias.',
     icon: (
@@ -57,7 +57,7 @@ const steps = [
   },
   {
     phase: 'FECHAMENTO',
-    desc: 'Ajuda você a conduzir os últimos minutos da negociação sem improvisar.',
+    desc: 'Ajuda você a negociar com segurança, sem improvisar.',
     example: 'Ele disse que vai pensar.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">
@@ -93,7 +93,9 @@ export function Pilares() {
                 <div className="tl-content">
                   <div className="tl-phase">{s.phase}</div>
                   <p className="tl-desc">{s.desc}</p>
-                  <p className="tl-example">&ldquo;{s.example}&rdquo;</p>
+                  <div className="tl-quote-box">
+                    <p className="tl-example">&ldquo;{s.example}&rdquo;</p>
+                  </div>
                 </div>
               </div>
             ))}
