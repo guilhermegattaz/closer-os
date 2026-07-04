@@ -1372,15 +1372,51 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   max-width: 560px; margin: 0 auto;
   border-radius: 28px;
   padding: 40px;
-  background:
-    linear-gradient(#fff, #fff) padding-box,
-    conic-gradient(from 180deg, transparent 0deg, rgba(124, 58, 237, 0.55) 90deg, transparent 180deg, rgba(147, 51, 234, 0.45) 270deg, transparent 360deg) border-box;
+  background-image:
+    linear-gradient(oklch(0.17 0.025 285), oklch(0.17 0.025 285)),
+    conic-gradient(from 180deg, rgba(0,0,0,0) 0deg, rgba(124,58,237,0.55) 90deg, rgba(0,0,0,0) 180deg, rgba(147,51,234,0.45) 270deg, rgba(0,0,0,0) 360deg);
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
   border: 1.5px solid transparent;
   box-shadow:
     rgba(16, 16, 18, 0.16) 0px 16px 40px -12px,
     rgba(16, 16, 18, 0.08) 0px 4px 12px -4px;
   display: flex; flex-direction: column; gap: 24px;
 }
+
+/* Oferta card — dark theme overrides */
+.oferta-card .stack-section-title { color: rgba(255,255,255,0.72); }
+.oferta-card .stack-row { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.08); }
+.oferta-card .stack-icon { background: rgba(167,139,250,0.18); color: oklch(0.72 0.24 296); }
+.oferta-card .stack-name { color: rgba(255,255,255,0.92); }
+.oferta-card .stack-val { color: rgba(255,255,255,0.5); }
+.oferta-card .stack-incluso { background: rgba(52,211,153,0.18); color: #34d399; }
+.oferta-card .oferta-card-header {
+  background: linear-gradient(rgba(167,139,250,0.14), rgba(0,0,0,0));
+  border-color: rgba(167,139,250,0.35);
+}
+.oferta-card .oferta-launch-badge {
+  background: rgba(167,139,250,0.15);
+  color: oklch(0.72 0.24 296);
+  border-color: rgba(167,139,250,0.35);
+}
+.oferta-card .oferta-anchor-label { color: rgba(255,255,255,0.5); }
+.oferta-card .oferta-price-from { color: rgba(255,255,255,0.5); }
+.oferta-card .oferta-price-hoje { color: oklch(0.72 0.24 296); }
+.oferta-card .oferta-price-big {
+  font-family: var(--font-heading);
+  background: linear-gradient(135deg, var(--accent-h), oklch(0.72 0.24 296));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.oferta-card .oferta-price-details { color: rgba(255,255,255,0.5); }
+.oferta-card .oferta-garantia { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.08); }
+.oferta-card .oferta-garantia-icon { background: rgba(52,211,153,0.18); color: #34d399; }
+.oferta-card .oferta-garantia-title { color: rgba(255,255,255,0.92); }
+.oferta-card .oferta-garantia-text { color: rgba(255,255,255,0.6); }
+.oferta-card .oferta-payment-info { color: rgba(255,255,255,0.5); }
+.oferta-card .osp-text { color: rgba(255,255,255,0.75); }
 .oferta-card-header {
   text-align: center;
   border-radius: 22px;
