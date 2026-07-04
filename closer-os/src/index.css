@@ -170,8 +170,12 @@ body {
    ================================================================ */
 #hero {
   padding: 64px 0 clamp(40px,4vw,56px);
-  background: var(--section-bg);
+  background-color: oklch(0.17 0.025 285);
 }
+#hero h1 { color: oklch(0.98 0.005 285); }
+#hero .hero-sub { color: rgba(255, 255, 255, 0.65); }
+#hero .hero-subtexto { color: rgba(255, 255, 255, 0.5); }
+#hero .trust-item { color: rgba(255, 255, 255, 0.65); }
 .hero-center {
   max-width: 800px; margin: 0 auto; padding: 0 var(--px); text-align: center;
 }
@@ -340,7 +344,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
    #4  LEAK MATRIX
    ================================================================ */
 #leak {
-  padding: var(--sepy) 0 48px; background: var(--section-bg-alt); border-top: 1px solid var(--border);
+  padding: var(--sepy) 0 48px; background-color: #fff; border-top: 1px solid var(--border);
   position: relative; overflow: visible;
 }
 #leak::before {
@@ -830,9 +834,13 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 /* ---- pilares: timeline de 6 etapas ---- */
 #pilares {
   padding: 72px 0;
-  background: var(--section-bg-alt);
+  background-color: oklch(0.14 0.02 285);
   border-top: 1px solid var(--border);
 }
+#pilares .eyebrow { color: oklch(0.72 0.24 296); }
+#pilares .h2 { color: oklch(0.98 0.005 285); }
+#pilares .tl-subtitle { color: rgba(255, 255, 255, 0.65); }
+#pilares .tl-microcopy { color: rgba(255, 255, 255, 0.5); }
 
 /* Cabeçalho — alinhamento lateral assimétrico */
 .tl-header {
