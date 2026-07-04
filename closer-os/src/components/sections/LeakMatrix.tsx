@@ -98,21 +98,6 @@ export function LeakMatrix() {
 
         </div>
 
-        {/* Fechamento: 2º parágrafo — depois dos cards */}
-        <div className="leak-quote-card leak-quote-card--close fade-up">
-          <div className="leak-quote-inner">
-            <div className="leak-quote-text">
-              <p>Esses momentos parecem pequenos. Mas é justamente neles que a maioria das vendas acontece… ou deixa de acontecer.</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Frase de transição */}
-        <div className="leak-transition fade-up">
-          <p>E o pior é que, quase sempre, o problema não está na sua proposta.</p>
-          <p className="leak-transition-sub">Está na resposta que veio alguns minutos antes.</p>
-        </div>
-
       </div>
     </section>
   )

@@ -35,9 +35,8 @@ export function Oferta() {
 
         {/* BLOCO 01: Título + Subtítulo + Frase de impacto */}
         <div className="oferta-pre-titulo fade-up">
-          <h2 className="h2">Se o CloserOS ajudar você a recuperar apenas uma conversa importante… <span className="text-gradient">ele provavelmente já terá se pago.</span></h2>
+          <h2 className="h2">Se o CloserOS ajudar você a recuperar apenas uma conversa importante… <span className="text-gradient">ele já terá se pago.</span></h2>
           <p className="oferta-pre-sub">Mas a ideia nunca foi recuperar apenas uma. A ideia é que você nunca mais precise improvisar quando um cliente fizer uma pergunta difícil, pedir desconto ou simplesmente parar de responder.</p>
-          <p className="oferta-payback">Se o CloserOS impedir apenas um desconto que você daria por insegurança… Ou recuperar apenas um cliente que iria embora… Ele já se pagou. O restante vira lucro.</p>
         </div>
 
         <div className="oferta-card fade-up">
@@ -72,7 +71,6 @@ export function Oferta() {
 
           {/* BLOCO 03: Preço */}
           <div className="oferta-card-header">
-            <p className="oferta-price-eyebrow">Tudo isso por menos do que normalmente custa perder uma única oportunidade importante.</p>
             <div className="oferta-launch-badge">Preço de Lançamento</div>
             <div className="oferta-anchor-label">Valor real do pacote</div>
             <div className="oferta-price-from">R$791</div>
