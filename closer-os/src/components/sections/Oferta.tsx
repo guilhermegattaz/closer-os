@@ -1,29 +1,9 @@
 import { KIWIFY_URL } from '../../data/links'
 
-function IconPrincipal() {
+function CheckIcon() {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
-      <path d="M4 6h16M4 12h16M4 18h10" />
-    </svg>
-  )
-}
-
-function IconVideo() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
-      <circle cx="12" cy="12" r="10" />
-      <polygon points="10,8 17,12 10,16" fill="currentColor" stroke="none" />
-    </svg>
-  )
-}
-
-function IconFile() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
-      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-      <polyline points="14,2 14,8 20,8" />
-      <line x1="8" y1="13" x2="16" y2="13" />
-      <line x1="8" y1="17" x2="16" y2="17" />
+      <polyline points="20 6 9 17 4 12" />
     </svg>
   )
 }
@@ -45,22 +25,22 @@ export function Oferta() {
           <div>
             <div className="stack-section-title">Você recebe acesso imediato a tudo isso:</div>
             <div className="stack-row">
-              <div className="stack-icon"><IconPrincipal /></div>
+              <div className="stack-icon"><CheckIcon /></div>
               <div className="stack-name">Converse com o CloserOS sempre que um cliente responder, fizer uma objeção ou você não souber como continuar a conversa.</div>
               <div className="stack-val">R$497</div>
             </div>
             <div className="stack-row">
-              <div className="stack-icon"><IconFile /></div>
+              <div className="stack-icon"><CheckIcon /></div>
               <div className="stack-name">Biblioteca de exemplos reais para descobrir novas formas de utilizar o CloserOS no dia a dia.</div>
               <div className="stack-val">R$97</div>
             </div>
             <div className="stack-row">
-              <div className="stack-icon"><IconVideo /></div>
+              <div className="stack-icon"><CheckIcon /></div>
               <div className="stack-name">Construa um roteiro de perguntas totalmente adaptado ao seu negócio com ajuda do próprio CloserOS.</div>
               <div className="stack-val">R$197</div>
             </div>
             <div className="stack-row">
-              <div className="stack-icon"><IconFile /></div>
+              <div className="stack-icon"><CheckIcon /></div>
               <div className="stack-name">Configure tudo em poucos minutos e comece a utilizar ainda hoje.</div>
               <div className="stack-incluso">incluso</div>
             </div>

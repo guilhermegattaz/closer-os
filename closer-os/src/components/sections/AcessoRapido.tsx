@@ -30,7 +30,6 @@ export function AcessoRapido() {
           </div>
         </div>
 
-        <p className="ar-footer-note fade-up d2">Você não precisa aprender uma nova profissão. Só precisa parar de improvisar nas conversas que realmente importam.</p>
       </div>
     </section>
   )

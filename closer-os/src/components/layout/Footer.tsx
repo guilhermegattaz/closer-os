@@ -6,10 +6,6 @@ export function Footer() {
           <img src="/images/Logonew1.webp" alt="CloserOS" className="footer-logo-img" loading="lazy" />
         </div>
         <div className="footer-links">
-          <span>Termos de Uso</span>
-          <span>·</span>
-          <span>Política de Privacidade</span>
-          <span>·</span>
           <a href="https://wa.me/16176209468?text=Oi%21%20Quero%20saber%20mais%20sobre%20o%20CloserOS." target="_blank" rel="noopener noreferrer">Contato</a>
         </div>
         <div className="footer-copy">
