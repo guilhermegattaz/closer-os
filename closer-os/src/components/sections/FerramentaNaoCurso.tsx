@@ -34,7 +34,7 @@ export function FerramentaNaoCurso() {
           <div className="ferra-step ferra-step--left fade-up visible">
             <span className="ferra-step-num">01</span>
             <div>
-              <h3 className="ferra-step-title">Conte ao CloserOS o que aconteceu.</h3>
+              <h3 className="ferra-step-title">Conte ao CloserOS o que está acontecendo</h3>
               <p className="ferra-step-desc">Enviei a mensagem do cliente, um áudio ou o print. Ou explique a situação.</p>
             </div>
           </div>
