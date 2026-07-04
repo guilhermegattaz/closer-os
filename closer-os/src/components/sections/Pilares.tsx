@@ -93,9 +93,6 @@ export function Pilares() {
                 <div className="tl-content">
                   <div className="tl-phase">{s.phase}</div>
                   <p className="tl-desc">{s.desc}</p>
-                  <div className="tl-quote-box">
-                    <p className="tl-example">&ldquo;{s.example}&rdquo;</p>
-                  </div>
                 </div>
               </div>
             ))}

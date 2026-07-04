@@ -1002,16 +1002,6 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   font-size: .79rem; color: var(--text-2); line-height: 1.55;
   margin: 0; overflow-wrap: break-word;
 }
-.tl-quote-box {
-  background: rgba(24, 24, 27, 0.035);
-  border-radius: 10px;
-  padding: 10px 12px;
-}
-.tl-example {
-  font-size: .74rem; color: var(--accent); line-height: 1.4;
-  font-style: italic; font-weight: 700; margin: 0; overflow-wrap: break-word;
-}
-
 /* Bloco de insight */
 .tl-insight {
   max-width: 640px; margin: 0 auto 24px;
@@ -2037,10 +2027,12 @@ footer {
 
   .hero-text-top {
     grid-area: textTop;
+    align-self: end;
   }
 
   .hero-text-bottom {
     grid-area: textBottom;
+    align-self: start;
   }
 
   .hero-vsl-col {
