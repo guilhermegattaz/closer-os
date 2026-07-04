@@ -196,7 +196,6 @@ export function Provas() {
 
         </div>
 
-        <p className="provas-closing fade-up">O objetivo nunca foi criar vendedores melhores. Foi fazer com que pessoas comuns soubessem exatamente o que responder quando isso realmente importasse.</p>
       </div>
     </section>
   )
