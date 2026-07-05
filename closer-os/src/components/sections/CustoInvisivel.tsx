@@ -4,7 +4,7 @@ export function CustoInvisivel() {
       <div className="container">
         <div className="custo-header fade-up">
           <span className="eyebrow">O custo invisível</span>
-          <h2 className="h2">Você já calculou quanto uma resposta travada custa por ano?</h2>
+          <h2 className="h2">Você já calculou quanto uma resposta equivocada custa por ano?</h2>
           <p className="custo-sub">Não é sobre o preço do CloserOS. É sobre o que você já está perdendo, mês após mês, sem perceber.</p>
         </div>
         <div className="custo-card fade-up d1">

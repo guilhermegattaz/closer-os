@@ -56,7 +56,7 @@ export function Hero() {
               Quero o CloserOS · R$67
               <svg className="hero-cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
             </a>
-            <p className="hero-subtexto">Acesso imediato. Funciona no ChatGPT que você já usa.</p>
+            <p className="hero-subtexto">Acesso imediato.</p>
           </div>
 
           <div className="trust-bar fade-up d3">
