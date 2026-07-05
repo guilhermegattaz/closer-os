@@ -23,7 +23,7 @@ export function Oferta() {
 
           {/* BLOCO 02: Entregáveis */}
           <div>
-            <div className="stack-section-title">Você recebe acesso imediato a tudo isso:</div>
+            <div className="stack-section-title">Comece agora e receba acesso imediato a tudo isso:</div>
             <div className="stack-row">
               <div className="stack-icon"><CheckIcon /></div>
               <div className="stack-name">Converse com o CloserOS sempre que um cliente responder, fizer uma objeção ou você não souber como continuar a conversa.</div>

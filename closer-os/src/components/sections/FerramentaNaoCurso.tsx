@@ -26,7 +26,7 @@ export function FerramentaNaoCurso() {
         <div className="ferra-head fade-up visible">
           <span className="eyebrow">Como funciona</span>
           <h2 className="ferra-title">Receba a resposta certa em <span className="hl text-gradient">menos de 1 minuto.</span></h2>
-          <p className="ferra-sub">Basta mostrar ao CloserOS o que aconteceu. O restante da conversa ele constrói junto com você.</p>
+          <p className="ferra-sub">Basta mostrar ao CloserOS o que aconteceu. O restante da conversa ele <span className="ferra-sub-break">constrói junto com você.</span></p>
         </div>
 
 

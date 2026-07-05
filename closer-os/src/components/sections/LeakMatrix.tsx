@@ -38,7 +38,7 @@ export function LeakMatrix() {
                   </div>
                 </div>
               </div>
-              <div className="lm-silence">48 horas de silêncio</div>
+              <div className="lm-silence">2 dias sem resposta</div>
             </div>
             <p className="leak-sub">
               O orçamento foi visualizado, o cliente sumiu, e você não sabe como cobrar retorno sem parecer desesperado.

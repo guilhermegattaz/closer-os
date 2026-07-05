@@ -5,7 +5,7 @@ export function ComoPensa() {
 
         <div className="cp-header fade-up">
           <span className="eyebrow">COMO ELE PENSA</span>
-          <h2 className="h2">Ele pensa por você e te ajuda na <span className="text-gradient">melhor decisão.</span></h2>
+          <h2 className="h2"><span className="text-gradient">Ele pensa por você</span> e te ajuda na melhor decisão.</h2>
           <p className="cp-subtitle">
             Antes de sugerir o que dizer, o CloserOS faz a mesma coisa que um negociador experiente faria: ele primeiro entende o que está acontecendo naquela conversa.
           </p>
