@@ -9,7 +9,6 @@ export function Footer() {
           <a href="https://wa.me/16176209468?text=Oi%21%20Quero%20saber%20mais%20sobre%20o%20CloserOS." target="_blank" rel="noopener noreferrer">Contato</a>
         </div>
         <div className="footer-copy">
-          © 2026 CloserOS™. Todos os direitos reservados.<br />
           CloserOS™ não é afiliado, patrocinado ou endossado pela OpenAI.<br />
           Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. A compra desse material não garante nenhum tipo de resultado. Fazemos todos os esforços para indicar claramente e mostrar todas as provas do produto e usamos resultados reais de alunos.
         </div>

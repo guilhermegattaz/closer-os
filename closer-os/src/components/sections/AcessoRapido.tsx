@@ -11,21 +11,21 @@ export function AcessoRapido() {
           <div className="ar-card">
             <span className="ar-step-label">PASSO 1</span>
             <h3 className="ar-card-title">Finalize sua compra</h3>
-            <p className="ar-card-text">Assim que o pagamento for aprovado, seu acesso é enviado automaticamente para o e-mail informado no checkout.</p>
+            <p className="ar-card-text">Assim que finalizar a compra, você vai receber seu acesso no email.</p>
             <div className="ar-card-footer">⏱ Menos de 1 minuto</div>
           </div>
 
           <div className="ar-card">
             <span className="ar-step-label">PASSO 2</span>
             <h3 className="ar-card-title">Abra o CloserOS</h3>
-            <p className="ar-card-text">Você recebe acesso imediato ao CloserOS e a todos os materiais de apoio para começar sem precisar configurar nada complicado.</p>
+            <p className="ar-card-text">Você vai receber todos os entregáveis imediatamente.</p>
             <div className="ar-card-footer">⏱ Cerca de 3 minutos</div>
           </div>
 
           <div className="ar-card">
             <span className="ar-step-label">PASSO 3</span>
             <h3 className="ar-card-title">Use na sua próxima conversa</h3>
-            <p className="ar-card-text">Recebeu uma mensagem importante? Vai entrar em uma reunião? Explique rapidamente o que aconteceu e receba orientação antes de responder ao cliente.</p>
+            <p className="ar-card-text">Recebeu uma mensagem importante? Vai entrar em uma reunião? Agora é só usar.</p>
             <div className="ar-card-footer">✅ Ainda hoje</div>
           </div>
         </div>

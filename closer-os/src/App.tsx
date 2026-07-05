@@ -90,6 +90,7 @@ export default function App() {
         <Faq />
       </main>
       <Footer />
+      <div className="copyright-bar">© 2026 CloserOS™. Todos os direitos reservados.</div>
     </>
   )
 }

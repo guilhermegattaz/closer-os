@@ -1829,7 +1829,7 @@ footer {
 }
 .footer-logo-text { display: flex; justify-content: center; }
 .footer-logo-img {
-  height: 31px; width: auto;
+  height: 35.65px; width: auto;
   display: block;
 }
 @media (max-width: 640px) {
@@ -2002,6 +2002,18 @@ footer {
   padding-bottom: 0.12em;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+}
+
+/* ================================================================
+   COPYRIGHT BAR — barra escura final
+   ================================================================ */
+.copyright-bar {
+  background: oklch(0.17 0.025 285);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 12px;
+  text-align: center;
+  padding: 16px var(--px);
+  margin: 0;
 }
 
 /* ================================================================
