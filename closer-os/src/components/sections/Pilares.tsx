@@ -10,7 +10,7 @@ const steps = [
     ),
   },
   {
-    phase: 'CONHECER O CLIENTE',
+    phase: 'CONHECENDO SEU CLIENTE',
     desc: 'Cria roteiros de investigação para entender melhor o cliente antes de apresentar qualquer solução.',
     example: 'Quais perguntas devo fazer?',
     icon: (
@@ -21,7 +21,7 @@ const steps = [
     ),
   },
   {
-    phase: 'A REUNIÃO',
+    phase: 'DURANTE A REUNIÃO',
     desc: 'Estrutura a conversa e organiza as perguntas mais importantes para conduzir a apresentação com clareza e confiança.',
     example: 'Tenho uma reunião daqui a 20 minutos.',
     icon: (
@@ -34,7 +34,7 @@ const steps = [
     ),
   },
   {
-    phase: 'SEU VALOR',
+    phase: 'APRESENTANDO SEU VALOR',
     desc: 'Mostra como apresentar seu valor e ser visto como a escolha óbvia.',
     example: 'O cliente achou caro.',
     icon: (
@@ -45,7 +45,7 @@ const steps = [
     ),
   },
   {
-    phase: 'ACOMPANHAMENTO',
+    phase: 'CONSTRUINDO RELACIONAMENTO',
     desc: 'Sugere formas naturais de retomar a conversa mantendo a sua autoridade.',
     example: 'O cliente sumiu há quatro dias.',
     icon: (
