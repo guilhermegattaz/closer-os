@@ -11,6 +11,7 @@ import {
   Pilares,
   Autoridade,
   Provas,
+  OfertaPreview,
   Oferta,
   AcessoRapido,
   Faq,
@@ -84,6 +85,7 @@ export default function App() {
         <ImpactoCloserOS />
         <Provas />
         <Autoridade />
+        <OfertaPreview />
         <Oferta />
         <AcessoRapido />
         <DoisCaminhos />
