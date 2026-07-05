@@ -4,7 +4,7 @@ export function LeakMatrix() {
       <div className="container">
         <div className="leak-header fade-up">
           <span className="eyebrow">O diagnóstico</span>
-          <h2 className="h2">A maioria das vendas não morre no preço. <span className="hl-wrap text-gradient">Morre na resposta errada.</span></h2>
+          <h2 className="h2">A maioria das vendas não morre no preço.<br /> <span className="hl-wrap text-gradient">Morre na resposta errada.</span></h2>
           <p className="leak-sub">Você perde clientes porque chega um momento da conversa em que não sabe exatamente o que responder. E isso se repete toda semana.</p>
         </div>
 
