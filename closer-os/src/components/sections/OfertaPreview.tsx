@@ -10,7 +10,7 @@ export function OfertaPreview() {
         <div className="op-rows fade-up d1">
           <div className="op-row">
             <div className="op-row-mockup">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" /></svg>
+              <img src="/images/mcel.webp" alt="Mockup do CloserOS™" width="100%" height="100%" loading="eager" />
             </div>
             <div className="op-row-content">
               <h3 className="op-name">CloserOS™</h3>
@@ -20,7 +20,7 @@ export function OfertaPreview() {
 
           <div className="op-row">
             <div className="op-row-mockup">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" /></svg>
+              <img src="/images/mbib.webp" alt="Mockup da Biblioteca de Cenários Reais™" width="100%" height="100%" loading="lazy" />
             </div>
             <div className="op-row-content">
               <h3 className="op-name">Biblioteca de Cenários Reais™</h3>
@@ -30,7 +30,7 @@ export function OfertaPreview() {
 
           <div className="op-row">
             <div className="op-row-mockup">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21" /><line x1="9" y1="3" x2="9" y2="18" /><line x1="15" y1="6" x2="15" y2="21" /></svg>
+              <img src="/images/mrot.webp" alt="Mockup do Meu Roteiro Comercial™" width="100%" height="100%" loading="lazy" />
             </div>
             <div className="op-row-content">
               <h3 className="op-name">Meu Roteiro Comercial™</h3>
@@ -40,7 +40,7 @@ export function OfertaPreview() {
 
           <div className="op-row">
             <div className="op-row-mockup">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2" /><line x1="12" y1="18" x2="12.01" y2="18" /></svg>
+              <img src="/images/mmanu.webp" alt="Mockup do Manual de Bolso™" width="100%" height="100%" loading="lazy" />
             </div>
             <div className="op-row-content">
               <h3 className="op-name">Manual de Bolso™</h3>
