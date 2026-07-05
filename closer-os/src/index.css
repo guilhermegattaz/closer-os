@@ -2034,7 +2034,14 @@ footer {
 @media (width <= 640px) {
   .oferta-price-big { font-size: 4rem; }
   #oferta .container-sm { padding: 0 12px; }
-  .oferta-price-col-left { align-items: flex-start; }
+  .oferta-price-col-left { align-items: flex-start; max-width: 105px; }
+  .oferta-price-big sup {
+    font-size: 1em;
+    font-weight: 800;
+    vertical-align: baseline;
+    margin-top: 0;
+    transform: translateZ(0);
+  }
 }
 
 @media (width >= 901px) {
