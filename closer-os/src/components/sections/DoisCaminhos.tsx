@@ -25,9 +25,6 @@ export function DoisCaminhos() {
                 Seguir improvisando em cada conversa. Travando quando o cliente pergunta o preço. Vendo proposta virar silêncio. E terminando o mês na dúvida de quanto deixou na mesa.
               </p>
             </div>
-            <div className="dc-card-footer dc-card-footer--warn">
-              ⚠️ Estagnação e frustração silenciosa
-            </div>
           </div>
 
           {/* Card 2 — o caminho bom */}
@@ -45,9 +42,6 @@ export function DoisCaminhos() {
                 Abrir o CloserOS, descrever a situação e ter, na hora, a resposta certa para conduzir a conversa com confiança, do primeiro contato até o cliente dizer{' '}
                 <span className="dc-hl">&ldquo;fechado&rdquo;</span>.
               </p>
-            </div>
-            <div className="dc-card-footer dc-card-footer--accent">
-              ✨ Clareza, velocidade e previsibilidade
             </div>
           </div>
         </div>
