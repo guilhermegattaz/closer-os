@@ -10,19 +10,8 @@ const steps = [
     ),
   },
   {
-    phase: 'CONHECENDO SEU CLIENTE',
-    desc: 'Cria roteiros de investigação para entender melhor o cliente antes de apresentar qualquer solução.',
-    example: 'Quais perguntas devo fazer?',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">
-        <circle cx="11" cy="11" r="8" />
-        <line x1="21" y1="21" x2="16.65" y2="16.65" />
-      </svg>
-    ),
-  },
-  {
-    phase: 'DURANTE A REUNIÃO',
-    desc: 'Estrutura a conversa e organiza as perguntas mais importantes para conduzir a apresentação com clareza e confiança.',
+    phase: 'ENTENDENDO O CLIENTE E CONDUZINDO A REUNIÃO',
+    desc: 'Cria os roteiros certos para entender o cliente e estrutura a conversa para conduzir a apresentação com clareza e confiança.',
     example: 'Tenho uma reunião daqui a 20 minutos.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">
@@ -34,24 +23,13 @@ const steps = [
     ),
   },
   {
-    phase: 'APRESENTANDO SEU VALOR',
-    desc: 'Mostra como apresentar seu valor e ser visto como a escolha óbvia.',
+    phase: 'APRESENTANDO VALOR E CONSTRUINDO RELACIONAMENTO',
+    desc: 'Mostra como apresentar seu valor, ser visto como a escolha óbvia e manter sua autoridade nas conversas seguintes.',
     example: 'O cliente achou caro.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">
         <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
         <line x1="7" y1="7" x2="7.01" y2="7" />
-      </svg>
-    ),
-  },
-  {
-    phase: 'CONSTRUINDO RELACIONAMENTO',
-    desc: 'Sugere formas naturais de retomar a conversa mantendo a sua autoridade.',
-    example: 'O cliente sumiu há quatro dias.',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">
-        <circle cx="12" cy="12" r="10" />
-        <polyline points="12 6 12 12 16 14" />
       </svg>
     ),
   },

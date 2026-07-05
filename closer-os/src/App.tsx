@@ -3,7 +3,7 @@ import { Footer } from './components/layout/Footer'
 import {
   Hero,
   LeakMatrix,
-
+  CustoInvisivel,
   ComoPensa,
   ProfessionSelector,
   ImpactoCloserOS,
@@ -76,7 +76,7 @@ export default function App() {
       <main id="main">
         <Hero />
         <LeakMatrix />
-
+        <CustoInvisivel />
         <FerramentaNaoCurso />
         <ComoPensa />
         <Pilares />

@@ -1,84 +1,24 @@
-const cards = [
-  {
-    delay: 'd1',
-    titulo: 'Tempo',
-    desc: 'Você já investiu horas naquela oportunidade. Quando a negociação trava, você não perde apenas uma venda. Perde todo o tempo que colocou nela.',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="26" height="26" aria-hidden="true">
-        <circle cx="12" cy="12" r="10" />
-        <polyline points="12 6 12 12 16 14" />
-      </svg>
-    ),
-  },
-  {
-    delay: 'd2',
-    titulo: 'Dinheiro',
-    desc: 'Muitas vezes você baixa o preço por insegurança. Ou simplesmente deixa um cliente desaparecer. Nos dois casos, o resultado é o mesmo: menos faturamento.',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="26" height="26" aria-hidden="true">
-        <polyline points="22 17 13.5 8.5 8.5 13.5 2 7" />
-        <polyline points="16 17 22 17 22 11" />
-      </svg>
-    ),
-  },
-  {
-    delay: 'd3',
-    titulo: 'Confiança',
-    desc: 'Depois de algumas negociações perdidas, fica cada vez mais difícil sustentar seu preço e conduzir a próxima conversa com tranquilidade.',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="26" height="26" aria-hidden="true">
-        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-      </svg>
-    ),
-  },
-  {
-    delay: 'd4',
-    titulo: 'Energia',
-    desc: 'Você termina a negociação pensando: "O que eu deveria ter respondido?". E continua revivendo aquela conversa durante dias.',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="26" height="26" aria-hidden="true">
-        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
-      </svg>
-    ),
-  },
-]
-
 export function CustoInvisivel() {
   return (
     <section id="custo-invisivel">
       <div className="container">
-
-        <div className="ci-header fade-up">
-          <span className="eyebrow">O CUSTO INVISÍVEL</span>
-          <h2 className="h2">
-            Você provavelmente não está perdendo clientes.<br className="br-mobile" />
-            <span className="text-gradient">Está perdendo todo o trabalho que veio antes deles.</span>
-          </h2>
-          <p className="ci-subtitle">O prejuízo de uma negociação perdida quase nunca aparece de uma vez. Ele se divide em quatro.</p>
+        <div className="custo-header fade-up">
+          <span className="eyebrow">O custo invisível</span>
+          <h2 className="h2">Você já calculou quanto uma resposta travada custa por ano?</h2>
+          <p className="custo-sub">Não é sobre o preço do CloserOS. É sobre o que você já está perdendo, mês após mês, sem perceber.</p>
         </div>
-
-        <div className="ci-grid">
-          {cards.map((c) => (
-            <div key={c.titulo} className={`ci-card fade-up ${c.delay}`}>
-              <div className="ci-card-icon">{c.icon}</div>
-              <div className="ci-card-title">{c.titulo}</div>
-              <p className="ci-card-desc">{c.desc}</p>
-            </div>
-          ))}
+        <div className="custo-card fade-up d1">
+          <div className="custo-row">
+            <span className="custo-label">Perder só 1 cliente de R$1.500 por mês</span>
+            <span className="custo-value">R$18.000 <small>por ano</small></span>
+          </div>
+          <div className="custo-divider"></div>
+          <div className="custo-row custo-row--final">
+            <span className="custo-label">O CloserOS custa, uma única vez</span>
+            <span className="custo-value custo-value--price">R$67</span>
+          </div>
         </div>
-
-        <div className="ci-insight fade-up">
-          <p>O problema raramente começa quando o cliente diz &ldquo;vou pensar&rdquo;. Na maioria das vezes, ele começa alguns minutos antes.</p>
-          <p>Em uma pergunta que ficou sem aprofundamento. Em um preço apresentado cedo demais. Em uma resposta enviada por impulso. Ou simplesmente porque você não sabia exatamente como continuar a conversa.</p>
-        </div>
-
-        <div className="ci-impact fade-up">
-          <p>Você não precisa recuperar uma venda.</p>
-          <p>Precisa evitar perdê-la no momento em que a conversa muda de direção.</p>
-        </div>
-
-        <p className="ci-transition fade-up">É exatamente para esse momento que o CloserOS foi criado.</p>
-
+        <p className="custo-foot fade-up d2">A pergunta não é se o CloserOS vale R$67. É quanto ainda vale continuar travando na resposta errada.</p>
       </div>
     </section>
   )
