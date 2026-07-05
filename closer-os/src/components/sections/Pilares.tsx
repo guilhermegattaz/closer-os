@@ -56,7 +56,7 @@ const steps = [
     ),
   },
   {
-    phase: 'FECHAMENTO',
+    phase: 'NEGOCIAÇÃO E FECHAMENTO',
     desc: 'Ajuda você a negociar com segurança, sem improvisar.',
     example: 'Ele disse que vai pensar.',
     icon: (
