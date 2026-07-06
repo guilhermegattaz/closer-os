@@ -24,7 +24,7 @@ export function OfertaPreview() {
             </div>
             <div className="op-row-content">
               <h3 className="op-name">Biblioteca de Cenários Reais™</h3>
-              <p className="op-desc">Dezenas de situações reais conduzidas pelo CloserOS para você se inspirar no dia a dia.</p>
+              <p className="op-desc">Dezenas de situações reais conduzidas pelo CloserOS para você descobrir novas aplicações no dia a dia.</p>
             </div>
           </div>
 
