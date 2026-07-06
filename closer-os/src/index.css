@@ -648,7 +648,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 #custo-invisivel .custo-value--price { font-size: 1.7rem; background-image: linear-gradient(135deg, oklch(0.85 0.16 293), oklch(0.7 0.25 305)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
 #custo-invisivel .custo-foot { text-align: center; color: rgba(255,255,255,0.55); max-width: 520px; margin: 28px auto 0; font-size: 0.85rem; line-height: 1.6; }
 @media (max-width: 640px) {
-  #custo-invisivel .h2 { font-size: 18px; }
+  #custo-invisivel .h2 { font-size: 19.8px; }
   #custo-invisivel .custo-card { padding: 24px 20px; }
   #custo-invisivel .custo-row { flex-direction: column; align-items: flex-start; gap: 4px; }
   #custo-invisivel .custo-value { font-size: 1.25rem; }
