@@ -35,7 +35,7 @@ const steps = [
   },
   {
     phase: 'NEGOCIAÇÃO E FECHAMENTO',
-    desc: 'Ajuda você a negociar com segurança, sem improvisar.',
+    desc: 'Ajuda você a negociar com segurança, sem improvisar. Mesmo que você não saiba nada sobre vendas.',
     example: 'Ele disse que vai pensar.',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="22" height="22" aria-hidden="true">

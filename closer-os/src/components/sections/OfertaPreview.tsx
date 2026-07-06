@@ -43,8 +43,8 @@ export function OfertaPreview() {
               <img src="/images/mmanu.webp" alt="Mockup do Manual de Bolso™" width="100%" height="100%" loading="lazy" />
             </div>
             <div className="op-row-content">
-              <h3 className="op-name">Manual de Bolso™</h3>
-              <p className="op-desc">Tenha o CloserOS ao alcance em segundos e use no dia a dia, de forma prática.</p>
+              <h3 className="op-name">Autoridade Desde a Primeira Conversa™</h3>
+              <p className="op-desc">Aprenda a conduzir os primeiros minutos da conversa para gerar confiança, valor e interesse antes mesmo de apresentar sua solução.</p>
             </div>
           </div>
         </div>

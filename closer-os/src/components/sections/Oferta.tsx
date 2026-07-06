@@ -16,7 +16,6 @@ export function Oferta() {
         {/* BLOCO 01: Título + Subtítulo + Frase de impacto */}
         <div className="oferta-pre-titulo fade-up">
           <h2 className="h2">Se o CloserOS ajudar você a recuperar apenas uma conversa importante… <span className="text-gradient">ele já terá se pago.</span></h2>
-          <p className="oferta-pre-sub">Mas a ideia nunca foi recuperar apenas uma. A ideia é que você nunca mais precise improvisar quando um cliente fizer uma pergunta difícil, pedir desconto ou simplesmente parar de responder.</p>
         </div>
 
         <div className="oferta-card fade-up">
@@ -26,18 +25,23 @@ export function Oferta() {
             <div className="stack-section-title">Comece agora e receba acesso imediato a tudo isso:</div>
             <div className="stack-row">
               <div className="stack-icon"><CheckIcon /></div>
-              <div className="stack-name">Converse com o CloserOS sempre que um cliente responder, fizer uma objeção ou você não souber como continuar a conversa.</div>
+              <div className="stack-name">CloserOS™</div>
               <div className="stack-val">R$497</div>
             </div>
             <div className="stack-row">
               <div className="stack-icon"><CheckIcon /></div>
-              <div className="stack-name">Biblioteca de exemplos reais para descobrir novas formas de utilizar o CloserOS no dia a dia.</div>
+              <div className="stack-name">Biblioteca de Cenários Reais™</div>
               <div className="stack-val">R$97</div>
             </div>
             <div className="stack-row">
               <div className="stack-icon"><CheckIcon /></div>
-              <div className="stack-name">Construa um roteiro de perguntas totalmente adaptado ao seu negócio com ajuda do próprio CloserOS.</div>
+              <div className="stack-name">Meu Roteiro Comercial™</div>
               <div className="stack-val">R$197</div>
+            </div>
+            <div className="stack-row">
+              <div className="stack-icon"><CheckIcon /></div>
+              <div className="stack-name">Autoridade Desde a Primeira Conversa™</div>
+              <div className="stack-val">R$147</div>
             </div>
             <div className="stack-row">
               <div className="stack-icon"><CheckIcon /></div>
@@ -52,7 +56,7 @@ export function Oferta() {
             <div className="oferta-price-row">
               <div className="oferta-price-col-left">
                 <div className="oferta-anchor-label">Valor real do pacote</div>
-                <div className="oferta-price-from">R$791</div>
+                <div className="oferta-price-from">R$938</div>
               </div>
               <div className="oferta-price-col-right">
                 <div className="oferta-price-hoje">Hoje:</div>
