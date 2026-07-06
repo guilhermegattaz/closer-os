@@ -645,9 +645,10 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 #custo-invisivel .custo-value small { font-size: 0.7rem; font-weight: 500; color: rgba(255,255,255,0.5); margin-left: 4px; }
 #custo-invisivel .custo-divider { height: 1px; background: rgba(255,255,255,0.1); margin: 20px 0; }
 #custo-invisivel .custo-row--final .custo-label { color: rgba(255,255,255,0.85); font-weight: 600; }
-#custo-invisivel .custo-value--price { color: rgb(182,121,255); font-size: 1.7rem; }
+#custo-invisivel .custo-value--price { font-size: 1.7rem; background-image: linear-gradient(135deg, oklch(0.85 0.16 293), oklch(0.7 0.25 305)); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
 #custo-invisivel .custo-foot { text-align: center; color: rgba(255,255,255,0.55); max-width: 520px; margin: 28px auto 0; font-size: 0.85rem; line-height: 1.6; }
 @media (max-width: 640px) {
+  #custo-invisivel .h2 { font-size: 18px; }
   #custo-invisivel .custo-card { padding: 24px 20px; }
   #custo-invisivel .custo-row { flex-direction: column; align-items: flex-start; gap: 4px; }
   #custo-invisivel .custo-value { font-size: 1.25rem; }
@@ -767,8 +768,9 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   .ferra-step--left .ferra-step-desc, .ferra-step-desc{ margin-left:0; max-width:none; }
   .ferra-phone{ order:-1; }
   .ferra-steps-right{ width:100%; max-width:360px; }
-  .ferra-head{ margin-bottom:40px; }
+  .ferra-head{ margin-bottom:20px; }
   .ferra-guarantees{ flex-direction:row; flex-wrap:wrap; justify-content:center; align-items:center; gap:14px; }
+  #ferramenta .ferra-guarantees { margin-top: 28px; }
   .ferra-video-wrap{ width:100%; max-width:100%; margin-inline:auto; }
   .ferra-demo .ferra-video-wrap{ order:1; }
   .ferra-demo .ferra-step--left{ order:2; }
