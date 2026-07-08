@@ -23,7 +23,7 @@ function FaqAnswer({ isOpen, children }: { isOpen: boolean; children: React.Reac
       style={{ maxHeight: 0, opacity: 0, overflow: 'hidden', transition: 'max-height 0.25s ease, opacity 0.2s ease' }}
       aria-hidden={!isOpen}
     >
-      {children}
+      <div className="faq-a-inner">{children}</div>
     </div>
   )
 }
