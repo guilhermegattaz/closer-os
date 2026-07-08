@@ -85,6 +85,21 @@ export default function App() {
     }
   }, [])
 
+  useEffect(() => {
+    const grid = document.querySelector<HTMLElement>('.provas-grid')
+    const dots = document.querySelectorAll<HTMLElement>('.provas-swipe-dots--desktop span')
+    if (!grid || dots.length === 0) return
+    const updateDots = () => {
+      const scrollable = grid.scrollWidth - grid.clientWidth
+      if (scrollable <= 0) return
+      const progress = grid.scrollLeft / scrollable
+      const activeIndex = Math.round(progress * (dots.length - 1))
+      dots.forEach((dot, i) => dot.classList.toggle('dot-active', i === activeIndex))
+    }
+    grid.addEventListener('scroll', updateDots, { passive: true })
+    return () => grid.removeEventListener('scroll', updateDots)
+  }, [])
+
   return (
     <>
       <a
