@@ -1078,7 +1078,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   }
   .provas-grid > .pv-card {
     scroll-snap-align: start;
-    flex: 0 0 329px;
+    flex: 0 0 301px;
   }
   .provas-swipe-dots--desktop {
     display: flex;
