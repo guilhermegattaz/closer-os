@@ -10,6 +10,7 @@ export function Provas() {
           <p className="provas-disclaimer">Mensagens reais, compartilhadas com permissão. Nomes e @ alterados para preservar a privacidade.</p>
         </div>
 
+        <div className="provas-carousel-wrap">
         <div className="provas-grid">
 
           {/* ── Card 1: WhatsApp claro — Ana Paula S. ── */}
@@ -191,6 +192,12 @@ export function Provas() {
             </div>
           </div>
 
+        </div>
+          <div className="provas-arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </div>
         </div>
 
         <div className="provas-swipe-dots" aria-hidden="true">
