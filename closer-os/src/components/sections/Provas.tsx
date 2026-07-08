@@ -197,7 +197,7 @@ export function Provas() {
           <span></span><span></span><span></span><span></span><span></span><span></span>
         </div>
         <div className="provas-swipe-dots provas-swipe-dots--desktop" aria-hidden="true">
-          <span className="dot-active"></span><span></span>
+          <span className="dot-active"></span><span></span><span></span>
         </div>
         <p className="provas-drag-hint" aria-hidden="true">arraste para ver mais</p>
 
