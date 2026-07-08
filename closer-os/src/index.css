@@ -1986,7 +1986,7 @@ footer {
    HERO — 2 colunas desktop (≥901px)
    ================================================================ */
 /* provas swipe indicator */
-.provas-swipe-dots {
+.provas-swipe-dots:not(.provas-swipe-dots--desktop) {
   display: none;
 }
 
