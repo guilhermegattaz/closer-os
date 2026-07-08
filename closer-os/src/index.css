@@ -1799,7 +1799,7 @@ footer {
   display: block;
 }
 @media (max-width: 640px) {
-  .footer-logo-img { height: 26px; }
+  .footer-logo-img { height: 30px; }
 }
 .footer-links {
   display: flex; align-items: center; justify-content: center; gap: 18px; flex-wrap: wrap;
