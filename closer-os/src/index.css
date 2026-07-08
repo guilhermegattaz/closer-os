@@ -459,13 +459,13 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
 .lm-silence { text-align: center; font-size: 11px; color: #71717a; padding: 6px 0; }
 .lm-highlight { color: #fcd34d; font-weight: 600; }
 /* Meet */
-.lm-meet { gap: 0; padding: 12px; }
-.lm-meet-bar { display: flex; align-items: center; justify-content: space-between; font-size: 10px; color: #a1a1aa; margin-bottom: 10px; }
+.lm-meet { gap: 0; padding: 8px; }
+.lm-meet-bar { display: flex; align-items: center; justify-content: space-between; font-size: 10px; color: #a1a1aa; margin-bottom: 6px; }
 .lm-meet-bar-left { display: flex; align-items: center; gap: 6px; }
 .lm-rec-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #ef4444; animation: lm-pulse 1.5s ease infinite; }
 @keyframes lm-pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
-.lm-meet-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
-.lm-tile { position: relative; aspect-ratio: 16/9; border-radius: var(--r-xs); background: #202124; overflow: hidden; display: grid; place-items: center; }
+.lm-meet-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 6px; }
+.lm-tile { position: relative; aspect-ratio: 21/9; border-radius: var(--r-xs); background: #202124; overflow: hidden; display: grid; place-items: center; }
 .lm-tile--active { outline: 1px solid rgba(59,130,246,.6); }
 .lm-avatar { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; font-weight: 600; font-size: 13px; color: #fff; }
 .lm-tile-mic { position: absolute; top: 5px; right: 5px; font-size: 10px; }
