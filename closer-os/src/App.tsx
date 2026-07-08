@@ -100,6 +100,23 @@ export default function App() {
     return () => grid.removeEventListener('scroll', updateDots)
   }, [])
 
+  useEffect(() => {
+    const arrow = document.querySelector<HTMLElement>('.provas-arrow')
+    const grid = document.querySelector<HTMLElement>('.provas-grid')
+    if (!arrow || !grid) return
+    const onClick = () => {
+      const max = grid.scrollWidth - grid.clientWidth
+      const step = grid.clientWidth
+      if (grid.scrollLeft >= max - 5) {
+        grid.scrollTo({ left: 0, behavior: 'smooth' })
+      } else {
+        grid.scrollTo({ left: Math.min(grid.scrollLeft + step, max), behavior: 'smooth' })
+      }
+    }
+    arrow.addEventListener('click', onClick)
+    return () => arrow.removeEventListener('click', onClick)
+  }, [])
+
   return (
     <>
       <a

@@ -193,11 +193,11 @@ export function Provas() {
           </div>
 
         </div>
-          <div className="provas-arrow" aria-hidden="true">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <button className="provas-arrow" aria-label="Ver mais depoimentos" type="button">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
-          </div>
+          </button>
         </div>
 
         <div className="provas-swipe-dots" aria-hidden="true">
