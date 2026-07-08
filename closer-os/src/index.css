@@ -1102,8 +1102,8 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   }
   .provas-drag-hint {
     text-align: center;
-    font-size: 0.68rem;
-    color: rgba(255, 255, 255, 0.22);
+    font-size: 0.61rem;
+    color: rgb(182, 121, 255);
     margin-top: 8px;
     letter-spacing: 0.04em;
   }
