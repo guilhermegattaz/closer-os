@@ -51,6 +51,40 @@ export default function App() {
     }
   }, [])
 
+  useEffect(() => {
+    const grid = document.querySelector<HTMLElement>('.provas-grid')
+    if (!grid) return
+    let isDown = false, startX = 0, scrollStart = 0
+
+    const onMouseDown = (e: MouseEvent) => {
+      isDown = true
+      grid.style.cursor = 'grabbing'
+      grid.style.userSelect = 'none'
+      startX = e.pageX
+      scrollStart = grid.scrollLeft
+      e.preventDefault()
+    }
+    const onMouseMove = (e: MouseEvent) => {
+      if (!isDown) return
+      e.preventDefault()
+      grid.scrollLeft = scrollStart - (e.pageX - startX)
+    }
+    const onMouseUp = () => {
+      isDown = false
+      grid.style.cursor = 'grab'
+      grid.style.userSelect = ''
+    }
+
+    grid.addEventListener('mousedown', onMouseDown)
+    window.addEventListener('mousemove', onMouseMove)
+    window.addEventListener('mouseup', onMouseUp)
+    return () => {
+      grid.removeEventListener('mousedown', onMouseDown)
+      window.removeEventListener('mousemove', onMouseMove)
+      window.removeEventListener('mouseup', onMouseUp)
+    }
+  }, [])
+
   return (
     <>
       <a

@@ -196,6 +196,9 @@ export function Provas() {
         <div className="provas-swipe-dots" aria-hidden="true">
           <span></span><span></span><span></span><span></span><span></span><span></span>
         </div>
+        <div className="provas-swipe-dots provas-swipe-dots--desktop" aria-hidden="true">
+          <span></span><span></span>
+        </div>
 
       </div>
     </section>
