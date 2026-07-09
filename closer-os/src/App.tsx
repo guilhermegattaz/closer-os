@@ -136,7 +136,7 @@ export default function App() {
           <a href="#hero" className="site-header-logo">
             <img src="/images/Logodark.webp" alt="CloserOS" className="site-header-logo-img" />
           </a>
-          <a href="https://pay.kiwify.com.br/F0Rpruo" className="site-header-cta" target="_blank" rel="noopener noreferrer">Quero meu acesso · R$67</a>
+          <a href="https://pay.hotmart.com/M106671919D" className="site-header-cta" target="_blank" rel="noopener noreferrer">Quero meu acesso · R$67</a>
         </div>
       </header>
       <main id="main">
