@@ -39,6 +39,16 @@ src="https://www.facebook.com/tr?id=2105718183374652&ev=PageView&noscript=1"
   --font-heading:"Sora",sans-serif; --font-body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   --s-md:0 4px 16px #00000014; --s-lg:0 16px 56px #0000001f;
 }
+/* efeitos identicos ao closeros.com.br: degrade de titulo e selo de features */
+.text-gradient{background:linear-gradient(135deg, oklch(0.85 0.16 293), oklch(0.7 0.25 305)) text;color:transparent;-webkit-text-fill-color:transparent;}
+
+.ferra-guarantees{border:1px solid var(--border);border-radius:var(--r);max-width:560px;box-shadow:var(--s-sm,0 1px 3px rgba(0,0,0,0.06));background:#fff;flex-wrap:wrap;justify-content:space-around;align-items:center;gap:16px;margin:32px auto 0;padding:16px 24px;display:flex;}
+.guarantee-item{color:var(--text);align-items:center;gap:10px;font-size:0.92rem;font-weight:700;display:inline-flex;}
+.check-badge{color:var(--accent);background:rgba(109,40,217,0.12);border:1px solid rgba(109,40,217,0.28);border-radius:9999px;flex:0 0 auto;justify-content:center;align-items:center;width:22px;height:22px;display:inline-flex;}
+.check-badge svg{stroke:currentColor;stroke-width:2px;width:13px;height:13px;}
+.g-divider{background:linear-gradient(rgba(0,0,0,0),rgba(24,24,27,0.12),rgba(0,0,0,0));align-self:center;width:1px;height:28px;}
+.ferra-closing{text-align:center;color:var(--text);max-width:480px;margin:20px auto 0;font-size:0.95rem;font-weight:500;line-height:1.55;}
+
 *{box-sizing:border-box;}
 body{margin:0;font-family:var(--font-body);color:var(--text);background:var(--bg);line-height:1.5;}
 h1,h2,h3{font-family:var(--font-heading);margin:0;line-height:1.2;}
@@ -53,8 +63,8 @@ img{max-width:100%;display:block;}
 .h2{font-size:clamp(1.6rem,3.6vw,2.3rem);font-weight:800;text-align:center;max-width:760px;margin:0 auto;}
 .sub{color:var(--text-2);text-align:center;max-width:620px;margin:16px auto 0;font-size:1rem;}
 .center{text-align:center;}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--accent);color:#fff;font-weight:700;font-size:1rem;padding:16px 32px;border-radius:999px;text-decoration:none;box-shadow:var(--s-md);transition:transform .15s,background .15s;border:none;cursor:pointer;}
-.btn:hover{background:var(--accent-h);transform:translateY(-2px);}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:linear-gradient(135deg, oklch(0.68 0.26 293), oklch(0.55 0.28 293));color:#fff;font-weight:700;font-size:1rem;padding:16px 32px;border-radius:999px;text-decoration:none;box-shadow:0 4px 16px rgba(109,40,217,0.22),0 0 0 1px rgba(109,40,217,0.1);transition:transform .15s,box-shadow .15s;border:none;cursor:pointer;}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(109,40,217,0.3),0 0 0 1px rgba(109,40,217,0.15);}
 .btn-lg{padding:18px 40px;font-size:1.05rem;}
 
 /* header */
@@ -62,7 +72,7 @@ img{max-width:100%;display:block;}
 .site-header img{height:28px;margin:0 auto;}
 
 /* hero (sem CTA, igual ao modelo) */
-.hero{background:#f6f6f6;padding:56px 0 var(--sepy);}
+.hero{background:#fff;padding:56px 0 var(--sepy);}
 .hero .container{display:flex;flex-direction:column;align-items:center;text-align:center;max-width:680px;}
 .hero h1{color:var(--text);font-size:clamp(1.9rem,4vw,2.7rem);font-weight:800;}
 .hero h1 span{color:var(--accent);}
@@ -97,21 +107,21 @@ img{max-width:100%;display:block;}
 /* ponte */
 .bridge{max-width:760px;margin:0 auto;text-align:center;}
 .bridge h3{color:var(--text);font-size:clamp(1.4rem,3vw,2rem);font-weight:800;}
-.bridge h3 span{color:var(--accent);}
+.bridge h3 span{background:linear-gradient(135deg, oklch(0.85 0.16 293), oklch(0.7 0.25 305)) text;color:transparent;-webkit-text-fill-color:transparent;}
 .bridge p{color:var(--text-2);margin-top:16px;font-size:1rem;}
 .connector{text-align:center;font-weight:700;color:var(--text);max-width:640px;margin:28px auto 0;font-size:1.05rem;}
 
 /* transformacao grid */
 .trans-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:820px;margin:40px auto 0;}
 .trans-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:26px 20px;text-align:center;}
-.trans-card .ico{width:44px;height:44px;border-radius:12px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;font-size:1.2rem;}
+.trans-card .ico{width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg, var(--accent), var(--accent-h));color:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;font-size:1.2rem;box-shadow:rgba(109,40,217,0.45) 0 8px 20px -6px, rgba(109,40,217,0.25) 0 2px 6px -2px;}
 .trans-card p{font-weight:700;font-size:0.98rem;}
 @media(max-width:700px){ .trans-grid{grid-template-columns:1fr;} }
 
 /* como funciona com setas */
 .steps-row{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:14px;align-items:center;max-width:920px;margin:40px auto 0;}
 .step-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:28px 20px;text-align:center;}
-.step-card .step-ico{font-size:1.8rem;margin-bottom:10px;}
+.step-card .step-ico{display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:14px;background:linear-gradient(135deg, var(--accent), var(--accent-h));color:#fff;font-size:1.5rem;margin-bottom:10px;box-shadow:rgba(109,40,217,0.45) 0 8px 20px -6px, rgba(109,40,217,0.25) 0 2px 6px -2px;}
 .step-card h3{font-size:1.02rem;font-weight:700;margin-bottom:8px;}
 .step-card p{color:var(--text-2);font-size:0.9rem;}
 .step-arrow{color:var(--accent);font-size:1.5rem;font-weight:700;}
@@ -180,6 +190,8 @@ img{max-width:100%;display:block;}
 .choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:820px;margin:40px auto 0;}
 .choice-card{border-radius:var(--r);padding:28px;background:var(--card);}
 .choice-card .icon-circle{width:52px;height:52px;border-radius:50%;background:var(--bg-2);display:flex;align-items:center;justify-content:center;font-size:1.4rem;margin-bottom:14px;}
+.choice-card.bad .icon-circle{background:var(--red-light);box-shadow:0 8px 20px -6px rgba(220,38,38,0.35);}
+.choice-card.good .icon-circle{background:var(--green-light);box-shadow:0 8px 20px -6px rgba(22,163,74,0.35);}
 .choice-card .tag{display:inline-block;font-weight:700;font-size:0.78rem;text-transform:uppercase;letter-spacing:.02em;padding:4px 14px;border-radius:999px;margin-bottom:10px;}
 .choice-card.bad .tag{color:#fff;background:var(--red);}
 .choice-card.good .tag{color:#fff;background:var(--green);}
@@ -196,6 +208,50 @@ img{max-width:100%;display:block;}
 .faq-q .chev{transition:transform .2s;}
 .faq-item.open .faq-q .chev{transform:rotate(180deg);}
 
+/* depoimentos - mockups identicos ao closeros.com.br */
+.testi-row{display:flex;flex-wrap:wrap;justify-content:center;gap:24px;max-width:1000px;margin:28px auto 0;}
+.pv-card{background:var(--card);border-radius:22px;overflow:hidden;box-shadow:0 2px 20px -4px rgba(24,24,27,0.1),0 0 0 1px rgba(24,24,27,0.07);width:301px;display:flex;flex-direction:column;}
+.pv-avatar{color:#fff;border-radius:50%;flex-shrink:0;justify-content:center;align-items:center;width:38px;height:38px;font-size:13px;font-weight:700;display:flex;}
+.pv-footer{color:rgb(113,113,122);background:#fff;border-top:1px solid rgba(24,24,27,0.06);flex-wrap:wrap;align-items:center;gap:3px;padding:10px 14px;font-size:11px;display:flex;}
+.pv-footer-sep{color:rgba(24,24,27,0.28);}
+.pv-platform{color:rgb(82,82,91);font-weight:600;}
+
+.pv-card--wa-light{background:rgb(229,221,213);}
+.pv-card--wa-light .pv-footer{background:rgb(217,208,199);}
+.pv-wa-header{background:rgb(7,94,84);align-items:center;gap:10px;padding:12px 14px;display:flex;}
+.pv-wa-name{color:#fff;font-size:14px;font-weight:600;line-height:1.2;}
+.pv-wa-status{color:rgba(255,255,255,0.75);font-size:11px;}
+.pv-wa-body{flex-direction:column;gap:6px;padding:10px;display:flex;}
+.pv-bubble--sent{color:rgb(17,24,39);background:rgb(220,248,198);border-radius:14px 14px 3px 14px;align-self:flex-end;max-width:88%;padding:8px 12px;font-size:12.5px;line-height:1.4;}
+.pv-bubble-time{text-align:right;color:rgba(0,0,0,0.45);margin-top:3px;font-size:10px;display:block;}
+.pv-ticks{letter-spacing:-0.15em;color:rgb(83,189,235);font-size:11px;}
+.pv-wa-lido{color:rgb(83,189,235);}
+
+.pv-card--ig-dm-header,.pv-ig-dm-header{border-bottom:1px solid rgba(0,0,0,0.08);align-items:center;gap:10px;padding:11px 14px;display:flex;}
+.pv-back-btn{color:rgb(38,38,38);background:none;border:none;padding:0;font-size:22px;line-height:1;}
+.pv-ig-handle{color:rgb(38,38,38);font-size:13px;font-weight:600;line-height:1.2;}
+.pv-ig-active{color:rgb(142,142,142);font-size:11px;}
+.pv-ig-dm-body{flex-direction:column;gap:8px;padding:10px 14px;display:flex;}
+.pv-bubble--ig-sent{color:#fff;background:linear-gradient(135deg, rgb(240,148,51) 0%, rgb(230,104,60) 25%, rgb(220,39,67) 50%, rgb(204,35,102) 75%, rgb(188,24,136) 100%);border-radius:20px 20px 3px 20px;align-self:flex-end;max-width:88%;padding:8px 14px;font-size:12.5px;line-height:1.4;}
+.pv-ig-seen{color:rgb(142,142,142);align-self:flex-end;font-size:10px;}
+
+.pv-card--wa-dark{background:rgb(11,20,26);}
+.pv-wa-header--dark{background:rgb(31,44,52);}
+.pv-back-btn--dark{color:rgba(255,255,255,0.8);background:none;border:none;padding:0;font-size:22px;line-height:1;}
+.pv-wa-name--dark{color:rgb(233,237,239);}
+.pv-wa-status--dark{color:rgba(134,150,160,0.8);}
+.pv-wa-body--dark{background:rgb(11,20,26);}
+.pv-bubble--wa-dark-r{color:rgb(233,237,239);background:rgb(0,92,75);border-radius:14px 14px 3px 14px;align-self:flex-end;max-width:88%;padding:8px 12px;font-size:12.5px;line-height:1.4;}
+.pv-audio-bubble{background:rgb(0,92,75);border-radius:14px 14px 3px 14px;align-self:flex-end;align-items:center;gap:10px;min-width:170px;padding:10px 14px;display:flex;}
+.pv-audio-play-btn{color:rgb(233,237,239);background:rgba(255,255,255,0.15);border-radius:50%;flex-shrink:0;justify-content:center;align-items:center;width:30px;height:30px;font-size:11px;display:flex;}
+.pv-audio-waveform{flex:1;align-items:center;gap:2px;height:22px;display:flex;}
+.pv-audio-bar{background:rgba(134,150,160,0.55);border-radius:2px;flex-shrink:0;width:2.5px;}
+.pv-audio-duration{color:rgba(134,150,160,0.8);white-space:nowrap;font-size:11px;}
+.pv-ticks--dark{color:rgb(83,189,235);}
+.pv-bubble-time--dark{color:rgba(134,150,160,0.7);}
+.pv-footer--dark{color:rgb(174,186,193)!important;background:rgb(31,44,52)!important;border-top-color:rgba(255,255,255,0.08);}
+@media(max-width:800px){ .pv-card{width:100%;max-width:320px;} }
+
 footer{background:var(--dark);color:rgba(255,255,255,0.6);text-align:center;padding:44px var(--px);font-size:0.8rem;}
 footer a{color:#c9a3ff;text-decoration:none;font-weight:600;}
 footer p{margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6;}
@@ -209,39 +265,98 @@ footer p{margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line
 
 <section class="hero">
   <div class="container">
-    <h1>Chega de perder clientes porque você não sabe o que responder.</h1>
+    <h1>Chega de perder clientes porque você <span class="text-gradient">não sabe o que responder</span>.</h1>
     <p class="hero-sub">Quando um cliente diz "está caro", "vou pensar", pede desconto ou simplesmente para de responder, você não precisa mais improvisar. Descreva o que aconteceu e receba exatamente o que dizer.</p>
     <div class="hero-img">
       <video autoplay muted loop playsinline poster="/images/mcel.webp">
         <source src="/images/demofullfinal.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="hero-tags">
-      <span>Resposta pronta em segundos</span>
-      <span>Sem decorar script</span>
-      <span>Não precisa saber vender</span>
+    <div class="ferra-guarantees">
+      <div class="guarantee-item">
+        <span class="check-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span>Se adapta a você</span>
+      </div>
+      <div class="g-divider"></div>
+      <div class="guarantee-item">
+        <span class="check-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span>Resposta em segundos</span>
+      </div>
+      <div class="g-divider"></div>
+      <div class="guarantee-item">
+        <span class="check-badge"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span>Prático e seguro</span>
+      </div>
     </div>
+    <p class="ferra-closing">É como conversar com alguém que entende exatamente o momento da conversa e ajuda você a decidir o próximo passo.</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container proof-strip">
     <p class="h2" style="font-size:1.3rem;">Veja abaixo relatos reais de quem já usa o CloserOS</p>
-    <div class="proof-cards">
-      <div class="proof-card">
-        <p class="name">Ana Paula S.</p>
-        <p class="msg">"comecei a usar o Closeros só pra saber oq mandar nessas horas e teve uma cliente q tinha sumido faz uns dias, mandei do jeito q ele sugeriu e ela respondeu na hora 🙈 fechou ontem"</p>
-        <p class="meta">Social Media · WhatsApp</p>
+    <div class="testi-row">
+      <div class="pv-card pv-card--wa-light">
+        <div class="pv-wa-header">
+          <div class="pv-avatar" style="background:linear-gradient(135deg, rgb(37,211,102), rgb(18,140,126));">AP</div>
+          <div>
+            <div class="pv-wa-name">Ana Paula S.</div>
+            <div class="pv-wa-status">visto por último hoje</div>
+          </div>
+        </div>
+        <div class="pv-wa-body">
+          <div class="pv-bubble--sent">oii deixa eu te contar uma coisa pq ainda to processando<span class="pv-bubble-time">23:44 <span class="pv-ticks">✓✓</span></span></div>
+          <div class="pv-bubble--sent">lembra q eu vivia reclamando q mandava orçamento e a pessoa sumia? eu nunca sabia se cobrava de novo ou se ia parecer desesperada kkkk<span class="pv-bubble-time">23:45 <span class="pv-ticks">✓✓</span></span></div>
+          <div class="pv-bubble--sent">comecei a usar o Closeros só pra saber oq mandar nessas horas e teve uma cliente q tinha sumido faz uns dias, mandei do jeito q ele sugeriu e ela respondeu na hora 🙈 fechou ontem<span class="pv-bubble-time">23:47 <span class="pv-ticks">✓✓</span> <span class="pv-wa-lido">Lido</span></span></div>
+        </div>
+        <div class="pv-footer">
+          <span>Ana Paula S.</span><span class="pv-footer-sep">·</span><span>Social Media</span><span class="pv-footer-sep">·</span><span class="pv-platform">WhatsApp</span>
+        </div>
       </div>
-      <div class="proof-card">
-        <p class="name">Gabi Freire</p>
-        <p class="msg">"Ontem rolou de novo!!! Só q dessa vez eu não saí dando desconto na hora igual eu sempre fazia. Respondi com uma pergunta q a ferramenta tinha me dado e o cara meio q foi se justificando sozinho"</p>
-        <p class="meta">Designer · Direct · Instagram</p>
+
+      <div class="pv-card pv-card--ig-dm">
+        <div class="pv-ig-dm-header">
+          <span class="pv-back-btn">‹</span>
+          <div class="pv-avatar" style="background:linear-gradient(135deg, rgb(247,119,55), rgb(193,53,132));">GF</div>
+          <div>
+            <div class="pv-ig-handle">gabi.freiredesign</div>
+            <div class="pv-ig-active">Ativo agora</div>
+          </div>
+        </div>
+        <div class="pv-ig-dm-body">
+          <div class="pv-bubble--ig-sent">Mano lembra q eu sempre ficava nervosa qnd o cliente falava q tava caro? N sabia mto bem oq fazer.....</div>
+          <div class="pv-bubble--ig-sent">Ontem rolou de novo!!! Só q dessa vez eu não saí dando desconto na hora igual eu sempre fazia. Respondi com uma pergunta q a ferramenta tinha me dado e o cara meio q foi se justificando sozinho</div>
+          <div class="pv-bubble--ig-sent">ele acabou contratando sem eu baixar nada!!! Ainda to meio sem acreditar pra ser sincera, serio</div>
+          <div class="pv-ig-seen">Visto há 2 min</div>
+        </div>
+        <div class="pv-footer">
+          <span>Gabi Freire</span><span class="pv-footer-sep">·</span><span>Designer</span><span class="pv-footer-sep">·</span><span class="pv-platform">Direct · Instagram</span>
+        </div>
       </div>
-      <div class="proof-card">
-        <p class="name">Anderson Lima</p>
-        <p class="msg">"Então, na noite anterior eu joguei a situação no CloserOS pra pensar o que falar se a paciente enrolasse pra começar. Não decorei nada rsrs só fui mais preparado, consegui preparar um roteirinho. Ela veio com o 'mês que vem eu começo' e em vez de aceitar eu soube perguntar o que tava impedindo ela agora. Acabou marcando a primeira consulta pra semana que vem. Fiquei feliz demais"</p>
-        <p class="meta">Nutricionista</p>
+
+      <div class="pv-card pv-card--wa-dark">
+        <div class="pv-wa-header pv-wa-header--dark">
+          <span class="pv-back-btn--dark">‹</span>
+          <div class="pv-avatar" style="background:linear-gradient(135deg, rgb(59,130,246), rgb(29,78,216));">AL</div>
+          <div>
+            <div class="pv-wa-name pv-wa-name--dark">Anderson Lima 🥑</div>
+            <div class="pv-wa-status pv-wa-status--dark">digitando…</div>
+          </div>
+        </div>
+        <div class="pv-wa-body pv-wa-body--dark">
+          <div class="pv-bubble--wa-dark-r">Cara, passando aqui pra te contar, lembra aquela consulta importante que eu te falei que eu tava nervoso pra caramba?<span class="pv-bubble-time pv-bubble-time--dark">22:54 <span class="pv-ticks pv-ticks--dark">✓✓</span></span></div>
+          <div class="pv-audio-bubble">
+            <div class="pv-audio-play-btn">▶</div>
+            <div class="pv-audio-waveform">
+              <div class="pv-audio-bar" style="height:10px;"></div><div class="pv-audio-bar" style="height:14px;"></div><div class="pv-audio-bar" style="height:18px;"></div><div class="pv-audio-bar" style="height:12px;"></div><div class="pv-audio-bar" style="height:20px;"></div><div class="pv-audio-bar" style="height:16px;"></div><div class="pv-audio-bar" style="height:10px;"></div><div class="pv-audio-bar" style="height:18px;"></div><div class="pv-audio-bar" style="height:14px;"></div><div class="pv-audio-bar" style="height:10px;"></div><div class="pv-audio-bar" style="height:16px;"></div><div class="pv-audio-bar" style="height:12px;"></div><div class="pv-audio-bar" style="height:18px;"></div><div class="pv-audio-bar" style="height:14px;"></div>
+            </div>
+            <span class="pv-audio-duration">0:47</span>
+          </div>
+          <div class="pv-bubble--wa-dark-r">Então, na noite anterior eu joguei a situação no CloserOS pra pensar o que falar se a paciente enrolasse pra começar. Não decorei nada rsrs só fui mais preparado, consegui preparar um roteirinho. Ela veio com o "mês que vem eu começo" e em vez de aceitar eu soube perguntar o que tava impedindo ela agora. Acabou marcando a primeira consulta pra semana que vem. Fiquei feliz demais<span class="pv-bubble-time pv-bubble-time--dark">23:02 <span class="pv-ticks pv-ticks--dark">✓✓</span></span></div>
+        </div>
+        <div class="pv-footer pv-footer--dark">
+          <span>Anderson Lima</span><span class="pv-footer-sep">·</span><span class="pv-platform">Nutricionista</span>
+        </div>
       </div>
     </div>
   </div>
@@ -402,7 +517,7 @@ footer p{margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line
         <p class="offer-price">R$67,00</p>
         <p class="offer-note">à vista (ou parcelado no cartão)</p>
         <div class="center" style="margin-top:20px;">
-          <a class="btn btn-lg" href="https://pay.hotmart.com/M106671919D?checkoutMode=10">Quero minha resposta pronta</a>
+          <a class="btn btn-lg" href="https://pay.hotmart.com/M106671919D?checkoutMode=10">Quero parar de improvisar</a>
         </div>
         <p class="guarantee-note">🛡️ Garantia incondicional de 7 dias. Se não fizer sentido pra você, é só pedir o reembolso.</p>
         <div class="trust-row">
@@ -443,7 +558,7 @@ footer p{margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line
 </section>
 
 <div class="divider-band">
-  <h2 class="h2" style="color:#fff;">Agora você tem <span style="color:#e5c76b;">duas escolhas</span>:</h2>
+  <h2 class="h2" style="color:#fff;">Agora você tem <span class="text-gradient">duas escolhas</span>:</h2>
 </div>
 <section class="section">
   <div class="container">
@@ -482,15 +597,35 @@ footer p{margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line
 
 <section class="section">
   <div class="container">
-    <div class="offer-card">
-      <img src="/images/Logonew1.webp" alt="CloserOS">
-      <p class="offer-price">R$67,00</p>
-      <p class="offer-note">à vista (ou parcelado no cartão)</p>
-      <div class="center" style="margin-top:20px;">
-        <a class="btn btn-lg" href="https://pay.hotmart.com/M106671919D?checkoutMode=10">Quero minha resposta pronta</a>
+    <div class="price-grid">
+      <div class="price-checklist">
+        <h3>📖 Isso é tudo que você vai ter acesso</h3>
+        <div class="item"><span>✓</span>CloserOS™</div>
+        <div class="item"><span>✓</span>Biblioteca de Cenários Reais™</div>
+        <div class="item"><span>✓</span>Meu Roteiro Comercial™</div>
+        <div class="item"><span>✓</span>Manual de Bolso™</div>
       </div>
-      <p class="guarantee-note">🛡️ Garantia incondicional de 7 dias</p>
+      <div class="price-card-right">
+        <div class="price-collage">
+          <img src="/images/mbib.webp" alt="">
+          <img src="/images/mcel.webp" alt="">
+          <img src="/images/mrot.webp" alt="">
+        </div>
+        <p class="price-total">Tudo isso deveria custar <s>R$938,00</s>. Mas hoje, você tem acesso por:</p>
+        <p class="offer-price">R$67,00</p>
+        <p class="offer-note">à vista (ou parcelado no cartão)</p>
+        <div class="center" style="margin-top:20px;">
+          <a class="btn btn-lg" href="https://pay.hotmart.com/M106671919D?checkoutMode=10">Quero parar de improvisar</a>
+        </div>
+        <p class="guarantee-note">🛡️ Garantia incondicional de 7 dias. Se não fizer sentido pra você, é só pedir o reembolso.</p>
+        <div class="trust-row">
+          <span>🔒 Compra Segura</span>
+          <span>🛡️ Privacidade Protegida</span>
+          <span>⭐ Satisfação Garantida</span>
+        </div>
+      </div>
     </div>
+    <p class="stat-line">Aprovado por mais de 100 profissionais</p>
   </div>
 </section>
 
