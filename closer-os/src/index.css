@@ -2072,7 +2072,7 @@ footer {
 
   .hero-text-top {
     grid-area: textTop;
-    align-self: end;
+    align-self: center;
   }
 
   .hero-text-bottom {
