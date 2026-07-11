@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import { KIWIFY_URL } from '../../data/links'
 
 function VturbHeroPlayer() {
   useEffect(() => {
@@ -44,44 +43,6 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="hero-text-bottom">
-          <div className="hero-cta-wrap fade-up d3">
-            <a
-              href={KIWIFY_URL}
-              className="hero-cta-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Quero o CloserOS"
-            >
-              Quero o CloserOS · R$67
-              <svg className="hero-cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
-            </a>
-            <p className="hero-subtexto">Acesso imediato.</p>
-          </div>
-
-          <div className="trust-bar fade-up d3">
-            <div className="trust-item">
-              <span className="trust-check" aria-hidden="true">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="m9 12 2 2 4-4" /></svg>
-              </span>
-              Compra Segura
-            </div>
-            <span className="trust-sep" aria-hidden="true" />
-            <div className="trust-item">
-              <span className="trust-check" aria-hidden="true">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></svg>
-              </span>
-              Privacidade Protegida
-            </div>
-            <span className="trust-sep" aria-hidden="true" />
-            <div className="trust-item">
-              <span className="trust-check" aria-hidden="true">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="14" x="2" y="5" rx="2" /><line x1="2" x2="22" y1="10" y2="10" /></svg>
-              </span>
-              Pagamento único
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   )

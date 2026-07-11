@@ -1,5 +1,3 @@
-import { KIWIFY_URL } from '../../data/links'
-
 export function Autoridade() {
   return (
     <section id="autoridade">
@@ -15,15 +13,6 @@ export function Autoridade() {
               <p>Uma ferramenta simples para ajudar você exatamente quando a conversa trava.</p>
             </div>
 
-            <a
-              href={KIWIFY_URL}
-              className="autor-cta"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Quero parar de improvisar · R$67"
-            >
-              Quero parar de improvisar · R$67
-            </a>
           </div>
 
           <div className="fade-up d2">
