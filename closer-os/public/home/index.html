@@ -69,6 +69,7 @@ img{max-width:100%;display:block;}
 .hero-tags{display:inline-flex;flex-wrap:wrap;justify-content:center;background:var(--card);border:1px solid var(--border);border-radius:999px;padding:14px 26px;gap:14px;box-shadow:var(--s-md);margin-top:28px;}
 .hero-tags span{font-weight:700;font-size:0.88rem;color:var(--text);padding-left:14px;border-left:1px solid var(--border-2);}
 .hero-tags span:first-child{padding-left:0;border-left:none;}
+.hero-sub{color:var(--text-2);font-size:1.05rem;margin-top:16px;max-width:560px;line-height:1.5;}
 .hero-img{border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--s-lg);margin-top:40px;max-width:380px;}
 .hero-img video{width:100%;display:block;}
 @media(max-width:600px){ .hero-img{max-width:280px;} .hero-tags span{font-size:0.8rem;padding-left:10px;} }
@@ -76,10 +77,10 @@ img{max-width:100%;display:block;}
 /* prova social */
 .proof-strip{display:flex;flex-direction:column;align-items:center;gap:20px;}
 .proof-strip img{width:220px;border-radius:var(--r);box-shadow:var(--s-md);}
-.proof-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:860px;margin:28px auto 0;width:100%;}
-.proof-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:18px 20px;text-align:left;box-shadow:var(--s-md);}
+.proof-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1080px;margin:28px auto 0;width:100%;}
+.proof-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:20px 22px;text-align:left;box-shadow:var(--s-md);}
 .proof-card .name{font-weight:700;font-size:0.85rem;}
-.proof-card .msg{color:var(--text-2);font-size:0.85rem;margin-top:6px;line-height:1.4;}
+.proof-card .msg{color:var(--text-2);font-size:0.8rem;margin-top:6px;line-height:1.55;}
 .proof-card .meta{color:var(--text-3);font-size:0.75rem;margin-top:10px;}
 @media(max-width:800px){ .proof-cards{grid-template-columns:1fr;} }
 
@@ -208,16 +209,17 @@ footer p{margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line
 
 <section class="hero">
   <div class="container">
-    <h1>Descubra exatamente o que responder em qualquer conversa e <span>feche mais clientes sem travar</span></h1>
-    <div class="hero-tags">
-      <span>Resposta pronta em segundos</span>
-      <span>Sem decorar script</span>
-      <span>Não precisa saber vender</span>
-    </div>
+    <h1>Chega de perder clientes porque você não sabe o que responder.</h1>
+    <p class="hero-sub">Quando um cliente diz "está caro", "vou pensar", pede desconto ou simplesmente para de responder, você não precisa mais improvisar. Descreva o que aconteceu e receba exatamente o que dizer.</p>
     <div class="hero-img">
       <video autoplay muted loop playsinline poster="/images/mcel.webp">
         <source src="/images/demofullfinal.mp4" type="video/mp4">
       </video>
+    </div>
+    <div class="hero-tags">
+      <span>Resposta pronta em segundos</span>
+      <span>Sem decorar script</span>
+      <span>Não precisa saber vender</span>
     </div>
   </div>
 </section>
@@ -228,17 +230,17 @@ footer p{margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line
     <div class="proof-cards">
       <div class="proof-card">
         <p class="name">Ana Paula S.</p>
-        <p class="msg">"Mandei do jeito que ele sugeriu e ela respondeu na hora. Fechou ontem."</p>
+        <p class="msg">"comecei a usar o Closeros só pra saber oq mandar nessas horas e teve uma cliente q tinha sumido faz uns dias, mandei do jeito q ele sugeriu e ela respondeu na hora 🙈 fechou ontem"</p>
         <p class="meta">Social Media · WhatsApp</p>
       </div>
       <div class="proof-card">
         <p class="name">Gabi Freire</p>
-        <p class="msg">"Não saí dando desconto igual eu sempre fazia... ele acabou contratando."</p>
-        <p class="meta">Designer · Direct Instagram</p>
+        <p class="msg">"Ontem rolou de novo!!! Só q dessa vez eu não saí dando desconto na hora igual eu sempre fazia. Respondi com uma pergunta q a ferramenta tinha me dado e o cara meio q foi se justificando sozinho"</p>
+        <p class="meta">Designer · Direct · Instagram</p>
       </div>
       <div class="proof-card">
         <p class="name">Anderson Lima</p>
-        <p class="msg">"Soube perguntar o que tava impedindo ela agora. Acabou marcando a consulta."</p>
+        <p class="msg">"Então, na noite anterior eu joguei a situação no CloserOS pra pensar o que falar se a paciente enrolasse pra começar. Não decorei nada rsrs só fui mais preparado, consegui preparar um roteirinho. Ela veio com o 'mês que vem eu começo' e em vez de aceitar eu soube perguntar o que tava impedindo ela agora. Acabou marcando a primeira consulta pra semana que vem. Fiquei feliz demais"</p>
         <p class="meta">Nutricionista</p>
       </div>
     </div>
@@ -248,8 +250,8 @@ footer p{margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line
 <section class="section" style="background:var(--dark);">
   <div class="container">
     <p class="eyebrow center on-dark">Fala a verdade</p>
-    <h2 class="h2" style="color:#fff;">Isso já aconteceu com você numa conversa de venda?</h2>
-    <p class="center" style="color:rgba(255,255,255,0.6);font-weight:700;margin-top:14px;">Por isso, toda vez que o cliente muda de assunto, você pensa:</p>
+    <h2 class="h2" style="color:#fff;">Isso já aconteceu com você em uma conversa com um cliente?</h2>
+    <p class="center" style="color:rgba(255,255,255,0.6);font-weight:700;margin-top:14px;">Isso se repete toda semana:</p>
     <div class="pain-grid">
       <div class="pain-card"><span>✕</span>Enviou uma proposta, o cliente visualizou e sumiu, e você não soube como cobrar retorno sem parecer desesperado.</div>
       <div class="pain-card"><span>✕</span>Ouviu "vou pensar e te aviso" bem na sua frente, e a venda nunca mais voltou.</div>
