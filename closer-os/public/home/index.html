@@ -132,15 +132,15 @@ img{max-width:100%;display:block;}
 .stack-content p{color:var(--text-2);}
 @media(max-width:800px){ .stack-row, .stack-row:nth-child(2n){flex-direction:column;} .stack-img{flex:none;width:100%;} .stack-content{padding:24px;} }
 
-/* para quem e (foto + card) */
-.icp-photo-wrap{position:relative;border-radius:var(--r-lg);overflow:hidden;max-width:900px;margin:32px auto 0;min-height:360px;display:flex;align-items:center;}
-.icp-photo-wrap img.bgphoto{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(0.5);}
-.icp-card{position:relative;background:#fff;border-radius:var(--r-lg);box-shadow:var(--s-lg);padding:28px 30px;max-width:400px;margin:24px;}
-.icp-card h3{font-size:1.2rem;font-weight:700;margin-bottom:14px;}
+/* para quem e (card sem foto) */
+.icp-note{max-width:640px;margin:12px auto 0;text-align:center;color:var(--text-2);font-size:1rem;}
+.icp-card-wrap{max-width:640px;margin:28px auto 0;}
+.icp-card{background:#fff;border-radius:var(--r-lg);box-shadow:var(--s-lg);padding:36px 40px;}
 .icp-list{display:flex;flex-direction:column;gap:12px;}
-.icp-item{display:flex;gap:10px;align-items:flex-start;font-weight:600;font-size:0.92rem;}
+.icp-item{display:flex;gap:10px;align-items:flex-start;font-weight:600;font-size:0.95rem;}
 .icp-item span{color:var(--green);font-size:1rem;}
-@media(max-width:700px){ .icp-photo-wrap{min-height:auto;padding:8px 0;} .icp-card{margin:8px;max-width:none;} }
+.icp-closing{margin-top:20px;padding-top:20px;border-top:1px solid var(--border);color:var(--text-2);font-size:0.92rem;}
+@media(max-width:700px){ .icp-card{padding:24px;} }
 
 /* preco - card duas colunas */
 .price-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;max-width:900px;margin:32px auto 0;border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--s-lg);}
@@ -208,11 +208,11 @@ footer p{margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line
 
 <section class="hero">
   <div class="container">
-    <h1>Descubra exatamente o que responder em qualquer conversa e <span>feche mais vendas sem travar</span></h1>
+    <h1>Descubra exatamente o que responder em qualquer conversa e <span>feche mais clientes sem travar</span></h1>
     <div class="hero-tags">
       <span>Resposta pronta em segundos</span>
       <span>Sem decorar script</span>
-      <span>Direto no ChatGPT</span>
+      <span>Não precisa saber vender</span>
     </div>
     <div class="hero-img">
       <video autoplay muted loop playsinline poster="/images/mcel.webp">
@@ -268,7 +268,7 @@ footer p{margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line
   <div class="container">
     <p class="eyebrow center">Agora eu te pergunto...</p>
     <div class="bridge">
-      <h3>Se você tivesse, na hora, exatamente o que responder pra <span>qualquer objeção</span>, isso mudaria suas vendas?</h3>
+      <h3>Se você tivesse, na hora, exatamente o que responder pra <span>qualquer objeção</span>, isso mudaria quantos clientes você fecha?</h3>
       <p>Se a sua resposta for "sim", o CloserOS é pra você.</p>
     </div>
     <p class="connector">Com o CloserOS, isso muda:</p>
@@ -357,10 +357,9 @@ footer p{margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line
   <div class="container">
     <p class="eyebrow center">Pra quem é</p>
     <h2 class="h2">O CloserOS é pra você que:</h2>
-    <div class="icp-photo-wrap">
-      <img class="bgphoto" src="/images/pessoas.webp" alt="">
+    <p class="icp-note">Você não precisa se identificar como vendedor pra viver isso. Basta conversar com clientes, apresentar um orçamento ou depender de novos fechamentos pra crescer no seu trabalho.</p>
+    <div class="icp-card-wrap">
       <div class="icp-card">
-        <h3>O CloserOS é pra você que:</h3>
         <div class="icp-list">
           <div class="icp-item"><span>✓</span>Já ficou olhando pra uma conversa sem saber exatamente o que responder.</div>
           <div class="icp-item"><span>✓</span>Manda uma proposta ou orçamento e depois fica torcendo pro cliente responder.</div>
@@ -369,6 +368,7 @@ footer p{margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line
           <div class="icp-item"><span>✓</span>Já terminou uma reunião pensando "eu poderia ter respondido aquilo de outro jeito".</div>
           <div class="icp-item"><span>✓</span>Quer parar de improvisar e ter clareza sempre que uma conversa importante sair do combinado.</div>
         </div>
+        <p class="icp-closing">Não importa se você presta um serviço, uma consultoria, um atendimento ou qualquer outro tipo de trabalho. Sempre que existir uma conversa importante com um cliente, o CloserOS pode ajudar.</p>
       </div>
     </div>
   </div>
