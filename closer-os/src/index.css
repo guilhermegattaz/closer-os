@@ -1841,7 +1841,7 @@ footer {
    RESPONSIVE
    ================================================================ */
 @media (max-width: 900px) {
-  .autor-grid { grid-template-columns: 1fr; }
+  .autor-grid { grid-template-columns: 1fr; gap: 28px; }
   .autor-img { aspect-ratio: 4/3; max-height: 300px; border-radius: var(--r-lg) var(--r-lg) 0 0; }
   .autor-stats-bar { border-top: 1px solid rgba(255,255,255,.10); border-radius: 0 0 var(--r-lg) var(--r-lg); align-items: stretch; }
   .autor-stat { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10px; }
