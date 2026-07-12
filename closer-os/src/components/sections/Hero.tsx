@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 
 function VturbHeroPlayer() {
   useEffect(() => {
-    const SRC = 'https://scripts.converteai.net/9a830ae7-afc8-422f-84b7-f587f3948a96/players/6a446a53848157530b637061/v4/player.js'
+    const SRC = 'https://scripts.converteai.net/9a830ae7-afc8-422f-84b7-f587f3948a96/players/6a52d3c4483c5a77faaa5d10/v4/player.js'
     if (document.querySelector(`script[src="${SRC}"]`)) return
     const s = document.createElement('script')
     s.src = SRC
@@ -12,7 +12,7 @@ function VturbHeroPlayer() {
 
   return (
     <vturb-smartplayer
-      id="vid-6a446a53848157530b637061"
+      id="vid-6a52d3c4483c5a77faaa5d10"
       style={{ display: 'block', margin: '0 auto', width: '100%', '--player-border-radius': '28px' } as React.CSSProperties}
     />
   )
