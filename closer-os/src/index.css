@@ -418,7 +418,7 @@ vturb-smartplayer:-webkit-full-screen { width: 100%; height: 100%; }
   display: flex; flex-direction: column; gap: 16px;
 }
 .leak-card .leak-sub {
-  color: rgba(255, 255, 255, 0.55);
+  color: #fff;
   margin-top: 0;
 }
 .leak-card:hover {
@@ -1851,6 +1851,15 @@ footer {
 @media (max-width: 768px) {
   :root { --px: 20px; }
   .leak-grid    { grid-template-columns: 1fr; }
+  .leak-card { padding: 21px; gap: 11.5px; }
+  .lm-dark { padding: 11.5px; margin-top: 9.5px; }
+  .lm-silence { padding: 4.5px 0; }
+  .lm-bubble { padding: 6.5px 10.5px; }
+  .leak-sub { font-size: 13.3px; line-height: 1.49; }
+  .lm-meet-bar { margin-bottom: 4.5px; }
+  .lm-meet-grid { margin-bottom: 4.5px; }
+  .lm-tile { aspect-ratio: 21 / 6.8; }
+  .lm-avatar { width: 29.5px; height: 29.5px; font-size: 12.7px; }
   .dc-grid      { grid-template-columns: 1fr; margin-bottom: 32px; }
   .dc-grid::before { display: none; }
   /* .dc-cost-box padding removed — no background */
