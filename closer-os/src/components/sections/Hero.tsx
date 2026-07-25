@@ -1,23 +1,3 @@
-import { useEffect } from 'react'
-
-function VturbHeroPlayer() {
-  useEffect(() => {
-    const SRC = 'https://scripts.converteai.net/9a830ae7-afc8-422f-84b7-f587f3948a96/players/6a52d3c4483c5a77faaa5d10/v4/player.js'
-    if (document.querySelector(`script[src="${SRC}"]`)) return
-    const s = document.createElement('script')
-    s.src = SRC
-    s.async = true
-    document.head.appendChild(s)
-  }, [])
-
-  return (
-    <vturb-smartplayer
-      id="vid-6a52d3c4483c5a77faaa5d10"
-      style={{ display: 'block', margin: '0 auto', width: '100%', '--player-border-radius': '28px' } as React.CSSProperties}
-    />
-  )
-}
-
 export function Hero() {
   return (
     <section id="hero">
@@ -38,7 +18,17 @@ export function Hero() {
         <div className="fade-up d2 hero-vsl-col">
           <div className="vsl-wrap">
             <div className="vsl-ratio">
-              <VturbHeroPlayer />
+              <iframe
+                className="vsl-iframe"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/JcKtW9vZTKQ?si=GVaPSKmDDcsSDKEX"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
             </div>
           </div>
         </div>
